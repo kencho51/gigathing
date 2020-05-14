@@ -28,9 +28,12 @@ publishDir ="docs"
 
 [Menu]
   [[menu.main]]
-    name = "Posts"
+    name = "Post"
     url = "/post"
     weight = 1
+  [[menu.main]]
+    name = "To do/Done"
+    url = "/jobs"
   [[menu.main]]
     name = "Projects"  
     url = "/projects/"
