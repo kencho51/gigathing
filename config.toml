@@ -1,13 +1,14 @@
-baseurl = "https://kencho51.github.io/"
+baseurl = "https://example.com/"
 title =  "kencho51"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "kencho51"
+#googleAnalytics = XXX
+#disqusShortname = XXX
 pygmentsUseClasses = true
 pygmentsCodefences = true
-publishDir ="public"
-#googleAnalytics = "UA-166952674-1"
-googleAnalytics = "G-HESL282TL4"
+publishDir ="docs"
+
 
 [Taxonomies]
   tag = "tags"
@@ -18,47 +19,34 @@ googleAnalytics = "G-HESL282TL4"
   description = "Everything about Gigascience tech team"
   github = "https://github.com/kencho51"
   email = "kencho.gigascience@gmail.com"
-  linkedin = "https://www.linkedin.com/in/cholingken/"
   opengraph = true
   #dateFormat = "Mon, Jan 2, 2020"
-
-[params.utteranc]
-enable = true
-repo = "kencho51/comments_for_hugo"
-issueTerm = "pathname"
-theme = "github-light"
-
 
 
 [Permalinks]
    post = "/:filename/"
-   projects = "/:filename/"
 
 [Menu]
   [[menu.main]]
-    name = "Post"
+    name = "Posts"
     url = "/post"
-    weight = 2
-  [[menu.main]]
-    name = "Weekly Plan"
-    url = "/jobs"
     weight = 1
   [[menu.main]]
     name = "Projects"  
     url = "/projects/"
-    weight = 3
+    weight = 1
   [[menu.main]]
     name = "Contact"
     url = "/page/contact/"
-    weight = 5
+    weight = 1
   [[menu.main]]
     name = "About"
     url = "/page/about/"
-    weight = 4
+    weight = 1
   [[menu.main]]
     name = "Reference"
     url = '/reference'
-    weight = 6
+    weight = 1
 
  
 
