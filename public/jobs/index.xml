@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on kencho51</title>
+    <link>https://kencho51.github.io/jobs/</link>
+    <description>Recent content in Jobs on kencho51</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>kencho51</copyright>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://kencho51.github.io/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I have done</title>
+      <link>https://kencho51.github.io/jobs/14-05-2020_done/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/14-05-2020_done/</guid>
+      <description>Issue #198 Found out that the commited changes cannot be seen in the local gigadb.
+ rollbacked to commit ID: 3954c0b0, and make two changes in help.html.dist and help.php. still cannot see the changes in local gigadb website.  </description>
+    </item>
+    
+  </channel>
+</rss>
