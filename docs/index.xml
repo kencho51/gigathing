@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kencho51</title>
+    <link>https://kencho51.github.io/</link>
+    <description>Recent content on kencho51</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>kencho51</copyright>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://kencho51.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I have done</title>
+      <link>https://kencho51.github.io/jobs/14-05-2020_done/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/14-05-2020_done/</guid>
+      <description>Issue #198 Found out that the commited changes cannot be seen in the local gigadb.
+ rollbacked to commit ID: 3954c0b0, and make two changes in help.html.dist and help.php. still cannot see the changes in local gigadb website.  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://kencho51.github.io/page/about/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/page/about/</guid>
+      <description>About Every day is a new day, keep up and never give up!
+School 2017 MSc in Genomics and Bioinformatics The University of Hong Kong
+2014 BSc in Biotechnology The University of Hong Kong</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://kencho51.github.io/page/contact/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/page/contact/</guid>
+      <description>Contact Email: kencho.gigascience@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>What I have learned</title>
+      <link>https://kencho51.github.io/13-05-2020-log/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/13-05-2020-log/</guid>
+      <description>Learning  learn PHP in codecademy try to start Yii  Hands on  keep fixing #374  Some keypoints 1.concatenation assigment $fruits = &amp;ldquo;apple&amp;rdquo;
+$fruits .= &amp;ldquo;orange&amp;rdquo;
+echo $fruits will return &amp;lsquo;apple orange&amp;rsquo;
+2.assign by reference $order = &amp;ldquo;5 eggs&amp;rdquo;
+$new-order =&amp;amp; $order
+$new-order .=&amp;rdquo;, 8 hams&amp;rsquo;
+echo $order will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
+echo $new-order will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
+3.curly brackets $name = &amp;ldquo;Ken&amp;rdquo;
+echo ${name}eeeeeeee will return &amp;lsquo;Ken&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>My awesome project</title>
+      <link>https://kencho51.github.io/projects/my-awesome-project/</link>
+      <pubDate>Tue, 18 Nov 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/projects/my-awesome-project/</guid>
+      <description>About project Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://kencho51.github.io/reference/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/reference/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://kencho51.github.io/reference/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/reference/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Migrating from Jekyll</title>
+      <link>https://kencho51.github.io/reference/migrate-from-jekyll/</link>
+      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/reference/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://kencho51.github.io/reference/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/reference/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+  </channel>
+</rss>
