@@ -22,6 +22,8 @@
 Description The website will contain:
  About Contact Posts  To-do Done Learning progress   Projects  How Comming soon&amp;hellip;
 Add Google Analytics feature How to set up a Google Analytics, steps followed here.
+How to make a public folder In config.toml, add this: &amp;lsquo;&amp;lsquo;&amp;lsquo;publishDir = &amp;ldquo;public&amp;rdquo;&amp;rsquo;&amp;rsquo;&amp;rsquo;
+link
 sources:  freecodecamp medium medium RStudio  </description>
     </item>
     
