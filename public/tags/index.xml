@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://kencho51.github.io/tags/hugo/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>issue-374</title>
+      <link>https://kencho51.github.io/tags/issue-374/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/issue-374/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://kencho51.github.io/tags/php/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/php/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>development</title>
@@ -54,15 +81,6 @@
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
       
       <guid>https://kencho51.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://kencho51.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
