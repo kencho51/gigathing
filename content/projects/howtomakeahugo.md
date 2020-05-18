@@ -23,13 +23,14 @@ The website will contain:
 ### How 
 Comming soon...
 
-###### Add Google Analytics feature
-How to set up a Google Analytics, steps followed [here](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/).
-
 ###### How to make a public folder
 In config.toml, add this:
 '''publishDir = "public"'''  
 [link](https://discourse.gohugo.io/t/public-folder-and-its-content-not-generated/10535/4)
+
+###### Add Google Analytics feature
+How to set up a Google Analytics, steps followed [here](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/).
+
 
 ### sources:  
 1. [freecodecamp](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/)
