@@ -23,7 +23,7 @@ The website will contain:
 ### How 
 Comming soon...
 
-#### Add Google Analytics feature
+###### Add Google Analytics feature
 How to set up a Google Analytics, steps followed [here](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/).
 
 
