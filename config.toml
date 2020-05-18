@@ -32,9 +32,9 @@ publishDir ="public"
     name = "Post"
     url = "/post"
     weight = 1
-  [[menu.main]]
-    name = "To do/Done"
-    url = "/jobs"
+#  [[menu.main]]
+#    name = "To do/Done"
+#    url = "/jobs"
   [[menu.main]]
     name = "Projects"  
     url = "/projects/"
