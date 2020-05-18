@@ -21,14 +21,10 @@
         {{ partial "extra-in-head.html" . }}
         {{ partial "exponea.html" . }}
         {{ partial "fathom.html" . }}
-        <link rel="icon" href="/image/favicon.ico" type="/image" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png">
-        <link rel="icon" type="image" sizes="32x32" href="/image/favicon-32x32.png">
-        <link rel="icon" type="image" sizes="16x16" href="/image/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest.json">
-        {{ template "_internal/google_analytics_async.html" . }}
     </head>
     <body>
+        {{ template "_internal/google_analytics.html" . }}
+
         <div id="wrapper">
             <header class="site-header">
                 <div class="container">
@@ -85,9 +81,8 @@
                     </ul>
                 </div>
             </header>
+
             <div id="container">
-        </div>
-    </body>
 
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
