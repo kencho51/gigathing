@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>How to make a hugo website</title>
+      <link>https://kencho51.github.io/projects/howtomakeahugo/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/projects/howtomakeahugo/</guid>
+      <description>Aim Try to build a hugo website to log everything happened in GigaScience.
+Description The website will contain:
+ About Contact Posts  To-do Done Learning progress   Projects  How sources:  freecodecamp medium medium RStudio  </description>
+    </item>
+    
+    <item>
       <title>Test update new post to public</title>
       <link>https://kencho51.github.io/test/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
