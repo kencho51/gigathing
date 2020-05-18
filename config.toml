@@ -26,6 +26,7 @@ publishDir ="public"
 
 [Permalinks]
    post = "/:filename/"
+   projects = "/:filename/"
 
 [Menu]
   [[menu.main]]
