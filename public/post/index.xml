@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>What I have done</title>
+      <link>https://kencho51.github.io/14-05-2020_done/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/14-05-2020_done/</guid>
+      <description>Issue #198 Found out that the commited changes cannot be seen in the local gigadb.
+ rollbacked to commit ID: 3954c0b0, and make two changes in help.html.dist and help.php. still cannot see the changes in local gigadb website.  </description>
+    </item>
+    
+    <item>
       <title>What I have learned</title>
       <link>https://kencho51.github.io/13-05-2020-log/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
