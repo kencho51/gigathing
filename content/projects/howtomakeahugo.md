@@ -25,7 +25,7 @@ Comming soon...
 
 ###### How to make a public folder
 In config.toml, add this:
-'''publishDir = "public"'''  
+publishDir = ```"public"```  
 [link](https://discourse.gohugo.io/t/public-folder-and-its-content-not-generated/10535/4)
 
 ###### Add Google Analytics feature
