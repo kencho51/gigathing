@@ -19,6 +19,7 @@ publishDir ="public"
   description = "Everything about Gigascience tech team"
   github = "https://github.com/kencho51"
   email = "kencho.gigascience@gmail.com"
+  linkedin = "https://www.linkedin.com/in/cholingken/"
   opengraph = true
   #dateFormat = "Mon, Jan 2, 2020"
 
