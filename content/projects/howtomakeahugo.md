@@ -1,4 +1,5 @@
 +++
+description = "Steps to make a hugo page hosted on github"
 title = "How to make a hugo website"
 date = 2020-05-18
 draft = false
@@ -20,7 +21,7 @@ The website will contain:
 4. Projects
 
 ### How 
-
+Comming soon...
 
 ### sources:  
 1. [freecodecamp](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/)
