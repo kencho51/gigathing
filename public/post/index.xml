@@ -18,16 +18,15 @@
       <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://kencho51.github.io/13-05-2020-log/</guid>
-      <description>Learning  learn PHP in codecademy try to start Yii  Hands on  keep fixing #374  Some keypoints 1.concatenation assigment $fruits = &amp;ldquo;apple&amp;rdquo;
-$fruits .= &amp;ldquo;orange&amp;rdquo;
-echo $fruits will return &amp;lsquo;apple orange&amp;rsquo;
-2.assign by reference $order = &amp;ldquo;5 eggs&amp;rdquo;
-$new-order =&amp;amp; $order
-$new-order .=&amp;rdquo;, 8 hams&amp;rsquo;
-echo $order will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
-echo $new-order will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
-3.curly brackets $name = &amp;ldquo;Ken&amp;rdquo;
-echo ${name}eeeeeeee will return &amp;lsquo;Ken&amp;rsquo;</description>
+      <description>Learning  learn PHP in codecademy try to start Yii  Hands on  keep fixing #374  Some keypoints 1.concatenation assigment $fruits = &amp;ldquo;apple&amp;rdquo;;
+$fruits .= &amp;quot; orange&amp;rdquo;;
+echo $fruits; //will return &amp;lsquo;apple orange&amp;rsquo;
+2.assign by reference $order = &amp;ldquo;5 eggs&amp;rdquo;;
+$new-order =&amp;amp; $order;
+$new-order .=&amp;rdquo;, 8 hams&amp;rsquo;;
+echo $order; // will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
+echo $new-order; // will return &amp;lsquo;5 eggs, 8 hams&amp;rsquo;
+3.curly brackets $name = &amp;ldquo;Ken&amp;rdquo;;</description>
     </item>
     
   </channel>
