@@ -31,6 +31,9 @@ publishDir = ```"public"```
 ###### Add Google Analytics feature
 How to set up a Google Analytics, steps followed [here](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/).
 
+##### How to add a disqus
+Follow [here](https://coreychen71.github.io/posts/2019-05/hugoadddisqus/)
+
 
 ### sources:  
 1. [freecodecamp](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/)
