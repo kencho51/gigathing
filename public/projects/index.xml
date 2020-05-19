@@ -24,6 +24,7 @@ Description The website will contain:
 How to make a public folder In config.toml, add this: publishDir = &amp;quot;public&amp;quot;
 link
 Add Google Analytics feature How to set up a Google Analytics, steps followed here.
+How to add a disqus Follow here
 sources:  freecodecamp medium medium RStudio  </description>
     </item>
     
