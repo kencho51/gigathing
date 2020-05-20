@@ -12,7 +12,15 @@ author = "Ken Cho"
 1. String and variables - Done  
 2. Number - Done  
 3. Functions - Done  
-4. Intro to Built-in PHP functions  
+4. Intro to Built-in PHP functions - Done  
+    - find variable types  
+        - gettype(), var_dump()  
+    - string functions  
+        - strrev(), strtolower(), str_repeat()
+    - substring  
+        - substr_count()
+    - number function  
+        - abs(), round()
 5. Ordered Arrays  
 6. Associative Arrays  
 7. PHP and HTML  
