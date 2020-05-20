@@ -18,16 +18,27 @@
       <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
       
       <guid>https://kencho51.github.io/phpprogress/</guid>
-      <description>Learning PHP at Codecademy Topics  String and variables - Done Number - Done Functions - Done Intro to Built-in PHP functions Ordered Arrays Associative Arrays PHP and HTML HTML From Handling in PHP Booleans and Comparision operators Logical Operators and Compound Conditions Loops Loops in HTML Intro to form validation Intro to Regular expression Intro to PHP form validation Classes and Object  </description>
+      <description>Learning PHP at Codecademy Topics   String and variables - Done
+  Number - Done
+  Functions - Done
+  Intro to Built-in PHP functions - Done
+ find variable types
+gettype(); var_dump(); string functions
+strrev();strtolower(); strtoupper(); str_repeat(); substring
+substr_count(); number function
+abs(); round(); generating random numbers
+rand(); getrandmax(); ceil(); documentation
+str_pad();    Ordered Arrays
+ can be integer or string or any data type $my_array = array(); or $my_array=[]; returns the array length</description>
     </item>
     
     <item>
-      <title>Learn, todo and done</title>
+      <title>Learn, todo and done 18-22/5/20</title>
       <link>https://kencho51.github.io/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
       
       <guid>https://kencho51.github.io/18-5-20/</guid>
-      <description>Learn  php Yii  To-do  Study github issues. Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP strings and Variables at Codecademy.  Resources  For Yii, link.  </description>
+      <description>Learn  php Yii  To-do  Study github issues.  start issue#160  url for Editorial board - fixed url for github - fixing     Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP strings and Variables at Codecademy.  Resources  For Yii, link.  </description>
     </item>
     
     <item>
