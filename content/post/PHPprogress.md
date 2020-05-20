@@ -2,7 +2,7 @@
 description = "Learning PHP at Codecademy"
 title = "PHP progress"
 date = 2020-05-19T17:48:07+08:00
-tags = ["php"]
+tags = ["php", "develop"]
 author = "Ken Cho"
 
 +++
@@ -16,11 +16,17 @@ author = "Ken Cho"
     - find variable types  
         - gettype(), var_dump()  
     - string functions  
-        - strrev(), strtolower(), str_repeat()
+        - strrev(), strtolower(), strtoupper(), str_repeat()
     - substring  
         - substr_count()
     - number function  
         - abs(), round()
+    - generating random numbers
+        - rand(), getrandmax(), ceil()  
+    - documentation  
+        - str_pad()  
+
+
 5. Ordered Arrays  
 6. Associative Arrays  
 7. PHP and HTML  
