@@ -1,0 +1,5 @@
+# untrack vim
+*.swp
+
+# untrack MacOS
+.DS_Store
