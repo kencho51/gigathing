@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 19 May 2020 15:55:27 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 17:48:07 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/develop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PHP progress</title>
+      <link>https://kencho51.github.io/phpprogress/</link>
+      <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/phpprogress/</guid>
+      <description>Learning PHP at Codecademy Topics   String and variables - Done
+  Number - Done
+  Functions - Done
+  Intro to Built-in PHP functions - Done
+ find variable types
+gettype(); var_dump(); string functions
+strrev();strtolower(); strtoupper(); str_repeat(); substring
+substr_count(); number function
+abs(); round(); generating random numbers
+rand(); getrandmax(); ceil(); documentation
+str_pad();    Ordered Arrays
+ can be integer or string or any data type $my_array = array(); or $my_array=[]; returns the array length</description>
+    </item>
     
     <item>
       <title>Github usage example</title>
