@@ -39,12 +39,26 @@ author = "Ken Cho"
 ```git push```  
 
 6.6 Create pull request to review in web git repo    
-
+- Precise and concise description of the changes.
+ 
 6.7 Delete the branch if the pull request closed and merged  
 ```git branch -d issue-no```  
 
 
 ### 7. How to undo commits, steps follow [here](https://devconnected.com/how-to-undo-last-git-commit/)  
-```To undo the last commit```
-```eg. git reset --hard HEAD~1```  
 
+7.1 To undo the last commit, for example:    
+`git reset --hard HEAD~1`  
+`git push --force`  
+
+### 8. How to delete a branch after the issue has been fixed
+   
+8.1 To list all the branch.  
+`git branch --list`  
+    8.2 To switch to another branch.    
+`git checkout branch_name`  
+    8.3 To delete a branch.  
+`git branch -d branch_name_to_delete`  
+    8.4 To update the remote.  
+`git push --force`  
+    8.5 To delete branch in remote repo manually.  
