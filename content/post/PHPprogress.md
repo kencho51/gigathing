@@ -81,11 +81,32 @@ author = "Ken Cho"
   `echo "<p> I'm " . calculateAge($about_me). " years old! That's pretty cool, right?</p>";`   
   `echo "<div>What more is there to say? I love {$about_me["favorite_food"]}, and that's pretty much it!</div>";`    
 `?>`    
-
-
   
-8. HTML From Handling in PHP  
-9. Booleans and Comparision operators  
+8. HTML From Handling in PHP, `Superglobals` 
+    8.1 `<?=` is shorthand for `<?php echo`  
+    8.2 `$_GET` is an associative array containing data from a GET request.  
+    8.3 `$_POST` is an associative array containing data from a POST request.  
+    8.4 `$_REQUEST`is an associative array containing data from both GET and POST requests.  
+    8.5 eg. `<form method="get" or "post" action="greet.php">` 
+  
+9. Booleans and Comparision operators   
+    9.1 identical and not identical operators
+        `===`  or `!==`  
+    9.2 built-in function to get current month  
+        `date("F")`  
+    9.3 multiple condition  
+        `elseif(condition){action;}`    
+    9.4 switch statement    
+        `switch($condition){`  
+        `case "condition A":`  
+            `echo "action"; `  
+            `break;`   
+    9.5 ternary operator  
+`function ternaryCheckout($items)`  
+`{`  
+    ```return $items <= 12 ? "express lane" : "regular lane";```  
+`}`  
+
 10. Logical Operators and Compound Conditions  
 11. Loops  
 12. Loops in HTML  
