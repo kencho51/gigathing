@@ -62,15 +62,28 @@ author = "Ken Cho"
         ```unset();```  
         - joining the array in union manner  
         - assign by reference
+
   
-```function changeArrayValue(&$new)```  
-```{```  
-``` $new["new"] = "old";```  
-``` return $new;```  
-```};```
+`function changeArrayValue(&$new)`         
+`{`      
+` $new["new"] = "old";`       
+` return $new;`    
+`};`    
 
 
 7. PHP and HTML  
+    7.1 PHP was designed as a back-end web development language  
+    7.2 HTML is a front-end language  
+    7.3 example code  
+
+`<?php`       
+  `echo "<h3>Hello! I'm {$about_me["name"]}!</h3>";`    
+  `echo "<p> I'm " . calculateAge($about_me). " years old! That's pretty cool, right?</p>";`   
+  `echo "<div>What more is there to say? I love {$about_me["favorite_food"]}, and that's pretty much it!</div>";`    
+`?>`    
+
+
+  
 8. HTML From Handling in PHP  
 9. Booleans and Comparision operators  
 10. Logical Operators and Compound Conditions  
