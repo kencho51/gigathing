@@ -73,26 +73,6 @@ if (!doNotTrack) {
                     <ul class="site-nav">
                         
     <li class="site-nav-item">
-        <a title="About" href="/page/about/">About</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Contact" href="/page/contact/">Contact</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Post" href="/post">Post</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Projects" href="/projects/">Projects</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Reference" href="/reference">Reference</a>
-    </li>
-
-    <li class="site-nav-item">
         <a title="Getting Started with Hugo" href="/reference/hugoisforlovers/">Getting Started with Hugo</a>
     </li>
 
@@ -213,22 +193,71 @@ if (!doNotTrack) {
 - assign by reference</p>
 </li>
 </ol>
-<p><code>function changeArrayValue(&amp;$new)</code><br>
-<code>{</code><br>
-<code> $new[&quot;new&quot;] = &quot;old&quot;;</code><br>
-<code> return $new;</code><br>
+<p><code>function changeArrayValue(&amp;$new)</code>      <br>
+<code>{</code>   <br>
+<code> $new[&quot;new&quot;] = &quot;old&quot;;</code>    <br>
+<code> return $new;</code> <br>
 <code>};</code></p>
 <ol start="7">
-<li>PHP and HTML</li>
-<li>HTML From Handling in PHP</li>
-<li>Booleans and Comparision operators</li>
-<li>Logical Operators and Compound Conditions</li>
-<li>Loops</li>
-<li>Loops in HTML</li>
-<li>Intro to form validation</li>
-<li>Intro to Regular expression</li>
-<li>Intro to PHP form validation</li>
-<li>Classes and Object</li>
+<li>PHP and HTML<br>
+7.1 PHP was designed as a back-end web development language<br>
+7.2 HTML is a front-end language<br>
+7.3 example code</li>
+</ol>
+<p><code>&lt;?php</code>    <br>
+<code>echo &quot;&lt;h3&gt;Hello! I'm {$about_me[&quot;name&quot;]}!&lt;/h3&gt;&quot;;</code> <br>
+<code>echo &quot;&lt;p&gt; I'm &quot; . calculateAge($about_me). &quot; years old! That's pretty cool, right?&lt;/p&gt;&quot;;</code><br>
+<code>echo &quot;&lt;div&gt;What more is there to say? I love {$about_me[&quot;favorite_food&quot;]}, and that's pretty much it!&lt;/div&gt;&quot;;</code> <br>
+<code>?&gt;</code></p>
+<ol start="8">
+<li>
+<p>HTML From Handling in PHP, <code>Superglobals</code>
+8.1 <code>&lt;?=</code> is shorthand for <code>&lt;?php echo</code><br>
+8.2 <code>$_GET</code> is an associative array containing data from a GET request.<br>
+8.3 <code>$_POST</code> is an associative array containing data from a POST request.<br>
+8.4 <code>$_REQUEST</code>is an associative array containing data from both GET and POST requests.<br>
+8.5 eg. <code>&lt;form method=&quot;get&quot; or &quot;post&quot; action=&quot;greet.php&quot;&gt;</code></p>
+</li>
+<li>
+<p>Booleans and Comparision operators<br>
+9.1 identical and not identical operators
+<code>===</code>  or <code>!==</code><br>
+9.2 built-in function to get current month<br>
+<code>date(&quot;F&quot;)</code><br>
+9.3 multiple condition<br>
+<code>elseif(condition){action;}</code> <br>
+9.4 switch statement <br>
+<code>switch($condition){</code><br>
+<code>case &quot;condition A&quot;:</code><br>
+<code>echo &quot;action&quot;; </code><br>
+<code>break;</code><br>
+9.5 ternary operator<br>
+<code>function ternaryCheckout($items)</code><br>
+<code>{</code><br>
+<code>return $items &lt;= 12 ? &quot;express lane&quot; : &quot;regular lane&quot;;</code><br>
+<code>}</code></p>
+</li>
+<li>
+<p>Logical Operators and Compound Conditions</p>
+</li>
+<li>
+<p>Loops</p>
+</li>
+<li>
+<p>Loops in HTML</p>
+</li>
+<li>
+<p>Intro to form validation</p>
+</li>
+<li>
+<p>Intro to Regular expression</p>
+</li>
+<li>
+<p>Intro to PHP form validation</p>
+</li>
+<li>
+<p>Classes and Object</p>
+</li>
 </ol>
 
 </div>
