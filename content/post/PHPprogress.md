@@ -98,11 +98,13 @@ function changeArrayValue(&$new)
         `date("F")`  
     9.3 multiple condition  
         `elseif(condition){action;}`    
-    9.4 switch statement    
-        `switch($condition){`  
-        `case "condition A":`  
-            `echo "action"; `  
-            `break;`   
+    9.4 switch statement
+```    
+switch($condition){
+    case "condition A":
+        echo "action":  
+        break;
+```   
     9.5 ternary operator  
 ```
 function ternaryCheckout($items) 
@@ -113,11 +115,94 @@ function ternaryCheckout($items)
 10. Logical Operators and Compound Conditions  
     10.1 `&&` has higer precedence than `||`\
     10.2 `T || T` is True, `T xor T` is False\
-    10.3  
 11. Loops  
+    11.1 while loop  
+    11.2 do...while loop,`the loop will execute at least one time`  
+    11.3 for loop  
+    11.4 foreach  
+    11.5 break and continue  
+        11.5.1 `break`: execute, stop and leave  
+        11.5.2 `continue`: skip and move on  
 12. Loops in HTML  
+    12.1 `foreach`  
+```
+<?php
+$footwear = [
+  "sandals" => 4,
+  "sneakers" => 7,
+	"boots" => 3
+];
+?>
+<p>Our footwear:</p>
+<h3>foreach</h3>
+<?php
+foreach ($footwear as $type => $brands):
+?>
+<p>We sell <?=$brands?> brands of <?=$type?></p>
+<?php
+endforeach;
+?>
+```   
+\
+        12.2 `for`
+
+```
+<h3>for</h3>
+<?php
+$types = [
+  "sandals",
+  "sneakers",
+	"boots"
+];
+$quantities = [
+  4,
+  7,
+	3
+];
+for ($i=0; $i<count($types); $i++):
+?>
+<p>We sell <?=$quantities[$i]?> brands of <?=$types[$i]?></p>
+<?php
+endfor;
+?>
+```
+\
+    12.3 `while`
+
+```
+<h3>while</h3>
+<?php
+$types = [
+  "sandals",
+  "sneakers",
+	"boots"
+];
+$quantities = [
+  4,
+  7,
+	3
+];
+$i = 0;
+while ($i<count($types)):
+?>
+<p>We sell <?=$quantities[$i]?> brands of <?=$types[$i]?></p>
+<?php
+$i++;
+endwhile;
+?>
+```  
+
 13. Intro to form validation  
-14. Intro to Regular expression  
+14. Intro to Regular expression 
+    - eg. regex to match the following pattern  
+    `^[\d|\(][\s|\d]\d[.|\d|-][\)|\d][\s|\d]\d[.|\d|-]\d[\s|\d]?\d*`    
+```
+718-555-3810
+9175552849
+1 212 555 3821
+(917)5551298
+212.555.8731
+``` 
 15. Intro to PHP form validation  
 16. Classes and Object  
 
