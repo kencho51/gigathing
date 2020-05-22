@@ -37,7 +37,8 @@ strrev();strtolower(); strtoupper(); str_repeat(); substring
 substr_count(); number function
 abs(); round(); generating random numbers
 rand(); getrandmax(); ceil(); documentation
-str_pad();    Ordered Arrays
+str_pad(); check value in array
+in_array(&amp;quot;valuetocheck&amp;quot;, $array)    Ordered Arrays
  can be integer or string or any data type $my_array = array(); or $my_array=[]; returns the array length</description>
     </item>
     
