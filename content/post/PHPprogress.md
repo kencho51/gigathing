@@ -14,73 +14,73 @@ author = "Ken Cho"
 3. Functions - Done  
 4. Intro to Built-in PHP functions - Done  
     - find variable types  
-    ```gettype(); var_dump();```  
+    `gettype(); var_dump();`    
     - string functions  
-    ```strrev();strtolower(); strtoupper(); str_repeat();```
+    `strrev();strtolower(); strtoupper(); str_repeat();`  
     - substring  
-    ```substr_count();```
+    `substr_count();`  
     - number function  
-    ```abs(); round();```
+    `abs(); round();`  
     - generating random numbers  
-    ```rand(); getrandmax(); ceil();```  
+    `rand(); getrandmax(); ceil();`  
     - documentation  
-    ```str_pad();```
+    `str_pad();`  
 
 
 5. Ordered Arrays 
     - can be integer or string or any data type    
-    ```$my_array = array(); or $my_array=[];```       
+    `$my_array = array(); or $my_array=[];`       
     - returns the array length  
-    ```count($array);```      
+    `count($array);`        
     - print the array in  array list  
-    ```print_r();```      
+    `print_r();`      
     - print the array into string  
-    ```implode ("glue", array);```  
+    `implode ("glue", array);`  
     - accessing the array  
-    ```$my_array[pos];```  
+    `$my_array[pos];`  
     - adding and changing elements
-    ```$my_array[pos] = new value;```  
+    `$my_array[pos] = new value;`  
     - pushing and popping  
         - remove the last element  
-        ```array_pop();```  
+        `array_pop();`  
         - append the element
-        ```array_push();```  
+        `array_push();`  
         - remove first element  
-        ```array_shift();```  
+        `array_shift();`  
         - prepend the element  
-        ```array_unshit();```       
+        `array_unshit();`       
         - remove the first element  
-        ```array_shift();``` 
+        `array_shift();` 
         - nestede array  
-        ```value = $my_array[][][]```  
+        `value = $my_array[][][]`  
 
 6. Associative Arrays 
         - concept of dictionary   
         - key and valure pair  
-        ```$my_array = array("key"=>"value"); or $my_array = ["key"=>"value"];```   
+        `$my_array = array("key"=>"value"); or $my_array = ["key"=>"value"];`   
         - remove element  
-        ```unset();```  
+        `unset();`  
         - joining the array in union manner  
         - assign by reference
-
-  
-`function changeArrayValue(&$new)`         
-`{`      
-` $new["new"] = "old";`       
-` return $new;`    
-`};`    
-
+```
+function changeArrayValue(&$new) 
+{
+ $new["new"] = "old";
+ return $new;
+};
+```
 
 7. PHP and HTML  
     7.1 PHP was designed as a back-end web development language  
     7.2 HTML is a front-end language  
     7.3 example code  
-
-`<?php`       
-  `echo "<h3>Hello! I'm {$about_me["name"]}!</h3>";`    
-  `echo "<p> I'm " . calculateAge($about_me). " years old! That's pretty cool, right?</p>";`   
-  `echo "<div>What more is there to say? I love {$about_me["favorite_food"]}, and that's pretty much it!</div>";`    
-`?>`    
+```
+<?php 
+  echo "<h3>Hello! I'm {$about_me["name"]}!</h3>";
+  echo "<p> I'm " . calculateAge($about_me). " years old! That's pretty cool, right?</p>";
+  echo "<div>What more is there to say? I love {$about_me["favorite_food"]}, and that's pretty much it!</div>"; 
+?>
+```    
   
 8. HTML From Handling in PHP, `Superglobals` 
     8.1 `<?=` is shorthand for `<?php echo`  
@@ -102,11 +102,12 @@ author = "Ken Cho"
             `echo "action"; `  
             `break;`   
     9.5 ternary operator  
-`function ternaryCheckout($items)`  
-`{`  
-    ```return $items <= 12 ? "express lane" : "regular lane";```  
-`}`  
-
+```
+function ternaryCheckout($items) 
+{ 
+    return $items <= 12 ? "express lane" : "regular lane";
+}
+```
 10. Logical Operators and Compound Conditions  
 11. Loops  
 12. Loops in HTML  
