@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 19 May 2020 17:48:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 11:39:44 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to format text using Markdown?</title>
+      <link>https://kencho51.github.io/markdownsyntax/</link>
+      <pubDate>Fri, 22 May 2020 11:39:44 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/markdownsyntax/</guid>
+      <description>Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know. Here is the source of the following cheatsheet.</description>
+    </item>
     
     <item>
       <title>PHP progress</title>
