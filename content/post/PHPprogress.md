@@ -25,6 +25,8 @@ author = "Ken Cho"
     `rand(); getrandmax(); ceil();`  
     - documentation  
     `str_pad();`  
+    - check value in array\
+    `in_array("valuetocheck", $array)`
 
 
 5. Ordered Arrays 
@@ -109,6 +111,9 @@ function ternaryCheckout($items)
 }
 ```
 10. Logical Operators and Compound Conditions  
+    10.1 `&&` has higer precedence than `||`\
+    10.2 `T || T` is True, `T xor T` is False\
+    10.3  
 11. Loops  
 12. Loops in HTML  
 13. Intro to form validation  
