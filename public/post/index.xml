@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Fri, 22 May 2020 11:39:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 11:22:48 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn, Todo and Done 25-29/5/20</title>
+      <link>https://kencho51.github.io/25-5-20/</link>
+      <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/25-5-20/</guid>
+      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course  Resources  Yii Best Yii  </description>
+    </item>
     
     <item>
       <title>How to format text using Markdown?</title>
