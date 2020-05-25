@@ -204,6 +204,48 @@ endwhile;
 212.555.8731
 ``` 
 15. Intro to PHP form validation  
+    15.1 Simple Validation
+```
+<?php
+$validation_error = "";
+$user_language = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+$user_language = $_POST["language"];
+  if ($user_language != "PHP") {
+    $validation_error = "* Your favorite language must be PHP!";
+  } 
+}
+?>
+
+<form method="post" action="">
+Your Favorite Programming Language: <input type="text" name="language" value="<?php echo $user_language;?>">
+<p class="error"><?= $validation_error;?></p>
+<input type="submit" value="Submit Language">
+</form>
+```
+\
+    15.2 Basic data sanitizing  
+`$email = "aisle.nevertell@yahoo.com   "; 
+echo trim($email);`  
+`//Prints: aisle.nevertell@yahoo.com`  
+`htmlspecialchars()`  
+`filter_var($email, FILTER_SANITIZE_EMAIL);`  
+`filter_var($bad_email, FILTER_VALIDATE_EMAIL)`  
+```
+if ($_SERVER["REQUEST_METHOD"] === "POST"){
+  $user_url = $_POST["url"];
+  if (!filter_var($user_url, FILTER_VALIDATE_URL)){
+    $validation_error = "* This is an invalid URL.";
+    $form_message = "Please retry and submit your form again.";
+  }else{
+    $form_message = "Thank you for your submission.";
+  }
+}
+```  
+\
+    15.3 Custom Validation  
+  
 16. Classes and Object  
 
 
