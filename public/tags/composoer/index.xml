@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yii on kencho51</title>
-    <link>https://kencho51.github.io/tags/yii/</link>
-    <description>Recent content in Yii on kencho51</description>
+    <title>composoer on kencho51</title>
+    <link>https://kencho51.github.io/tags/composoer/</link>
+    <description>Recent content in composoer on kencho51</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Tue, 26 May 2020 11:05:40 +0800</lastBuildDate>
     
-	<atom:link href="https://kencho51.github.io/tags/yii/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kencho51.github.io/tags/composoer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,24 +27,6 @@ User browser to access:
 http://localhost:8080/
 CHeck if the minimum requirements are met by running cd basic
 php requirements.</description>
-    </item>
-    
-    <item>
-      <title>Learn, Todo and Done 25-29/5/20</title>
-      <link>https://kencho51.github.io/25-5-20/</link>
-      <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/25-5-20/</guid>
-      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
-    </item>
-    
-    <item>
-      <title>Learn, todo and done 18-22/5/20</title>
-      <link>https://kencho51.github.io/18-5-20/</link>
-      <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/18-5-20/</guid>
-      <description>Learn  php Yii  To-do  Study github issues.  start issue#160  url for Editorial board url for github update the content     Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP course at Codecademy. Made pull request for issue 160  Resources  For Yii, link.  </description>
     </item>
     
   </channel>
