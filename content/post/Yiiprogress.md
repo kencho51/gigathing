@@ -56,3 +56,6 @@ DocumentRoot "path/to/basic/web"
     # ...other settings...
 </Directory>
 ```
+
+### Yii static structure of an application
+![Application Structure](/image/application-structure.png)
