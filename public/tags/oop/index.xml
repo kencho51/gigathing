@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OOP on kencho51</title>
+    <link>https://kencho51.github.io/tags/oop/</link>
+    <description>Recent content in OOP on kencho51</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>kencho51</copyright>
+    <lastBuildDate>Tue, 26 May 2020 10:13:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://kencho51.github.io/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OOP</title>
+      <link>https://kencho51.github.io/oop/</link>
+      <pubDate>Tue, 26 May 2020 10:13:43 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/oop/</guid>
+      <description>What is OOP? Object-oriented programming is a style of coding that allows developers to group similar tasks into classes. This helps keep code following the tenet &amp;ldquo;don&amp;rsquo;t repeat yourself&amp;rdquo; (DRY) and easy-to-maintain.
+ Object-oriented programming is a style of coding that allows developers to group similar tasks into classes.
+ What is a class?  A blueprint for a house. It defines the shape of the house on paper, with relationships between the different parts of the house clearly defined and planned out, even though the house doesn&amp;rsquo;t exist.</description>
+    </item>
+    
+    <item>
+      <title>Learn, Todo and Done 25-29/5/20</title>
+      <link>https://kencho51.github.io/25-5-20/</link>
+      <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/25-5-20/</guid>
+      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course OOP:Don&#39;t Repeat Yourself and easy to maintain
+2.1 Encapsulation
+2.2 Abstraction
+2.3 Inheritance
+2.4 Polymorphism  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
+    </item>
+    
+  </channel>
+</rss>
