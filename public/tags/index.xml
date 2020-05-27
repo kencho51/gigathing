@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 26 May 2020 11:05:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 12:50:48 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yii</title>
+      <link>https://kencho51.github.io/tags/yii/</link>
+      <pubDate>Wed, 27 May 2020 12:50:48 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/yii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yii 1.1</title>
+      <link>https://kencho51.github.io/tags/yii-1.1/</link>
+      <pubDate>Wed, 27 May 2020 12:50:48 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/yii-1.1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>composoer</title>
@@ -27,15 +45,6 @@
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yii</title>
-      <link>https://kencho51.github.io/tags/yii/</link>
-      <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/yii/</guid>
       <description></description>
     </item>
     
