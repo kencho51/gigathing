@@ -41,12 +41,15 @@ php requirements.</description>
     </item>
     
     <item>
-      <title>Learn, Todo and Done 25-29/5/20</title>
-      <link>https://kencho51.github.io/25-5-20/</link>
+      <title>Learn, todo and done 25-29/5/20</title>
+      <link>https://kencho51.github.io/jobs/25-5-20/</link>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
       
-      <guid>https://kencho51.github.io/25-5-20/</guid>
-      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
+      <guid>https://kencho51.github.io/jobs/25-5-20/</guid>
+      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160
+2.1 update the link url to relate link, not the production server ones Yii the Definitive guide to Yii 2.0
+3.1 created a sqlite database
+3.2 tried Gii to create CRUD models and actions  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
     </item>
     
     <item>
@@ -95,10 +98,10 @@ git checkout issue-no</description>
     
     <item>
       <title>Learn, todo and done 18-22/5/20</title>
-      <link>https://kencho51.github.io/18-5-20/</link>
+      <link>https://kencho51.github.io/jobs/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
       
-      <guid>https://kencho51.github.io/18-5-20/</guid>
+      <guid>https://kencho51.github.io/jobs/18-5-20/</guid>
       <description>Learn  php Yii  To-do  Study github issues.  start issue#160  url for Editorial board url for github update the content     Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP course at Codecademy. Made pull request for issue 160  Resources  For Yii, link.  </description>
     </item>
     
@@ -235,6 +238,30 @@ More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
  Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Learn, todo and done 10-15/20</title>
+      <link>https://kencho51.github.io/jobs/10-5-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/10-5-20/</guid>
+      <description>Learn  php docker  To-do Study github issues assigned by Peter Github workflow:
+	1. git checkout develop 2. git branch ken_issues 3. change the source code 4. test after change using docker 5. git add, commit, push 6. git message in present imperative tensehu 7. create a pull request on issue# </description>
+    </item>
+    
+    <item>
+      <title>Learn, todo and done 4-8/5/20</title>
+      <link>https://kencho51.github.io/jobs/4-5-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/4-5-20/</guid>
+      <description>Learn Start learning github, docker, php
+To-do  Set up account stuff  Done  Configuration
+1.1 zsh
+2. install homebrew, wget, curl 3. Github, branch, pull, merge link
+4. vimtutor
+5. markdown syntax Config computer, zshrc, vimrc, github, docker Fork gigadb-website  </description>
     </item>
     
   </channel>

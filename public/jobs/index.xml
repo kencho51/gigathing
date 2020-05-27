@@ -7,19 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 11:22:48 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/jobs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What I have done</title>
-      <link>https://kencho51.github.io/jobs/14-05-2020_done/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0800</pubDate>
+      <title>Learn, todo and done 25-29/5/20</title>
+      <link>https://kencho51.github.io/jobs/25-5-20/</link>
+      <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
       
-      <guid>https://kencho51.github.io/jobs/14-05-2020_done/</guid>
-      <description>Issue #198 Found out that the commited changes cannot be seen in the local gigadb.
- rollbacked to commit ID: 3954c0b0, and make two changes in help.html.dist and help.php. still cannot see the changes in local gigadb website.  </description>
+      <guid>https://kencho51.github.io/jobs/25-5-20/</guid>
+      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160
+2.1 update the link url to relate link, not the production server ones Yii the Definitive guide to Yii 2.0
+3.1 created a sqlite database
+3.2 tried Gii to create CRUD models and actions  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
+    </item>
+    
+    <item>
+      <title>Learn, todo and done 18-22/5/20</title>
+      <link>https://kencho51.github.io/jobs/18-5-20/</link>
+      <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/18-5-20/</guid>
+      <description>Learn  php Yii  To-do  Study github issues.  start issue#160  url for Editorial board url for github update the content     Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP course at Codecademy. Made pull request for issue 160  Resources  For Yii, link.  </description>
+    </item>
+    
+    <item>
+      <title>Learn, todo and done 10-15/20</title>
+      <link>https://kencho51.github.io/jobs/10-5-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/10-5-20/</guid>
+      <description>Learn  php docker  To-do Study github issues assigned by Peter Github workflow:
+	1. git checkout develop 2. git branch ken_issues 3. change the source code 4. test after change using docker 5. git add, commit, push 6. git message in present imperative tensehu 7. create a pull request on issue# </description>
+    </item>
+    
+    <item>
+      <title>Learn, todo and done 4-8/5/20</title>
+      <link>https://kencho51.github.io/jobs/4-5-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/4-5-20/</guid>
+      <description>Learn Start learning github, docker, php
+To-do  Set up account stuff  Done  Configuration
+1.1 zsh
+2. install homebrew, wget, curl 3. Github, branch, pull, merge link
+4. vimtutor
+5. markdown syntax Config computer, zshrc, vimrc, github, docker Fork gigadb-website  </description>
     </item>
     
   </channel>
