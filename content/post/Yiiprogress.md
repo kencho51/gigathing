@@ -1,6 +1,6 @@
 +++
-description = "Yii learning progress"
-title = "Yii-Getting Started"
+description = "Yii 2.0 learning progress"
+title = "Yii 2.0 - Getting Started"
 date = 2020-05-26T11:05:40+08:00
 tags = ["Yii", "php", "composoer"]
 author = "Ken Cho"
