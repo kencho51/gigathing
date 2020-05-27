@@ -33,9 +33,9 @@ googleAnalytics = "UA-166952674-1"
     name = "Post"
     url = "/post"
     weight = 1
-#  [[menu.main]]
-#    name = "To do/Done"
-#    url = "/jobs"
+  [[menu.main]]
+    name = "Weekly Plan"
+    url = "/jobs"
   [[menu.main]]
     name = "Projects"  
     url = "/projects/"
