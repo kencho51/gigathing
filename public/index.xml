@@ -19,11 +19,11 @@
       
       <guid>https://kencho51.github.io/yii1.1/</guid>
       <description>What is Yii?  Yii is a high-performance, component-based PHP framework for developing large-scale Web applications rapidly. It enables maximum reusability in Web programming and can significantly accelerate your Web application development process.
- </description>
+ What is Yii best for?  Yii is a generic Web programming framework that can be used for developing virtually any type of Web application. Because it is light-weight and equipped with sophisticated caching mechanisms, it is especially suited to high-traffic applications, such as portals, forums, content management systems (CMS), e-commerce systems, etc.</description>
     </item>
     
     <item>
-      <title>Yii-Getting Started</title>
+      <title>Yii 2.0 - Getting Started</title>
       <link>https://kencho51.github.io/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
       
