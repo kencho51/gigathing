@@ -48,7 +48,12 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/25-5-20/</loc>
+    <loc>https://kencho51.github.io/jobs/</loc>
+    <lastmod>2020-05-25T11:22:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/jobs/25-5-20/</loc>
     <lastmod>2020-05-25T11:22:48+08:00</lastmod>
   </url>
   
@@ -93,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/18-5-20/</loc>
+    <loc>https://kencho51.github.io/jobs/18-5-20/</loc>
     <lastmod>2020-05-18T14:00:37+08:00</lastmod>
   </url>
   
@@ -205,6 +210,30 @@
   <url>
     <loc>https://kencho51.github.io/reference/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/homebrew/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/jobs/10-5-20/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/jobs/4-5-20/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/vimtutor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/zshrc/</loc>
   </url>
   
 </urlset>
