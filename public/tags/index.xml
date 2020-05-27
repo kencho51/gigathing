@@ -156,5 +156,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>docker</title>
+      <link>https://kencho51.github.io/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homebrew</title>
+      <link>https://kencho51.github.io/tags/homebrew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vimtutor</title>
+      <link>https://kencho51.github.io/tags/vimtutor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/vimtutor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zshrc</title>
+      <link>https://kencho51.github.io/tags/zshrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/zshrc/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
