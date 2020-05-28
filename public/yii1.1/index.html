@@ -154,13 +154,43 @@ It enables maximum reusability in Web programming and can significantly accelera
 <p>Yii is a generic Web programming framework that can be used for developing virtually any type of Web application.
 Because it is light-weight and equipped with sophisticated caching mechanisms, it is especially suited to high-traffic applications, such as portals, forums, content management systems (CMS), e-commerce systems, etc.</p>
 </blockquote>
+<h3 id="set-up-webserver-with-nginx-and-php-fpm-using-docker-linkhttpsmediumcomisakhaugecreate-a-basic-web-server-with-nginx-and-php-fpm-using-docker-5def5c32e628">Set up webserver with nginx and PHP-FPM using Docker, <a href="https://medium.com/@isakhauge/create-a-basic-web-server-with-nginx-and-php-fpm-using-docker-5def5c32e628">link</a></h3>
+<ol>
+<li>
+<p>Build the images<br>
+<code>sudo docker build -t peter/fpm ./images/fpm/ &amp;&amp; docker build -t peter/ngx ./images/nginx/</code></p>
+</li>
+<li>
+<p>Build and start the container<br>
+<code>docker-compose up</code></p>
+</li>
+</ol>
 <h3 id="installation-and-create-skeleton-application-linkhttpswwwyiiframeworkcomdocblog11enstarttestdriveuser-notes">Installation and create skeleton application, <a href="https://www.yiiframework.com/doc/blog/1.1/en/start.testdrive#user-notes">link</a></h3>
 <ol>
 <li>download Yii 1.1 source code at <a href="https://www.yiiframework.com/download">here</a></li>
-<li>unpack the .tar.gz <code>tar -xvzf yii-1.1.22.bf1d26.tar.gz</code></li>
-<li>go into the framework folder <code>./yiic webapp ../testdrive</code></li>
+<li>unpack the .tar.gz and move to dockerfolder/app/
+<code>tar -xvzf yii-1.1.22.bf1d26.tar.gz</code></li>
+<li>go into the framework folder<br>
+<code>./yiic webapp ../testdrive</code></li>
 </ol>
-
+<h3 id="update-the-ngx_conflocationsconf">Update the ngx_conf/locations.conf</h3>
+<pre><code># yii-1.1.22 location
+location /yii-1.1.22/ {
+    autoindex on;
+    autoindex_exact_size on;
+    autoindex_format html;
+    autoindex_localtime on;
+} 
+</code></pre><h3 id="make-sqlite-db-connection-in-protectedconfigmainphp">Make sqlite db connection in protected/config/main.php</h3>
+<pre><code>return array(
+// sqlite database connection
+    'components'=&gt;array(
+        'db'=&gt;array(
+            'connectionString'=&gt;'sqlite:protected/data/testdrive.db',
+        ),
+    ),
+);
+</code></pre>
 </div>
 
         <footer class="post-footer clearfix">
