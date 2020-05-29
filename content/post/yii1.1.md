@@ -6,7 +6,7 @@ tags = ["Yii 1.1"]
 author = "Ken Cho"
 
 +++
-### What is Yii?
+### What is [Yii](https://www.yiiframework.com/doc/guide/1.1/en/quickstart.what-is-yii)?
 
 >Yii is a high-performance, component-based PHP framework for developing large-scale Web applications rapidly. 
 >It enables maximum reusability in Web programming and can significantly accelerate your Web application development process. 
@@ -14,6 +14,7 @@ author = "Ken Cho"
 ### What is Yii best for?
 >Yii is a generic Web programming framework that can be used for developing virtually any type of Web application. 
 >Because it is light-weight and equipped with sophisticated caching mechanisms, it is especially suited to high-traffic applications, such as portals, forums, content management systems (CMS), e-commerce systems, etc.
+
 ### Set up webserver with nginx and PHP-FPM using Docker, [link](https://medium.com/@isakhauge/create-a-basic-web-server-with-nginx-and-php-fpm-using-docker-5def5c32e628)
 1. Build the images  
 `sudo docker build -t peter/fpm ./images/fpm/ && docker build -t peter/ngx ./images/nginx/`
@@ -39,7 +40,7 @@ location /yii-1.1.22/ {
 } 
 ```
 
-### Make sqlite db connection in protected/config/main.php 
+### Make sqlite db connection in `protected/config/main.php` within `return array`  
 ```
 return array(
 // sqlite database connection
@@ -50,3 +51,35 @@ return array(
     ),
 );
 ```
+
+### Allow Gii modules in `/protected/config/main.php` within `return array`     
+```
+    'modules'=>array(
+        // uncomment the following to enable the Gii tool
+        'gii'=>array(
+            'class'=>'system.gii.GiiModule',
+            'password'=>'Password',
+            // If removed, Gii defaults to localhost only. Edit carefully to taste.
+            // 'ipFilters'=>array('127.0.0.1','::1'),
+               'ipFilters'=> False,
+        ),
+    ),
+```  
+
+### Allow path-format URLS to access Gii in `/protected/config/main.php` within `components`, [link](https://www.yiiframework.com/doc/api/1.1/GiiModule)      
+```
+    'urlManager'=>array(
+        'urlFormat'=>'path',
+        'rules'=>array(
+            'gii'=>'gii',
+            'gii/<controller:\w+>'=>'gii/<controller>',
+            'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
+            ...other rules...
+        ),
+    ),
+```  
+### Static structure of Yii application
+![img](/image/static_structure.png)
+
+### A Typical Worflow
+![img](/image/typical_flow.png) 
