@@ -74,7 +74,6 @@ return array(
             'gii'=>'gii',
             'gii/<controller:\w+>'=>'gii/<controller>',
             'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
-            ...other rules...
         ),
     ),
 ```  
@@ -82,4 +81,12 @@ return array(
 ![img](/image/static_structure.png)
 
 ### A Typical Worflow
-![img](/image/typical_flow.png) 
+![img](/image/typical_flow.png)
+
+### The flow of MCV
+![img](/image/mcv.png)
+
+##### Reference
+1. [An Introduction to PHP YII Framework For The Beginners](http://www.w3programmers.com/an-introduction-to-php-yii-framework-for-the-beginners/)  
+2. [An introduction to Yii framework- part 2](http://www.w3programmers.com/introduction-yii-framework-part2/)  
+3. [Introducing Gii of Yii framework](http://www.w3programmers.com/introducing-gii-of-yii-framework/)
