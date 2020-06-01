@@ -17,7 +17,7 @@ The website will contain:
 3. Posts
     - Mainly about the learning progress
 4. Projects  
-    - Mainly about what has been achived or completed
+    - sharing (FYI only)
 5. Weekly plan 
     - Learning plan
     - Todo list  
