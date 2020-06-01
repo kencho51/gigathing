@@ -15,10 +15,13 @@ The website will contain:
 1. About
 2. Contact
 3. Posts
-    1. To-do  
-    2. Done
-    3. Learning progress
-4. Projects
+    - Mainly about the learning progress
+4. Projects  
+    - Mainly about what has been achived or completed
+5. Weekly plan 
+    - Learning plan
+    - Todo list  
+    - What have been finished/achieved/completed
 
 ### How 
 Comming soon...
