@@ -7,3 +7,4 @@ description = "How to contact me."
 
 ## Contact
 Email: kencho.gigascience@gmail.com
+Telephone: +852 6358 2232
