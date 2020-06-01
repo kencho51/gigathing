@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 27 May 2020 12:50:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 10:10:24 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/yii/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn, to-do and done 1-5/6/20</title>
+      <link>https://kencho51.github.io/jobs/1-6-20/</link>
+      <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/1-6-20/</guid>
+      <description>Learn  Docker Yii framework   Todo  Use Yii 1.1 to build a blog Fix issue #433   Done    Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
+    </item>
     
     <item>
       <title>Yii 2.0 - Getting Started</title>
@@ -35,10 +44,10 @@ php requirements.</description>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
       
       <guid>https://kencho51.github.io/jobs/25-5-20/</guid>
-      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160
+      <description>Learn  Using Yii to build a blog system PHP  To-do Done  Yii 2 crash course Update issue 160
 2.1 update the link url to relate link, not the production server ones Yii the Definitive guide to Yii 2.0
 3.1 created a sqlite database
-3.2 tried Gii to create CRUD models and actions  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
+3.2 tried Gii to create CRUD models and actions The Definitive Guide to Yii 1.1 Update portal address in contact us page for Issue #436  however the image of the location map not showing    Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
     </item>
     
     <item>

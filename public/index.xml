@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 27 May 2020 12:50:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 10:10:24 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to build a blog using Yii1.1</title>
+      <link>https://kencho51.github.io/howtobuildablogusingyii1/</link>
+      <pubDate>Mon, 01 Jun 2020 10:10:24 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/howtobuildablogusingyii1/</guid>
+      <description>Aim To familiarize the framework of Yii 1.1.
+How  The steps can be found here The source code is stored at github repo  Docker container for Nginx and PHP=FPM webserver, link Steps to note  Download the Yii 1.1 source code at here Unpack the compressed file and move to dockerfolder/app
+tar -xvzf yii-1.1.22.bf1d26.tar.gz Rename the folder name to yii-1.1.22 Go to the framework folder to create a skeleton application by</description>
+    </item>
+    
+    <item>
+      <title>Learn, to-do and done 1-5/6/20</title>
+      <link>https://kencho51.github.io/jobs/1-6-20/</link>
+      <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/1-6-20/</guid>
+      <description>Learn  Docker Yii framework   Todo  Use Yii 1.1 to build a blog Fix issue #433   Done    Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
+    </item>
     
     <item>
       <title>Yii 1.1</title>
@@ -56,10 +76,10 @@ php requirements.</description>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
       
       <guid>https://kencho51.github.io/jobs/25-5-20/</guid>
-      <description>Learn  Using Yii to build a blog system PHP  To-do  Yii tutorial To practice PHP  Done  Yii 2 crash course Update issue 160
+      <description>Learn  Using Yii to build a blog system PHP  To-do Done  Yii 2 crash course Update issue 160
 2.1 update the link url to relate link, not the production server ones Yii the Definitive guide to Yii 2.0
 3.1 created a sqlite database
-3.2 tried Gii to create CRUD models and actions  Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
+3.2 tried Gii to create CRUD models and actions The Definitive Guide to Yii 1.1 Update portal address in contact us page for Issue #436  however the image of the location map not showing    Resources  Yii Best Yii Best Free Yii2 Tutorials OOP concepts OOP code examples  </description>
     </item>
     
     <item>
@@ -132,12 +152,10 @@ git checkout issue-no</description>
       <guid>https://kencho51.github.io/howtomakeahugo/</guid>
       <description>Aim Try to build a hugo website to log everything happened in GigaScience.
 Description The website will contain:
- About Contact Posts  To-do Done Learning progress   Projects  How Comming soon&amp;hellip;
+ About Contact Posts  Mainly about the learning progress   Projects  sharing (FYI only)   Weekly plan  Learning plan Todo list What have been finished/achieved/completed    How Comming soon&amp;hellip;
 How to make a public folder In config.toml, add this: publishDir = &amp;quot;public&amp;quot;
 link
-Add Google Analytics feature How to set up a Google Analytics, steps followed here.
-How to add a disqus Follow here
-sources:  freecodecamp medium medium RStudio  </description>
+Add Google Analytics feature How to set up a Google Analytics, steps followed here.</description>
     </item>
     
     <item>
@@ -165,8 +183,7 @@ sources:  freecodecamp medium medium RStudio  </description>
       <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://kencho51.github.io/page/about/</guid>
-      <description>About Every day is a new day, keep up and never give up!
-School 2017 MSc in Genomics and Bioinformatics The University of Hong Kong
+      <description>This github page contains  Post  Mainly about the learning progress   Projects  Sharing(FYI only)   Weekly plan  Learning plan Todo list What have been finished/achieved/completed    Something about me 2017 MSc in Genomics and Bioinformatics The University of Hong Kong
 2014 BSc in Biotechnology The University of Hong Kong</description>
     </item>
     
@@ -176,7 +193,7 @@ School 2017 MSc in Genomics and Bioinformatics The University of Hong Kong
       <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://kencho51.github.io/page/contact/</guid>
-      <description>Contact Email: kencho.gigascience@gmail.com</description>
+      <description>Contact Email: kencho.gigascience@gmail.com Telephone: +852 6358 2232</description>
     </item>
     
     <item>
