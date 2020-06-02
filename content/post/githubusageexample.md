@@ -59,12 +59,12 @@ author = "Ken Cho"
 
 ### 9. How to delete a branch after the issue has been fixed
    
-8.1 To list all the branch.  
+9.1 To list all the branch.  
 `git branch --list`  
-    8.2 To switch to another branch.    
+9.2 To switch to another branch.    
 `git checkout branch_name`  
-    8.3 To delete a branch.  
+9.3 To delete a branch.  
 `git branch -d branch_name_to_delete`  
-    8.4 To update the remote.  
+9.4 To update the remote.  
 `git push --force`  
-    8.5 To delete branch in remote repo manually.  
+9.5 To delete branch in remote repo manually.  
