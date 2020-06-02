@@ -29,7 +29,7 @@ tar -xvzf yii-1.1.22.bf1d26.tar.gz Rename the folder name to yii-1.1.22 Go to th
       <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
       
       <guid>https://kencho51.github.io/jobs/1-6-20/</guid>
-      <description>Learn  Docker Yii framework   Todo  Use Yii 1.1 to build a blog Fix issue #433   Done    Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
+      <description>Learn  Docker Yii framework PostgreSQL  Todo  Use Yii 1.1 to build a blog  Done  Created a pull request for issue#433 and merged. Created a pull request for issue#436  Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
     </item>
     
     <item>
