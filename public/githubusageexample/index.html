@@ -73,31 +73,7 @@ if (!doNotTrack) {
                     <ul class="site-nav">
                         
     <li class="site-nav-item">
-        <a title="About" href="/page/about/">About</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Contact" href="/page/contact/">Contact</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Post" href="/post">Post</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Projects" href="/projects/">Projects</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Reference" href="/reference">Reference</a>
-    </li>
-
-    <li class="site-nav-item">
         <a title="Getting Started with Hugo" href="/reference/hugoisforlovers/">Getting Started with Hugo</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Weekly Plan" href="/jobs">Weekly Plan</a>
     </li>
 
                     </ul>
@@ -174,16 +150,21 @@ if (!doNotTrack) {
 <p>7.1 To undo the last commit, for example: <br>
 <code>git reset --hard HEAD~1</code><br>
 <code>git push --force</code></p>
-<h3 id="8-how-to-delete-a-branch-after-the-issue-has-been-fixed">8. How to delete a branch after the issue has been fixed</h3>
-<p>8.1 To list all the branch.<br>
+<h3 id="8-how-to-sync-with-fork-repohttpshelpgithubcomengithubcollaborating-with-issues-and-pull-requestssyncing-a-fork-after-making-a-successful-pull-request">8. How to <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork">sync with Fork repo</a> after making a successful pull request</h3>
+<p><code>git checkout develop</code><br>
+<code>git fetch upstream</code> to see any updates from the develop fork<br>
+<code>git merge upstream/develop</code> to get the updates from develop fork to local<br>
+<code>git push</code> to update the remote repo</p>
+<h3 id="9-how-to-delete-a-branch-after-the-issue-has-been-fixed">9. How to delete a branch after the issue has been fixed</h3>
+<p>9.1 To list all the branch.<br>
 <code>git branch --list</code><br>
-8.2 To switch to another branch. <br>
+9.2 To switch to another branch. <br>
 <code>git checkout branch_name</code><br>
-8.3 To delete a branch.<br>
+9.3 To delete a branch.<br>
 <code>git branch -d branch_name_to_delete</code><br>
-8.4 To update the remote.<br>
+9.4 To update the remote.<br>
 <code>git push --force</code><br>
-8.5 To delete branch in remote repo manually.</p>
+9.5 To delete branch in remote repo manually.</p>
 
 </div>
 
