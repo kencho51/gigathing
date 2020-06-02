@@ -51,7 +51,13 @@ author = "Ken Cho"
 `git reset --hard HEAD~1`  
 `git push --force`  
 
-### 8. How to delete a branch after the issue has been fixed
+### 8. How to [sync with Fork repo](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) after making a successful pull request  
+`git checkout develop`  
+`git fetch upstream` to see any updates from the develop fork   
+`git merge upstream/develop` to get the updates from develop fork to local  
+`git push` to update the remote repo  
+
+### 9. How to delete a branch after the issue has been fixed
    
 8.1 To list all the branch.  
 `git branch --list`  
