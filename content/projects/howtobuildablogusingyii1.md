@@ -107,5 +107,14 @@ class Comment extends CActiveRecord
     ......
 ```
 
+11. How to create portlets for User Menu, Tag Cloud and Recent Comments  
+11.1 [UserMenu portlet](https://www.yiiframework.com/doc/blog/1.1/en/portlet.menu)  
+11.2 [TagCloud](https://www.yiiframework.com/doc/blog/1.1/en/portlet.tags)
+    - Create a `Tag.php` in `/protected/models/Tag.php` 
+    - Add `'tagCloudCount'=>20` in `config/main.php` under param
+    
+    11.3 [RecentComments](https://www.yiiframework.com/doc/blog/1.1/en/portlet.comments)
+    
+
 ### Points to note  
 
