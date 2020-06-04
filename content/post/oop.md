@@ -20,11 +20,39 @@ Object-oriented programming is a style of coding that allows developers to group
 ### WHy OOP is so powerful?
 `Classes form the structure of data and actions` and use that information `to build objects`. `More than one object` can be built from the `same class` at the `same time`, each one `independent` of the others.
 `OOP keeps objects as separate entities.`
+
+### What is Visibility/Access modifier?
+>Any property, constant or method in class can be accessed with visibility. Visibility is usually declared in class by constant, property, method before the announcement.
+
+### 3 types of visibility in PHP
+1. `private`
+>If the constant, property, method in class is to restrict the usage of only the same class or class, then those constant, property, methods are to be declared private.
+
+2. `protected`
+> If constant, property, method in class is to restrict the usage of only the same class or class itself and its child class, then those constant, property, methods are to be declared protected.
+
+3. `public`
+>If you want constant, property, methods in class, use the same class or class itself, child class and class outside, then those constant, property, methods are to be declared public.
+
 ### Some useful terms and syntax
-1. `class MyClass {}`
-2. `public`: determine the visiblity of the property.  
-3. `->`: accesses the contained properties and methods of a given object.  
-4. `$this`: When working within a method, use $this in the same way you would use the object name outside the class.   
+1. `Parent Class`
+>When a class inherits from another class, then the class from which the new class is created, is called parent class. Parent class is called base class or super class.
+2. `Child Class`
+>When a class is inherited from another class, it is called child class. The child class is called subclass or derived class.
+3. `Property`
+>Variables in the class in PHP are called properties. Properties are also called “attributes” or “fields”. Property in PHP is to define with any one visibility: public, private, protected.
+4. `Method`
+>Functions in class in PHP are called method. The methods in PHP are to declare with any one of the visibility: public, private, protected.
+5. `static keyword`
+> If you want to give access to any property or method without any instance or object, or if you want to access it directly by class, then static keyword is used.
+6. `"::" scope resolution operator`
+>To use any static property, static method and constant in the class in PHP, use “:: scope resolution operator” if you want to use it inside or outside the class.
+7. `"$this" pseudo variable`
+>Originally contained the object of the current class. If you want to use any non-static property in PHP and non-static method within the class, you need to use “$this” pseudo-variable.
+>When working within a method, use `$this` in the same way you would use the object name outside the class.
+8. `->`
+>Accesses the contained properties and methods of a given object.  
+
 ### Example code
 ```php
 <?php
