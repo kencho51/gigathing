@@ -14,6 +14,9 @@ Object-oriented programming is a style of coding that allows developers to group
 ### What is an object?
 >An objectis like the `actual house` built according to that blueprint. The data stored in the object is like the wood, wires, and concrete that compose the house: without being assembled according to the blueprint, it's just a pile of stuff. However, when it all comes together, it becomes an organized, useful house.
 
+### Example of Class and Object in OOP
+![img](/image/oop_cars.jpg)
+
 ### WHy OOP is so powerful?
 `Classes form the structure of data and actions` and use that information `to build objects`. `More than one object` can be built from the `same class` at the `same time`, each one `independent` of the others.
 `OOP keeps objects as separate entities.`
@@ -23,7 +26,7 @@ Object-oriented programming is a style of coding that allows developers to group
 3. `->`: accesses the contained properties and methods of a given object.  
 4. `$this`: When working within a method, use $this in the same way you would use the object name outside the class.   
 ### Example code
-```
+```php
 <?php
  
 class MyClass
@@ -70,7 +73,7 @@ The above code will return as below:
 
 ### Comparing Object Oriented and Procedural Code
 ##### The Procedural Approach
-```
+```php
 <?php
  
 function changeJob($person, $newjob)
@@ -115,7 +118,7 @@ echo "<pre>Person 2: ", print_r($person2, TRUE), "</pre>";
 ?>
 ```
 The code above will output:
-```
+```php
 Person 1: Array
 (
   [name] => Tom
@@ -142,7 +145,7 @@ Person 2: Array
 )
 ``` 
 ##### The OOP Aproach
-```
+```php
 <?php
  
 class Person
@@ -191,7 +194,7 @@ echo "<pre>Person 2: ", print_r($person2, TRUE), "</pre>";
 ?>
 ```
 The code above will output:
-```
+```php
 Person 1: Person Object
 (
   [_name:private] => Tom
