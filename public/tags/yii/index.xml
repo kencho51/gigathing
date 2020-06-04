@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 10:10:24 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 15:05:46 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/yii/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yii1.1 for beginners</title>
+      <link>https://kencho51.github.io/yiiforbeginners/</link>
+      <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/yiiforbeginners/</guid>
+      <description>What is Yii Model-View-Controller architecture? MVC schema
+ Model   defines relations among data in DB and rules that must be followed when saving data to DB. It also gives us tools to read/save data from/to DB.
+ View   shows data to user. It doesn’t write to DB or count difficult things. It just receives data and shows them using HTML, CSS, JS, etc.
+ Controller   processes and changes the data, handles user’s actions, decides, counts, thinks and calls models and views.</description>
+    </item>
     
     <item>
       <title>Learn, to-do and done 1-5/6/20</title>
@@ -18,7 +30,7 @@
       <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
       
       <guid>https://kencho51.github.io/jobs/1-6-20/</guid>
-      <description>Learn  Docker Yii framework PostgreSQL  Todo  Use Yii 1.1 to build a blog  Done  Created a pull request for issue#433 and merged. Created a pull request for issue#436  Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
+      <description>Learn  Docker Yii1.1 framework PostgreSQL OOP progress  Todo  Use Yii 1.1 to build a blog  Done  Created a pull request for issue#433 and merged. Created a pull request for issue#436 and merged. Finished buiding yii 1.1 blog Created a pull request for issue #421  Reference  For Docker:  13 Best Docker Tutorials to Learn Docker Container Docker for beginners Docker tutorial for Beginners, YouTube    </description>
     </item>
     
     <item>
