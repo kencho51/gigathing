@@ -24,7 +24,7 @@ Object-oriented programming is a style of coding that allows developers to group
 ### What is Visibility/Access modifier?
 >Any property, constant or method in class can be accessed with visibility. Visibility is usually declared in class by constant, property, method before the announcement.
 
-### 3 types of visibility in PHP
+### 3 types of [visibility](http://www.w3programmers.com/visibility-or-access-modifier-in-php/) in PHP
 ![img](/image/visibility.jpg)
 1. `private`
 >If the constant, property, method in class is to restrict the usage of only the same class or class, then those constant, property, methods are to be declared private.
@@ -255,7 +255,7 @@ Person 2: Person Object
   [_age:private] => 42
 )
 ```
-### What is `Method Chaining` in PHP and example code?
+### What is [`Method Chaining`](http://www.w3programmers.com/php-oop-method-chaining/) in PHP and example code?
 >When many methods are called in a single instruction, in PHP’s term it is called Method Chaining.  
 
 General class and its results:
@@ -324,7 +324,7 @@ Explanation
 >$person->setName(‘Ken’) to call setName() Method and set Ken to name property as value.
 >setName () method will return $this, which will return the Object person
 
-
+### PHP OOP inheritance
 
 
 ### Reference 
@@ -333,4 +333,6 @@ Explanation
 3. [PHP Object Oriented Programming Part I: PHP OOP Basics](http://www.w3programmers.com/php-oop-basics/)
 4. [PHP Object Oriented Programming Part-2: Making and Using Class, Object and Class Members](http://www.w3programmers.com/making-and-using-class/)
 5. [PHP Object Oriented Programming Part-3: PHP OOP Method Chaining](http://www.w3programmers.com/php-oop-method-chaining/)
+6. [PHP Object Oriented Programming Part-5: Visibility or Access Modifier in PHP](http://www.w3programmers.com/visibility-or-access-modifier-in-php/)
+
 
