@@ -25,15 +25,19 @@ Object-oriented programming is a style of coding that allows developers to group
 >Any property, constant or method in class can be accessed with visibility. Visibility is usually declared in class by constant, property, method before the announcement.
 
 ### 3 types of visibility in PHP
+![img](/image/visibility.jpg)
 1. `private`
 >If the constant, property, method in class is to restrict the usage of only the same class or class, then those constant, property, methods are to be declared private.
 
+>eg. The property can only be accessed within the class. 
 2. `protected`
 > If constant, property, method in class is to restrict the usage of only the same class or class itself and its child class, then those constant, property, methods are to be declared protected.
 
+>eg. The property can only be accessed by the current class and it's child class.
 3. `public`
 >If you want constant, property, methods in class, use the same class or class itself, child class and class outside, then those constant, property, methods are to be declared public.
 
+>eg. The property declared in a class can be accessed from the current class, child class and even outside of the class.
 ### Some useful terms and syntax
 1. `Parent Class`
 >When a class inherits from another class, then the class from which the new class is created, is called parent class. Parent class is called base class or super class.
