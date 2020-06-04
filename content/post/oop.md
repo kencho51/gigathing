@@ -324,7 +324,52 @@ Explanation
 >$person->setName(‘Ken’) to call setName() Method and set Ken to name property as value.
 >setName () method will return $this, which will return the Object person
 
-### PHP OOP inheritance
+### PHP OOP [inheritance](http://www.w3programmers.com/php-oop-inheritance/)
+>If a child class inherits some of the features of it’s parent class and then use it, this process is called inheritance.  
+```php
+<?php
+class Member {
+    public $username = "";
+    private $loggedIn = false;
+    public function login() {
+        $this->loggedIn = true;
+    }
+    public function logout() {
+        $this->loggedIn = false;
+    }
+    public function isLoggedIn() {
+        return $this->loggedIn;
+    }
+}
+ 
+class Administrator extends Member {
+    public function createForum( $forumName ) {
+        echo "$this->username created a new forum: $forumName<br>";
+    }
+    public function banMember( $member ) {
+        echo "$this->username banned the member: $member->username<br>";
+    }
+}
+ 
+// Create a new member and log them in
+$member = new Member();
+$member->username = "Ken";
+$member->login();
+echo $member->username . " is " . ( $member->isLoggedIn() ? "logged in" : "logged out" ) . "<br>";
+ 
+// Create a new administrator and log them in
+$admin = new Administrator();
+$admin->username = "Peter";
+$admin->login();
+echo $admin->username . " is " . ( $member->isLoggedIn() ? "logged in" : "logged out" ) . "<br>";
+// Displays "Peter created a new forum: W3programmers"
+$admin->createForum( "W3programmers" );
+// Displays "Peter banned the member: Ken"
+$admin->banMember( $member );
+?>
+```
+
+
 
 
 ### Reference 
