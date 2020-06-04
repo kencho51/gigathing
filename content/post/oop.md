@@ -228,3 +228,4 @@ Person 2: Person Object
 ### Reference 
 1. [Object-Oriented PHP for Beginners](https://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762)
 2. [OOP](https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP) 
+3. [PHP Object Oriented Programming Part I: PHP OOP Basics](http://www.w3programmers.com/php-oop-basics/)
