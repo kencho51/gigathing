@@ -257,3 +257,4 @@ Person 2: Person Object
 1. [Object-Oriented PHP for Beginners](https://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762)
 2. [OOP](https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP) 
 3. [PHP Object Oriented Programming Part I: PHP OOP Basics](http://www.w3programmers.com/php-oop-basics/)
+4. [PHP Object Oriented Programming Part-2: Making and Using Class, Object and Class Members](http://www.w3programmers.com/making-and-using-class/)
