@@ -251,6 +251,76 @@ Person 2: Person Object
   [_age:private] => 42
 )
 ```
+### What is `Method Chaining` in PHP and example code?
+>When many methods are called in a single instruction, in PHP’s term it is called Method Chaining.  
+
+General class and its results:
+```php
+<?php
+ class person
+ {
+    private $name="";
+    private $age="";
+ 
+    public function setName($name="")
+    {
+      $this->name=$name;
+    }
+    public function setAge($age="20")
+    {
+      $this->age=$age;
+    }
+    public function getInfo()
+    {
+      echo "Hello, My name is ".$this->name." and my age is ".$this->age." years.";
+    }
+}
+ 
+$person = new person();
+  $person->setName("Ken");
+  $person->setAge("25");
+  $person->getInfo();
+?>
+```
+Result will be:  
+>Hello, My name id Ken and my age is 25 years.
+
+Method Chaining way
+```php
+<?php
+class person
+{
+  private $name="";
+  private $age="";
+ 
+  public function setName($name="")
+  {
+    $this->name=$name;  
+    return $this;
+  }
+  public function setAge($age="20")
+  {
+    $this->age=$age;
+    return $this;
+  }
+ 
+  public function getInfo()
+  {
+    echo "Hello, My name is ".$this->name." and my age is ".$this->age." years.";
+  }
+}
+ 
+$person = new person();
+  $person->setName("Ken")->setAge("25")->getInfo();
+ ?>
+```
+Explanation
+>return $this pseudo-variable between setName() method and setAge() method.
+>“$this” pseudo-variable originally contained the object of the current class.
+>$person->setName(‘Ken’) to call setName() Method and set Ken to name property as value.
+>setName () method will return $this, which will return the Object person
+
+
 
 
 ### Reference 
@@ -258,3 +328,5 @@ Person 2: Person Object
 2. [OOP](https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP) 
 3. [PHP Object Oriented Programming Part I: PHP OOP Basics](http://www.w3programmers.com/php-oop-basics/)
 4. [PHP Object Oriented Programming Part-2: Making and Using Class, Object and Class Members](http://www.w3programmers.com/making-and-using-class/)
+5. [PHP Object Oriented Programming Part-3: PHP OOP Method Chaining](http://www.w3programmers.com/php-oop-method-chaining/)
+
