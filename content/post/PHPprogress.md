@@ -303,6 +303,7 @@ The above code will output:
 ![img](/image/formvalidation.png)
 
    15.4 Validating against back-end data
+    
 ```php
 <?php
 $users = ["coolBro123" => "password123!", "coderKid" => "pa55w0rd*", "dogWalker" => "ais1eofdog$"];  
@@ -338,7 +339,69 @@ Password:<input type="text" name="password" value="">
 ```
 The above code will output:
 ![img](/image/backend.png)
-  
+
+   15.5 Sanitizing for back-end storage  
+It is essential to sanitize all data before storing it in our own databases. We’ll also want to sanitize the formatting: make sure the data stored in our database follows consistent formatting.
+To sanitize data formatting, we can use the built-in `preg_replace()` function
+```php
+$contacts = ["Susan" => "5551236666", "Alex" => "7779991717", "Lily" => "8181117777"];  
+$message = "";
+$validation_error = "* Please enter a 10-digit North American phone number.";
+$name = "";
+$number = "";
+
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   $name = $_POST["name"];
+   $number  = $_POST["number"];
+   // Write your code here:
+   if (strlen($number)<30){
+     $formatted_number = preg_replace("/[^0-9]/", "", $number);
+     if (strlen($formatted_number)===10){
+       $contacts[$name] = $formatted_number;
+       $message = "Thanks ${name}, we'll be in touch.";
+     } else {
+       $message = $validation_error;
+     } 
+   } else {
+     $message = $validation_error;
+   }
+};
+?>
+
+<html>
+	<body>
+  <h3>Contact Form:</h3>
+		<form method="post" action="">
+			Name:
+			<br>
+  		<input type="text" name="name" value="<?= $name;?>">
+ 			<br><br>
+  		Phone Number:
+  		<br>
+  		<input type="text" name="number" value="<?= $number;?>">
+  		<br><br> 
+  		<input type="submit" value="Submit">
+		</form>
+		<div id="form-output">
+			<p id="response"><?= $message?></p>
+    </div>
+	</body>
+</html>
+
+```
+The above code will output:
+![img](/image/contactform.png)
+
+   15.6 Rerouting  
+If the user has submitted a valid form, `header()` function can be used to perform redirects.
+```php
+if (/* Is the submission data validated? */) {
+  header("Location: https://www.best-puppy-pix.com/");
+  exit;
+}
+```
+
+
 16. Classes and Object  
 
 
