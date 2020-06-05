@@ -64,7 +64,7 @@ author = "Ken Cho"
         `unset();`  
         - joining the array in union manner  
         - assign by reference
-```
+```php
 function changeArrayValue(&$new) 
 {
  $new["new"] = "old";
@@ -76,7 +76,7 @@ function changeArrayValue(&$new)
     7.1 PHP was designed as a back-end web development language  
     7.2 HTML is a front-end language  
     7.3 example code  
-```
+```php
 <?php 
   echo "<h3>Hello! I'm {$about_me["name"]}!</h3>";
   echo "<p> I'm " . calculateAge($about_me). " years old! That's pretty cool, right?</p>";
@@ -99,14 +99,14 @@ function changeArrayValue(&$new)
     9.3 multiple condition  
         `elseif(condition){action;}`    
     9.4 switch statement
-```    
+```php    
 switch($condition){
     case "condition A":
         echo "action":  
         break;
 ```   
     9.5 ternary operator  
-```
+```php
 function ternaryCheckout($items) 
 { 
     return $items <= 12 ? "express lane" : "regular lane";
@@ -125,7 +125,7 @@ function ternaryCheckout($items)
         11.5.2 `continue`: skip and move on  
 12. Loops in HTML  
     12.1 `foreach`  
-```
+```php
 <?php
 $footwear = [
   "sandals" => 4,
@@ -143,10 +143,10 @@ foreach ($footwear as $type => $brands):
 endforeach;
 ?>
 ```   
-\
-        12.2 `for`
 
-```
+   12.2 `for`
+
+```php
 <h3>for</h3>
 <?php
 $types = [
@@ -166,10 +166,10 @@ for ($i=0; $i<count($types); $i++):
 endfor;
 ?>
 ```
-\
-    12.3 `while`
 
-```
+   12.3 `while`
+
+```php
 <h3>while</h3>
 <?php
 $types = [
@@ -196,7 +196,7 @@ endwhile;
 14. Intro to Regular expression 
     - eg. regex to match the following pattern  
     `^[\d|\(][\s|\d]\d[.|\d|-][\)|\d][\s|\d]\d[.|\d|-]\d[\s|\d]?\d*`    
-```
+```php
 718-555-3810
 9175552849
 1 212 555 3821
@@ -205,7 +205,7 @@ endwhile;
 ``` 
 15. Intro to PHP form validation  
     15.1 Simple Validation
-```
+```php
 <?php
 $validation_error = "";
 $user_language = "";
@@ -224,15 +224,16 @@ Your Favorite Programming Language: <input type="text" name="language" value="<?
 <input type="submit" value="Submit Language">
 </form>
 ```
-\
-    15.2 Basic data sanitizing  
+
+
+   15.2 Basic data sanitizing  
 `$email = "aisle.nevertell@yahoo.com   "; 
 echo trim($email);`  
 `//Prints: aisle.nevertell@yahoo.com`  
 `htmlspecialchars()`  
 `filter_var($email, FILTER_SANITIZE_EMAIL);`  
 `filter_var($bad_email, FILTER_VALIDATE_EMAIL)`  
-```
+```php
 if ($_SERVER["REQUEST_METHOD"] === "POST"){
   $user_url = $_POST["url"];
   if (!filter_var($user_url, FILTER_VALIDATE_URL)){
@@ -242,9 +243,65 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
     $form_message = "Thank you for your submission.";
   }
 }
-```  
-\
-    15.3 Custom Validation  
+```
+
+
+   15.3 Custom Validation  
+```php
+<?php
+$feedback = "";
+$success_message = "Thank you for your donation!";
+$error_message = "* There was an error with your card. Please try again.";
+
+$card_type = "";
+$card_num = "";
+$donation_amount = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $card_type = $_POST["credit"];
+    $card_num = $_POST["card-num"];
+    $donation_amount = $_POST["amount"];
+
+    if (strlen($card_num)<100){
+      if ($card_type === "mastercard"){
+        if (preg_match("/5[1-5][0-9]{14}/", $card_num) === 1){
+          $feedback = $success_message;
+        } else {
+          $feedback = $error_message;
+        }
+  	  } else if ($card_type === "visa") {
+        if (preg_match("/4[0-9]{12}([0-9]{3})?([0-9]{3})?/", $card_num) === 1){
+          $feedback = $success_message;
+        } else {
+          $feedback = $error_message;
+       }
+    }
+  } else {
+      $feedback = $error_message;
+    }
+}
+?>
+<form action="" method="POST">
+  <h1>Make a donation</h1>
+    <label for="amount">Donation amount?</label>
+      <input type="number" name="amount" value="<?= $donation_amount;?>">
+      <br><br>
+    <label for="credit">Credit card type?</label>
+      <select name="credit" value="<?= $card_type;?>">
+        <option value="mastercard">Mastercard</option>
+        <option value="visa">Visa</option>
+      </select>
+      <br><br>
+      <label for="card-num">Card number?</label>
+      <input type="number" name="card-num" value="<?= $card_num;?>">
+      <br><br>   
+      <input type="submit" value="Submit">
+</form>
+<span class="feedback"><?= $feedback;?></span>
+```
+The above code will output:
+![img](/image/formvalidation.png)
+
   
 16. Classes and Object  
 
