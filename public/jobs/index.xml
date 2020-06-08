@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 09:39:04 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 09:25:14 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/jobs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn, to-do and done 8-12/6/20</title>
+      <link>https://kencho51.github.io/jobs/8-6-20/</link>
+      <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/8-6-20/</guid>
+      <description>Learn  Docker PostgreSQL Yii1.1 framework  Todo  Issue #291 Issue #441    Done  Fixed issue #421   Reference </description>
+    </item>
     
     <item>
       <title>Learn, to-do and done 1-5/6/20</title>
