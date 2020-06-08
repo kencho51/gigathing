@@ -403,5 +403,47 @@ if (/* Is the submission data validated? */) {
 
 
 16. Classes and Object  
+>A class is a blueprint.
+>Once the class is defined, specific instances(`Object`) can be created.
+```php
+<?php
+
+class Beverage {
+  public $color, $opacity, $temperature;
+}
+```
 
 
+16.1 In PHP, objects are instantiated using the `new` keyword followed by the class name and parentheses.
+We interact with an object’s properties using the object operator (`->`) followed by the name of the property (without the dollar sign, `$`).
+>Create an instance of this class and assign it to the variable `$tea`.
+>Set the temperature of the object to `hot`.
+>Print the value of the temperature property of `$tea`.
+```php
+$tea = new Beverage();
+$tea->temperature = "hot";
+
+echo $tea->temperature;
+
+```
+
+16.2 Define class methods  
+Methods are defined with the same syntax we use when declaring functions. Methods are accessed in a similar fashion to properties, using the object operator (`->`), but in order to invoke them, use parentheses at the end:  
+`$my_object->classMethod();`
+>Add `getInfo` method to the `Beverage` class, it should return statement about the beverage with tempurature and color.
+>Print the result of calling `getInfo` on the object.
+```php
+<?php
+class Beverage {
+  public $temperature, $color, $opacity;
+  function getInfo() {
+    return "This beverage is $this->temperature and $this->color.";
+  }
+}
+
+$soda = new Beverage();
+$soda->color = "black";
+$soda->temperature = "cold";
+
+echo $soda->getInfo();
+```
