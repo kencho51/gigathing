@@ -427,7 +427,7 @@ echo $tea->temperature;
 
 ```
 
-16.2 Define class methods  
+16.2 Define class method  
 Methods are defined with the same syntax we use when declaring functions. Methods are accessed in a similar fashion to properties, using the object operator (`->`), but in order to invoke them, use parentheses at the end:  
 `$my_object->classMethod();`
 >Add `getInfo` method to the `Beverage` class, it should return statement about the beverage with tempurature and color.
@@ -447,3 +447,151 @@ $soda->temperature = "cold";
 
 echo $soda->getInfo();
 ```
+16.3 Constructor Method  
+This method is automatically called when an object is instantiated. A constructor method is defined with the special method name `__construct`.
+If we wanted to initialize the `deserves_love` property assigned to `TRUE` for every instance of the `Pet` class, we could use the following constructor:
+```php
+class Pet {
+  public $deserves_love;
+  function __construct() {
+    $this->deserves_love = TRUE;
+  }
+}
+$my_dog = new Pet();
+if ($my_dog->deserves_love){
+  echo "I love you!";
+}
+// Prints: I love you!
+```
+Constructors can also have parameters. These correspond to arguments passed in when using the `new` keyword. For example, maybe we want to allow for setting the `name` of the `Pet` on instantiation
+
+```php
+class Pet {
+  public $name;
+  function __construct($name) {
+    $this->name = $name;
+  }
+} 
+$dog = new Pet("Lassie");
+echo $dog->name; // Prints: Lassie
+```
+
+```php
+<?php
+class Beverage {
+  public $temperature, $color, $opacity;
+
+  function getInfo() {
+    return "This beverage is $this->temperature and $this->color.";
+  }
+  function __construct($temperature, $color){
+    $this->temperature = $temperature;
+    $this->color = $color;
+  }
+}
+
+// Object instantiating
+$coke = new Beverage("cold", "black");
+
+echo $coke->getInfo();
+
+// Prints: This beverage is cold and black.
+```
+16.4 Inheritance  
+To define a class that inherits from another, we use the keyword extends:
+```php
+class ChildClass extends ParentClass {
+
+}
+```
+Define a Dog class that extends our Pet class. Each Dog instance will have an additional method called bark():  
+```php
+class Dog extends Pet {
+  function bark() {
+    return "woof";
+  }
+}
+```
+Now, objects of class `Dog` can `bark`, but objects of `Pet` cannot.  
+16.5 Overloading Methods  
+Sometimes, we want to change how methods behave for subclasses from the original parent definition. This is called overloading a method. To do this, define a new method within the subclass with the same name as the parent method. 
+```php
+<?php
+class Beverage {
+  public $temperature;
+  
+  function getInfo() {
+    return "This beverage is $this->temperature.";
+  }
+}
+
+class Milk extends Beverage {
+  function __construct() {
+    $this->temperature = "cold";
+  }
+  function getInfo(){
+    return parent::getInfo() . " I like my milk this way.";
+  }
+  
+}
+$milk = new Milk();
+echo $milk->getInfo(); //Prints: This beverage is cold. I like my milk this way.
+```
+
+16.6 Getters and Setters  
+The concept of only accessing properties through methods is commonly referred to as using getters and setters.  
+```php
+class Pet {
+  private $name;
+  function setName($name) {
+    $this->name = $name;
+  }
+  function getName() {
+    return $this->name;
+  }
+}
+```
+```php
+<?php
+class Beverage {
+  private $color;
+  // Add a methond called setColor that sets the color property.
+  // And the store the color as lowercase.
+  function setColor($color) {
+    $this->color = strtolower($color);
+  }
+  //Add a method call getColor that returns the value of the color property.
+  function getColor() {
+    return $this->color;
+  }
+}
+
+$soda = new Beverage();
+```
+
+16.7 Static Members  
+Instantiating objects is the most common way to use classes and is also the most in-line with OOP principles. 
+Sometimes though, it can be useful to group a set of utility functions and variables together into a single class. 
+Since these don’t change for every instance, we don’t need to instantiate them. 
+We can use them statically.
+```php
+<?php
+class AdamsUtils {
+  public static $the_answer = 42;
+  public static function addTowel($string) {
+    return $string . " and a towel.";
+  }
+}
+
+$items = "I brought apples";
+echo AdamsUtils::$the_answer;
+echo "\n";
+echo AdamsUtils::addTowel($items);
+
+//Prints:
+42
+I brought apples and a towel.
+```
+
+### Reference 
+1. [PHP cheatsheet](https://www.codecademy.com/learn/learn-php/modules/classes-and-objects-in-php/cheatsheet)
