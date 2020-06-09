@@ -60,9 +60,19 @@ author = "Ken Cho"
 ### [Postgre.app](https://postgresapp.com/downloads.html) 
 Postgre.app is a full-featured PostgreSQL installation packaged as a standard Mac app. 
 
+
 ### Configure the $PATH for [CLI](https://postgresapp.com/documentation/cli-tools.html) (Optional)
 `sudo mkdir -p /etc/paths.d &&
  echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp`
+ 
+### Character Datatypes
+ |Name|Description|
+ |:---|:---|
+ |varchr(n)|Allows you to declare variable-length with a limit|
+ |char(n)|Fixed-length, blank padded|
+ |text|User can use this data type to declare a variable with unlimited length|
+ 
+ ### 
 
 ### Reference
 1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
