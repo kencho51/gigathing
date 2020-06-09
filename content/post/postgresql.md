@@ -31,3 +31,35 @@ author = "Ken Cho"
 |MySQL is ACID compliant only when using with NDB and InnoDB Cluster Storage engines. | PostgreSQL is completely ACID compliant.|
 |MySQL performs well in OLAP and OLTP systems where only read speed is important.	| PostgreSQL performance works best in systems which demand the execution of complex queries.|
 |MySQL is reliable and works well with BI (Business Intelligence) applications, which are difficult to read	| PostgreSQL works well with BI applications. However, it is more suited for Data Warehousing and data analysis applications which need fast read-write speeds.|
+
+### Advantages
+1. Can run dynamic websites and web apps.  
+2. Write-ahead logging makes it a highly fault-tolerant database.
+3. Source code is freely available under an open source license.
+4. Supports geographic objects so you can use it for location-based services and geographic information systems.  
+5. Supports geographic objects so it can be used as a geospatial data store for location-based services and geographic information systems.
+6. Low maintenance administration for both embedded and enterprise use.
+
+### Disadvantages
+1. Changes made for speed improvement requires more work than MySQL as PostgreSQL focuses on compatibility.
+2. Many open source apps support MySQL, but may not support PostgreSQL.
+3. On performance metrics, it is slower than MySQL.
+
+### Download and install
+1. Download and install `postgrlSQL`  
+`brew doctor`  
+`brew update`  
+`brew install postgresql`
+2. Download and install `Pgcli`, for `Postgres with auto-completion and syntax highlighting.`  
+`brew install pgcli`
+3. The path of `psql`  
+`brew info libpq`
+4. To include in in `zshrc`  
+`echo 'export PATH="/usr/local/opt/libpq/bin:$PATH"' >> ~/.zshrc`
+
+### [Postgre.app](https://postgresapp.com/downloads.html) 
+Postgre.app is a full-featured PostgreSQL installation packaged as a standard Mac app. 
+
+### Reference
+1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
+2. [PostgreSQL download](https://www.postgresql.org/download/)
