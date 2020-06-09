@@ -68,3 +68,5 @@ author = "Ken Cho"
 9.4 To update the remote.  
 `git push --force`  
 9.5 To delete branch in remote repo manually.  
+9.6 To clean up local branch after merging  
+`git fetch -p`
