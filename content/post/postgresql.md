@@ -65,6 +65,10 @@ Postgre.app is a full-featured PostgreSQL installation packaged as a standard Ma
 `sudo mkdir -p /etc/paths.d &&
  echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp`
  
+ ### [Changing](https://thecodinginterface.com/blog/postgresql-changing-data-directory/) the default directory of PostgreSQL (Optional)
+ `kencho=# SHOW data_directory;`
+ >/Users/kencho/Library/Application Support/Postgres/var-12
+ 
 ### Datatypes
 1. Characters  
 
@@ -93,11 +97,61 @@ Postgre.app is a full-featured PostgreSQL installation packaged as a standard Ma
 PostgreSQL timestamp offers microsecond precision instead of second precision. Date and time input is accepted in various format, including traditional Postgres, ISO 8601. SQL-compatible etc.
 
 7. Boolean
-- True
-- False
+- True, `1`
+- False, `0`
 - null
+
+8. Geometric 
+
+9. Enumerated  
+Enumerated Data types in PostgreSQL is useful for representing rarely changing information such as country code or branch id. 
+The Enumerated data type is represented in a table with foreign keys to ensure data integrity. Here is the example code:
+```postgresql
+#Hair color is fairly static in a demographic database
+CREATE TYPE hair_color AS ENUM
+('brown','black','red','grey','blond')
+```
+10. Range
+
+11. UUID
+Universally Unique Identifies (UUID) is a 128-bit quantity, these identifiers are an ideal choice as it offers uniqueness within a single database.  
+Example:  
+`d5f28c97-b962-43be-9cf8-ca1632182e8e`
+
+12. XML 
+ PostgreSQL allows you to store XML data in a data type, but it is nothing more than an extension to a text data type.  
+ But the advantage is that it checks that the input XML is well-formed.
+ 
+13. Json
+ - Json  
+ - Jsonb  
+ ```postgresql
+ CREATE TABLE employee (
+   id integer NOT NULL,
+   age  integer NOT NULL,
+   data jsonb
+ );
+```
+
+14. Pseudo-types  
+PostgreSQL has many special-purpose entries that are called pseudo-types. 
+You can't use pseudo-type as a column data type. 
+There are used to declare or function's argument or return type.  
+Each of the available pseudo-types is helpful in situations where a function's behavior docs do not correspond to simply taking or returning a value of a specific SQL data type.
+
+### Best practice using data types
+- Use "text" data type unless you want to limit the input
+- Never use "char."
+- Integers use "int." Use bigint only when you have really big numbers
+- Use "numeric" almost always
+- Use float data type if you have IEEE 754 data source
+
+
 
 
 ### Reference
 1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
 2. [PostgreSQL download](https://www.postgresql.org/download/)
+3. [10 Command-line Utilities in PostgreSQL](https://www.datacamp.com/community/tutorials/10-command-line-utilities-postgresql)
+4. [cheatsheet](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546)
+5. [Postgres Guide](http://postgresguide.com/utilities/psql.html)
