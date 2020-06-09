@@ -65,14 +65,38 @@ Postgre.app is a full-featured PostgreSQL installation packaged as a standard Ma
 `sudo mkdir -p /etc/paths.d &&
  echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp`
  
-### Character Datatypes
+### Datatypes
+1. Characters  
+
  |Name|Description|
  |:---|:---|
  |varchr(n)|Allows you to declare variable-length with a limit|
  |char(n)|Fixed-length, blank padded|
  |text|User can use this data type to declare a variable with unlimited length|
  
- ### 
+2. Numeric  
+- Integers
+- Floating-pointing numbers
+
+3. Binary  
+- Binary strings allow storing odds of value zero
+- Non- printable octets
+
+4. Network Address Type
+- cider: IPv4 and IPv6 networks
+- Inet: IPv4 and IPv5 host and networks
+- macaaddr: MAC addresses
+
+5. Text Search Type
+
+6. Date/Time 
+PostgreSQL timestamp offers microsecond precision instead of second precision. Date and time input is accepted in various format, including traditional Postgres, ISO 8601. SQL-compatible etc.
+
+7. Boolean
+- True
+- False
+- null
+
 
 ### Reference
 1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
