@@ -146,7 +146,16 @@ Each of the available pseudo-types is helpful in situations where a function's b
 - Use "numeric" almost always
 - Use float data type if you have IEEE 754 data source
 
-
+### Export/save table or query
+1. Check current position  
+`\! pwd`  
+2. List folders  
+`\! ls`  
+3. Export the Full tables with header   
+`COPY albums TO '/Users/dave/Downloads/albums.csv' DELIMITER ',' CSV HEADER;`  
+4. Export the query to CSV with header   
+`\copy [Table/Query] to [Relative Path] csv header`
+4.
 
 
 ### Reference
@@ -155,3 +164,4 @@ Each of the available pseudo-types is helpful in situations where a function's b
 3. [10 Command-line Utilities in PostgreSQL](https://www.datacamp.com/community/tutorials/10-command-line-utilities-postgresql)
 4. [cheatsheet](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546)
 5. [Postgres Guide](http://postgresguide.com/utilities/psql.html)
+6. [How to exort PostgreSQL Data to a CSV or Excel File](https://dataschool.com/learn-sql/how-to-export-data-to-csv-or-excel/)
