@@ -1,5 +1,5 @@
 +++
-description = "Wha is Object Oriented Programming?"
+description = "What is Object Oriented Programming?"
 title = "OOP"
 date = 2020-05-26T10:13:43+08:00
 tags = ["OOP", "php"]
