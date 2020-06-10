@@ -45,11 +45,45 @@ In development speak, `time saved is equal to money earned`.
 
 >Scope creep can happen for various reasons: poorly defined tasks, misinterpretation of project requirements, lack of documentation, and so on. There are many methods aimed at mitigating scope creep, and `TDD` is one of them.
 
+### How to perform TDD test
+![img](/image/tddtest.png)
+
+
+
 ### Acceptance TDD and developer TDD
+When you first go to implement a new feature, the first question that you ask is whether the existing design is the best design possible that enables you to implement that functionality. 
+If so, you proceed via a `TFD`, the first development, approach. If not, you refactor it locally to change the portion of the design affected by the new feature, enabling you to add that feature as easy as possible. 
+As a result you will always be improving the quality of your design, thereby making it easier to work with in the future.
 ![img](/image/acceptance.jpg)
+
+1. Acceptance TDD:  
+With ATDD you write a single acceptance test. This test fulfills the requirement of the specification or satisfies the behavior of the system. After that write just enough production/functionality code to fulfill that acceptance test. Acceptance test focuses on the overall behavior of the system. ATDD also was known as Behavioral Driven Development (BDD).    
+2. Developer TDD:  
+With Developer TDD you write single developer test i.e. unit test and then just enough production code to fulfill that test. The unit test focuses on every small functionality of the system. Developer TDD is simply called as TDD.  
+The main goal of ATDD and TDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. JIT means taking only those requirements in consideration that are needed in the system. So increase efficiency.  
+
+
+### Example of TDD in [defining a class](https://www.guru99.com/test-driven-development.html) `password`
+
+### Test stages
+1. Setup
+- Create sample data  
+- Decide on inputs  
+2. Execution  
+- Call the code  
+3. Assertions  
+- Confirm expected output  
+
+
+### TDD in practice
+[The site](http://sites.google.com/site/tddproblems/all-problems-1)offers a good variety of problems that are particularly suitable for resolution using the TDD approach.
+[Source](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
+
 
 ### Reference
 1. [Test-driven development might seem like twice the work](https://www.freecodecamp.org/news/isnt-tdd-test-driven-development-twice-the-work-why-should-you-care-4ddcabeb3df9/)
-2.
-3.
-
+2. [Introduction to TDD](http://agiledata.org/essays/tdd.html)
+3. [What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)
+4. What is TDD? [YouTube](https://www.youtube.com/watch?v=-7E00lFE89s)
+5. TDD and The Terminator [YouTube](https://www.youtube.com/watch?v=EcoIjf3RABI)
+6. [Test Driven Development: what it is, and what it is not.](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/)
