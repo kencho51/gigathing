@@ -219,6 +219,21 @@ $ psql
 postgres=# \l
 ```
 
+### Handling large databases
+Some operating systems have maximum file size limits that cause problems when creating large pg_dump output files. 
+Fortunately, pg_dump can write to the standard output, so you can use standard Unix tools to work around this potential problem.
+
+1.1 Use compressed dump  
+`pg_dump dbname | gzip > filename.gz`  
+1.2. Reload with  
+`gunzip -c filename.gz | psql dbname`
+or  
+`cat filename.gz | gunzip | psql dbname`  
+
+2.1 Use `splite`, split the output into smaller files that are acceptable in size to the underlying file system.  
+`pg_dump dbname | split -b 1m - filename`  
+2.2 Reload with  
+`cat filename* | psql dbname`  
 
 ### Reference
 1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
@@ -226,9 +241,9 @@ postgres=# \l
 3. [10 Command-line Utilities in PostgreSQL](https://www.datacamp.com/community/tutorials/10-command-line-utilities-postgresql)
 4. [cheatsheet](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546)
 5. [Postgres Guide](http://postgresguide.com/utilities/psql.html)
-6. [How to exort PostgreSQL Data to a CSV or Excel File](https://dataschool.com/learn-sql/how-to-
+6. [How to exort PostgreSQL Data to a CSV or Excel File](https://dataschool.com/learn-sql/how-to-export-data-to-csv-or-excel/)
 7. [PostgreSQL backup stratgy](https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/)
 8. [Cron task](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
 9. [How Do I Know if My PostgreSQL Backup is Good?](https://severalnines.com/database-blog/how-do-i-know-if-my-postgresql-backup-good)
-
-
+10. [Chapter 24. Backup and Restore](https://www.postgresql.org/docs/9.1/backup.html)
+11. [Automated Testing of PostgreSQL Backups](https://pgdash.io/blog/testing-postgres-backups.html)
