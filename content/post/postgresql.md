@@ -155,7 +155,69 @@ Each of the available pseudo-types is helpful in situations where a function's b
 `COPY albums TO '/Users/dave/Downloads/albums.csv' DELIMITER ',' CSV HEADER;`  
 4. Export the query to CSV with header   
 `\copy [Table/Query] to [Relative Path] csv header`
-4.
+
+### PostgreSQL backup
+1. One-time single database backup    
+`pg_dump` to back up a single database. It must be run as a user with read permissions to the database you intend to back up.
+1.1 Log in as `postgre` user  
+`su - postgres`  
+1.2 Dump the contents of a database to a file  
+`pg_dump dbname > dbname.bak`  
+1.3 Restore the database using `psql`  
+`psql newdb < dbname.bak`  
+
+2. Backup single database remotely  
+`pg_dump -h 198.51.100.0 -p 5432 dbname > dbname.bak`
+
+3. Backup all databases  
+`pg_dump`only creates a backup of one database at a time, it does not store information about database roles or other cluster-wide configuration.
+`pg_dumpall` can store information about database roles and other cluster-wide configuration.  
+3.1 Create backup file
+`pg_dumpall > pg_backup.bak`  
+3.2 Restore all databases from the backup  
+`psql -f pg_backup.bak psotgre`  
+
+### Automate backup with a cron task (say,  backed up at midnight every Sunday)
+1. Log is as the `postgre` user  
+`su - postgre`  
+2. Create a directory to store the automatic backups
+`mkdir -p /postgre/backups`  
+3. Edit the crontab to create a cron task
+`crontab -e`
+4. The cron task as 
+`0 0 * * 0 pg_dump -U postgres dbname > ~/postgres/backups/dbname.bak > /postgres/log/pg_dump.log`  
+
+### Database backup formats
+- *.bak: compressed binary format
+- *.sql: plaintext dump  
+- *.tar: tarball  
+
+### How to know if the PostgreSQL backup is good?
+A. Logical backup: The backup is stored in a human-readable format like SQL.  
+B. Physical backup: The backup contains binary data.  
+
+1. backup the database with logs
+`pg_dumpall > /path/to/dump.sql > postgres/log/pg_dump.log` 
+
+2. Then to verify the databse.bak is in the backup directory  
+```bash
+$ grep '^[\]connect' /path/to/dump.sql |awk '{print $2}'
+ 
+template1
+ 
+postgres
+ 
+world
+```  
+3. Finally, restore the backup and check manually, it is the most secure way to confirm  
+```bash
+# restore the backup
+$ psql -f /path/to/dump.sql postgres
+
+# access it and check it
+$ psql 
+postgres=# \l
+```
 
 
 ### Reference
@@ -164,4 +226,9 @@ Each of the available pseudo-types is helpful in situations where a function's b
 3. [10 Command-line Utilities in PostgreSQL](https://www.datacamp.com/community/tutorials/10-command-line-utilities-postgresql)
 4. [cheatsheet](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546)
 5. [Postgres Guide](http://postgresguide.com/utilities/psql.html)
-6. [How to exort PostgreSQL Data to a CSV or Excel File](https://dataschool.com/learn-sql/how-to-export-data-to-csv-or-excel/)
+6. [How to exort PostgreSQL Data to a CSV or Excel File](https://dataschool.com/learn-sql/how-to-
+7. [PostgreSQL backup stratgy](https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/)
+8. [Cron task](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
+9. [How Do I Know if My PostgreSQL Backup is Good?](https://severalnines.com/database-blog/how-do-i-know-if-my-postgresql-backup-good)
+
+
