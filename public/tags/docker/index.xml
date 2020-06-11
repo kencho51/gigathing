@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 08 Jun 2020 09:25:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 17:27:08 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker 101</title>
+      <link>https://kencho51.github.io/docker101/</link>
+      <pubDate>Thu, 11 Jun 2020 17:27:08 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/docker101/</guid>
+      <description>What is Docker? Reference  Docker Containers 101  </description>
+    </item>
     
     <item>
       <title>Learn, to-do and done 8-12/6/20</title>
@@ -18,7 +27,7 @@
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
       
       <guid>https://kencho51.github.io/jobs/8-6-20/</guid>
-      <description>Learn  Docker PostgreSQL OOP progress Yii1.1 framework  Todo  Issue #291 Issue #441    Done  Fixed issue #421 Fixed issue #441  Reference </description>
+      <description>Learn  Docker PostgreSQL OOP progress Yii1.1 framework  Todo  Issue #291     Problem  For Issue #291, the codes in local develop branch is huge different from that in production server, a cascade of changes will be needed. Yii1.1 blog update Home page from /site/index to /site/post in /layouts/main.php  Done  Fixed issue #421 Fixed issue #441  Reference </description>
     </item>
     
     <item>
