@@ -70,3 +70,6 @@ author = "Ken Cho"
 9.5 To delete branch in remote repo manually.  
 9.6 To clean up local branch after merging  
 `git fetch -p`
+
+### Reference
+1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
