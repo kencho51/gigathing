@@ -73,7 +73,31 @@ if (!doNotTrack) {
                     <ul class="site-nav">
                         
     <li class="site-nav-item">
+        <a title="About" href="/page/about/">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Contact" href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Post" href="/post">Post</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Projects" href="/projects/">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Reference" href="/reference">Reference</a>
+    </li>
+
+    <li class="site-nav-item">
         <a title="Getting Started with Hugo" href="/reference/hugoisforlovers/">Getting Started with Hugo</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Weekly Plan" href="/jobs">Weekly Plan</a>
     </li>
 
                     </ul>
@@ -338,8 +362,91 @@ Each of the available pseudo-types is helpful in situations where a function&rsq
 <code>COPY albums TO '/Users/dave/Downloads/albums.csv' DELIMITER ',' CSV HEADER;</code></li>
 <li>Export the query to CSV with header<br>
 <code>\copy [Table/Query] to [Relative Path] csv header</code></li>
-<li></li>
 </ol>
+<h3 id="postgresql-backup">PostgreSQL backup</h3>
+<ol>
+<li>
+<p>One-time single database backup <br>
+<code>pg_dump</code> to back up a single database. It must be run as a user with read permissions to the database you intend to back up.
+1.1 Log in as <code>postgre</code> user<br>
+<code>su - postgres</code><br>
+1.2 Dump the contents of a database to a file<br>
+<code>pg_dump dbname &gt; dbname.bak</code><br>
+1.3 Restore the database using <code>psql</code><br>
+<code>psql newdb &lt; dbname.bak</code></p>
+</li>
+<li>
+<p>Backup single database remotely<br>
+<code>pg_dump -h 198.51.100.0 -p 5432 dbname &gt; dbname.bak</code></p>
+</li>
+<li>
+<p>Backup all databases<br>
+<code>pg_dump</code>only creates a backup of one database at a time, it does not store information about database roles or other cluster-wide configuration.
+<code>pg_dumpall</code> can store information about database roles and other cluster-wide configuration.<br>
+3.1 Create backup file
+<code>pg_dumpall &gt; pg_backup.bak</code><br>
+3.2 Restore all databases from the backup<br>
+<code>psql -f pg_backup.bak psotgre</code></p>
+</li>
+</ol>
+<h3 id="automate-backup-with-a-cron-task-say--backed-up-at-midnight-every-sunday">Automate backup with a cron task (say,  backed up at midnight every Sunday)</h3>
+<ol>
+<li>Log is as the <code>postgre</code> user<br>
+<code>su - postgre</code></li>
+<li>Create a directory to store the automatic backups
+<code>mkdir -p /postgre/backups</code></li>
+<li>Edit the crontab to create a cron task
+<code>crontab -e</code></li>
+<li>The cron task as
+<code>0 0 * * 0 pg_dump -U postgres dbname &gt; ~/postgres/backups/dbname.bak &gt; /postgres/log/pg_dump.log</code></li>
+</ol>
+<h3 id="database-backup-formats">Database backup formats</h3>
+<ul>
+<li>*.bak: compressed binary format</li>
+<li>*.sql: plaintext dump</li>
+<li>*.tar: tarball</li>
+</ul>
+<h3 id="how-to-know-if-the-postgresql-backup-is-good">How to know if the PostgreSQL backup is good?</h3>
+<p>A. Logical backup: The backup is stored in a human-readable format like SQL.<br>
+B. Physical backup: The backup contains binary data.</p>
+<ol>
+<li>
+<p>backup the database with logs
+<code>pg_dumpall &gt; /path/to/dump.sql &gt; postgres/log/pg_dump.log</code></p>
+</li>
+<li>
+<p>Then to verify the databse.bak is in the backup directory</p>
+</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ grep <span class="s1">&#39;^[\]connect&#39;</span> /path/to/dump.sql <span class="p">|</span>awk <span class="s1">&#39;{print $2}&#39;</span>
+ 
+template1
+ 
+postgres
+ 
+world
+</code></pre></div><ol start="3">
+<li>Finally, restore the backup and check manually, it is the most secure way to confirm</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># restore the backup</span>
+$ psql -f /path/to/dump.sql postgres
+
+<span class="c1"># access it and check it</span>
+$ psql 
+<span class="nv">postgres</span><span class="o">=</span><span class="c1"># \l</span>
+</code></pre></div><h3 id="handling-large-databases">Handling large databases</h3>
+<p>Some operating systems have maximum file size limits that cause problems when creating large pg_dump output files.
+Fortunately, pg_dump can write to the standard output, so you can use standard Unix tools to work around this potential problem.</p>
+<p>1.1 Use compressed dump<br>
+<code>pg_dump dbname | gzip &gt; filename.gz</code><br>
+1.2. Reload with<br>
+<code>gunzip -c filename.gz | psql dbname</code>
+or<br>
+<code>cat filename.gz | gunzip | psql dbname</code></p>
+<p>2.1 Use <code>splite</code>, split the output into smaller files that are acceptable in size to the underlying file system.<br>
+<code>pg_dump dbname | split -b 1m - filename</code><br>
+2.2 Reload with<br>
+<code>cat filename* | psql dbname</code></p>
 <h3 id="reference">Reference</h3>
 <ol>
 <li><a href="https://www.guru99.com/introduction-postgresql.html">Introduction to PostgreSQL</a></li>
@@ -348,6 +455,11 @@ Each of the available pseudo-types is helpful in situations where a function&rsq
 <li><a href="https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546">cheatsheet</a></li>
 <li><a href="http://postgresguide.com/utilities/psql.html">Postgres Guide</a></li>
 <li><a href="https://dataschool.com/learn-sql/how-to-export-data-to-csv-or-excel/">How to exort PostgreSQL Data to a CSV or Excel File</a></li>
+<li><a href="https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/">PostgreSQL backup stratgy</a></li>
+<li><a href="https://www.geeksforgeeks.org/crontab-in-linux-with-examples/">Cron task</a></li>
+<li><a href="https://severalnines.com/database-blog/how-do-i-know-if-my-postgresql-backup-good">How Do I Know if My PostgreSQL Backup is Good?</a></li>
+<li><a href="https://www.postgresql.org/docs/9.1/backup.html">Chapter 24. Backup and Restore</a></li>
+<li><a href="https://pgdash.io/blog/testing-postgres-backups.html">Automated Testing of PostgreSQL Backups</a></li>
 </ol>
 
 </div>
