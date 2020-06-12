@@ -24,7 +24,8 @@ author = "Ken Cho"
 `docker run busybox echo "hello from busybox`   
 4. show running containers  
 `docker ps`  
-`docker ps -a`  
+`docker ps -a` 
+`docker container ls`   
 5. go into a docker container  
 `docker run -it busybox sh`  
 >>Since Docker creates a new container every time, everything will be rebuilt again in each instance.
@@ -36,6 +37,17 @@ author = "Ken Cho"
 `docker container prune` can be used to remove all the stopped containers. 
 7. to delete docker images  
 `docker rmi`   
+8. Build a container from an image and remove it when it exits.  
+`docker run --rm image`  
+`docker run -d -P --name xxx image`  
+`-d`: will detach terminal  
+`-p`: publish all exposed port to random ports  
+`--name`: container name we want to give   
+9. Check the ports, then open `http://localhost:port` in browser.  
+`docker port xxx`  
+10. to stop a detached container  
+`docker stop xxx`  
+
 
 ### Terminology
 - `Images`: the blueprints form the basis of containers.  
@@ -44,7 +56,17 @@ author = "Ken Cho"
 - `Docker Client`: The command line tool that allows the user to interact with the daemon.  
 - `Docker Hub`: A registry of docker images.  
 
+### Docker Images
+Docker images are the basis of containers. To see the list of images that are available locally, use the `docker images` command.
 
+### How to build an image
+1. `git clone` [dokcer repo](https://github.com/prakhar1989/docker-curriculum)  
+2. `cd docker-curriculum/flask-app`  
+3. make `Dockerfile`: a simple text file that contains a list of commands that the Docker client calls while creating an image.
+4. create docker image from a `Dockerfile`  
+`docker build -t test/flask . `
+`-t`: optional tag name  
+5. run the image  
 ### Reference
 1. [Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
 2. [Docker curriculum](https://docker-curriculum.com/)
