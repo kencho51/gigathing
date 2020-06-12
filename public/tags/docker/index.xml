@@ -18,7 +18,9 @@
       <pubDate>Thu, 11 Jun 2020 17:27:08 +0800</pubDate>
       
       <guid>https://kencho51.github.io/docker101/</guid>
-      <description>What is Docker? Reference  Docker Containers 101  </description>
+      <description>What is Docker?  In simpler words, Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux.
+  The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development.
+  Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.</description>
     </item>
     
     <item>
