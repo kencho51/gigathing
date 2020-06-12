@@ -15,6 +15,13 @@ author = "Ken Cho"
 
 >Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.
 
+![img](/image/docker_os.jpeg)
+>Docker runs containers, which use the same host operating system, and only virtualize at a software level.
+
+>Docker Engine runs on Linux, Windows, and macOS, and supports Linux and Windows for Docker containers.
+
+![imag](/image/docker_flow.jpeg)
+
 ### Playing with Docker
 1. `pull` the image from docker registry  
 `docker pull busybox`  
@@ -67,6 +74,18 @@ Docker images are the basis of containers. To see the list of images that are av
 `docker build -t test/flask . `
 `-t`: optional tag name  
 5. run the image  
+
+
+
+
+
+
 ### Reference
 1. [Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
 2. [Docker curriculum](https://docker-curriculum.com/)
+3. [How to write a docker file](https://semaphoreci.com/blog/docker-benefits)
+4. [Doker for beginners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md)
+5. [What does Docker do, and when should you use it?](https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/)
+6. [Getting Started with Docker for Developers](https://dev.to/pavanbelagatti/getting-started-with-docker-for-developers-3apo)
+
+
