@@ -145,9 +145,92 @@ if (!doNotTrack) {
     
 
     <h3 id="what-is-docker">What is Docker?</h3>
+<p><img src="/image/docker_beginner.webp" alt="img"></p>
+<blockquote>
+<p>In simpler words, Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux.</p>
+</blockquote>
+<blockquote>
+<p>The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development.</p>
+</blockquote>
+<blockquote>
+<p>Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.</p>
+</blockquote>
+<p><img src="/image/docker_os.jpeg" alt="img"></p>
+<blockquote>
+<p>Docker runs containers, which use the same host operating system, and only virtualize at a software level.</p>
+</blockquote>
+<blockquote>
+<p>Docker Engine runs on Linux, Windows, and macOS, and supports Linux and Windows for Docker containers.</p>
+</blockquote>
+<p><img src="/image/docker_flow.jpeg" alt="imag"></p>
+<h3 id="playing-with-docker">Playing with Docker</h3>
+<ol>
+<li><code>pull</code> the image from docker registry<br>
+<code>docker pull busybox</code></li>
+<li>list images<br>
+<code>docker images</code></li>
+<li>run a docker container based on <code>busybox</code> image<br>
+<code>docker run busybox echo &quot;hello from busybox</code></li>
+<li>show running containers<br>
+<code>docker ps</code><br>
+<code>docker ps -a</code>
+<code>docker container ls</code></li>
+<li>go into a docker container<br>
+<code>docker run -it busybox sh</code></li>
+</ol>
+<blockquote>
+<blockquote>
+<p>Since Docker creates a new container every time, everything will be rebuilt again in each instance.</p>
+</blockquote>
+</blockquote>
+<ol start="6">
+<li><code>docker run</code> multiple times and leaving stray containers will eat up disk space. <code>docker rm</code> to clean up containers.<br>
+<code>docker rm contain-ID</code><br>
+<code>docker rm $(docker ps -a -q -f status=exited)</code><br>
+-q: return numeric ID<br>
+-f: filters output based on conditions provided<br>
+<code>docker container prune</code> can be used to remove all the stopped containers.</li>
+<li>to delete docker images<br>
+<code>docker rmi</code></li>
+<li>Build a container from an image and remove it when it exits.<br>
+<code>docker run --rm image</code><br>
+<code>docker run -d -P --name xxx image</code><br>
+<code>-d</code>: will detach terminal<br>
+<code>-p</code>: publish all exposed port to random ports<br>
+<code>--name</code>: container name we want to give</li>
+<li>Check the ports, then open <code>http://localhost:port</code> in browser.<br>
+<code>docker port xxx</code></li>
+<li>to stop a detached container<br>
+<code>docker stop xxx</code></li>
+</ol>
+<h3 id="terminology">Terminology</h3>
+<ul>
+<li><code>Images</code>: the blueprints form the basis of containers.</li>
+<li><code>Containers</code>: created from docker images and run the actual application.</li>
+<li><code>Docker Daemon</code>: the background service running on the host that manage building, running and distributing docker containers.</li>
+<li><code>Docker Client</code>: The command line tool that allows the user to interact with the daemon.</li>
+<li><code>Docker Hub</code>: A registry of docker images.</li>
+</ul>
+<h3 id="docker-images">Docker Images</h3>
+<p>Docker images are the basis of containers. To see the list of images that are available locally, use the <code>docker images</code> command.</p>
+<h3 id="how-to-build-an-image">How to build an image</h3>
+<ol>
+<li><code>git clone</code> <a href="https://github.com/prakhar1989/docker-curriculum">dokcer repo</a></li>
+<li><code>cd docker-curriculum/flask-app</code></li>
+<li>make <code>Dockerfile</code>: a simple text file that contains a list of commands that the Docker client calls while creating an image.</li>
+<li>create docker image from a <code>Dockerfile</code><br>
+<code>docker build -t test/flask . </code>
+<code>-t</code>: optional tag name</li>
+<li>run the image</li>
+</ol>
 <h3 id="reference">Reference</h3>
 <ol>
 <li><a href="https://www.youtube.com/watch?v=eGz9DS-aIeY">Docker Containers 101</a></li>
+<li><a href="https://docker-curriculum.com/">Docker curriculum</a></li>
+<li><a href="https://semaphoreci.com/blog/docker-benefits">How to write a docker file</a></li>
+<li><a href="https://github.com/groda/big_data/blob/master/docker_for_beginners.md">Doker for beginners</a></li>
+<li><a href="https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/">What does Docker do, and when should you use it?</a></li>
+<li><a href="https://dev.to/pavanbelagatti/getting-started-with-docker-for-developers-3apo">Getting Started with Docker for Developers</a></li>
 </ol>
 
 </div>
@@ -194,6 +277,14 @@ if (!doNotTrack) {
         
     </article>
 </div>
+
+<script src="https://utteranc.es/client.js"
+        repo="kencho51/comments_for_hugo"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
             </div>
         </div>
