@@ -1,5 +1,5 @@
 +++
-description = "Steps to add Utterances in Hugo blog"
+description = "Steps to add Utterances to Hugo blog"
 title = "How to add a comment functionality using uterances"
 date = 2020-06-15T11:25:56+08:00
 tags = ["Uterances", "Hugo"]
