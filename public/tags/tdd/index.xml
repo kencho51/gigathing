@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 10 Jun 2020 14:28:31 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 09:56:41 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn, to-do and done 15-19/6/20</title>
+      <link>https://kencho51.github.io/jobs/15-6-20/</link>
+      <pubDate>Mon, 15 Jun 2020 09:56:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/jobs/15-6-20/</guid>
+      <description>Learn  Docker TDD PHP standard PHPUnit Codeception Yii1.1 and Yii2  Todo  Issue #423 Issue #440 Issure $425  Problem Done  Created PR for issue #291  Reference </description>
+    </item>
     
     <item>
       <title>What is Tdd?</title>
