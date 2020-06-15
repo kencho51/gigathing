@@ -10,6 +10,7 @@ author = "Ken Cho"
 - A lightweight comments widget built on GitHub issues. 
 - Use GitHub issues for blog comments.
 - Open source.
+- Allow Markdown syntax.
 
 ### Configuration
 1. Create an empty Github repo.  
