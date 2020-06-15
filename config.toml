@@ -30,6 +30,7 @@ issueTerm = "pathname"
 theme = "github-light"
 
 
+
 [Permalinks]
    post = "/:filename/"
    projects = "/:filename/"
