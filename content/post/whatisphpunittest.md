@@ -35,7 +35,25 @@ Just asserting that something match the expected value or does something you wan
 `./vendor/bin/phpunit`  
 
 
+### [`doc block`](https://phpunit.readthedocs.io/en/7.3/annotations.html)
+As an alternative to prefixing your test method names with `test`, you can use the `@test` annotation in a method’s DocBlock to mark it as a test method.
+```php
+/**
+ * @test
+ */
+public function initialBalanceShouldBe0()
+{
+    $this->assertSame(0, $this->ba->getBalance());
+}
+```
+
+
+
 ### Reference
 1. Unit testing with PHPUnit, [Youtube](https://www.youtube.com/watch?v=k9ak_rv9X0Y)
 2. [PHPUnit Beginner](https://www.startutorial.com/articles/view/phpunit-beginner-part-1-get-started)
 3. [PHPunit docs](https://phpunit.readthedocs.io/en/9.2/installation.html)
+4. [w3 PHPUnit tutorial](https://www.w3resource.com/php/PHPUnit/a-gentle-introduction-to-unit-test-and-testing.php)
+5. [Interpreting PHPUnit output](https://stackoverflow.com/questions/18142699/interpreting-php-unit-output)
+6. [PHPUnit Tutorial notes](https://unityconstruct.org/uc/phpunit)
+7. [PHP Documentation](https://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html)
