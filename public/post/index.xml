@@ -33,7 +33,8 @@
       <guid>https://kencho51.github.io/whatisphpunittest/</guid>
       <description>What is PHPUnit? The goal of unit testing is
  to isolate each part of the programme and show that the individual parts are correct.
- Reference  Unit testing with PHPUnit, Youtube PHPUnit Beginner  </description>
+ What does Assertions mean? Just asserting that something match the expected value or does something you wanted to do.
+Whats the flow of running phpunit?  Install the PHPUnit Configure the phpunit.xml  &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34; ?&amp;gt; &amp;lt;phpunit bootstrap=&amp;#34;vendor/autoload.php&amp;#34; colors=&amp;#34;true&amp;#34; verbose=&amp;#34;true&amp;#34; stopOnFailure=&amp;#34;false&amp;#34;&amp;gt; &amp;lt;testsuites&amp;gt; &amp;lt;testsuite name=&amp;#34;unit&amp;#34;&amp;gt; &amp;lt;directory&amp;gt;tests/unit&amp;lt;/directory&amp;gt; &amp;lt;/testsuite&amp;gt; &amp;lt;/testsuites&amp;gt; &amp;lt;/phpunit&amp;gt; Create app, app/Modelsand tests/unit folders Build codes bite by bite, and then run phpunit</description>
     </item>
     
     <item>
