@@ -125,10 +125,47 @@ if (!doNotTrack) {
 <blockquote>
 <p><code>to isolate each part of the programme and show that the individual parts are correct</code>.</p>
 </blockquote>
-<h3 id="reference">Reference</h3>
+<h1 id="what-does-assertions-mean">What does <code>Assertions</code> mean?</h1>
+<p>Just asserting that something match the expected value or does something you wanted to do.</p>
+<h1 id="whats-the-flow-of-running-phpunit">Whats the flow of running <code>phpunit</code>?</h1>
+<ol>
+<li>Install the <a href="https://phpunit.readthedocs.io/en/9.2/installation.html">PHPUnit</a></li>
+<li>Configure the <code>phpunit.xml</code></li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; ?&gt;</span>
+<span class="nt">&lt;phpunit</span> <span class="na">bootstrap=</span><span class="s">&#34;vendor/autoload.php&#34;</span>
+         <span class="na">colors=</span><span class="s">&#34;true&#34;</span>
+         <span class="na">verbose=</span><span class="s">&#34;true&#34;</span>
+         <span class="na">stopOnFailure=</span><span class="s">&#34;false&#34;</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;testsuites&gt;</span>
+         <span class="nt">&lt;testsuite</span> <span class="na">name=</span><span class="s">&#34;unit&#34;</span><span class="nt">&gt;</span>
+             <span class="nt">&lt;directory&gt;</span>tests/unit<span class="nt">&lt;/directory&gt;</span>
+         <span class="nt">&lt;/testsuite&gt;</span>
+     <span class="nt">&lt;/testsuites&gt;</span>
+<span class="nt">&lt;/phpunit&gt;</span>
+</code></pre></div><ol start="3">
+<li>Create <code>app</code>, <code>app/Models</code>and <code>tests/unit</code> folders</li>
+<li>Build codes bite by bite, and then run phpunit<br>
+<code>./vendor/bin/phpunit</code></li>
+</ol>
+<h3 id="doc-blockhttpsphpunitreadthedocsioen73annotationshtml"><a href="https://phpunit.readthedocs.io/en/7.3/annotations.html"><code>doc block</code></a></h3>
+<p>As an alternative to prefixing your test method names with <code>test</code>, you can use the <code>@test</code> annotation in a method’s DocBlock to mark it as a test method.</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">/**
+ * @test
+ */
+public function initialBalanceShouldBe0()
+{
+    $this-&gt;assertSame(0, $this-&gt;ba-&gt;getBalance());
+}
+</code></pre></div><h3 id="reference">Reference</h3>
 <ol>
 <li>Unit testing with PHPUnit, <a href="https://www.youtube.com/watch?v=k9ak_rv9X0Y">Youtube</a></li>
 <li><a href="https://www.startutorial.com/articles/view/phpunit-beginner-part-1-get-started">PHPUnit Beginner</a></li>
+<li><a href="https://phpunit.readthedocs.io/en/9.2/installation.html">PHPunit docs</a></li>
+<li><a href="https://www.w3resource.com/php/PHPUnit/a-gentle-introduction-to-unit-test-and-testing.php">w3 PHPUnit tutorial</a></li>
+<li><a href="https://stackoverflow.com/questions/18142699/interpreting-php-unit-output">Interpreting PHPUnit output</a></li>
+<li><a href="https://unityconstruct.org/uc/phpunit">PHPUnit Tutorial notes</a></li>
+<li><a href="https://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html">PHP Documentation</a></li>
 </ol>
 
 </div>
