@@ -50,6 +50,48 @@ public function initialBalanceShouldBe0()
  
 ### Why need namespace? 
 Namespaces are basically a way of organizing your PHP classes and preventing from any kind of code conflicts.
+Namespaces allows us to use the same class names and differentiating them by their namespaces.
+
+First Ninja class
+```php
+<?php 
+
+namespace Dojo;
+
+class Ninja
+{
+
+}
+```
+
+Second Ninja class
+```php
+<?php 
+
+namespace Training;
+
+class Ninja
+{
+
+}
+```
+
+To Include both Ninja classes
+```php
+<?php
+
+// require both of our ninja classes
+require "Dojo/Ninja.php";
+require "Training/Ninja.php";
+
+// create a new Ninja in the Dojo namespace
+$ninja1 = new Dojo\Ninja();
+
+// create a new Ninja in the Training namespace
+$ninja2 = new Training\Ninja();
+```
+
+
 
 
 ### Reference
