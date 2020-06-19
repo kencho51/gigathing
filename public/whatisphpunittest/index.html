@@ -157,6 +157,40 @@ public function initialBalanceShouldBe0()
 {
     $this-&gt;assertSame(0, $this-&gt;ba-&gt;getBalance());
 }
+</code></pre></div><h3 id="what-are-the-assertion-methods-linkhttpsphpunitdemanual65enappendixesassertionshtml">What are the Assertion methods, <a href="https://phpunit.de/manual/6.5/en/appendixes.assertions.html">link</a></h3>
+<h3 id="why-need-namespace">Why need namespace?</h3>
+<p>Namespaces are basically a way of organizing your PHP classes and preventing from any kind of code conflicts.
+Namespaces allows us to use the same class names and differentiating them by their namespaces.</p>
+<p>First Ninja class</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> 
+
+<span class="k">namespace</span> <span class="nx">Dojo</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">Ninja</span>
+<span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div><p>Second Ninja class</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> 
+
+<span class="k">namespace</span> <span class="nx">Training</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">Ninja</span>
+<span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div><p>To Include both Ninja classes</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+
+<span class="c1">// require both of our ninja classes
+</span><span class="c1"></span><span class="k">require</span> <span class="s2">&#34;Dojo/Ninja.php&#34;</span><span class="p">;</span>
+<span class="k">require</span> <span class="s2">&#34;Training/Ninja.php&#34;</span><span class="p">;</span>
+
+<span class="c1">// create a new Ninja in the Dojo namespace
+</span><span class="c1"></span><span class="nv">$ninja1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Dojo\Ninja</span><span class="p">();</span>
+
+<span class="c1">// create a new Ninja in the Training namespace
+</span><span class="c1"></span><span class="nv">$ninja2</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Training\Ninja</span><span class="p">();</span>
 </code></pre></div><h3 id="reference">Reference</h3>
 <ol>
 <li>Unit testing with PHPUnit, <a href="https://www.youtube.com/watch?v=k9ak_rv9X0Y">Youtube</a></li>
