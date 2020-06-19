@@ -46,7 +46,10 @@ public function initialBalanceShouldBe0()
     $this->assertSame(0, $this->ba->getBalance());
 }
 ```
-
+### What are the Assertion methods, [link](https://phpunit.de/manual/6.5/en/appendixes.assertions.html)
+ 
+### Why need namespace? 
+Namespaces are basically a way of organizing your PHP classes and preventing from any kind of code conflicts.
 
 
 ### Reference
