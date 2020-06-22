@@ -34,6 +34,23 @@ Just asserting that something match the expected value or does something you wan
 4. Build codes bite by bite, and then run phpunit  
 `./vendor/bin/phpunit`  
 
+### File name and the class name must be the same!
+For example, `UserTest.php`  
+```php
+<?php
+
+use PHPUnit\Framework\TestCase;
+
+class UserTest extends TestCase
+{
+    public function testThatWeCanGetTheFirstName()
+        {
+            //       
+        }
+
+}
+```
+
 
 ### [`doc block`](https://phpunit.readthedocs.io/en/7.3/annotations.html)
 As an alternative to prefixing your test method names with `test`, you can use the `@test` annotation in a method’s DocBlock to mark it as a test method.
