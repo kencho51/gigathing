@@ -73,31 +73,7 @@ if (!doNotTrack) {
                     <ul class="site-nav">
                         
     <li class="site-nav-item">
-        <a title="About" href="/page/about/">About</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Contact" href="/page/contact/">Contact</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Post" href="/post">Post</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Projects" href="/projects/">Projects</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Reference" href="/reference">Reference</a>
-    </li>
-
-    <li class="site-nav-item">
         <a title="Getting Started with Hugo" href="/reference/hugoisforlovers/">Getting Started with Hugo</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a title="Weekly Plan" href="/jobs">Weekly Plan</a>
     </li>
 
                     </ul>
@@ -172,7 +148,21 @@ if (!doNotTrack) {
 <li>Build codes bite by bite, and then run phpunit<br>
 <code>./vendor/bin/phpunit</code></li>
 </ol>
-<h3 id="doc-blockhttpsphpunitreadthedocsioen73annotationshtml"><a href="https://phpunit.readthedocs.io/en/7.3/annotations.html"><code>doc block</code></a></h3>
+<h3 id="file-name-and-the-class-name-must-be-the-same">File name and the class name must be the same!</h3>
+<p>For example, <code>UserTest.php</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+
+<span class="k">use</span> <span class="nx">PHPUnit\Framework\TestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">UserTest</span> <span class="k">extends</span> <span class="nx">TestCase</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testThatWeCanGetTheFirstName</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="c1">//       
+</span><span class="c1"></span>        <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div><h3 id="doc-blockhttpsphpunitreadthedocsioen73annotationshtml"><a href="https://phpunit.readthedocs.io/en/7.3/annotations.html"><code>doc block</code></a></h3>
 <p>As an alternative to prefixing your test method names with <code>test</code>, you can use the <code>@test</code> annotation in a method’s DocBlock to mark it as a test method.</p>
 <div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">/**
  * @test
