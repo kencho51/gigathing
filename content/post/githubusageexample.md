@@ -57,6 +57,12 @@ author = "Ken Cho"
 `git merge upstream/develop` to get the updates from develop fork to local  
 `git push` to update the remote repo  
 
+#### Ways to merge remote and local branch
+1. `git cherry-pick`  
+2. `git rebase`  
+3. `git pull` is essentially shorthand for `git fetch` followed by `git merge`  
+4. `git pull --rebase` is shorthand for a fetch and a rebase  
+
 ### 9. How to delete a branch after the issue has been fixed
    
 9.1 To list all the branch.  
@@ -69,7 +75,7 @@ author = "Ken Cho"
 `git push --force`  
 9.5 To delete branch in remote repo manually.  
 9.6 To clean up local branch after merging  
-`git fetch -p`
+`git fetch -p`  
 
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
