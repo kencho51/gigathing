@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 22 Jun 2020 09:28:30 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 13:41:41 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Codeception</title>
+      <link>https://kencho51.github.io/tags/codeception/</link>
+      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/codeception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional test</title>
+      <link>https://kencho51.github.io/tags/functional-test/</link>
+      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/functional-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://kencho51.github.io/tags/php/</link>
+      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/php/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>docker</title>
@@ -36,15 +63,6 @@
       <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/yii/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php</title>
-      <link>https://kencho51.github.io/tags/php/</link>
-      <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/php/</guid>
       <description></description>
     </item>
     
