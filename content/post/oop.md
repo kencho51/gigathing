@@ -369,6 +369,7 @@ $admin->banMember( $member );
 ?>
 ```
 
+### Abstract class and methods
 
 
 
