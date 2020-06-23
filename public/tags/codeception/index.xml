@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codeception on kencho51</title>
+    <link>https://kencho51.github.io/tags/codeception/</link>
+    <description>Recent content in Codeception on kencho51</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>kencho51</copyright>
+    <lastBuildDate>Tue, 23 Jun 2020 13:41:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://kencho51.github.io/tags/codeception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codeception</title>
+      <link>https://kencho51.github.io/whatiscodeception/</link>
+      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/whatiscodeception/</guid>
+      <description>What is Codeception?  Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.
+  It can manage Unit, Functional and Acceptance for web application.
+ Unit Test Testing pieces of code before coupling them together.
+Acceptance Test  Acceptance testing allows us to test our applications using the normal website viewing process of visit a webpage, fill in a form, and submit the form to see the desired result.</description>
+    </item>
+    
+  </channel>
+</rss>
