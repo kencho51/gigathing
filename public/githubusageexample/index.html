@@ -155,6 +155,13 @@ if (!doNotTrack) {
 <code>git fetch upstream</code> to see any updates from the develop fork<br>
 <code>git merge upstream/develop</code> to get the updates from develop fork to local<br>
 <code>git push</code> to update the remote repo</p>
+<h4 id="ways-to-merge-remote-and-local-branch">Ways to merge remote and local branch</h4>
+<ol>
+<li><code>git cherry-pick</code></li>
+<li><code>git rebase</code></li>
+<li><code>git pull</code> is essentially shorthand for <code>git fetch</code> followed by <code>git merge</code></li>
+<li><code>git pull --rebase</code> is shorthand for a fetch and a rebase</li>
+</ol>
 <h3 id="9-how-to-delete-a-branch-after-the-issue-has-been-fixed">9. How to delete a branch after the issue has been fixed</h3>
 <p>9.1 To list all the branch.<br>
 <code>git branch --list</code><br>
