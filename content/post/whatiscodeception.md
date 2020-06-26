@@ -48,3 +48,4 @@ See the full list of the tests (unit, acceptance and functional):
 2. [Codeception Quickstart](https://codeception.com/quickstart)
 3. Introduction to Codeception, [medium](https://medium.com/tech-tajawal/introduction-to-codeception-e18503136ba8)
 4. [Codeception support in PhpStorm](https://www.youtube.com/watch?v=B3PE7w-jvjQ)
+5. [PHPBrowser Installation](https://codeception.com/docs/modules/PhpBrowser)
