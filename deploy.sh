@@ -5,22 +5,22 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-printf "Build the project."
+printf "Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 hugo -t ghostwriter
 
-printf "Go To Public folder"
+printf "Go To Public folder\n"
 cd public
 
-printf "Add changes to git."
+printf "Add changes to git.\n"
 git add .
 
-print "Commit changes."
+printf "Commit changes.\n"
 msg="Rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
 git commit -m "$msg"
 
-printf "Push source and build repos."
+printf "Push source and build repos.\n"
 git push origin master
