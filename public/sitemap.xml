@@ -3,12 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kencho51.github.io/tags/date/</loc>
-    <lastmod>2020-07-03T12:03:08+08:00</lastmod>
+    <loc>https://kencho51.github.io/tags/aws/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/awscloud2020/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/cloud-practitioner/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kencho51.github.io/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/projects/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/</loc>
+    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/functional/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/functional-test/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/jobs/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/jobs/6-7-20/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/unit/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/unit-test/</loc>
+    <lastmod>2020-07-06T10:38:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/date/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url>
   
@@ -28,11 +83,6 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/tags/</loc>
-    <lastmod>2020-07-03T12:03:08+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kencho51.github.io/tags/time/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url>
@@ -43,32 +93,12 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/tags/functional/</loc>
-    <lastmod>2020-06-29T09:55:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kencho51.github.io/jobs/</loc>
-    <lastmod>2020-06-29T09:55:10+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kencho51.github.io/jobs/29-6-20/</loc>
     <lastmod>2020-06-29T09:55:10+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/tags/unit/</loc>
-    <lastmod>2020-06-29T09:55:10+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kencho51.github.io/whatiscodeception/</loc>
-    <lastmod>2020-06-23T13:41:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kencho51.github.io/tags/functional-test/</loc>
     <lastmod>2020-06-23T13:41:41+08:00</lastmod>
   </url>
   
@@ -119,11 +149,6 @@
   
   <url>
     <loc>https://kencho51.github.io/tags/hugo/</loc>
-    <lastmod>2020-06-15T11:25:56+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kencho51.github.io/projects/</loc>
     <lastmod>2020-06-15T11:25:56+08:00</lastmod>
   </url>
   

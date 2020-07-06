@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Fri, 03 Jul 2020 12:03:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 17:04:35 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS</title>
+      <link>https://kencho51.github.io/tags/aws/</link>
+      <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Practitioner</title>
+      <link>https://kencho51.github.io/tags/cloud-practitioner/</link>
+      <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/cloud-practitioner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional</title>
+      <link>https://kencho51.github.io/tags/functional/</link>
+      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional test</title>
+      <link>https://kencho51.github.io/tags/functional-test/</link>
+      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/functional-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit</title>
+      <link>https://kencho51.github.io/tags/unit/</link>
+      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/unit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit test</title>
+      <link>https://kencho51.github.io/tags/unit-test/</link>
+      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/unit-test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>date</title>
@@ -45,33 +99,6 @@
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/codeception/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional</title>
-      <link>https://kencho51.github.io/tags/functional/</link>
-      <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/functional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unit</title>
-      <link>https://kencho51.github.io/tags/unit/</link>
-      <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/unit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>functional test</title>
-      <link>https://kencho51.github.io/tags/functional-test/</link>
-      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/functional-test/</guid>
       <description></description>
     </item>
     
