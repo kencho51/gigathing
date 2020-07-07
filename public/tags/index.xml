@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 06 Jul 2020 17:04:35 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 14:28:56 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>php</title>
+      <link>https://kencho51.github.io/tags/php/</link>
+      <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP_CodeSniffer</title>
+      <link>https://kencho51.github.io/tags/php_codesniffer/</link>
+      <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/php_codesniffer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AWS</title>
@@ -72,15 +90,6 @@
       <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/date/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php</title>
-      <link>https://kencho51.github.io/tags/php/</link>
-      <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/php/</guid>
       <description></description>
     </item>
     
