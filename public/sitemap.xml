@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kencho51.github.io/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/php/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/php_codesniffer/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/phpcodesniffer/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/post/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kencho51.github.io/tags/</loc>
+    <lastmod>2020-07-07T14:28:56+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kencho51.github.io/tags/aws/</loc>
     <lastmod>2020-07-06T17:04:35+08:00</lastmod>
   </url>
@@ -18,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/</loc>
-    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kencho51.github.io/projects/</loc>
-    <lastmod>2020-07-06T17:04:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kencho51.github.io/tags/</loc>
     <lastmod>2020-07-06T17:04:35+08:00</lastmod>
   </url>
   
@@ -68,17 +88,7 @@
   </url>
   
   <url>
-    <loc>https://kencho51.github.io/tags/php/</loc>
-    <lastmod>2020-07-03T12:03:08+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kencho51.github.io/phpdatetimes/</loc>
-    <lastmod>2020-07-03T12:03:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kencho51.github.io/post/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url>
   
