@@ -108,6 +108,10 @@ $ninja1 = new Dojo\Ninja();
 $ninja2 = new Training\Ninja();
 ```
 
+### What is Code Coverage Analysis?
+>In computer science, code coverage is a measure used to describe the degree to which the source code of a program is tested by a particular test suite.  
+>A program with high code coverage has been more thoroughly tested and has a lower chance of containing software bugs than a program with low code coverage.  
+
 
 
 
