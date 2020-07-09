@@ -15,8 +15,16 @@ author = "Ken Cho"
 
 ![img](/image/tests.png)
 
-### Unit Test
+### How to create a Unit Test?
 Testing pieces of code before coupling them together.
+
+It creates a new ExampleTest file located in the tests/unit directory.  
+`php vendor/bin/codecept generate:test unit Example`  
+ 
+Run the newly created test with this command.
+`php vendor/bin/codecept run unit ExampleTest`  
+
+
 
 ### Acceptance Test
 >Acceptance testing allows us to test our applications using the normal website viewing process of visit a webpage, fill in a form, and submit the form to see the desired result.
