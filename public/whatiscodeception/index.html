@@ -128,8 +128,12 @@ if (!doNotTrack) {
 <p>It can manage Unit, Functional and Acceptance for web application.</p>
 </blockquote>
 <p><img src="/image/tests.png" alt="img"></p>
-<h3 id="unit-test">Unit Test</h3>
+<h3 id="how-to-create-a-unit-test">How to create a Unit Test?</h3>
 <p>Testing pieces of code before coupling them together.</p>
+<p>It creates a new ExampleTest file located in the tests/unit directory.<br>
+<code>php vendor/bin/codecept generate:test unit Example</code></p>
+<p>Run the newly created test with this command.
+<code>php vendor/bin/codecept run unit ExampleTest</code></p>
 <h3 id="acceptance-test">Acceptance Test</h3>
 <blockquote>
 <p>Acceptance testing allows us to test our applications using the normal website viewing process of visit a webpage, fill in a form, and submit the form to see the desired result.</p>
