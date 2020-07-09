@@ -56,8 +56,10 @@ vendor/bin/phpcs --standard=PEAR /path/to/code/myfile.php
       <guid>https://kencho51.github.io/whatiscodeception/</guid>
       <description>What is Codeception?  Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.
   It can manage Unit, Functional and Acceptance for web application.
- Unit Test Testing pieces of code before coupling them together.
-Acceptance Test  Acceptance testing allows us to test our applications using the normal website viewing process of visit a webpage, fill in a form, and submit the form to see the desired result.</description>
+ How to create a Unit Test? Testing pieces of code before coupling them together.
+It creates a new ExampleTest file located in the tests/unit directory.
+php vendor/bin/codecept generate:test unit Example
+Run the newly created test with this command.</description>
     </item>
     
     <item>
