@@ -91,4 +91,4 @@ Docker images are the basis of containers. To see the list of images that are av
 5. [What does Docker do, and when should you use it?](https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/)
 6. [Getting Started with Docker for Developers](https://dev.to/pavanbelagatti/getting-started-with-docker-for-developers-3apo)
 7. [How to remove docker images, containers and volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
-
+8. [How remove Docker Images, Containers and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
