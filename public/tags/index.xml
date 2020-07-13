@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 14:28:56 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 10:23:57 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BDD</title>
+      <link>https://kencho51.github.io/tags/bdd/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/bdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behat</title>
+      <link>https://kencho51.github.io/tags/behat/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/behat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional</title>
+      <link>https://kencho51.github.io/tags/functional/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional test</title>
+      <link>https://kencho51.github.io/tags/functional-test/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/functional-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit</title>
+      <link>https://kencho51.github.io/tags/unit/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/unit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unit test</title>
+      <link>https://kencho51.github.io/tags/unit-test/</link>
+      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/unit-test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>php</title>
@@ -45,42 +99,6 @@
       <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/cloud-practitioner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional</title>
-      <link>https://kencho51.github.io/tags/functional/</link>
-      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/functional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional test</title>
-      <link>https://kencho51.github.io/tags/functional-test/</link>
-      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/functional-test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unit</title>
-      <link>https://kencho51.github.io/tags/unit/</link>
-      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/unit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unit test</title>
-      <link>https://kencho51.github.io/tags/unit-test/</link>
-      <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/unit-test/</guid>
       <description></description>
     </item>
     
