@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 14:28:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 10:58:32 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bdd</title>
+      <link>https://kencho51.github.io/bdd/</link>
+      <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/bdd/</guid>
+      <description>What is Behavior Driven Development?  Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
+  BDD uses human-readable descriptions of software user requirements as the basis for software tests.
+ Introduction of BDD from Konstantin Kudryashov, the creator of Behat YouTube
+Reference  Behat  </description>
+    </item>
     
     <item>
       <title>PHP_CodeSniffer</title>
