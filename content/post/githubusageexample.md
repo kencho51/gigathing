@@ -77,6 +77,35 @@ author = "Ken Cho"
 9.6 To clean up local branch after merging  
 `git fetch -p`  
 
+### 10. How to handle multiple github accounts on MacOS?
+
+10.1 Creating the SSH keys. For each SSH key pairs
+`ssh-keygen -t rsa -b 4096 -C "kencho.gigascience@gmail.com`
+
+10.2 Register your keys to the respective GitHub accounts
+Follow steps [here](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+10.3 Change SSH config file at `~/.ssh` and amend accordingly to
+```ssh
+#kencho51 account
+Host github.com-kencho51
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github-kencho51
+   IdentitiesOnly yes
+```
+
+10.4 Ensure your remote url is in the right format
+`git remote set-url origin git@github.com-kencho51:kencho51/gigathing.git gigathing`
+
+10.5 Check the correct remote url setting
+`git remote -v`
+
+10.5 Go ahead to git clone your respective repository
+`git clone git@github.com-kencho51:kencho51/gigathing.git gigathing`
+
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
 2. [learngitbranching](https://learngitbranching.js.org/)
+3. [Handling Multiple Github Accounts on MacOS](https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9)
+4. [Developing with multiple GitHub accounts on one MacBook](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
