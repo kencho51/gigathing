@@ -3,3 +3,6 @@
 
 # untrack MacOS
 .DS_Store
+
+# untrack VSC idea
+.idea
