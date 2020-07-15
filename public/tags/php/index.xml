@@ -21,7 +21,7 @@
       <description>What is Behavior Driven Development?  Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
   BDD uses human-readable descriptions of software user requirements as the basis for software tests.
  Introduction of BDD from Konstantin Kudryashov, the creator of Behat YouTube
-Reference  Behat  </description>
+What is gherkin language?  Gherkin is a Business Readable, Domain Specific Language created specifically for behavior descriptions. Gherkin is a whitespace-oriented language that uses indentation to define structure.</description>
     </item>
     
     <item>
