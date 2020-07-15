@@ -79,13 +79,13 @@ author = "Ken Cho"
 
 ### 10. How to handle multiple github accounts on MacOS?
 
-10.1 Creating the SSH keys. For each SSH key pairs
+10.1 Creating the SSH keys. For each SSH key pairs  
 `ssh-keygen -t rsa -b 4096 -C "kencho.gigascience@gmail.com`
 
-10.2 Register your keys to the respective GitHub accounts
+10.2 Register your keys to the respective GitHub accounts  
 Follow steps [here](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 
-10.3 Change SSH config file at `~/.ssh` and amend accordingly to
+10.3 Change SSH config file at `~/.ssh` and amend accordingly to  
 ```ssh
 #kencho51 account
 Host github.com-kencho51
@@ -95,13 +95,13 @@ Host github.com-kencho51
    IdentitiesOnly yes
 ```
 
-10.4 Ensure your remote url is in the right format
+10.4 Ensure your remote url is in the right format  
 `git remote set-url origin git@github.com-kencho51:kencho51/gigathing.git gigathing`
 
-10.5 Check the correct remote url setting
+10.5 Check the correct remote url setting  
 `git remote -v`
 
-10.5 Go ahead to git clone your respective repository
+10.5 Go ahead to git clone your respective repository  
 `git clone git@github.com-kencho51:kencho51/gigathing.git gigathing`
 
 ### Reference
