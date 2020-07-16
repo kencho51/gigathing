@@ -74,6 +74,9 @@ The main goal of ATDD and TDD is to specify detailed, executable requirements fo
 3. Assertions  
 - Confirm expected output  
 
+### TDD and The Terminator
+This [video](https://www.youtube.com/watch?v=EcoIjf3RABI) shows how to implement a TDD.
+
 
 ### TDD in practice
 [The site](http://sites.google.com/site/tddproblems/all-problems-1)offers a good variety of problems that are particularly suitable for resolution using the TDD approach.
