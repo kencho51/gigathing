@@ -97,7 +97,9 @@ Host github.com-kencho51
 
 10.4 Ensure your remote url is in the right format  
 `git remote set-url origin git@github.com-kencho51:kencho51/gigathing.git gigathing`
+Set up correct links in office mac:
 `git remote set-url origin https://github.com/kencho51/gigathing.git gigathing`
+`git remote set-url origin https://github.com/kencho51/kencho51.github.io kencho51.github.io`
 
 10.5 Check the correct remote url setting  
 `git remote -v`
