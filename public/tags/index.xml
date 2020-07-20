@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 15 Jul 2020 10:58:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 12:09:20 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,27 @@
     <item>
       <title>BDD</title>
       <link>https://kencho51.github.io/tags/bdd/</link>
-      <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
+      <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/bdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behat</title>
+      <link>https://kencho51.github.io/tags/behat/</link>
+      <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/behat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TDD</title>
+      <link>https://kencho51.github.io/tags/tdd/</link>
+      <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/tdd/</guid>
       <description></description>
     </item>
     
@@ -27,15 +45,6 @@
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>behat</title>
-      <link>https://kencho51.github.io/tags/behat/</link>
-      <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/behat/</guid>
       <description></description>
     </item>
     
@@ -135,15 +144,6 @@
       <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
       
       <guid>https://kencho51.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TDD</title>
-      <link>https://kencho51.github.io/tags/tdd/</link>
-      <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/tags/tdd/</guid>
       <description></description>
     </item>
     
