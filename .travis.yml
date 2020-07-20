@@ -1,3 +1,15 @@
+language: html
+
+before_install:
+
+install:
+
+before_script:
+
+script:
+
+
+
 deploy:
   provider: pages
   skip_cleanup: true
