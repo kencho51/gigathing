@@ -1,19 +1,22 @@
-language: html
-
+---
 before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get -yq install apt-transport-https tor curl
 
 install:
+  # install release version v0.74.2
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_extended_0.74.2_Linux-64bit.deb
+  - sudo dpkg -i hugo_extended_0.74.2_Linux-64bit.deb
 
-before_script:
-
+# script - run the build script
 script:
-
-
+  - hugo
 
 deploy:
-  provider: pages
+  provider: script
+  script: ./deploy.sh
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
+  verbose: true
+  keep-history: true
   on:
     branch: master
