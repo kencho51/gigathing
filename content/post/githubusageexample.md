@@ -112,3 +112,6 @@ Set up correct links in office mac:
 2. [learngitbranching](https://learngitbranching.js.org/)
 3. [Handling Multiple Github Accounts on MacOS](https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9)
 4. [Developing with multiple GitHub accounts on one MacBook](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
+5. [6 best practices for teams using Git](https://opensource.com/article/20/7/git-best-practices?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002glehAAA)
+6. [The life-changing magic of git rebase -i](https://opensource.com/article/20/4/git-rebase-i)
+7. [Getting started with Git: Terminology 101](https://opensource.com/article/19/2/git-terminology)
