@@ -19,4 +19,4 @@ deploy:
   verbose: true
   keep-history: true
   on:
-    branch: master
+    branch: develop
