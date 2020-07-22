@@ -27,13 +27,10 @@ author = "Ken Cho"
 18. Rapidly creating portable pipelines with aCLImatise and Basecamp, [link](https://bcc2020.sched.com/event/cst5/rapidly-creating-portable-pipelines-with-aclimatise)
 
 
-
-
 ### Interesting Tools
 1. Bionitio
 [Doc](https://docs.google.com/document/d/1tEtfpIfApMZ2PfgodjDeipFOR3Y2k4iMTjQJN49sb-Y/preview?pli=1)
 [github](https://github.com/bionitio-team/bionitio)
-
 
 2. JBrowse 2
 [plugin development](http://jbrowse.org/jb2/docs/bcc2020_plugin_development)
@@ -48,7 +45,12 @@ Nextflow [tutorial 1](https://github.com/nextflow-io/nf-hack17-tutorial), [tutor
 [Tutorial](https://docs.travis-ci.com/user/tutorial/)
 [Core concepts](https://docs.travis-ci.com/user/for-beginners/)
 
-5. Galaxy Training, [link](https://training.galaxyproject.org/)
+5. Produce a portable germline variant-calling pipeline in CWL and WDL using Janis and GATK I
+[readthedocs](https://janis.readthedocs.io/en/latest/)
+[workshop 1](https://github.com/PMCC-BioinformaticsCore/janis-workshops/tree/master/workshop1)
+[workshop 2](https://github.com/PMCC-BioinformaticsCore/janis-workshops/tree/master/workshop2)
+
+6. Galaxy Training, [link](https://training.galaxyproject.org/)
 
 
 ### Todo(maybe)
@@ -56,7 +58,8 @@ Nextflow [tutorial 1](https://github.com/nextflow-io/nf-hack17-tutorial), [tutor
 2. Implement Bionitio
 
 
-
+### Bioinformatics hackathon
+1. [hackseq](https://www.hackseq.com/)
 
 
 
