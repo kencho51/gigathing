@@ -28,26 +28,26 @@ author = "Ken Cho"
 
 
 ### Interesting Tools
-1. Bionitio
-[Doc](https://docs.google.com/document/d/1tEtfpIfApMZ2PfgodjDeipFOR3Y2k4iMTjQJN49sb-Y/preview?pli=1)
+1. Bionitio  
+[Doc](https://docs.google.com/document/d/1tEtfpIfApMZ2PfgodjDeipFOR3Y2k4iMTjQJN49sb-Y/preview?pli=1)  
 [github](https://github.com/bionitio-team/bionitio)
 
-2. JBrowse 2
-[plugin development](http://jbrowse.org/jb2/docs/bcc2020_plugin_development)
+2. JBrowse 2  
+[plugin development](http://jbrowse.org/jb2/docs/bcc2020_plugin_development)  
 [Embedding in your website](http://jbrowse.org/jb2/docs/bcc2020_plugin_development)
 
-3. [Nextflow](https://nf-co.re/)
-[Sarek](https://github.com/nf-core/sarek) is a workflow designed to detect variants on whole genome or targeted sequencing data.
-[Nextflow tower](https://github.com/seqeralabs/nf-tower)  is an open source monitoring and managing platform for Nextflow workflows.
-Nextflow [tutorial 1](https://github.com/nextflow-io/nf-hack17-tutorial), [tutorial 2](https://nf-co.re/usage/nextflow)
+3. [Nextflow](https://nf-co.re/)  
+[Sarek](https://github.com/nf-core/sarek) is a workflow designed to detect variants on whole genome or targeted sequencing data.  
+[Nextflow tower](https://github.com/seqeralabs/nf-tower)  is an open source monitoring and managing platform for Nextflow workflows.  
+Nextflow [tutorial 1](https://github.com/nextflow-io/nf-hack17-tutorial), [tutorial 2](https://nf-co.re/usage/nextflow)  
 
-4. Tavis CI, Continuous integration testing
-[Tutorial](https://docs.travis-ci.com/user/tutorial/)
+4. Tavis CI, Continuous integration testing  
+[Tutorial](https://docs.travis-ci.com/user/tutorial/)  
 [Core concepts](https://docs.travis-ci.com/user/for-beginners/)
 
-5. Produce a portable germline variant-calling pipeline in CWL and WDL using Janis and GATK I
-[readthedocs](https://janis.readthedocs.io/en/latest/)
-[workshop 1](https://github.com/PMCC-BioinformaticsCore/janis-workshops/tree/master/workshop1)
+5. Produce a portable germline variant-calling pipeline in CWL and WDL using Janis and GATK   
+[readthedocs](https://janis.readthedocs.io/en/latest/)  
+[workshop 1](https://github.com/PMCC-BioinformaticsCore/janis-workshops/tree/master/workshop1)  
 [workshop 2](https://github.com/PMCC-BioinformaticsCore/janis-workshops/tree/master/workshop2)
 
 6. Galaxy Training, [link](https://training.galaxyproject.org/)
