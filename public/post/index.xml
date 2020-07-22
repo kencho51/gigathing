@@ -7,10 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 17:27:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 10:14:52 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Whats interesting in BCC2020</title>
+      <link>https://kencho51.github.io/whatsinterestinginbcc2020/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/whatsinterestinginbcc2020/</guid>
+      <description>Interesting Talks  Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED, link A comprehensive benchmarking of WGS-based structural variant callers, link Automated real-time data analysis and visualizations for the SARS-CoV-2/Covid19 portal, link Bionitio: building better bioinformatics tools with batteries included, link Galaxy, Selenium, and End-to-end Testing, link The cloud-native Galaxy: Galaxy on Kubernetes, link AWS Gold Sponsor Talk: Scalable genomics data analysis in the cloud, link Shesmu: A bioinformatics orchestration tool, link Introducing App Store for IGB, a site for sharing and installing extensions for Integrated Genome Browser from BioViz.</description>
+    </item>
+    
+    <item>
+      <title>Bdd</title>
+      <link>https://kencho51.github.io/bdd/</link>
+      <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/bdd/</guid>
+      <description>What is Behavior Driven Development?  Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
+  BDD uses human-readable descriptions of software user requirements as the basis for software tests.
+ Introduction of BDD from Konstantin Kudryashov, the creator of Behat YouTube
+What is gherkin language?  Gherkin is a Business Readable, Domain Specific Language created specifically for behavior descriptions. Gherkin is a whitespace-oriented language that uses indentation to define structure.</description>
+    </item>
+    
+    <item>
+      <title>PHP_CodeSniffer</title>
+      <link>https://kencho51.github.io/phpcodesniffer/</link>
+      <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/phpcodesniffer/</guid>
+      <description>What is PHP_CodeSniffer? PHP_CodeSniffer is a set of two PHP scripts:
+ phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard. phpcbf script to automatically correct coding standard violations.  Installation Follow here
+Usage   Checking files and folders
+vendor/bin/phpcs /path/to/code
+  Printing summary report
+vendor/bin/phpcs --report=summary /path/to/code
+  Specifying a Coding Standard
+vendor/bin/phpcs --standard=PEAR /path/to/code/myfile.php
+  List all installed coding standards</description>
+    </item>
+    
+    <item>
+      <title>PHP date times</title>
+      <link>https://kencho51.github.io/phpdatetimes/</link>
+      <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/phpdatetimes/</guid>
+      <description>What is timestamp? A timestamp is the number of seconds from January 1, 1970 at 00:00.
+&amp;lt;?php //output number of seconds from Jan 1, 1970 at 00:00. echo time(); echo date(&amp;#34;d/m/y&amp;#34;).&amp;#34;\n&amp;#34;; $now = getdate(); echo $now[&amp;#34;hours&amp;#34;]+8; //print_r ($now);  // &amp;#39;z&amp;#39; is indexed from 0, so it is necessary to add 1. $numDays = date(&amp;#34;z&amp;#34;, mktime(0,0,0,12,31,2020))+1; $numWeeks = date(&amp;#34;W&amp;#34;, mktime(0,0,0,12,31,2020)); echo &amp;#34;There are $numDaysdays and $numWeeksweeks in 2020.\n&amp;#34;; How to display the current date/time?</description>
+    </item>
+    
+    <item>
+      <title>Codeception</title>
+      <link>https://kencho51.github.io/whatiscodeception/</link>
+      <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/whatiscodeception/</guid>
+      <description>What is Codeception?  Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.
+  It can manage Unit, Functional and Acceptance for web application.
+ How to create a Unit Test? Testing pieces of code before coupling them together.
+It creates a new ExampleTest file located in the tests/unit directory.
+php vendor/bin/codecept generate:test unit Example
+Run the newly created test with this command.</description>
+    </item>
+    
+    <item>
+      <title>PHP standards</title>
+      <link>https://kencho51.github.io/phpstandards/</link>
+      <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/phpstandards/</guid>
+      <description>What is PSR?  PSR is a standard established by PHP-FIG(PHP Framework Interop Group).
+  PSR consists of several standards such as PSR-1, PSR-2 and PSR-4.
+  PSR-0 and PSR-4 are coding standards for PHP’s autoloaders, PSR-1 and PSR-2 are basic coding standards.
+  PHP code MUST use only UTF-8 without BOM(Byte Order Mark).
+ PSR-1 Basic Coding Standard, defines basic parts of PHP coding  Only &amp;lt;?</description>
+    </item>
+    
+    <item>
+      <title>PHPUnit</title>
+      <link>https://kencho51.github.io/whatisphpunittest/</link>
+      <pubDate>Tue, 16 Jun 2020 09:54:47 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/whatisphpunittest/</guid>
+      <description>What is PHPUnit? The goal of unit testing is
+ to isolate each part of the programme and show that the individual parts are correct.
+ What does Assertions mean? Just asserting that something match the expected value or does something you wanted to do.
+Whats the flow of running phpunit?  Install the PHPUnit Configure the phpunit.xml  &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34; ?&amp;gt; &amp;lt;phpunit bootstrap=&amp;#34;vendor/autoload.php&amp;#34; colors=&amp;#34;true&amp;#34; verbose=&amp;#34;true&amp;#34; stopOnFailure=&amp;#34;false&amp;#34;&amp;gt; &amp;lt;testsuites&amp;gt; &amp;lt;testsuite name=&amp;#34;unit&amp;#34;&amp;gt; &amp;lt;directory&amp;gt;tests/unit&amp;lt;/directory&amp;gt; &amp;lt;/testsuite&amp;gt; &amp;lt;/testsuites&amp;gt; &amp;lt;/phpunit&amp;gt; Create app, app/Modelsand tests/unit folders Build codes bite by bite, and then run phpunit</description>
+    </item>
     
     <item>
       <title>Docker 101</title>

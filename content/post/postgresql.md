@@ -247,3 +247,4 @@ or
 9. [How Do I Know if My PostgreSQL Backup is Good?](https://severalnines.com/database-blog/how-do-i-know-if-my-postgresql-backup-good)
 10. [Chapter 24. Backup and Restore](https://www.postgresql.org/docs/9.1/backup.html)
 11. [Automated Testing of PostgreSQL Backups](https://pgdash.io/blog/testing-postgres-backups.html)
+12. [SQL Tutorial](https://sqlzoo.net/)

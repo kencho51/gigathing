@@ -57,6 +57,12 @@ author = "Ken Cho"
 `git merge upstream/develop` to get the updates from develop fork to local  
 `git push` to update the remote repo  
 
+#### Ways to merge remote and local branch
+1. `git cherry-pick`  
+2. `git rebase`  
+3. `git pull` is essentially shorthand for `git fetch` followed by `git merge`  
+4. `git pull --rebase` is shorthand for a fetch and a rebase  
+
 ### 9. How to delete a branch after the issue has been fixed
    
 9.1 To list all the branch.  
@@ -69,7 +75,43 @@ author = "Ken Cho"
 `git push --force`  
 9.5 To delete branch in remote repo manually.  
 9.6 To clean up local branch after merging  
-`git fetch -p`
+`git fetch -p`  
+
+### 10. How to handle multiple github accounts on MacOS?
+
+10.1 Creating the SSH keys. For each SSH key pairs  
+`ssh-keygen -t rsa -b 4096 -C "kencho.gigascience@gmail.com`
+
+10.2 Register your keys to the respective GitHub accounts  
+Follow steps [here](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+10.3 Change SSH config file at `~/.ssh` and amend accordingly to  
+```ssh
+#kencho51 account
+Host github.com-kencho51
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github-kencho51
+   IdentitiesOnly yes
+```
+
+10.4 Ensure your remote url is in the right format  
+`git remote set-url origin git@github.com-kencho51:kencho51/gigathing.git gigathing`
+Set up correct links in office mac:
+`git remote set-url origin https://github.com/kencho51/gigathing.git gigathing`
+`git remote set-url origin https://github.com/kencho51/kencho51.github.io kencho51.github.io`
+
+10.5 Check the correct remote url setting  
+`git remote -v`
+
+10.5 Go ahead to git clone your respective repository  
+`git clone git@github.com-kencho51:kencho51/gigathing.git gigathing`
 
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
+2. [learngitbranching](https://learngitbranching.js.org/)
+3. [Handling Multiple Github Accounts on MacOS](https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9)
+4. [Developing with multiple GitHub accounts on one MacBook](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
+5. [6 best practices for teams using Git](https://opensource.com/article/20/7/git-best-practices?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002glehAAA)
+6. [The life-changing magic of git rebase -i](https://opensource.com/article/20/4/git-rebase-i)
+7. [Getting started with Git: Terminology 101](https://opensource.com/article/19/2/git-terminology)

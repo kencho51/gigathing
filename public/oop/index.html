@@ -7,7 +7,7 @@
         <meta name="description" content="What is Object Oriented Programming?">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.70.0" />
+        <meta name="generator" content="Hugo 0.74.2" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="OOP">
@@ -545,7 +545,52 @@ setName () method will return $this, which will return the Object person</p>
 <span class="c1">// Displays &#34;Peter banned the member: Ken&#34;
 </span><span class="c1"></span><span class="nv">$admin</span><span class="o">-&gt;</span><span class="na">banMember</span><span class="p">(</span> <span class="nv">$member</span> <span class="p">);</span>
 <span class="cp">?&gt;</span>
-</code></pre></div><h3 id="reference">Reference</h3>
+</code></pre></div><h3 id="abstract-class-and-methods">Abstract class and methods</h3>
+<p><img src="/image/abstract.png" alt="img"></p>
+<blockquote>
+<p>Abstract Class in PHP is a special class from which an object can not instantiate or be created.</p>
+</blockquote>
+<blockquote>
+<p>But from Abstract Classes you can create a child class or can inherit.</p>
+</blockquote>
+<p>Example 1</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+<span class="k">abstract</span> <span class="k">class</span> <span class="nc">AbstractClass</span><span class="p">{</span>
+    <span class="c1">// Our abstract method only needs to define the required arguments
+</span><span class="c1"></span>    <span class="k">abstract</span> <span class="k">protected</span> <span class="k">function</span> <span class="nf">getName</span><span class="p">(</span><span class="nv">$name</span><span class="p">);</span>
+    <span class="p">}</span>
+ 
+<span class="k">class</span> <span class="nc">childClass</span> <span class="k">extends</span> <span class="nx">AbstractClass</span><span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">getName</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">&#34;Hi &#34;</span><span class="o">.</span><span class="nv">$name</span><span class="o">.</span><span class="s2">&#34; !&#34;</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+ 
+<span class="nv">$class</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">childClass</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nv">$class</span><span class="o">-&gt;</span><span class="na">getName</span><span class="p">(</span><span class="s2">&#34;Ken&#34;</span><span class="p">),</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</code></pre></div><p>Result:
+<code>Hi! Ken</code></p>
+<p>Example 2</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+<span class="k">abstract</span> <span class="k">class</span> <span class="nc">AbstractClass</span><span class="p">{</span>
+    <span class="c1">// Our abstract method only needs to define the required arguments
+</span><span class="c1"></span>    <span class="k">abstract</span> <span class="k">protected</span> <span class="k">function</span> <span class="nf">getName</span><span class="p">(</span><span class="nv">$name</span><span class="p">);</span>
+    <span class="p">}</span>
+ 
+<span class="k">class</span> <span class="nc">childClass</span> <span class="k">extends</span> <span class="nx">AbstractClass</span><span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">getName</span><span class="p">(</span><span class="nv">$name</span><span class="p">,</span><span class="nv">$prefix</span><span class="o">=</span><span class="s2">&#34;Mr. &#34;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">&#34;Hi &#34;</span><span class="o">.</span><span class="nv">$prefix</span><span class="o">.</span><span class="nv">$name</span><span class="o">.</span><span class="s2">&#34; !&#34;</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+ 
+<span class="nv">$class</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">childClass</span><span class="p">;</span>
+<span class="k">echo</span> <span class="nv">$class</span><span class="o">-&gt;</span><span class="na">getName</span><span class="p">(</span><span class="s2">&#34;Ken&#34;</span><span class="p">),</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</code></pre></div><p>Result:
+<code>Hi Mr. Ken !</code></p>
+<h3 id="what-is-interfaces-in-oop">What is Interfaces in OOP?</h3>
+<h3 id="reference">Reference</h3>
 <ol>
 <li><a href="https://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762">Object-Oriented PHP for Beginners</a></li>
 <li><a href="https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP">OOP</a></li>
@@ -553,6 +598,7 @@ setName () method will return $this, which will return the Object person</p>
 <li><a href="http://www.w3programmers.com/making-and-using-class/">PHP Object Oriented Programming Part-2: Making and Using Class, Object and Class Members</a></li>
 <li><a href="http://www.w3programmers.com/php-oop-method-chaining/">PHP Object Oriented Programming Part-3: PHP OOP Method Chaining</a></li>
 <li><a href="http://www.w3programmers.com/visibility-or-access-modifier-in-php/">PHP Object Oriented Programming Part-5: Visibility or Access Modifier in PHP</a></li>
+<li><a href="http://www.w3programmers.com/abstract-class-and-methods/">PHP Object Oriented Programming Part-8: Abstract Class and Methods</a></li>
 </ol>
 
 </div>
@@ -605,6 +651,7 @@ setName () method will return $this, which will return the Object person</p>
 <script src="https://utteranc.es/client.js"
         repo="kencho51/comments_for_hugo"
         issue-term="pathname"
+        label="hugo"
         theme="github-light"
         crossorigin="anonymous"
         async>

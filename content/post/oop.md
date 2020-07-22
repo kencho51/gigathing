@@ -369,6 +369,55 @@ $admin->banMember( $member );
 ?>
 ```
 
+### Abstract class and methods
+![img](/image/abstract.png)
+>Abstract Class in PHP is a special class from which an object can not instantiate or be created.
+
+>But from Abstract Classes you can create a child class or can inherit.
+
+Example 1
+```php
+<?php
+abstract class AbstractClass{
+    // Our abstract method only needs to define the required arguments
+    abstract protected function getName($name);
+    }
+ 
+class childClass extends AbstractClass{
+    public function getName($name) {
+        return "Hi ".$name." !";
+    }
+}
+ 
+$class = new childClass;
+echo $class->getName("Ken"), "\n";
+?>
+```
+Result:
+`Hi! Ken`
+
+Example 2
+```php
+<?php
+abstract class AbstractClass{
+    // Our abstract method only needs to define the required arguments
+    abstract protected function getName($name);
+    }
+ 
+class childClass extends AbstractClass{
+    public function getName($name,$prefix="Mr. ") {
+        return "Hi ".$prefix.$name." !";
+    }
+}
+ 
+$class = new childClass;
+echo $class->getName("Ken"), "\n";
+?>
+```
+Result:
+`Hi Mr. Ken !`
+
+### What is Interfaces in OOP?
 
 
 
@@ -379,5 +428,5 @@ $admin->banMember( $member );
 4. [PHP Object Oriented Programming Part-2: Making and Using Class, Object and Class Members](http://www.w3programmers.com/making-and-using-class/)
 5. [PHP Object Oriented Programming Part-3: PHP OOP Method Chaining](http://www.w3programmers.com/php-oop-method-chaining/)
 6. [PHP Object Oriented Programming Part-5: Visibility or Access Modifier in PHP](http://www.w3programmers.com/visibility-or-access-modifier-in-php/)
-
+7. [PHP Object Oriented Programming Part-8: Abstract Class and Methods](http://www.w3programmers.com/abstract-class-and-methods/)
 

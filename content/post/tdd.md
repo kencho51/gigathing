@@ -74,6 +74,9 @@ The main goal of ATDD and TDD is to specify detailed, executable requirements fo
 3. Assertions  
 - Confirm expected output  
 
+### TDD and The Terminator
+This [video](https://www.youtube.com/watch?v=EcoIjf3RABI) shows how to implement a TDD.
+
 
 ### TDD in practice
 [The site](http://sites.google.com/site/tddproblems/all-problems-1)offers a good variety of problems that are particularly suitable for resolution using the TDD approach.
@@ -87,3 +90,4 @@ The main goal of ATDD and TDD is to specify detailed, executable requirements fo
 4. What is TDD? [YouTube](https://www.youtube.com/watch?v=-7E00lFE89s)
 5. TDD and The Terminator [YouTube](https://www.youtube.com/watch?v=EcoIjf3RABI)
 6. [Test Driven Development: what it is, and what it is not.](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/)
+7. PHP Test Driven Development Part 1: Introduction[medium](https://medium.com/@sameernyaupane/php-test-driven-development-part-1-introduction-5483362d79b5)
