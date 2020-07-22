@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 20 Jul 2020 12:09:20 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 10:14:52 +0800</lastBuildDate>
     
 	<atom:link href="https://kencho51.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BCC2020</title>
+      <link>https://kencho51.github.io/tags/bcc2020/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/bcc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bionitio</title>
+      <link>https://kencho51.github.io/tags/bionitio/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/bionitio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy</title>
+      <link>https://kencho51.github.io/tags/galaxy/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/galaxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JBrowse 2</title>
+      <link>https://kencho51.github.io/tags/jbrowse-2/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/jbrowse-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nanopore</title>
+      <link>https://kencho51.github.io/tags/nanopore/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/nanopore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReadUntil</title>
+      <link>https://kencho51.github.io/tags/readuntil/</link>
+      <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
+      
+      <guid>https://kencho51.github.io/tags/readuntil/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BDD</title>
