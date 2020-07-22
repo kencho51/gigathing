@@ -6,6 +6,9 @@ tags = ["Docker"]
 author = "Ken Cho"
 
 +++
+
+![image](https://travis-ci.org/kencho51/gigathing.svg?branch=develop)
+
 ### What is Docker?
 ![img](/image/docker_beginner.webp)
 
