@@ -17,7 +17,7 @@ script:
 deploy:
   provider: page
   skip_cleanup: true
-  token: "e2e9c3900ae151bc30b7ed572395c38e92ed92c6"
+  token: "560e494b4ac1fde4a0f9a31c7e3823c4b5dfa8af"
   email: "kencho.gigascience@gmail.com"
   name: "kencho51"
   verbose: true
