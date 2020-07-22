@@ -1,4 +1,6 @@
 ---
+dist: xenial
+
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get -yq install apt-transport-https tor curl
@@ -15,11 +17,11 @@ script:
 deploy:
   provider: page
   skip_cleanup: true
-  github-token: e2e9c3900ae151bc30b7ed572395c38e92ed92c6
-  email: kencho.gigascience@gmail.com
-  name: kencho51
+  token: "e2e9c3900ae151bc30b7ed572395c38e92ed92c6"
+  email: "kencho.gigascience@gmail.com"
+  name: "kencho51"
   verbose: true
-  keep-history: true
+  keep_history: true
   local_dir: public
   on:
     branch: master
