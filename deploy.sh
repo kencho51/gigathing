@@ -23,4 +23,4 @@ fi
 git commit -m "$msg"
 
 printf "!!!Push source and build repos.\n"
-git push origin master
+git push --force origin master
