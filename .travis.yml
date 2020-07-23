@@ -31,6 +31,6 @@ deploy:
   verbose: true
   keep_history: true
   local_dir: public
-  target_branch: develop
+  target_branch: master
   on:
     branch: develop
