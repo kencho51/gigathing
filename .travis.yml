@@ -18,7 +18,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   keep-history: true
-#  github-token: "$GITHUB_TOKEN"
+  github-token: "$GITHUB_TOKEN"
   local_dir: public
   target-branch: master
   email: kencho.gigascience@gmail.com
