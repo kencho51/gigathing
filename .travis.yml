@@ -1,27 +1,33 @@
 ---
 dist: xenial
 
+env:
+  - HUGO_VERSION=0.74.2
+
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get -yq install apt-transport-https tor curl
 
-install:
+
+install: true
+
+before_script:
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
   # install release version v0.74.2
-  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_extended_0.74.2_Linux-64bit.deb
-  - sudo dpkg -i hugo_extended_0.74.2_Linux-64bit.deb
+  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 # script - run the build script
 script:
-  - hugo
+  - hugo --gc -v
 
 deploy:
   provider: page
   skip_cleanup: true
-  token: "560e494b4ac1fde4a0f9a31c7e3823c4b5dfa8af"
+  github_token: "18a6c6fcbc7f74287e3ff369afa03a127a551cfb"
   email: "kencho.gigascience@gmail.com"
   name: "kencho51"
   verbose: true
   keep_history: true
   local_dir: public
   on:
-    branch: master
+    branch: develop
