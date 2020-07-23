@@ -4,7 +4,7 @@ language: go
 dist: xenial
 
 env:
-  - HUGO_VERSION=0.74.2
+  - HUGO_VERSION="0.74.2"
 
 before_install:
   - sudo apt-get update -qq
@@ -31,6 +31,7 @@ deploy:
   verbose: true
   keep_history: true
   local_dir: public
-  branches:
-    only:
-      - develop
+  repo: "kencho51/kencho51.github.io"
+  target-branch: develop
+  on:
+    branch: develop
