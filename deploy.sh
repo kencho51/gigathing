@@ -7,7 +7,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 printf "!!!Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
-hugo -t ghostwriter
+hugo --gc -v --minify -t ghostwriter
 
 printf "!!!Go To Public folder\n"
 cd public
