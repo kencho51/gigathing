@@ -6,7 +6,6 @@ tags = [""]
 author = "Ken Cho"
 
 +++  
-[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 ### Learn
 
 
@@ -19,5 +18,6 @@ author = "Ken Cho"
 ### Reference
 
 
+[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
 
