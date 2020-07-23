@@ -1,17 +1,17 @@
 language: go
 dist: xenial
-env:
-  matrix:
-  - HUGO_VERSION="0.74.2"
+go:
+  - master
 before_install:
-- sudo apt-get update -qq
-install: true
+  - sudo apt-get update -qq
+install:
+  - go get github.com/gohugoio/hugo
 before_script:
-- wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
-- sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
-- rm -rf public || exit 0
+#  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+#  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+  - rm -rf public || exit 0
 script:
-- hugo --gc -v --minify
+  - hugo --gc -v --minify
 deploy:
   provider: pages
   skip_cleanup: true
