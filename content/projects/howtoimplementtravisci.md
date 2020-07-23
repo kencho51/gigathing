@@ -13,7 +13,7 @@ author = "Ken Cho"
 
 ### How?
 1. Sign in Travis in [https://travis-ci.org/](https://travis-ci.org/) using github account.
-2. Enable `Source` github repo in Travis setting.
+2. Enable `Source` github repo in Travis setting, eg.`kencho51/gigathing`  
 3. Create  `Personal access token` in github, the scopes include:
     - repo
     - admin:public_key
@@ -58,6 +58,13 @@ deploy:
 
 
 ### Reference
+1. [Using Hugo and Travis CI To Deploy Blog To Github Pages Automatically](https://axdlog.com/2018/using-hugo-and-travis-ci-to-deploy-blog-to-github-pages-automatically/)
+2. [Two ways to deploy a public GitHub Pages site from a private Hugo repository](https://victoria.dev/blog/two-ways-to-deploy-a-public-github-pages-site-from-a-private-hugo-repository/)
+3. [DEPLOY HUGO TO GITHUB PAGES AND BUILD WITH TRAVIS CI](https://alignan.github.io/post/deploy-hugo-to-github/)
+4. [使用 Travis CI 部署 Hugo 博客到 Github Pages](https://coldstone.fun/post/2019/07/26/hugo-travis-github-page/)
+5. [Deploy Hugo from Gitlab CI to Github Pages](https://dev.to/ardianta/deploy-hugo-from-gitlab-ci-to-github-pages-5aml)
+6. [How I use Travis CI to automatically deploy this blog to GitHub Pages](https://thecrisp.io/post/deploy-hugo-blog-travis/)
+
 
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
