@@ -1,7 +1,6 @@
 language: go
 dist: xenial
 env:
-  matrix:
   - HUGO_VERSION="0.74.2"
 before_install:
   - sudo apt-get update -qq
