@@ -9,7 +9,6 @@ env:
 before_install:
   - sudo apt-get update -qq
 
-
 install: true
 
 before_script:
@@ -32,6 +31,6 @@ deploy:
   keep_history: true
   local_dir: public
   repo: "kencho51/kencho51.github.io"
-  target-branch: develop
+  target-branch: master
   on:
-    branch: develop
+    branch: master
