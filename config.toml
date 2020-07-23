@@ -39,26 +39,27 @@ theme = "github-light"
   [[menu.main]]
     name = "Post"
     url = "/post"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "Weekly Plan"
     url = "/jobs"
+    weight = 1
   [[menu.main]]
     name = "Projects"  
     url = "/projects/"
-    weight = 1
+    weight = 3
   [[menu.main]]
     name = "Contact"
     url = "/page/contact/"
-    weight = 1
+    weight = 5
   [[menu.main]]
     name = "About"
     url = "/page/about/"
-    weight = 1
+    weight = 4
   [[menu.main]]
     name = "Reference"
     url = '/reference'
-    weight = 1
+    weight = 6
 
  
 
