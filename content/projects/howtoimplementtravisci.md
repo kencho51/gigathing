@@ -6,7 +6,6 @@ tags = ["Travis CI", "GO", "Token"]
 author = "Ken Cho"
 
 +++  
-[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 ![img](/image/travis_head.png)
 ### What is Travis?
 - Travis is a continuous integration testing tool that integrates with GitHub.
@@ -53,15 +52,14 @@ deploy:
   on:
     branch: master
 ``` 
-
-### Todo
-
-
-### Done
+6. Insert `build status` into default template, every post will have `build status` on it.  
+- Markdown format: `[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)`  
+- Image URL: https://travis-ci.org/kencho51/gigathing.svg?branch=master
 
 
 ### Reference
 
+[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
 
 
