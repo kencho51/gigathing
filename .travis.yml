@@ -16,7 +16,7 @@ install: true
 before_script:
   - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
   # install release version v0.74.2
-  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb]
+  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
   - rm -rf public || exit 0
 
 # script - run the build script
