@@ -3,8 +3,6 @@ dist: xenial
 env:
   matrix:
   - HUGO_VERSION="0.74.2"
-#  global:
-#    secure: h9dVZ15odABCDpmSE9I4CwOGPQYRJRYU7djyT2cUzDMlWCJwvstvQHDMBLbQAbzZnU8hQYS7Du8YYbnc2OHwZoubjGkBpDldagory2SAs0d0uS6ANLlwmaGcJnGDo98mK/LPTyrzspV9uw8ZOupu0iNkcxIJZY9TXpULQE1Fw/QTNDvqasYCCQdS13uC+EK+yILXSrLw03Vp3YyyVG3LsxdhCy1+FRJ87aoVzCOtZyKlCcq0uubYU9jrbd6ER5Ng1oRmz4jMRUttYap+LJD6STjFGBn5JFl5ecaO3VwXRJJbRQu1Dbxei4Cnj+OTPqHiSg/+wdzj7xuNN5hq9Zoq4/O+j3vzy7lzcLcUMwnUW0x9UDE5we42izfzxOK66y/GpzQpcn0EgxgxsVOq07S/TkqbSCiqOC3Uxh4HhC3gnP+wMeNpHhL/PFUf7tZIumUTc584E+1oqlXzgLTOzJci+KehJj+4bcPCSgTihU532JmWor2DH4A1bY7byDcZuHfc2eSh6sFzarQVKWe9HB6a6mwYHhP3AEYt5Qb3ybsmD2dvHI/Kd+JD4Dmrkagp4TFNEGYqG4EJdHxD5uckA5dMfx1kE2Ia7+gLUbQRnMZuTXOGxrHQn2+bUnZ1jn+QTz5+vBqmH09wk0D1+2WDi9F+4qoXz1u0USioQqOs8VExRUQ=
 before_install:
 - sudo apt-get update -qq
 install: true
@@ -17,10 +15,10 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  keep-history: true
-  github-token: "h9dVZ15odABCDpmSE9I4CwOGPQYRJRYU7djyT2cUzDMlWCJwvstvQHDMBLbQAbzZnU8hQYS7Du8YYbnc2OHwZoubjGkBpDldagory2SAs0d0uS6ANLlwmaGcJnGDo98mK/LPTyrzspV9uw8ZOupu0iNkcxIJZY9TXpULQE1Fw/QTNDvqasYCCQdS13uC+EK+yILXSrLw03Vp3YyyVG3LsxdhCy1+FRJ87aoVzCOtZyKlCcq0uubYU9jrbd6ER5Ng1oRmz4jMRUttYap+LJD6STjFGBn5JFl5ecaO3VwXRJJbRQu1Dbxei4Cnj+OTPqHiSg/+wdzj7xuNN5hq9Zoq4/O+j3vzy7lzcLcUMwnUW0x9UDE5we42izfzxOK66y/GpzQpcn0EgxgxsVOq07S/TkqbSCiqOC3Uxh4HhC3gnP+wMeNpHhL/PFUf7tZIumUTc584E+1oqlXzgLTOzJci+KehJj+4bcPCSgTihU532JmWor2DH4A1bY7byDcZuHfc2eSh6sFzarQVKWe9HB6a6mwYHhP3AEYt5Qb3ybsmD2dvHI/Kd+JD4Dmrkagp4TFNEGYqG4EJdHxD5uckA5dMfx1kE2Ia7+gLUbQRnMZuTXOGxrHQn2+bUnZ1jn+QTz5+vBqmH09wk0D1+2WDi9F+4qoXz1u0USioQqOs8VExRUQ="
+  keep_history: true
+  github_token: $GITHUB_TOKEN
   local_dir: public
-  target-branch: master
+  target_branch: master
   email: kencho.gigascience@gmail.com
   name: kencho51
   repo: kencho51/kencho51.github.io
