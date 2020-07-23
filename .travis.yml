@@ -1,36 +1,21 @@
----
 language: go
-
 dist: xenial
-
 env:
-  - HUGO_VERSION="0.74.2"
-
+- HUGO_VERSION="0.74.2"
 before_install:
-  - sudo apt-get update -qq
-
+- sudo apt-get update -qq
 install: true
-
 before_script:
-  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
-  # install release version v0.74.2
-  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
-  - rm -rf public || exit 0
-
-# script - run the build script
+- wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+- sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+- rm -rf public || exit 0
 script:
-  - hugo --gc -v --minify
-
+- hugo --gc -v --minify
 deploy:
-  provider: page
-  skip_cleanup: true
-  github_token: 30398cce5cbe77d25bfc98dff066ba33e369b585
-  email: "kencho.gigascience@gmail.com"
-  name: "kencho51"
-  verbose: true
-  keep_history: true
-  local_dir: public
-  repo: "kencho51/kencho51.github.io"
-  target-branch: master
+  provider: releases
+  api_key:
+    secure: nofqdQO2El8cRZq8a7GBaPngt37Gr+Bx2wMTy1lUaZtCKthamSvjvygQbA9qxSKPKGCm6EwJLvwxCi4phfp0aYOH6VrqxL0snq8aFpT0rfAqyxJ+60mg+HZf1ZJ5teNxKVGYkY8w1wVXEQOZwg5QsVH0mKT5SvXeiZFNJi6ds4j0DDZZPYJJ508ywRQVVq8HdtFrkYVSdPyAM7FKXZDPjR4JCIJBzzfy2rBd6N241pOhVkIdGoIE518AL8P1+4RjCnMzDvZPkyF2LN2SZSTUf7y2m5ETSiOZNfuihZZdgH+qGwW+FgnS2DKxVx93e0U9WOw8cY9PgxnH3O4J/nJoMWeODzVcDEf4ltPPplhWx01bzoO/DAb7J3eaJkvdoHCvQ/aJGBBwO9Qw2tM0wZ+p/r9rvrK9hV8lN7FebaHJLUq981hrYWiHUFokc8ararOL/U2ex0or5lly+HX4XPYnMf93yapDqIHf0m+t2QGm+0XA/gMzaNQq0UL+k9dqGIaFKrjYnthyMNHS+iNQNp18A1fbe9+kaxwQrBIqP9+koB5Caxd4rxgttoKPk4u20jsZ1w1Z9w9PEjU2SRYNEhTReKM07g/HOu116c0oEmlRy5VPObDPMMPYoUjMyFIKFFUrAT9m8Z7uw0bnyJS8OXD1KVgPJ/0XZtEpkuXU1BBEUH8=
+  file: ''
   on:
-    branch: master
+    repo: kencho51/gigathing
+  skip_cleanup: 'true'
