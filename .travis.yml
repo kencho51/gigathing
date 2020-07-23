@@ -18,12 +18,12 @@ before_script:
 
 # script - run the build script
 script:
-  - hugo --gc -v
+  - hugo --gc -v --minify
 
 deploy:
   provider: page
   skip_cleanup: true
-  github_token: "18a6c6fcbc7f74287e3ff369afa03a127a551cfb"
+  github_token: "7a089050f5946ae3b8c71e093610105cb77a23f2"
   email: "kencho.gigascience@gmail.com"
   name: "kencho51"
   verbose: true
