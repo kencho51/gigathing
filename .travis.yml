@@ -15,6 +15,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   keep-history: true
+  github-token: 30398cce5cbe77d25bfc98dff066ba33e369b585
   local_dir: public
   target-branch: master
   repo: kencho51/kencho51.github.io
