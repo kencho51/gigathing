@@ -24,7 +24,7 @@ script:
 deploy:
   provider: page
   skip_cleanup: true
-  github_token: "7a089050f5946ae3b8c71e093610105cb77a23f2"
+  github_token: "30398cce5cbe77d25bfc98dff066ba33e369b585"
   email: "kencho.gigascience@gmail.com"
   name: "kencho51"
   verbose: true
