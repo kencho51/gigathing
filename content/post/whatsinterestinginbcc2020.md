@@ -61,5 +61,6 @@ Nextflow [tutorial 1](https://github.com/nextflow-io/nf-hack17-tutorial), [tutor
 ### Bioinformatics hackathon
 1. [hackseq](https://www.hackseq.com/)
 
+[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
 
