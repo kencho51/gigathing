@@ -107,6 +107,45 @@ Set up correct links in office mac:
 10.5 Go ahead to git clone your respective repository  
 `git clone git@github.com-kencho51:kencho51/gigathing.git gigathing`
 
+
+### How to change commited commit message?
+1. Use `git rebase -i HEAD~` command to display a list of the last n commits in your default text editor.  
+`$ git rebase -i HEAD~3 # Displays a list of the last 3 commits on the current branch`
+2. A similar list will be produced as below:
+```vim
+pick e499d89 Delete CNAME
+pick 0c39034 Better README
+pick f7fde4a Change the commit message but push the same commit.
+
+# Rebase 9fdb3bd..f7fde4a onto 9fdb3bd
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+```
+3. Replace `pick` with `reword` before each commit message you want to change.
+```vim
+pick e499d89 Delete CNAME
+reword 0c39034 Better README
+reword f7fde4a Change the commit message but push the same commit.
+```
+4. Save and close the commit list file.
+5. In each resulting commit file, type the new commit message, save the file, and close it.
+6. Force-push the amended commits.  
+`git push --force`
+
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
 2. [learngitbranching](https://learngitbranching.js.org/)
@@ -115,3 +154,6 @@ Set up correct links in office mac:
 5. [6 best practices for teams using Git](https://opensource.com/article/20/7/git-best-practices?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002glehAAA)
 6. [The life-changing magic of git rebase -i](https://opensource.com/article/20/4/git-rebase-i)
 7. [Getting started with Git: Terminology 101](https://opensource.com/article/19/2/git-terminology)
+8. [How to change commit message](https://docs.github.com/en/enterprise/2.13/user/articles/changing-a-commit-message)
+
+[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
