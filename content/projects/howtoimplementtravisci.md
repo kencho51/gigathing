@@ -47,7 +47,7 @@ deploy:
   target_branch: master
   email: kencho.gigascience@gmail.com
   name: kencho51
-  repo: kencho51/kencho51.github.io
+  repo: git@github.com:kencho51/kencho51.github.io.git
   verbose: true
   on:
     branch: master
