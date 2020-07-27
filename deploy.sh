@@ -5,6 +5,9 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+printf "Remove old public folder.\n"
+rm -rf public
+
 printf "!!!Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 hugo --gc -v --minify -t ghostwriter
