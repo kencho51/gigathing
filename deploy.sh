@@ -18,6 +18,9 @@ cd public
 printf "!!!Add changes to git.\n"
 git add .
 
+printf "!!!Add remote origin to deploy site"
+git remote add origin https://github.com/kencho51/kencho51.github.io.git
+
 printf "!!!Commit changes.\n"
 msg="Rebuilding site $(date)"
 if [ -n "$*" ]; then
