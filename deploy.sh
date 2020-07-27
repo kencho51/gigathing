@@ -5,8 +5,8 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-printf "Remove old public folder.\n"
-rm -rf public
+#printf "Remove old public folder.\n"
+#rm -rf public
 
 printf "!!!Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -15,8 +15,8 @@ hugo --gc -v --minify -t ghostwriter
 printf "!!!Go To Public folder\n"
 cd public
 
-printf "!!!Add remote origin to deploy site"
-git remote set-url origin https://github.com/kencho51/kencho51.github.io.git
+#printf "!!!Add remote origin to deploy site"
+#git remote add origin https://github.com/kencho51/kencho51.github.io.git
 
 printf "!!!Add changes to git.\n"
 git add .
