@@ -15,9 +15,10 @@ hugo --gc -v --minify -t ghostwriter
 printf "!!!Go To Public folder\n"
 cd public
 
-printf "!!!Update local repo" #https://github.com/kencho51/kencho51.github.io.git
-git pull --rebase
-git push
+#Add if public folder cannot be pushed because of error: failed to push some refs to 'https://github.com/kencho51/kencho51.github.io.git'
+#printf "!!!Update local repo"
+#git pull --rebase
+#git push origin master
 
 printf "!!!Add changes to git.\n"
 git add .
