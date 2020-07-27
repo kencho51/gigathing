@@ -15,11 +15,11 @@ hugo --gc -v --minify -t ghostwriter
 printf "!!!Go To Public folder\n"
 cd public
 
+printf "!!!Add remote origin to deploy site"
+git remote set-url origin https://github.com/kencho51/kencho51.github.io.git
+
 printf "!!!Add changes to git.\n"
 git add .
-
-printf "!!!Add remote origin to deploy site"
-git remote add origin https://github.com/kencho51/kencho51.github.io.git
 
 printf "!!!Commit changes.\n"
 msg="Rebuilding site $(date)"
