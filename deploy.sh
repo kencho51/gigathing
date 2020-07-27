@@ -5,8 +5,6 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-#printf "Remove old public folder.\n"
-#rm -rf public
 
 printf "!!!Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -16,8 +14,8 @@ printf "!!!Go To Public folder\n"
 cd public
 
 #Add if public folder cannot be pushed because of error: failed to push some refs to 'https://github.com/kencho51/kencho51.github.io.git'
-#printf "!!!Update local repo"
-#git pull --rebase
+printf "!!!Update local repo"
+git pull --rebase
 #git push origin master
 
 printf "!!!Add changes to git.\n"
