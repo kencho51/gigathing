@@ -1,22 +1,24 @@
 #!/bin/sh
 
+# With Travis CI, local deploy script is not needed.
+# Travis CI will do deployment automatically after each push.
+
 # If a command fails then the deploy stops
 set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+printf "Update local repo first and then back to top level"
+cd public
+git pull
+cd ..
 
 printf "!!!Build the project.\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
-hugo --gc -v --minify -t ghostwriter
+hugo --gc -v -t ghostwriter
 
 printf "!!!Go To Public folder\n"
 cd public
-
-#Add if public folder cannot be pushed because of error: failed to push some refs to 'https://github.com/kencho51/kencho51.github.io.git'
-printf "!!!Update local repo"
-git pull --rebase
-#git push origin master
 
 printf "!!!Add changes to git.\n"
 git add .
