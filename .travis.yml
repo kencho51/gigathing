@@ -10,7 +10,7 @@ before_script:
   - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
   - rm -rf public || exit 0
 script:
-  - hugo --gc -minify
+  - hugo --gc --minify
 deploy:
   provider: pages
   skip_cleanup: true
