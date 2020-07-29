@@ -38,6 +38,27 @@ Time: 7.15 seconds, Memory: 14.00MB
 OK (3 tests, 7 assertions)
 ```
 
+### How to run a functional test on a single file in docker environment?
+1. docker oneliner
+`docker-compose run --rm test ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php`  
+2. Or go into docker bash and run `phpunit`
+`docker-compose run --rm test bash`  
+`root@45a46a8441d3:/var/www# ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php`  
+```bash
+root@45a46a8441d3:/var/www# ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php
+
+PHPUnit 5.7.27 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 7.1.30 with Xdebug 2.9.6
+Configuration: /var/www/protected/tests/phpunit.xml
+
+...                                                                 3 / 3 (100%)
+
+Time: 4.18 seconds, Memory: 14.00MB
+
+OK (3 tests, 7 assertions)
+```
+
 ### How to run a Behat test in a docker environment for testing
 1. Update the `scenario syntax` specific *.feature file, like:  
 ```gherkin
