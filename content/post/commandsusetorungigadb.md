@@ -39,9 +39,9 @@ OK (3 tests, 7 assertions)
 ```
 
 ### How to run a functional test on a single file in docker environment?
-1. docker oneliner
+1. docker oneliner  
 `docker-compose run --rm test ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php`  
-2. Or go into docker bash and run `phpunit`
+2. Or go into docker bash and run `phpunit`  
 `docker-compose run --rm test bash`  
 `root@45a46a8441d3:/var/www# ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php`  
 ```bash
