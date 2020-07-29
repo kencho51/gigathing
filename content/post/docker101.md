@@ -7,8 +7,6 @@ author = "Ken Cho"
 
 +++
 
-![image](https://travis-ci.org/kencho51/gigathing.svg?branch=develop)
-
 ### What is Docker?
 ![img](/image/docker_beginner.webp)
 
@@ -24,6 +22,24 @@ author = "Ken Cho"
 >Docker Engine runs on Linux, Windows, and macOS, and supports Linux and Windows for Docker containers.
 
 ![imag](/image/docker_flow.jpeg)
+
+### What is Dockerfile?
+A Dockerfile is the recipe to build a Docker image.
+This is the workflow: first you create a Dockefile, then you built a Docker image from it using docker build, and finally you run a container from the image.
+A Dockerfile is a text file with instructions on how to build an image.
+Those instructions are part of a configuration language, which includes keywords like FROM, LABEL, RUN, COPY, ENTRYPOINT, CMD, EXPOSE, ENV and more.
+
+### Example Dockerfile
+Let’s say you have a folder with a simple Node.js app composed by an app.js, a package.json file that lists a couple dependencies you need to install before running the app, and package-lock.json.  
+```dockerfile
+FROM node:14
+WORKDIR /usr/src/app
+COPY package*.json app.js ./
+RUN npm install
+EXPOSE 3000
+CMD ["node", "app.js"]
+```
+Details please go to [Dockerfile 1](https://flaviocopes.com/docker-dockerfiles/) and [Dockerfile 2](https://flaviocopes.com/docker-node-container-example/).
 
 ### Playing with Docker
 1. `pull` the image from docker registry  
@@ -78,6 +94,13 @@ Docker images are the basis of containers. To see the list of images that are av
 `-t`: optional tag name  
 5. run the image  
 
+### How To Remove Docker Images, Containers, and Volumes?
+1. To clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container)  
+`docker system prune`  
+2. To additionally remove any stopped containers and all unused images (not just dangling images), add the `-a` flag to the command  
+`docker system prune -a`  
+3. More usages, can go to [here](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)  
+
 
 
 
@@ -93,3 +116,5 @@ Docker images are the basis of containers. To see the list of images that are av
 7. [How to remove docker images, containers and volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 8. [How to remove Docker Images, Containers and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 9. [How to share data between docker containers](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers)
+
+[![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
