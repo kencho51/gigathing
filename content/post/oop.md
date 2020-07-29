@@ -429,4 +429,5 @@ Result:
 5. [PHP Object Oriented Programming Part-3: PHP OOP Method Chaining](http://www.w3programmers.com/php-oop-method-chaining/)
 6. [PHP Object Oriented Programming Part-5: Visibility or Access Modifier in PHP](http://www.w3programmers.com/visibility-or-access-modifier-in-php/)
 7. [PHP Object Oriented Programming Part-8: Abstract Class and Methods](http://www.w3programmers.com/abstract-class-and-methods/)
+8. [Understanding Functional Programming in Javascript — A Complete Guide](https://levelup.gitconnected.com/understanding-functional-programming-in-javascript-a-complete-guide-e85ed13b42c8)
 
