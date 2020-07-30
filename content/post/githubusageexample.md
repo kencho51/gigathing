@@ -77,6 +77,8 @@ author = "Ken Cho"
 9.6 To clean up local branch after merging  
 `git fetch -p`  
 
+### Or refer to How To Clean Up Git Branches at [here](https://devconnected.com/how-to-clean-up-git-branches/)
+
 ### 10. How to handle multiple github accounts on MacOS?
 
 10.1 Creating the SSH keys. For each SSH key pairs  
@@ -145,6 +147,8 @@ reword f7fde4a Change the commit message but push the same commit.
 5. In each resulting commit file, type the new commit message, save the file, and close it.
 6. Force-push the amended commits.  
 `git push --force`
+
+### How To Cherry Pick Git Commits at [here](https://devconnected.com/how-to-cherry-pick-git-commits/)
 
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
