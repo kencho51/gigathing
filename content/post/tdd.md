@@ -15,7 +15,11 @@ author = "Ken Cho"
 
 >Finally, the developer takes a little time to make sure that the code just written is as clean as possible (refactoring).
 
-
+![img](/image/red-green-refactor.png)
+The red, green, refactor approach helps developers compartmentalize their focus into three phases:
+   - Red — think about what you want to develop
+   - Green — think about how to make your tests pass
+   - Refactor — think about how to improve your existing implementation
 ### Advantages o TDD
 1. TDD helps to prevent bugs  
 2. Self Explanatory code  
@@ -91,3 +95,4 @@ This [video](https://www.youtube.com/watch?v=EcoIjf3RABI) shows how to implement
 5. TDD and The Terminator [YouTube](https://www.youtube.com/watch?v=EcoIjf3RABI)
 6. [Test Driven Development: what it is, and what it is not.](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/)
 7. PHP Test Driven Development Part 1: Introduction[medium](https://medium.com/@sameernyaupane/php-test-driven-development-part-1-introduction-5483362d79b5)
+8. [Red-Green-Refactor](https://www.codecademy.com/articles/tdd-red-green-refactor)

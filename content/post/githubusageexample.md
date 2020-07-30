@@ -77,7 +77,7 @@ author = "Ken Cho"
 9.6 To clean up local branch after merging  
 `git fetch -p`  
 
-### Or refer to How To Clean Up Git Branches at [here](https://devconnected.com/how-to-clean-up-git-branches/)
+### How To Clean Up Git Branches at [here](https://devconnected.com/how-to-clean-up-git-branches/) or [stackoverflow](https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged)
 
 ### 10. How to handle multiple github accounts on MacOS?
 
