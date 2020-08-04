@@ -45,7 +45,7 @@ theme = "github-light"
     url = "/jobs"
     weight = 1
   [[menu.main]]
-    name = "Projects"  
+    name = "Projects"
     url = "/projects/"
     weight = 3
   [[menu.main]]
@@ -61,5 +61,5 @@ theme = "github-light"
     url = '/reference'
     weight = 6
 
- 
+
 
