@@ -10,9 +10,9 @@ before_script:
   - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
   - rm -rf public || exit 0
 script:
-  - hugo --gc -t ghostwriter
-  - hugo --gc -t ghostwriter
-  - hugo --gc -t ghostwriter
+  - hugo
+#  - hugo --gc -t ghostwriter
+#  - hugo --gc -t ghostwriter
 deploy:
   provider: pages
   skip_cleanup: true
