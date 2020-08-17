@@ -18,6 +18,8 @@ addons:
 
 script:
   - hugo
+  - hugo
+  - hugo
 
 deploy:
   provider: pages
