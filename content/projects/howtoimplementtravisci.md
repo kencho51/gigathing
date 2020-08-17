@@ -64,7 +64,7 @@ deploy:
 4. [使用 Travis CI 部署 Hugo 博客到 Github Pages](https://coldstone.fun/post/2019/07/26/hugo-travis-github-page/)
 5. [Deploy Hugo from Gitlab CI to Github Pages](https://dev.to/ardianta/deploy-hugo-from-gitlab-ci-to-github-pages-5aml)
 6. [How I use Travis CI to automatically deploy this blog to GitHub Pages](https://thecrisp.io/post/deploy-hugo-blog-travis/)
-
+7. [How to deploy Hugo site with Travis](https://eiken.dev/blog/2020/03/how-to-deploy-your-hugo-site-with-travis-ci/)
 
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
