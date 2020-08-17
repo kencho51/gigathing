@@ -1,5 +1,5 @@
-language: go
 dist: xenial
+language: python
 env:
   - HUGO_VERSION="0.74.2"
 before_install:
@@ -11,8 +11,7 @@ before_script:
   - rm -rf public || exit 0
 script:
   - hugo
-#  - hugo --gc -t ghostwriter
-#  - hugo --gc -t ghostwriter
+
 deploy:
   provider: pages
   skip_cleanup: true
