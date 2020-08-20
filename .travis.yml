@@ -17,9 +17,8 @@ addons:
       channel: extended
 
 script:
-  - hugo
-  - hugo
-  - hugo
+  - hugo --gc -t ghostwriter
+  - hugo --gc -t ghostwriter
 
 deploy:
   provider: pages
