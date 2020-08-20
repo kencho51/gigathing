@@ -18,7 +18,6 @@ addons:
 
 script:
   - hugo --gc -t ghostwriter
-  - hugo --gc -t ghostwriter
 
 deploy:
   provider: pages
