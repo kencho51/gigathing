@@ -54,8 +54,8 @@ author = "Ken Cho"
 ### 8. How to [sync with Fork repo](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) after making a successful pull request  
 `git checkout develop`  
 `git fetch upstream` to see any updates from the develop fork   
-`git merge upstream/develop` to get the updates from develop fork to local  
-`git push` to update the remote repo  
+`git rebase upstream/develop` to get the updates from develop fork to local  
+`git push origin` to update the remote repo  
 
 #### Ways to merge remote and local branch
 1. `git cherry-pick`  
