@@ -86,39 +86,118 @@ author = "Ken Cho"
     }
 ```
 ### Behat test
-1. Test the `Go to page` button
+`PhantomJS` has been discontinued, so it cannot simulate `pressing` action on `Go to page` button.
+In order to do so, `behat.yml` and `docker-compose.yml` need to be updated.  
+##### A. behat.yml, to replace `PhantomJS` with `Chrome`
+```yaml
+default:
+  suites:
+    default:
+      filters:
+      contexts:
+        - AffiliateLoginContext
+        - GigadbWebsiteContext
+        - AuthorMergingContext
+        - AuthorUserContext
+        - ClaimDatasetContext
+        - DatasetsOnProfileContext
+        - DatasetViewContext
+        - DatasetAdminContext
+        - NormalLoginContext
+        - Behat\MinkExtension\Context\MinkContext
+  extensions:
+      Behat\MinkExtension:
+          base_url: "http://gigadb.dev/"
+          goutte: ~
+          selenium2:
+            wd_host: "http://chrome:4444/wd/hub"
+            browser: chrome
+            capabilities:
+              chrome:
+                switches:
+                  - "--headless"
+                  - "--disable-gpu"
+```
+##### B. Add 'Chrome' docker image in docker-compose file
+```yaml
+  chrome:
+    image: selenium/standalone-chrome:3.141.59-oxygen # latest version with Chrome 74
+    shm_size: '1gb' # to avoid a known issue
+    ports:
+      # - "5900:5900" #for VNC access
+      - "4444:4444" #for webdriver access
+    networks:
+      - web-tier
+    extra_hosts:
+      - "gigadb.test:172.16.238.10"
+      - "gigadb.dev:172.16.238.10"           
+    environment: # to run headless, set false and comment out port 5900 above and make sure to pass --headless arg in acceptance.suite.yml
+      START_XVFB: "false"
+```
+##### C. Stop `PhantomJS` service and Start `Chrome` service
+`docker-compose stop phantomjs`  
+`docker-compose up -d chrome`
+
+##### D. To run specific behat test
+`docker-compose run --rm test bin/behat --tags @wip --stop-on-failure`
+
+1. Press the `Go to page` button and go to page 2  
 ```gherkin
-@done @files @javascript @pr437
+	@wip @files @javascript @pr437
 	Scenario: Files - Pagination
 		Given I am not logged in to Gigadb web site
 		And I am on "/dataset/101001"
 		And I follow "Files"
-		Then I should see an onclick button "Go to page"
-		When I input page number 2
+		And I have set pageSize to "5" on "files_table_settings"
+		And I fill in "pageTarget" with "2"
+		And I press "Go to page"
+		When I follow "1"
+		And I take a screenshot named "file_tab_p1"
 		Then I should see "Files" tab with table
-		| File name | Sample ID | Data Type | File Format 	| Size | Release date | link |
-		| pre_03AUG2015_update 								|				| Directory 		| UNKNOWN 		| 50.00 MiB 	| 2015-08-03  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/pre_03AUG2015_update |
-		| readme.txt 										|				| Readme 			| TEXT 			| 337 B 		| 2013-01-23  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/readme.txt |
-		When I input page number 1
-		Then I should see "Files" tab with table
-		| File name              							| Sample ID  	| Data Type       	| File Format 	| Size  		| Release date| link |
-		| Anas_platyrhynchos.cds 							| Pekin duck 	| Coding sequence  	| FASTA 	   	| 21.50 MiB     | 2015-08-03  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.cds |
-		| Anas_platyrhynchos.gff 							| Pekin duck 	| Annotation 		| GFF        	| 10.10 MiB 	| 2015-08-03  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.gff |
-		| Anas_platyrhynchos.pep 							| Pekin duck 	| Protein sequence 	| FASTA      	| 7.80 MiB  	| 2015-08-03  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.pep |
-		| Anas_platyrhynchos_domestica.RepeatMasker.out.gz 	| Pekin duck 	| Other 			| UNKNOWN    	| 7.79 MiB  	| 2015-03-23  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos_domestica.RepeatMasker.out.gz |
-		| duck.scafSeq.gapFilled.noMito 					| Pekin duck 	| Sequence assembly	| FASTA 		| 1.03 GiB 		| 2013-01-23  | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/duck.scafSeq.gapFilled.noMito |
-
+		| File Name              							| Description  	                                                                    | Data Type       	| Size  		| File Attributes | link |
+		| Anas_platyrhynchos.cds 							| predicted coding sequences from draft genome, confirmed with RNAseq data.	        | Coding sequence  	| 21.50 MiB     |                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.cds |
+		| Anas_platyrhynchos.gff 							| genome annotations	                                                            | Annotation 		| 10.10 MiB 	|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.gff |
+		| Anas_platyrhynchos.pep 							| amino acid translations of coding sequences                                       | Protein sequence 	| 7.80 MiB  	|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos.pep |
+		| Anas_platyrhynchos_domestica.RepeatMasker.out.gz 	| repeat masker output 	                                                            | Other 			| 7.79 MiB  	|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/Anas_platyrhynchos_domestica.RepeatMasker.out.gz |
+		| duck.scafSeq.gapFilled.noMito 					| draft genome assembly                                                             | Sequence assembly	| 1.03 GiB 		|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/duck.scafSeq.gapFilled.noMito |
 ```
 
-2. Test the `Go to page` button and the `page number`
+2. To enable `hit return` function  
+```php
+    /**
+     * @Then I manually hit return
+     */
+    public function iManuallyHitReturn()
+    {
+        $xpath = '//*[@id="pageTarget"]';
+        $this->minkContext->getSession()->getDriver()->getWebDriverSession()->element('xpath', $xpath)->postValue(['value' => ["\r\n"]]);
+    }
+```
 
+3. Hit `return` and go to page 2  
+```gherkin
+	@wip @files @javascript @pr437
+	Scenario: Files - Pagination
+		Given I am not logged in to Gigadb web site
+		And I am on "/dataset/101001"
+		And I follow "Files"
+		And I have set pageSize to "5" on "files_table_settings"
+		When I fill in "pageTarget" with "2"
+		And I manually hit return
+#		And I take a screenshot named "file_tab_enter"
+		Then I should be on "/dataset/view/id/101001/Files_page/2"
+		And I should see "Files" tab with table
+		| File Name              							| Description  	                                                                    | Data Type       	| Size  		| File Attributes | link |
+		| pre_03AUG2015_update 								| folder containing originally submitted data files, prior to update Aug 3rd 2015.	| Directory 		| 50.00 MiB 	|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/pre_03AUG2015_update |
+		| readme.txt 										|				                                                                    | Readme 			| 337 B 		|                 | ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/readme.txt |
+```
 
-
-### Done
 
 
 ### Reference
-
+1. [Config files](https://gist.github.com/rija/84b87dfccbcc9efb9c288502f2a01602)
+2. [xpath information](https://github.com/Behat/MinkExtension/issues/257)
+3. [PR #495](https://github.com/gigascience/gigadb-website/pull/495)
 
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
 
