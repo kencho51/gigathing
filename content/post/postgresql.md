@@ -236,11 +236,11 @@ or
 `cat filename* | psql dbname`  
 
 ### Connected to gigadb database container
-1. Connect to gigadb database container locally
+1. Connect to gigadb database container locally  
 `PGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres`  
-2. Create database 
-`postgre=# CREATE DATADASE dbname;`
-3. Restore `dump` database
+2. Create database  
+`postgre=# CREATE DATADASE dbname;`  
+3. Restore `dump` database  
 `kencho % pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp`  
 
 
