@@ -235,6 +235,15 @@ or
 2.2 Reload with  
 `cat filename* | psql dbname`  
 
+### Connected to gigadb database container
+1. Connect to gigadb database container locally
+`PGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres`  
+2. Create database 
+`postgre=# CREATE DATADASE dbname;`
+3. Restore `dump` database
+`kencho % pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp`  
+
+
 ### Reference
 1. [Introduction to PostgreSQL](https://www.guru99.com/introduction-postgresql.html)
 2. [PostgreSQL download](https://www.postgresql.org/download/)
