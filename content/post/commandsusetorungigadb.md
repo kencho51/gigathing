@@ -192,6 +192,26 @@ root@2f0dd679a934:/var/www# bin/behat --tags @wip
     - pw:
     - URL: `jdbc:postgresql://localhost:54321/gigadb`
 
+### How to restore gigadb database for admin log in
+1. Log in psql container  
+`PGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres`  
+2. Terminate runing `gigadb`  
+```sql
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'gigadb
+```
+3. Drop gigadb  
+```sql
+drop DATABASE gigadb;
+```
+4.Create gigadb  
+```sql
+create DATABASE gigadb;
+``` 
+5. Restore `gigadb` from `bootstrap.sql`  
+`kencho@MacBook-Pro:% psql -h localhost -U gigadb -p 54321 gigadb < ops/configuration/postgresql-conf/bootstrap.sql`
+
 ### How to retrieve production-like database
 1. Log in psql container  
 `PGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres`  
