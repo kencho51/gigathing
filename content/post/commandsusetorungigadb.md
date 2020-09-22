@@ -192,6 +192,14 @@ root@2f0dd679a934:/var/www# bin/behat --tags @wip
     - pw:
     - URL: `jdbc:postgresql://localhost:54321/gigadb`
 
+### How to retrieve production-like database
+1. Log in psql container  
+`PGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres`  
+2. Create database `production_like`  
+`postgres=# create database production_like;`  
+3. Restore production-like database  
+`kencho@MacBook-Pro:% pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp`  
+
 
 ### Reference
 1. [Run specific behat test](https://github.com/gigascience/gigadb-website/issues/356)
