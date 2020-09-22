@@ -18,12 +18,21 @@ author = "Ken Cho"
 `rm -rf ~/.containers-data/gigadb`
 4. Run `docker-compose run --rm webapp` again to rebuild the containers.  
 
+### How to remove images
+1. List all images  
+`docker images -a`  
+2. Remove all images  
+`docker rmi $(docker images -a -q)`  
+
 ### How to remove container
-1. Stop the containers  
-`docker container stop $(docker container ls -aq)`  
+1. List all containers  
+`docker ps -a`  
+2. Stop the containers  
+`docker stop $(docker ps -a -q)`    
 2. Remove stopped containers  
-`docker container rm $(docker container ls -aq)`
-[source](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/)
+`docker rm $(docker ps -a -q)`  
+[source](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/)  
+[digital ocean](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)  
 
 ### How to run a functional test in a docker environment for testing?
 1. Write unit test script and place in `protected/tests/functional-test` folder.
