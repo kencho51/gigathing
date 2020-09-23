@@ -182,6 +182,60 @@ $ docker-compose run --rm test bash
 root@2f0dd679a934:/var/www# bin/behat --tags @wip
 ```
 
+### How to run a behat test with database set up
+1. In `all_and_coverage` file  
+```bash
+#!/usr/bin/env bash
+
+set -e -u
+
+./tests/acceptance
+#./tests/unit_functional
+#./tests/coverage
+```
+2. In `acceptance` file  
+```bash
+#!/usr/bin/env bash
+
+set -e -u -x
+
+echo "About to run  automated tests..."
+
+echo "Loading environment..."
+set -a
+source /var/www/.env
+source /var/www/.secrets
+set +a
+
+if [ "$GIGADB_ENV" == "dev" ];then
+	echo "First, backup the main database..."
+	exec 3>&1
+	exec 1> /dev/null
+	pg_dump $GIGADB_DB -U $GIGADB_USER -h $GIGADB_HOST -F custom  -f /var/www/sql/before-run.pgdmp
+	exec 1>&3
+fi
+
+echo "Running acceptance tests"
+if [[ "$GIGADB_ENV" == "dev" ]];then
+#	bin/behat --tags "@ok&&~@facebook&&~orcid" -v --stop-on-failure
+    bin/behat --tags "@wip" -v --stop-on-failure
+else
+	# we are on CI with remote runner, affilate login tests don't work becasause Google and Twitter block it
+	bin/behat --tags "@ok&&~@affiliate-login&&~@javascript" -v --stop-on-failure
+fi
+
+echo "...all automated tests have run"
+
+if [ "$GIGADB_ENV" == "dev" ];then
+	echo "Lastly, restoring the main database..."
+	exec 3>&1
+	exec 1> /dev/null
+	pg_restore -h $GIGADB_HOST  -U $GIGADB_USER -d $GIGADB_DB --clean --no-owner -v /var/www/sql/before-run.pgdmp
+	exec 1>&3
+fi
+```
+3. Run the behat test  
+`docker-compose run --rm test`  
 
 ### How to connect postgreSQL in PhpStorm
 1. Click Database top right of PhpStorm screen.  
