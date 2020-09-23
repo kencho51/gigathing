@@ -156,8 +156,8 @@ fi
 `docker-compose run --rm test`  
 
 
-### Learn
-1. Run `behat test` with setting up the database is required to test `I sign in as an admin`.  
+### Important!
+1. Run `behat test` with setting up the database is required to pass `I sign in as an admin`.  
 
 ### Reference
 1. PR [Delete button #503](https://github.com/gigascience/gigadb-website/pull/503)
