@@ -165,5 +165,7 @@ reword f7fde4a Change the commit message but push the same commit.
 6. [The life-changing magic of git rebase -i](https://opensource.com/article/20/4/git-rebase-i)
 7. [Getting started with Git: Terminology 101](https://opensource.com/article/19/2/git-terminology)
 8. [How to change commit message](https://docs.github.com/en/enterprise/2.13/user/articles/changing-a-commit-message)
+9. [How to open a pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
+10. [How to sync your form with the original git repository](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/)
 
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
