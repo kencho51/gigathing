@@ -6,6 +6,8 @@ tags = ["favicon"]
 author = "Ken Cho"
 
 +++  
+![img](/image/android-chrome-192x192.png)
+
 ### What is a `favivon`
 A favicon is a small 16×16 pixel icon that serves as branding for your website. 
 Its main purpose is to help visitors locate your page easier when they have multiple tabs open.
