@@ -21,10 +21,10 @@
         {{ partial "extra-in-head.html" . }}
         {{ partial "exponea.html" . }}
         {{ partial "fathom.html" . }}
-        <link rel="icon" href="/image/favicon-16x16.png" type="/image" />
-        <link rel="icon" href="/image/favicon.ico" type="/image" />
-        <link rel="ico" href="image/favicon-32x32.png" type="/image" />
-        <link rel="icon" href="/image/apple-touch-icon.png" type="/image" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
     </head>
     <body>
         {{ template "_internal/google_analytics.html" . }}
