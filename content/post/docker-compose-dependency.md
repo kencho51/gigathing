@@ -31,7 +31,7 @@ Fatal error: Composer detected issues in your platform: Your Composer dependenci
 
 So, the `PHP_VERSION` has to revert to `7.1`.  
 
-2. Try 2
+2. Try 2  
 After reading the `XDebug` [release note](https://pecl.php.net/package/xdebug), the latest `XDebug` requires `7.2.0 < PHP version < 8.0.99`.
 So, hardcoded the `XDebug` version in `Dockerfile`:
 ```dockerfile
