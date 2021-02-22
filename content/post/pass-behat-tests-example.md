@@ -82,16 +82,36 @@ Failed asserting that two strings are equal.
 ```
 The problem is the `description` of dataset `100002` is too long and separated in 3 lines, so the `metaNode` could not find its content.
 
-### Solution
+### Solution 1
 Replace the dataset with description has no `line break`.
 ```gherkin
-@ok @issue-513
+@ok
     Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines)
     Given I am not logged in to Gigadb web site
     When I am on "/dataset/100004"
     Then there is a "name" meta tag "title" with value "GigaDB Dataset - DOI 10.5524/100004 - Data and software to accompany the paper: Applying compressed sensing to genome-wide association studies."
     And there is a "name" meta tag "description" with value "The aim of a genome-wide association study (GWAS) is to isolate DNA markers for variants affecting phenotypes of interest. Linear regression is employed for this purpose, and in recent years a signal-processing paradigm known as compressed sensing (CS) has coalesced around a particular class of regression techniques. CS is not a method in its own right, but rather a body of theory regarding signal recovery when the number of predictor variables (i.e., genotyped markers) exceeds the sample size. The paper shows the applicability of compressed sensing (CS) theory to genome-wide association studies (GWAS), where the purpose is to ﬁnd trait-associated tagging markers (genetic variants). Analysis scripts are contained in the compressed CS file. Mock data and scripts are found in the compressed GD file. The example scripts found in the CS repository require the GD files to be unpacked in a separate folder. Please look at accompanying readme pdfs for both repositories and annotations in the example scripts before using."
 
+
+```
+### Solution 2
+1. strip the `line break, white space, etc` using `str_replace` in `DatasetContext.php`  
+```php
+public function thereShouldBeAMetaTagWithMultiplines($arg1, $arg2, \Behat\Gherkin\Node\PyStringNode $expectedValue )
+{
+    $actualNode = $this->minkContext->getSession()->getPage()->find('xpath', "//meta[@$arg1='$arg2']");
+    [$expectContent, $actualContent] = str_replace(["\r","\n","\r\n","\t","\v","\0"," "], "", [$expectedValue->getRaw(), $actualNode->getAttribute('content')]);
+    PHPUnit_Framework_Assert::assertEquals($expectContent, $actualContent, 'The content is different!');
+}
+
+```
+```gherkin
+@ok
+    Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines)
+    Given I am not logged in to Gigadb web site
+    When I am on "/dataset/100004"
+    Then there should be a "name" meta tag "title" with value "GigaDB Dataset - DOI 10.5524/100004 - Data and software to accompany the paper: Applying compressed sensing to genome-wide association studies."
+    And there should be a "name" meta tag "description" with value "The aim of a genome-wide association study (GWAS) is to isolate DNA markers for variants affecting phenotypes of interest. Linear regression is employed for this purpose, and in recent years a signal-processing paradigm known as compressed sensing (CS) has coalesced around a particular class of regression techniques. CS is not a method in its own right, but rather a body of theory regarding signal recovery when the number of predictor variables (i.e., genotyped markers) exceeds the sample size. The paper shows the applicability of compressed sensing (CS) theory to genome-wide association studies (GWAS), where the purpose is to ﬁnd trait-associated tagging markers (genetic variants). Analysis scripts are contained in the compressed CS file. Mock data and scripts are found in the compressed GD file. The example scripts found in the CS repository require the GD files to be unpacked in a separate folder. Please look at accompanying readme pdfs for both repositories and annotations in the example scripts before using."
 
 ```
 
