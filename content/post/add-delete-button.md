@@ -364,7 +364,21 @@ class CurationLogTest extends CDbTestCase
 
 ```
 ### Learn
-1. 
+1. Tables relationship  
+| dataset | file | file_attribute |
+| ------- | -----| -------------- |
+| **id** | ~~id~~ | id |
+| identifier | **dataset_id** | ~~file_id~~ |
+| upload_status | | value |
+
+2.1 Update file_attribute table in `data/dev/production_like` 
+```csv
+id,file_id,attribute_id,value,unit_id
+5441,95354,455,test Bauhinia,
+```
+2.2 Update the `production_like.pgdmp`  
+`ops/scripts/make_pgdmp_production_like.sh`
+
 
 
 ### Reference
