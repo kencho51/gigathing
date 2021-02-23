@@ -376,7 +376,7 @@ class CurationLogTest extends CDbTestCase
 id,file_id,attribute_id,value,unit_id
 5441,95354,455,test Bauhinia,
 ```
-2.2 Update the `production_like.pgdmp`  
+2.2 Update the `production_like.pgdmp`, [PR548](https://github.com/gigascience/gigadb-website/pull/548) 
 `ops/scripts/make_pgdmp_production_like.sh`
 
 
