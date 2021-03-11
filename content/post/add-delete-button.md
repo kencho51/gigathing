@@ -380,6 +380,42 @@ id,file_id,attribute_id,value,unit_id
 `ops/scripts/make_pgdmp_production_like.sh`
 
 
+### Hints from Rija
+
+Among a dataset's attributes in the database table there are ``id``, and ``identifier``.
+
+Controller actions that alter the dataset expect to have the internal id ``id`` as parameter (that's your xxx) as that's the most appropriate one to uniquely identify a row in a database table.
+
+In ``/adminFile/update/id/xxx``, ``/id/`` is how yii framework knows that we are looking for a dataset whose ``id`` attribute is ``xxx``
+
+``identifier`` is for the DOI and is the public identifier for the dataset, that's why it is used in the view as the dataset url is meant to be shared publicly (that's your ``yyy``).
+
+So when you pick a dataset as example, select both attributes from the table.
+```
+gigadb=# select id, identifier, title from dataset;
+id  | identifier |  title
+...
+ 189 | 100133     | Reference data for phage M13 dsDNA generated with the Oxford Nanopore MinION.
+ 204 | 100143     | Software and supporting material for "SMAP: a streamlined methylation pipelinefor bisulphite sequencing".
+ 210 | 100155     | Supporting data for "Sparse whole-genome sequencing identifies two loci for major depressive disorder".
+...
+```
+
+Regarding your second point: datasets that are not published cannot be accessible publicly, so going to the public url ``/dataset/yyy`` would result in that error.
+
+You've got couple of approaches:
+
+You could add Given steps to change the upload status temporarily away from published, but then you would need to find a way to revert the change after the test has run.
+
+Or you could have the Then steps to check this page:
+(http://gigadb.gigasciencejournal.com:9170/datasetLog/admin/)
+or more precisely manually navigate to the last page, and use that in a Then step.
+It's not the most robust (the last page may change if we add/remove example datasets from production-like), but it's the easiest.
+
+A better approach  is to use the test database instead of production-like then checking`` /datasetLog/admin/``'s first page would be enough, but you will need some Given steps to add some file attributes first to a dataset as I think the test database doesn't have any.
+
+An improved alternative to that latter pre-condition would be to update the test data for the test database to have some file attributes in it so you don't have to add extra Given steps (I've pasted bash code to do that easily in @pli888's PR 532, you'd just have to update the corresponding CSV file beforehand)
+
 
 ### Reference
 
