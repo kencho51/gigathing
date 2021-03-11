@@ -381,6 +381,29 @@ id,file_id,attribute_id,value,unit_id
 
 
 ### Hints from Rija
+>I must have forgotten what you said 😞
+Right now I am working on to pass the `curation_log` test, here is my scenario:
+```
+  Background:
+    Given Gigadb web site is loaded with production-like data
+
+   @wip @issue-#457 @javascript
+    Scenario: Go to a non published dataset found in production-like database
+        Given I sign in as an admin
+        And I go to "/adminFile/update/id/xxx"
+        And I should see some file attributes
+        When I press "Delete"
+        And I should not see file attributes
+        And I go to "dataset/YYY"
+        And I follow "History"
+        Then I should not see some file attributes
+```
+>But I think the above scenario is not a proper way to test.
+>Because,  I could not identify the correct `xxx` and `YYY`. And even I found the `xxx`, this step `And I go to "dataset/YYY"` will not pass as error `The dataset does not exist` will be found.
+
+>So, can I have your suggestion on how to pass the `curation_log` test?
+
+----
 
 Among a dataset's attributes in the database table there are ``id``, and ``identifier``.
 
