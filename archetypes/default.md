@@ -12,10 +12,9 @@ author = "Ken Cho"
 
 ### Done - Project
 
-### Todo
+### Todo - Github
 
-
-### Done
+### Done - Github
 
 
 ### Reference
