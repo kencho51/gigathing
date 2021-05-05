@@ -89,9 +89,14 @@ author = "Ken Cho"
     10.2 `yum update`  
     10.3 `yum remove`  
 11. Configuring Networking
-12. Controlling System Startup Process
-13. Introduction to Containers
-14. Overview of Cockpit
+12. Controlling System Startup Process  
+    12.1 `systemctl --list-unit`  
+    12.2 `systemctl status sshd`  
+    12.3 `systemctl restart ssh`
+13. Introduction to Containers  
+    13.1 `podman`, `buildah`, `skopeo`  
+14. Overview of Cockpit, easy to use interface for network setting    
+    14.1 `sysyemctl enable --now cockpit.socket`
 15. Learning more about Red Hat Enterprise Linux
 
 ### Reference
