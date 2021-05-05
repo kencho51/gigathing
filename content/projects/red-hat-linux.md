@@ -80,6 +80,7 @@ author = "Ken Cho"
    | --- | --- | --- | ---|
    | - | - - - | - - - | - - - |
    | d/l/b | rwx | - - - | - - - |  
+   
    9.3 `ls -ld`: show dir property  
    9.4 `chmod o+w file`: change other to write  
    9.5 `chown student:paul file`: change group ownership from student to paul  
