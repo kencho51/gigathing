@@ -74,8 +74,20 @@ author = "Ken Cho"
    8.15 `su -`: switch user account to `root`  
    8.16 `crtl D`: exit and logout  
 9. File Permission  
-   9.1 
-10. Managing Software
+   9.1 `rwx`: read, write, execute  
+   9.2 
+   | kind | owning user | owning group | other |
+   | --- | --- | --- | ---|
+   | - | - - - | - - - | - - - |
+   | d/l/b | rwx | - - - | - - - |  
+   9.3 `ls -ld`: show dir property  
+   9.4 `chmod o+w file`: change other to write  
+   9.5 `chown student:paul file`: change group ownership from student to paul  
+   9.6 `chmod u-rwx file`: rm read, write, execute from the user  
+10. Managing Software, `rpm`  
+    10.1 `yum install`
+    10.2 `yum update`  
+    10.3 `yum remove`  
 11. Configuring Networking
 12. Controlling System Startup Process
 13. Introduction to Containers
