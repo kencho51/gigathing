@@ -176,4 +176,5 @@ reword f7fde4a Change the commit message but push the same commit.
 10. [How to sync your form with the original git repository](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/)
 11. [Set up git from Rija](https://gist.github.com/rija/170bba283968893bbabb887f0aeeef6a)
 12. [How to check out PR and test locally](https://gist.github.com/rija/170bba283968893bbabb887f0aeeef6a)
+13. [How to test a PR locally before merge](https://medium.com/@bolajiayodeji/how-to-test-a-pull-request-locally-before-merging-634bb205d3a6)
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
