@@ -156,6 +156,13 @@ reword f7fde4a Change the commit message but push the same commit.
 
 ### How To Cherry Pick Git Commits at [here](https://devconnected.com/how-to-cherry-pick-git-commits/)
 
+### How to check out PR and test locally
+1. Fetch the PR's pseudo-branch
+`git fetch upstream pull/id/head:whatever-name-you-want`  
+2. Switch to that branch  
+`git checkout whatever-name-you-want`  
+3. Start to test the code
+
 ### Reference
 1. [5 Git Commands You Should Know, with Code Examples](https://www.freecodecamp.org/news/5-git-commands-you-should-know-with-code-examples/)
 2. [learngitbranching](https://learngitbranching.js.org/)
@@ -167,5 +174,6 @@ reword f7fde4a Change the commit message but push the same commit.
 8. [How to change commit message](https://docs.github.com/en/enterprise/2.13/user/articles/changing-a-commit-message)
 9. [How to open a pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
 10. [How to sync your form with the original git repository](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/)
-
+11. [Set up git from Rija](https://gist.github.com/rija/170bba283968893bbabb887f0aeeef6a)
+12. [How to check out PR and test locally](https://gist.github.com/rija/170bba283968893bbabb887f0aeeef6a)
 [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing)
