@@ -139,19 +139,6 @@ jq: error (at <stdin>:0): Cannot index string with string "key"
 {"message":"401 Unauthorized"}
 ```
 
-
-4. `postgresql-client-9.4 is not available` error when runing `docker-compose build web test console`
-```
-Package postgresql-client-9.4 is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-
-E: Package 'postgresql-client-9.4' has no installation candidate
-ERROR: Service 'test' failed to build : The command '/bin/sh -c if [ ${INSTALL_PG_CLIENT} = true ]; then     mkdir -p /usr/share/man/man1 &&     mkdir -p /usr/share/man/man7 &&     apt-get update -yq &&     apt-get install -y postgresql-client-${PG_CLIENT_VERSION} ;fi' returned a non-zero code: 100
-```
-
-
-
 ### Reference
 
 
