@@ -139,6 +139,36 @@ jq: error (at <stdin>:0): Cannot index string with string "key"
 {"message":"401 Unauthorized"}
 ```
 
+Request Gitlab permission for `GROUP`   
+Update `GROUP_VARIABLES_URL` in `.env`  
+`GROUP_VARIABLES_URL="https://gitlab.com/api/v4/groups/gigascience%2FForks/variables?per_page=100"`
+
+4. Rerun `./up.sh`
+```bash
++ echo 'Starting all services...'
+Starting all services...
++ docker stop socat
+socat
++ docker rm socat
+socat
++ docker run --name socat -d -v /var/run/docker.sock:/var/run/docker.sock -p 127.0.0.1:2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
+a57ebfc289c5f1be12506d23db1258b16e35512b3a834bd3882489b17a7b250c
++ '[' -f ./.env ']'
++ docker-compose run --rm config
+Creating deployment_config_run ... done
+Current working directory: /var/www
+An .env file is present, sourcing it
+Running /var/www/ops/scripts/generate_config.sh for environment: dev
+Retrieving variables from https://gitlab.com/api/v4/groups/gigascience%2FForks/variables?per_page=100
+Retrieving variables from https://gitlab.com/api/v4/groups/3501869/variables
+Retrieving variables from https://gitlab.com/api/v4/projects/gigascience%2Fforks%2Fkencho51-gigadb-website/variables
+Sourcing secrets
+Retrieving private_key variable for Google API from https://gitlab.com/api/v4/projects/gigascience%2Fforks%2Fkencho51-gigadb-website/variables
+* ---------------------------------------------- *
+done.
+```
+
+
 ### Reference
 
 
