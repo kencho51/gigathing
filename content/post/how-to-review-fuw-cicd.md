@@ -6,7 +6,7 @@ tags = ["fuw"]
 author = "Ken Cho"
 
 +++  
-# PR546 details at [here](https://github.com/gigascience/gigadb-website/pull/546)
+# PR546 details at [here](https://github.com/gigascience/gigadb-website/pull/546), [gist](https://gist.github.com/kencho51/6b5cebd15c9419484e73b2439a34f0d1)
 
 # Suggestion from Rija, google [doc](https://docs.google.com/document/d/1Ns_OkaRn6mXtcDW37JbrSGZzILzFRGPZJQ2oPe2EuSw/edit)
 here's a suggestion on how to review and merge
