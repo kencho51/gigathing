@@ -6,7 +6,7 @@ tags = ["CSS", "Safari", "Chrome"]
 author = "Ken Cho"
 
 +++  
-### Observation
+### Observation for [PR #521](https://github.com/gigascience/gigadb-website/pull/521)
 1. Safari
 ![img.png](/image/safari-before.png)
 2. Chrome
