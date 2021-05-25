@@ -103,7 +103,7 @@ To create .env, enter your private gitlab token and name of the name of your for
 ```text
 Variables to create .env 
 name of your fork on GitLab: kencho51-gigadb-website
-private gitlab token: bxEkhUaWRpLNLrm7nYnQ
+private gitlab token:
 ```
 
 3. Rerun `./up.sh`
@@ -315,6 +315,11 @@ Stack trace:
 Additional Information:
 
 ```
+Than look at the `/fuw/watcher/conf/watcherconfig.ini.dist`, the have no idea why `dsn` would have changed to `db_dsn = "pgsql:dbname=$FUW_DB_NAME"`, so 
+
+~~db_dsn = "pgsql:dbname=$FUW_DB_NAME"~~ to `db_dsn = "pgsql:host=$FUW_DB_HOST;dbname=$FUW_DB_NAME"`
+
+
 
 Then tried to migrate database manually:  
 ```bash
