@@ -27,7 +27,7 @@ here's a suggestion on how to review and merge
 
 ## Progress
 - [x] 0. Clone the repo to local
-- [ ] 1. Building Stage
+- [x] 1. Building Stage
 - [ ] 2. Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)
 - [ ] 3. Pass Unit test
 - [ ] 4. Pass Functional test
@@ -66,6 +66,9 @@ error: could not apply 57148420d... Fix acceptance tests and alleviate DOI resol
 
 ### Steps to review - Buiding Stage
 
+0. Remove all existing container database config
+`rm -rf ~/.container-data/default-gigadb`  
+   
 1. List, stop and remove all running containers
 ```
 docker ps
@@ -139,6 +142,7 @@ jq: error (at <stdin>:0): Cannot index string with string "key"
 {"message":"401 Unauthorized"}
 ```
 
+##### Review 3
 Request Gitlab permission for `GROUP`   
 Update `GROUP_VARIABLES_URL` in `.env`  
 `GROUP_VARIABLES_URL="https://gitlab.com/api/v4/groups/gigascience%2FForks/variables?per_page=100"`
@@ -315,41 +319,23 @@ Stack trace:
 Additional Information:
 
 ```
-Than look at the `/fuw/watcher/conf/watcherconfig.ini.dist`, the have no idea why `dsn` would have changed to `db_dsn = "pgsql:dbname=$FUW_DB_NAME"`, so 
+##### Problem
+The setup thinks its on staging, it is because the variables in `.secrets` is for staging.
 
-~~db_dsn = "pgsql:dbname=$FUW_DB_NAME"~~ to `db_dsn = "pgsql:host=$FUW_DB_HOST;dbname=$FUW_DB_NAME"`
-
-
-
-Then tried to migrate database manually:  
-```bash
-# Create schema tables
-\$ docker-compose run --rm  application ./protected/yiic migrate --migrationPath=application.migrations.schema --interactive=0
----
-Migrated up successfully.
-
-# Create migration scripts for uploading data
-\$ docker-compose up csv-to-migrations
----
-Creating deployment_csv-to-migrations_1 ... done
-Attaching to deployment_csv-to-migrations_1
-csv-to-migrations_1  | npm WARN csv-to-migrations@1.0.0 No repository field.
-csv-to-migrations_1  | 
-csv-to-migrations_1  | audited 25 packages in 0.791s
-csv-to-migrations_1  | found 3 vulnerabilities (2 high, 1 critical)
-csv-to-migrations_1  |   run `npm audit fix` to fix them, or `npm audit` for details
-deployment_csv-to-migrations_1 exited with code 0
-
-# Upload data into tables
-\$ docker-compose run --rm  application ./protected/yiic migrate --migrationPath=application.migrations.data.dev --interactive=0
----
-migrations.data.dev --interactive=0
-Creating deployment_application_run ... done
-
-Yii Migration Tool v1.0 (based on Yii v1.1.20)
-
-No new migration found. Your system is up-to-date.
+##### Review 4
+Update the following variables in gitlab fork:
 ```
+FUW_TESTDB_HOST=
+FUW_TESTDB_NAME=
+FUW_TESTDB_USER=
+FUW_TESTDB_PASSWORD=
+FUW_DB_HOST=
+FUW_DB_NAME=
+FUW_DB_USER=
+FUW_DB_PASSWORD=
+FUW_JWT_KEY=
+```
+
 
 ### Reference
 
