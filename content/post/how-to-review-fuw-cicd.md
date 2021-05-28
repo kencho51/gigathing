@@ -29,9 +29,10 @@ here's a suggestion on how to review and merge
 - [x] 0. Clone the repo to local
 - [x] 1. Building Stage
 - [ ] 2. Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)
-- [ ] 3. Pass Unit test
-- [ ] 4. Pass Functional test
-- [ ] 5. Pass Acceptance test
+- [x] 3. Pass Unit test
+- [x] 4. Pass Functional test
+- [x] 5. Pass Acceptance test
+- [x] 6. Pass Coverage test
 
 ### Steps to review - Clone the repo
 1. Clone the target repo
