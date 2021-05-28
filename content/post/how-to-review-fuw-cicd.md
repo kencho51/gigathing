@@ -361,6 +361,9 @@ ERROR: An HTTP request took too long to complete. Retry with --verbose to obtain
 If you encounter this issue regularly because of slow network conditions, consider setting COMPOSE_HTTP_TIMEOUT to a higher value (current value: 60).
 ```
 
+### Steps to review - Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)  
+
+
 ### Reference
 
 
