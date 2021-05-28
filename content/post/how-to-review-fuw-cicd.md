@@ -493,7 +493,7 @@ OK (6 tests, 7 assertions)
 ### Steps to reviews - Pass Functional test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
-2. Run the unit test suite  
+2. Run the functional test suite  
 `./test/functional_runner`
    
 ```
@@ -577,8 +577,8 @@ OK (7 tests, 35 assertions)
 `docker-compose build test`
 2. Make sure a headless browser is up
 `docker-compose up -d chrome`
-2. Run the unit test suite  
-`./test/functional_runner`
+2. Run the acceptance test suite  
+`./test/acceptance_runner`
    
 ```
 77 scenarios (77 passed)
@@ -753,6 +753,13 @@ Time: 17.34 minutes, Memory: 42.00MB
 OK (53 tests, 243 assertions)
 
 ```
+### Steps to review - Pass Coverage test
+1. Make sure the `deployment_test_1` container is up  
+   `docker-compose build test`
+2. Make sure a headless browser is up
+   `docker-compose up -d chrome`
+2. Run the coverage test suite  
+   `./test/coverage_runner`
 ### Reference
 
 
