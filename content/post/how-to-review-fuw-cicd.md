@@ -27,12 +27,24 @@ here's a suggestion on how to review and merge
 
 ## Progress
 - [x] 0. Clone the repo to local
-- [x] 1. Building Stage
-- [ ] 2. Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)
-- [x] 3. Pass Unit test
-- [x] 4. Pass Functional test
-- [x] 5. Pass Acceptance test
-- [x] 6. Pass Coverage test
+- [x] 1. Building Stage: Setup, run tests and project structure [#642](https://github.com/gigascience/gigadb-website/issues/642)
+   - [x] 1. Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)
+   - [x] 2. Pass Unit test
+   - [x] 3. Pass Functional test
+   - [x] 4. Pass Acceptance test
+   - [x] 5. Pass Coverage Test
+- [ ] 2. Changes to test infrastructure [#643](https://github.com/gigascience/gigadb-website/issues/643)
+- [ ] 3. Review Javascript application [#644](https://github.com/gigascience/gigadb-website/issues/644)
+- [ ] 4. Review Javascript application for File Upload Wizard [#645](https://github.com/gigascience/gigadb-website/issues/645)
+- [ ] 5. Review Javascript pipeline [#646](https://github.com/gigascience/gigadb-website/issues/646)
+- [ ] 6. File Upload Wizard Yii2 app [#647](https://github.com/gigascience/gigadb-website/issues/647)
+- [ ] 7. TUS and Uppy [#648](https://github.com/gigascience/gigadb-website/issues/648)
+- [ ] 8. Gitlab pipeline [#649](https://github.com/gigascience/gigadb-website/issues/649)
+- [ ] 9. Beanstalkd message queue [#650](https://github.com/gigascience/gigadb-website/issues/650)
+- [ ] 10. Flysystem modular storage client API [#651](https://github.com/gigascience/gigadb-website/issues/651)
+- [ ] 11. SOLID, fluent interface and controllers [#652](https://github.com/gigascience/gigadb-website/issues/652)
+- [ ] 12. Remove duplicated code and other miscellaneous changes [#653](https://github.com/gigascience/gigadb-website/issues/653)
+
 
 ### Steps to review - Clone the repo
 1. Clone the target repo
@@ -65,13 +77,14 @@ error: could not apply 57148420d... Fix acceptance tests and alleviate DOI resol
 
 `git rebase --continue`
 
-### Steps to review - Buiding Stage
+### Steps to review - Building Stage
 
 0. Remove all existing container database config
 `rm -rf ~/.container-data/default-gigadb`  
    
 1. List, stop and remove all running containers
-```
+
+```bash
 docker ps
 docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
@@ -325,7 +338,8 @@ The setup thinks its on staging, it is because the variables in `.secrets` is fo
 
 ##### Review 4
 Update the following variables in gitlab fork:
-```
+
+```bash
 FUW_TESTDB_HOST=
 FUW_TESTDB_NAME=
 FUW_TESTDB_USER=
@@ -338,7 +352,8 @@ FUW_JWT_KEY=
 ```
 
 ##### Problem
-```
+
+```bash
 ERROR: for deployment_tusd_1  UnixHTTPConnectionPool(host='localhost', port=None): Read timed out. (read timeout=60)
 
 ERROR: for deployment_ftpd_1  UnixHTTPConnectionPool(host='localhost', port=None): Read timed out. (read timeout=60)
@@ -363,14 +378,39 @@ If you encounter this issue regularly because of slow network conditions, consid
 ```
 
 ### Steps to review - Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)  
-
+1. Log in as curator, update the `upload status` to `Curation`  
+2. Click the `Move files to public ftp` button
+3. The `/adminDataset/admin/` view:
+![img.png](/image/curation.png)
+4. When click `View Dataset` will get:
+```
+Error 500
+Trying to get property of non-object
+```
+5. `docker-compose logs fuw-admin` will get:
+```bash
+fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:00:06 +0000 "GET /index.php" 200
+fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:00:07 +0000 "POST /index.php" 200
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] * Move files for filedrop account 1"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:44"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for hdl_11529_10548200.txt of DOI 000123"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for test.csv of DOI 000123"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for project_var.txt of DOI 000123"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for Screenshot 2021-05-10 at 5.04.49 PM.png of DOI 000123"
+fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
+fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:13:34 +0000 "GET /index.php" 200
+fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:13:35 +0000 "POST /index.php" 200
+```
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
 2. Run the unit test suite  
 `./test/unit_runner`  
    
-```
+```bash
 ..............................................................  63 / 279 ( 22%)
 ............................................................... 126 / 279 ( 45%)
 ............................................................... 189 / 279 ( 67%)
@@ -497,7 +537,7 @@ OK (6 tests, 7 assertions)
 2. Run the functional test suite  
 `./test/functional_runner`
    
-```
+```bash
 ................................................................ 65 / 95 ( 68%)
 ..............................                                    95 / 95 (100%)
 
@@ -581,7 +621,7 @@ OK (7 tests, 35 assertions)
 2. Run the acceptance test suite  
 `./test/acceptance_runner`
    
-```
+```bash
 77 scenarios (77 passed)
 734 steps (734 passed)
 26m40.98s (16.25Mb)
@@ -762,7 +802,7 @@ OK (53 tests, 243 assertions)
 2. Run the coverage test suite  
    `./test/coverage_runner`
    
-```
+```bash
 ..............................................................  63 / 279 ( 22%)
 ............................................................... 126 / 279 ( 45%)
 ............................................................... 189 / 279 ( 67%)
