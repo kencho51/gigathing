@@ -54,14 +54,16 @@ here's a suggestion on how to review and merge
    `git remote add upstream https://github.com/gigascience/gigadb-website.git`
 
 3. Sync the local `develop` with `upstream/develop`
-```
+
+```bash
 git checkout develop
 git fetch upstream
 git rebase upstream/develop
 ```
 
 4. Sync the feature branch `fuw-cicd` with local `develop`
-```
+
+```bash
 git checkout fuw-cicd
 git fetch origin
 git rebase develop
@@ -69,7 +71,7 @@ git rebase develop
 
 ##### Review 1 
 To fix a merge conflict,
-```
+```bash
 Auto-merging protected/components/StoredDatasetConnections.php
 CONFLICT (content): Merge conflict in protected/components/StoredDatasetConnections.php
 error: could not apply 57148420d... Fix acceptance tests and alleviate DOI resolver timeout
