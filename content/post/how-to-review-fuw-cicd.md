@@ -389,22 +389,13 @@ If you encounter this issue regularly because of slow network conditions, consid
 Error 500
 Trying to get property of non-object
 ```
-5. `docker-compose logs fuw-admin` will get:
+5. `docker-compose logs application` will get:
 ```bash
-fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:00:06 +0000 "GET /index.php" 200
-fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:00:07 +0000 "POST /index.php" 200
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] * Move files for filedrop account 1"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:44"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for hdl_11529_10548200.txt of DOI 000123"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for test.csv of DOI 000123"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for project_var.txt of DOI 000123"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "2021-05-31 08:00:07 [172.16.238.6][2][-][warning][application] ** create job for Screenshot 2021-05-10 at 5.04.49 PM.png of DOI 000123"
-fuw-admin_1          | [31-May-2021 08:00:07] WARNING: [pool www] child 8 said into stderr: "    in /app/backend/actions/FiledropAccountController/MoveFilesAction.php:57"
-fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:13:34 +0000 "GET /index.php" 200
-fuw-admin_1          | 172.16.238.10 -  31/May/2021:08:13:35 +0000 "POST /index.php" 200
+"Trying to get property of non-object (/var/www/protected/components/StoredDatasetFiles.php:67)"
+```
+6. In `StoredDatasetFiles.php`, line 67
+```php
+'format' => $file->format->name,
 ```
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
