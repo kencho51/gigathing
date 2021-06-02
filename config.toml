@@ -6,7 +6,8 @@ copyright = "kencho51"
 pygmentsUseClasses = true
 pygmentsCodefences = true
 publishDir ="public"
-googleAnalytics = "UA-166952674-1"
+#googleAnalytics = "UA-166952674-1"
+googleAnalytics = "G-HESL282TL4"
 
 [Taxonomies]
   tag = "tags"
