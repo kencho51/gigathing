@@ -27,11 +27,34 @@ Go to [favicon.io](https://favicon.io/emoji-favicons/) to select the suitable on
         <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png">
         <link rel="icon" type="image" sizes="32x32" href="/image/favicon-32x32.png">
         <link rel="icon" type="image" sizes="16x16" href="/image/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
+        <link rel="manifest" href="/site.webmanifest.json">
 ```
-5. Edit the `site.webmanifest`
+5. Edit the `site.webmanifest` in  `static` folder
 ```json
-{"name":"","short_name":"favicon","icons":[{"src":"image/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"image/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "",
+  "short_name": "favicon",
+  "icons": [
+    {
+      "src": "image/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "image/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "image/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
 ```
 
 
