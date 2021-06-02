@@ -26,9 +26,11 @@
         <link rel="icon" type="image" sizes="32x32" href="/image/favicon-32x32.png">
         <link rel="icon" type="image" sizes="16x16" href="/image/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        {{ template "_internal/google_analytics.html" . }}
+        {{ template "_internal/google_analytics_async.html" . }}
     </head>
     <body>
-        {{ template "_internal/google_analytics.html" . }}
+<!--        {{ template "_internal/google_analytics.html" . }}-->
 
         <div id="wrapper">
             <header class="site-header">
@@ -90,5 +92,5 @@
             <div id="container">
 
 {{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . }}
+<!--{{ template "_internal/google_analytics_async.html" . }}-->
 {{ end }}
