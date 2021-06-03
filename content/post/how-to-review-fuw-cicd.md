@@ -420,6 +420,16 @@ docker rm $(docker ps -aq)
 10. To set up `production_like` database again
 `./ops/scripts/setup_devdb.sh production_like`
 But take long time to finish 😢
+    
+11. To register an admin user for the smoke test
+` docker-compose exec console ./yii identity/add-identity --username admin --email local-gigadb-admin@rijam.ml1.net --role admin`
+Then log in gigadb admin account `local-gigadb-admin@rijam.ml1.net`
+12. To register a normal user for the smoke test
+`docker-compose run --rm test ./protected/yiic smoketest createdata`
+Then log in test account : `gigadb-smoke-test-user@rijam.sent.as`
+    
+13. To check the job queue
+`http://fuw-admin-dev.pommetab.com:9170/monitor/jobs`
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
