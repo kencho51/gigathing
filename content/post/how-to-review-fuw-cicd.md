@@ -397,6 +397,26 @@ Trying to get property of non-object
 ```php
 'format' => $file->format->name,
 ```
+7. To set up `production_like` test data for gigaDB test database
+` ./ops/scripts/setup_devdb.sh production_like`
+```bash
+*** applying m200529_050180_insert_data_species_tab
+PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) in /var/www/protected/migrations/data/production_like/m200529_050180_insert_data_species_tab.php on line 422203
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) in /var/www/protected/migrations/data/production_like/m200529_050180_insert_data_species_tab.php on line 422203
+```
+8. Get the latest commit from Rija fuw-cicd branch and fix the merge conflicts
+```bash
+git remote -v
+git fetch origin
+git merge a90c10a
+```
+9. Then stop, remove and restart the containers
+```bash
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+./up.sh
+```
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
