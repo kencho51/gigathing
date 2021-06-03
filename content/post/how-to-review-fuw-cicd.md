@@ -417,6 +417,9 @@ docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 ./up.sh
 ```
+10. To set up `production_like` database again
+`./ops/scripts/setup_devdb.sh production_like`
+But take long time to finish 😢
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
