@@ -432,8 +432,10 @@ Then log in gigadb admin account `local-gigadb-admin@rijam.ml1.net`
 `docker-compose run --rm test ./protected/yiic smoketest createdata`
 Then log in test account : `gigadb-smoke-test-user@rijam.sent.as`
 
-    
-13. To check the job queue
+13. To reset the test data  
+`docker-compose run --rm test ./protected/yiic smoketest resetdata && docker-compose exec console ./yii fuw/remove-dropbox --doi 000007`
+`docker-compose run --rm test ./protected/yiic smoketest removedata`
+14. To check the job queue
 `http://fuw-admin-dev.pommetab.com:9170/monitor/jobs`
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
