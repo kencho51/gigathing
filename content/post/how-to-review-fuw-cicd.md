@@ -379,6 +379,9 @@ ERROR: An HTTP request took too long to complete. Retry with --verbose to obtain
 If you encounter this issue regularly because of slow network conditions, consider setting COMPOSE_HTTP_TIMEOUT to a higher value (current value: 60).
 ```
 
+##### Review 5
+Restart the docker daemon to fix the `COMPOSE_HTTP_TIMEOUT` issue, see [here](https://github.com/docker/compose/issues/3633)
+
 ### Steps to review - Go through the steps mentioned in the FUW workflow [video](https://drive.google.com/file/d/1kkMMApX0J8Fcyt8ftwCe2PKPrtu5rQ6N/view?usp=sharing)  
 1. Log in as curator, update the `upload status` to `Curation`  
 2. Click the `Move files to public ftp` button
@@ -422,11 +425,13 @@ docker rm $(docker ps -aq)
 But take long time to finish 😢
     
 11. To register an admin user for the smoke test
-` docker-compose exec console ./yii identity/add-identity --username admin --email local-gigadb-admin@rijam.ml1.net --role admin`
+`docker-compose exec console ./yii identity/add-identity --username admin --email local-gigadb-admin@rijam.ml1.net --role admin`
 Then log in gigadb admin account `local-gigadb-admin@rijam.ml1.net`
+
 12. To register a normal user for the smoke test
 `docker-compose run --rm test ./protected/yiic smoketest createdata`
 Then log in test account : `gigadb-smoke-test-user@rijam.sent.as`
+
     
 13. To check the job queue
 `http://fuw-admin-dev.pommetab.com:9170/monitor/jobs`
