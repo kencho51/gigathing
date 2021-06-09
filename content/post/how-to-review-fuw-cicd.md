@@ -33,7 +33,7 @@ here's a suggestion on how to review and merge
    - [x] 3. Pass Functional test
    - [x] 4. Pass Acceptance test
    - [x] 5. Pass Coverage Test
-- [ ] 2. Changes to test infrastructure [#643](https://github.com/gigascience/gigadb-website/issues/643)
+- [ ] 2. Changes to test infrastructure [#643](https://github.com/gigascience/gigadb-website/issues/643), [yii2 basic project templates](https://github.com/yiisoft/yii2-app-basic)
 - [ ] 3. Review Javascript application [#644](https://github.com/gigascience/gigadb-website/issues/644)
 - [ ] 4. Review Javascript application for File Upload Wizard [#645](https://github.com/gigascience/gigadb-website/issues/645)
 - [ ] 5. Review Javascript pipeline [#646](https://github.com/gigascience/gigadb-website/issues/646)
