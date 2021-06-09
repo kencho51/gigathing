@@ -420,23 +420,81 @@ docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 ./up.sh
 ```
-10. To set up `production_like` database again
-`./ops/scripts/setup_devdb.sh production_like`
-But take long time to finish 😢
+10. To set up `production_like` database again  
+`./up.sh production_like`  
+But take long time to finish 😢  
     
-11. To register an admin user for the smoke test
+11. To register an admin user for the smoke test  
 `docker-compose exec console ./yii identity/add-identity --username admin --email local-gigadb-admin@rijam.ml1.net --role admin`
 Then log in gigadb admin account `local-gigadb-admin@rijam.ml1.net`
 
-12. To register a normal user for the smoke test
-`docker-compose run --rm test ./protected/yiic smoketest createdata`
-Then log in test account : `gigadb-smoke-test-user@rijam.sent.as`
+12. To register a normal user for the smoke test  
+`docker-compose run --rm test ./protected/yiic smoketest createdata`  
+Then log in test account : `gigadb-smoke-test-user@rijam.sent.as`  
 
 13. To reset the test data  
 `docker-compose run --rm test ./protected/yiic smoketest resetdata && docker-compose exec console ./yii fuw/remove-dropbox --doi 000007`
-`docker-compose run --rm test ./protected/yiic smoketest removedata`
-14. To check the job queue
-`http://fuw-admin-dev.pommetab.com:9170/monitor/jobs`
+`docker-compose run --rm test ./protected/yiic smoketest removedata`  
+
+14. To check the job queue  
+`http://fuw-admin-dev.pommetab.com:9170/monitor/jobs`  
+
+15. Found `Error: duplicate key value violates unique constraint file_pkey`
+```bash
+gigadb-worker_1      | 2021-06-08 02:58:33 [pid: 1] - Worker is started
+gigadb-worker_1      | 2021-06-08 03:22:57 [3] app\models\UpdateGigaDBJob (attempt: 1, pid: 1) - Started
+gigadb-worker_1      | 2021-06-08 03:22:57 [-][-][-][warning][application] Update GigaDB for test-image.png (000007)
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:61
+gigadb-worker_1      | 2021-06-08 03:22:57 [-][-][-][warning][application] Creating file record for filetest-image.png for dataset 000007
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:85
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:68
+gigadb-worker_1      | 2021-06-08 03:22:58 [-][-][-][error][yii\queue\Queue] [3] app\models\UpdateGigaDBJob (attempt: 1, PID: 1) is finished with error: PDOException: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "file_pkey"
+gigadb-worker_1      | DETAIL:  Key (id)=(6300) already exists. in /gigadb-apps/worker/file-worker/vendor/yiisoft/yii2/db/Command.php:1302
+gigadb-worker_1      | Next yii\db\IntegrityException: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "file_pkey"
+gigadb-worker_1      | DETAIL:  Key (id)=(6300) already exists.
+gigadb-worker_1      | The SQL being executed was: INSERT INTO "file" ("dataset_id", "name", "size", "location", "description", "extension", "format_id", "type_id", "download_count") VALUES (999999, 'test-image.png', 530635, 'http://gigadb.gigasciencejournal.com:9170/datasetfiles/000007/test-image.png', 'test image', 'PNG', 10, 41, 0) RETURNING "id" in /gigadb-apps/worker/file-worker/vendor/yiisoft/yii2/db/Schema.php:678
+gigadb-worker_1      | Additional Information:
+gigadb-worker_1      | Array
+gigadb-worker_1      | (
+gigadb-worker_1      |     [0] => 23505
+gigadb-worker_1      |     [1] => 7
+gigadb-worker_1      |     [2] => ERROR:  duplicate key value violates unique constraint "file_pkey"
+gigadb-worker_1      | DETAIL:  Key (id)=(6300) already exists.
+gigadb-worker_1      | )
+gigadb-worker_1      | .
+```
+16. To fix `duplicate key value error`  
+    - 16.1 Check the `id` sequence of the table `file`  
+```psql
+gigadb=# select max(id) from file;
+max  
+
+95365
+(1 row)
+gigadb=# select nextval('file_id_seq');
+nextval 
+
+6300
+(1 row)
+```
+
+- 16.2 Fix the `id` sequence of the table `file`  
+```psql
+gigadb=# SELECT setval(pg_get_serial_sequence('file', 'id'), coalesce(max(id),0) + 1, false) FROM file;                                                                                                                                     
+setval 
+
+95366
+(1 row)
+gigadb=# select nextval('file_id_seq');                                                                                                                                                                                                      
+nextval 
+
+95366
+(1 row)
+```
+
+17. The uploaded smoketest dataset could be seen in `http://gigadb.gigasciencejournal.com:9170/dataset/view/id/000007`  
+![img.png](/image/smoketest-view.png)
+    
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
