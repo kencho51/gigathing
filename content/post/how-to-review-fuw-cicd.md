@@ -33,7 +33,7 @@ here's a suggestion on how to review and merge
    - [x] 3. Pass Functional test
    - [x] 4. Pass Acceptance test
    - [x] 5. Pass Coverage Test
-- [ ] 2. Changes to test infrastructure [#643](https://github.com/gigascience/gigadb-website/issues/643), [yii2 basic project templates](https://github.com/yiisoft/yii2-app-basic)
+- [x] 2. Changes to test infrastructure [#643](https://github.com/gigascience/gigadb-website/issues/643), [yii2 basic project templates](https://github.com/yiisoft/yii2-app-basic)
 - [ ] 3. Review Javascript application [#644](https://github.com/gigascience/gigadb-website/issues/644)
 - [ ] 4. Review Javascript application for File Upload Wizard [#645](https://github.com/gigascience/gigadb-website/issues/645)
 - [ ] 5. Review Javascript pipeline [#646](https://github.com/gigascience/gigadb-website/issues/646)
@@ -495,6 +495,23 @@ nextval
 17. The uploaded smoketest dataset could be seen in `http://gigadb.gigasciencejournal.com:9170/dataset/view/id/000007`  
 ![img.png](/image/smoketest-view.png)
     
+18. `Attribute ID cannot be blank` error.
+```bash
+gigadb-worker_1      | 2021-06-09 04:15:01 [-][-][-][warning][application] Update GigaDB for test-image.png (000007)
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:61
+gigadb-worker_1      | 2021-06-09 04:15:01 [-][-][-][warning][application] Creating file record for filetest-image.png for dataset 000007
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:85
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:68
+gigadb-worker_1      | 2021-06-09 04:15:01 [-][-][-][warning][application] Creating file_attributes record for test-image.png (000007)
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:113
+gigadb-worker_1      |     in /gigadb-apps/worker/file-worker/models/UpdateGigaDBJob.php:69
+gigadb-worker_1      | 2021-06-09 04:15:01 [-][-][-][error][application] [
+gigadb-worker_1      |     'attribute_id' => [
+gigadb-worker_1      |         'Attribute ID cannot be blank.',
+gigadb-worker_1      |     ],
+gigadb-worker_1      | ]
+```
+
 ### Steps to review -  Pass Unit test
 1. Make sure the `deployment_test_1` container is up  
 `docker-compose build test`
