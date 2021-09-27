@@ -28,6 +28,10 @@ publishDir ="docs"
 
 [Menu]
   [[menu.main]]
+    name = "Jobs"
+    url = "/jobs"
+    weight = 1
+  [[menu.main]]
     name = "Posts"
     url = "/post"
     weight = 1
