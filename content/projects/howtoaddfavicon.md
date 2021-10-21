@@ -1,6 +1,6 @@
 +++
 description = "Steps to add Favicon to Hugo blog"
-title = "How to add a logo to a Hugo page"
+title = "How to add favicon to a Hugo page"
 date = 2020-10-27T10:55:02+08:00
 tags = ["favicon"]
 author = "Ken Cho"
