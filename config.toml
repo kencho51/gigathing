@@ -7,7 +7,7 @@ copyright = "kencho51"
 #disqusShortname = XXX
 pygmentsUseClasses = true
 pygmentsCodefences = true
-publishDir ="docs"
+#publishDir ="gigathing"
 
 
 [Taxonomies]
