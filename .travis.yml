@@ -13,7 +13,7 @@ deploy:
   skip_cleanup: true
   keep_history: true
   github_token: $GH_TOKEN
-#  local_dir: public
+  local_dir: public
   target_branch: master
   email: kencho.gigascience@gmail.com
   name: kencho51
