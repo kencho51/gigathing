@@ -273,6 +273,17 @@ create DATABASE gigadb;
 `postgres=# create database production_like;`  
 3. Restore production-like database  
 `kencho@MacBook-Pro:% pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp`  
+   
+### How to retrieve text production-like back up database
+```
+# Drop into bash in test container
+% docker-compose run --rm test bash
+# Use psql in test container to connect to gigadb database in database container
+root@16b04afd18d5:/var/www# psql -h database -p 5432 -U gigadb gigadb
+gigadb=# create database gigadbv3_20210920;
+# Dump in the database
+% psql -h localhost -p 54321 -U gigadb -d gigadbv3_20210920 < gigadb/app/tools/files-url-updater/sql/gigadbv3_20210920_v9.3.25.backup
+```
 
 ### How to convert production database into different version, issue [#731](https://github.com/gigascience/gigadb-website/issues/731), [PR190](https://github.com/rija/gigadb-website/pull/190)
 
