@@ -10,4 +10,5 @@ pages:
     paths:
       - public
   only:
-    - deploy-from-gitlab
+#    - deploy-from-gitlab
+    - master
