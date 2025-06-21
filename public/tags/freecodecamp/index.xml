@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>freecodecamp on kencho51</title>
-    <link>https://kencho51.github.io/tags/freecodecamp/</link>
-    <description>Recent content in freecodecamp on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Freecodecamp on kencho51</title>
+    <link>http://localhost:1313/tags/freecodecamp/</link>
+    <description>Recent content in Freecodecamp on kencho51</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 12:48:28 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 12:48:28 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OOP basics</title>
-      <link>https://kencho51.github.io/oopbasics/</link>
+      <link>http://localhost:1313/oopbasics/</link>
       <pubDate>Mon, 05 Oct 2020 12:48:28 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/oopbasics/</guid>
-      <description>Here is the OOP crash course video:   And here is the Introduction to programming and Computer Science video   Reference  OOP programming basics Introduction to programming and computer science</description>
+      <guid>http://localhost:1313/oopbasics/</guid>
+      <description>&lt;p&gt;Here is the OOP crash course video:&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SiBw7os-_zI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;And here is the Introduction to programming and Computer Science video&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/zOjov-2OZ0E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/object-oriented-programming-crash-course/&#34;&gt;OOP programming basics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zOjov-2OZ0E&#34;&gt;Introduction to programming and computer science&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/kencho51/gigathing&#34;&gt;&lt;img src=&#34;https://travis-ci.org/kencho51/gigathing.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

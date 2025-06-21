@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Docker 101 &middot; </title>
         <meta name="description" content="Docker Introduction">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.80.0" />
+        <meta name="generator" content="Hugo 0.147.8">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Docker 101">
 <meta property="og:description" content="Docker Introduction">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://kencho51.github.io/docker101/">
-        <link rel="stylesheet" href="https://kencho51.github.io/dist/site.css">
-        <link rel="stylesheet" href="https://kencho51.github.io/dist/syntax.css">
+<meta property="og:url" content="http://localhost:1313/docker101/">
+        <link rel="stylesheet" href="http://localhost:1313/dist/site.css">
+        <link rel="stylesheet" href="http://localhost:1313/dist/syntax.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         
@@ -30,13 +30,13 @@
     </head>
     <body>
         
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HESL282TL4"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV12W6L6C4"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-HESL282TL4');
+    gtag('config', 'G-LV12W6L6C4');
 </script>
 
         <div id="wrapper">
@@ -45,10 +45,10 @@
                     <div class="site-title-wrapper">
                         
                             <h1 class="site-title">
-                                <a title="kencho51" href="https://kencho51.github.io/">kencho51</a>
+                                <a title="kencho51" href="http://localhost:1313/">kencho51</a>
                             </h1>
                         
-                        <a class="button-square" href="https://kencho51.github.io/index.xml"><i class="fa fa-rss"></i></a>
+                        <a class="button-square" href="http://localhost:1313/index.xml"><i class="fa fa-rss"></i></a>
                         
                         
                         
@@ -105,16 +105,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV12W6L6C4"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-LV12W6L6C4');
-</script>
-
-
 
 <div class="container">
     <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
@@ -141,21 +131,16 @@
     <h3 id="what-is-docker">What is Docker?</h3>
 <p><img src="/image/docker_beginner.webp" alt="img"></p>
 <blockquote>
-<p>In simpler words, Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux.</p>
-</blockquote>
+<p>In simpler words, Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux.</p></blockquote>
 <blockquote>
-<p>The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development.</p>
-</blockquote>
+<p>The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development.</p></blockquote>
 <blockquote>
-<p>Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.</p>
-</blockquote>
+<p>Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.</p></blockquote>
 <p><img src="/image/docker_os.jpeg" alt="img"></p>
 <blockquote>
-<p>Docker runs containers, which use the same host operating system, and only virtualize at a software level.</p>
-</blockquote>
+<p>Docker runs containers, which use the same host operating system, and only virtualize at a software level.</p></blockquote>
 <blockquote>
-<p>Docker Engine runs on Linux, Windows, and macOS, and supports Linux and Windows for Docker containers.</p>
-</blockquote>
+<p>Docker Engine runs on Linux, Windows, and macOS, and supports Linux and Windows for Docker containers.</p></blockquote>
 <p><img src="/image/docker_flow.jpeg" alt="imag"></p>
 <h3 id="what-is-dockerfile">What is Dockerfile?</h3>
 <p>A Dockerfile is the recipe to build a Docker image.
@@ -164,13 +149,13 @@ A Dockerfile is a text file with instructions on how to build an image.
 Those instructions are part of a configuration language, which includes keywords like FROM, LABEL, RUN, COPY, ENTRYPOINT, CMD, EXPOSE, ENV and more.</p>
 <h3 id="example-dockerfile">Example Dockerfile</h3>
 <p>Let’s say you have a folder with a simple Node.js app composed by an app.js, a package.json file that lists a couple dependencies you need to install before running the app, and package-lock.json.</p>
-<div class="highlight"><pre class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="k">FROM</span><span class="s"> node:14</span><span class="err">
-</span><span class="err"></span><span class="k">WORKDIR</span><span class="s"> /usr/src/app</span><span class="err">
-</span><span class="err"></span><span class="k">COPY</span> package*.json app.js ./<span class="err">
-</span><span class="err"></span><span class="k">RUN</span> npm install<span class="err">
-</span><span class="err"></span><span class="k">EXPOSE</span><span class="s"> 3000</span><span class="err">
-</span><span class="err"></span><span class="k">CMD</span> <span class="p">[</span><span class="s2">&#34;node&#34;</span><span class="p">,</span> <span class="s2">&#34;app.js&#34;</span><span class="p">]</span><span class="err">
-</span></code></pre></div><p>Details please go to <a href="https://flaviocopes.com/docker-dockerfiles/">Dockerfile 1</a> and <a href="https://flaviocopes.com/docker-node-container-example/">Dockerfile 2</a>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="line"><span class="cl"><span class="k">FROM</span><span class="s"> node:14</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">WORKDIR</span><span class="s"> /usr/src/app</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">COPY</span> package*.json app.js ./<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> npm install<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">EXPOSE</span><span class="s"> 3000</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">CMD</span> <span class="p">[</span><span class="s2">&#34;node&#34;</span><span class="p">,</span> <span class="s2">&#34;app.js&#34;</span><span class="p">]</span><span class="err">
+</span></span></span></code></pre></div><p>Details please go to <a href="https://flaviocopes.com/docker-dockerfiles/">Dockerfile 1</a> and <a href="https://flaviocopes.com/docker-node-container-example/">Dockerfile 2</a>.</p>
 <h3 id="learn-docker-in-5-days-">Learn Docker in 5 days !!!</h3>
 <p><a href="https://medium.com/faun/learn-docker-in-5-days-day-1-general-concepts-fcac5a4cf0a6">Day1-General Concepts</a>
 <a href="https://medium.com/faun/learn-docker-in-5-days-day-2-basic-commands-f1dad39925c6">Day2-Basic Commands</a>
@@ -194,9 +179,7 @@ Those instructions are part of a configuration language, which includes keywords
 </ol>
 <blockquote>
 <blockquote>
-<p>Since Docker creates a new container every time, everything will be rebuilt again in each instance.</p>
-</blockquote>
-</blockquote>
+<p>Since Docker creates a new container every time, everything will be rebuilt again in each instance.</p></blockquote></blockquote>
 <ol start="6">
 <li><code>docker run</code> multiple times and leaving stray containers will eat up disk space. <code>docker rm</code> to clean up containers.<br>
 <code>docker rm contain-ID</code><br>
@@ -270,7 +253,6 @@ Those instructions are part of a configuration language, which includes keywords
     </div>
 </footer>
 
-        
     </article>
 </div>
 
@@ -281,7 +263,7 @@ Those instructions are part of a configuration language, which includes keywords
             <div class="container">
                 <div class="site-title-wrapper">
                     <h1 class="site-title">
-                        <a href="https://kencho51.github.io/">kencho51</a>
+                        <a href="http://localhost:1313/">kencho51</a>
                     </h1>
                     <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
                         <i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -298,9 +280,9 @@ Those instructions are part of a configuration language, which includes keywords
             </div>
         </footer>
 
-        <script src="https://kencho51.github.io/js/jquery-1.11.3.min.js"></script>
-        <script src="https://kencho51.github.io/js/jquery.fitvids.js"></script>
-        <script src="https://kencho51.github.io/js/scripts.js"></script>
+        <script src="http://localhost:1313/js/jquery-1.11.3.min.js"></script>
+        <script src="http://localhost:1313/js/jquery.fitvids.js"></script>
+        <script src="http://localhost:1313/js/scripts.js"></script>
         
     </body>
 </html>

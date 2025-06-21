@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yii pagination on kencho51</title>
-    <link>https://kencho51.github.io/tags/yii-pagination/</link>
-    <description>Recent content in Yii pagination on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Yii Pagination on kencho51</title>
+    <link>http://localhost:1313/tags/yii-pagination/</link>
+    <description>Recent content in Yii Pagination on kencho51</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 24 Aug 2020 10:39:13 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/yii-pagination/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2020 10:39:13 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/yii-pagination/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 24-28/8/20</title>
-      <link>https://kencho51.github.io/jobs/24-8-20/</link>
+      <link>http://localhost:1313/jobs/24-8-20/</link>
       <pubDate>Mon, 24 Aug 2020 10:39:13 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/24-8-20/</guid>
-      <description>Learn  JavaScript, FCC API, FCC CSS, FCC Clean Code, YouTube  Todo Done  Merged PR Add-guidelines-to-dataset-#494 Complete Behat test for PR View files from large db #437  Changed the browser to headless chrome, pressing a button then work. Using xpath variable, Return key was simulated    Reference</description>
+      <guid>http://localhost:1313/jobs/24-8-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;JavaScript, &lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;FCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;API, &lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;FCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;CSS, &lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;FCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Clean Code, &lt;a href=&#34;https://www.youtube.com/watch?v=7EmboKQH8lM&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Merged PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/494&#34;&gt;Add-guidelines-to-dataset-#494&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Complete Behat test for PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/437&#34;&gt;View files from large db #437&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Changed the browser to headless chrome, &lt;code&gt;pressing&lt;/code&gt; a button then work.&lt;/li&gt;&#xA;&lt;li&gt;Using &lt;code&gt;xpath&lt;/code&gt; variable, &lt;code&gt;Return&lt;/code&gt; key was simulated&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/kencho51/gigathing&#34;&gt;&lt;img src=&#34;https://travis-ci.org/kencho51/gigathing.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn, todo and done 17-21/8/20</title>
-      <link>https://kencho51.github.io/jobs/17-8-20/</link>
+      <link>http://localhost:1313/jobs/17-8-20/</link>
       <pubDate>Mon, 17 Aug 2020 09:43:24 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/17-8-20/</guid>
-      <description>Learn  Clean Code, YouTube JavaScript, FCC  Todo  Complete Behat test for PR View files from large db #437  Done  PR Add-guidelines-to-dataset-#494  Reference</description>
+      <guid>http://localhost:1313/jobs/17-8-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clean Code, &lt;a href=&#34;https://www.youtube.com/watch?v=7EmboKQH8lM&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;JavaScript, &lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;FCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Complete Behat test for PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/437&#34;&gt;View files from large db #437&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/494&#34;&gt;Add-guidelines-to-dataset-#494&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/kencho51/gigathing&#34;&gt;&lt;img src=&#34;https://travis-ci.org/kencho51/gigathing.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

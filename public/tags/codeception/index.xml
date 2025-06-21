@@ -2,34 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codeception on kencho51</title>
-    <link>https://kencho51.github.io/tags/codeception/</link>
+    <link>http://localhost:1313/tags/codeception/</link>
     <description>Recent content in Codeception on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 09:55:10 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/codeception/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2020 09:55:10 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/codeception/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 29/6-3/7/20</title>
-      <link>https://kencho51.github.io/jobs/29-6-20/</link>
+      <link>http://localhost:1313/jobs/29-6-20/</link>
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/29-6-20/</guid>
-      <description>Learn  Codeception in PhpStorm Functional test Unit test  Todo    Done  PR Issue #460, functional test for admin site access. Issue #448   Problem  Install codeception to PhpStorm is difficult, a lot of env param is invloved.  Reference </description>
+      <guid>http://localhost:1313/jobs/29-6-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Codeception in PhpStorm&lt;/li&gt;&#xA;&lt;li&gt;Functional test&lt;/li&gt;&#xA;&lt;li&gt;Unit test&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;PR Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/460&#34;&gt;#460&lt;/a&gt;, functional test for admin site access.&lt;/li&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/448&#34;&gt;#448&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install codeception to PhpStorm is difficult, a lot of env param is invloved.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;</description>
     </item>
-    
     <item>
       <title>Codeception</title>
-      <link>https://kencho51.github.io/whatiscodeception/</link>
+      <link>http://localhost:1313/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/whatiscodeception/</guid>
-      <description>What is Codeception?  Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.
-  It can manage Unit, Functional and Acceptance for web application.
- How to create a Unit Test? Testing pieces of code before coupling them together.
-It creates a new ExampleTest file located in the tests/unit directory.
-php vendor/bin/codecept generate:test unit Example
-Run the newly created test with this command.</description>
+      <guid>http://localhost:1313/whatiscodeception/</guid>
+      <description>&lt;h3 id=&#34;what-is-codeception&#34;&gt;What is Codeception?&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It can manage Unit, Functional and Acceptance for web application.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/tests.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-create-a-unit-test&#34;&gt;How to create a Unit Test?&lt;/h3&gt;&#xA;&lt;p&gt;Testing pieces of code before coupling them together.&lt;/p&gt;&#xA;&lt;p&gt;It creates a new ExampleTest file located in the tests/unit directory.&lt;br&gt;&#xA;&lt;code&gt;php vendor/bin/codecept generate:test unit Example&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Run the newly created test with this command.&#xA;&lt;code&gt;php vendor/bin/codecept run unit ExampleTest&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

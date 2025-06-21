@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zshrc on kencho51</title>
-    <link>https://kencho51.github.io/tags/zshrc/</link>
-    <description>Recent content in zshrc on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Zshrc on kencho51</title>
+    <link>http://localhost:1313/tags/zshrc/</link>
+    <description>Recent content in Zshrc on kencho51</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>kencho51</copyright><atom:link href="https://kencho51.github.io/tags/zshrc/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>kencho51</copyright>
+    <atom:link href="http://localhost:1313/tags/zshrc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 4-8/5/20</title>
-      <link>https://kencho51.github.io/jobs/4-5-20/</link>
+      <link>http://localhost:1313/jobs/4-5-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/4-5-20/</guid>
-      <description>Learn Start learning github, docker, php
-To-do  Set up account stuff  Done  Configuration
-1.1 zsh
-2. install homebrew, wget, curl 3. Github, branch, pull, merge link
-4. vimtutor
-5. markdown syntax Config computer, zshrc, vimrc, github, docker Fork gigadb-website  </description>
+      <guid>http://localhost:1313/jobs/4-5-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;p&gt;Start learning github, docker, php&lt;/p&gt;&#xA;&lt;h3 id=&#34;to-do&#34;&gt;To-do&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Set up account stuff&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Configuration&lt;br&gt;&#xA;1.1  zsh&lt;br&gt;&#xA;2. install homebrew, wget, curl&#xA;3. Github, branch, pull, merge &lt;a href=&#34;https://guides.github.com/&#34;&gt;link&lt;/a&gt;&lt;br&gt;&#xA;4. vimtutor&lt;br&gt;&#xA;5. markdown syntax&lt;/li&gt;&#xA;&lt;li&gt;Config computer, zshrc, vimrc, github, docker&lt;/li&gt;&#xA;&lt;li&gt;Fork gigadb-website&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

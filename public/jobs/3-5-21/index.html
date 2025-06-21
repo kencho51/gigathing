@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Learn, todo and done 3-7/5/21 &middot; </title>
         <meta name="description" content="Weekly plan">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.80.0" />
+        <meta name="generator" content="Hugo 0.147.8">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Learn, todo and done 3-7/5/21">
 <meta property="og:description" content="Weekly plan">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://kencho51.github.io/jobs/3-5-21/">
-        <link rel="stylesheet" href="https://kencho51.github.io/dist/site.css">
-        <link rel="stylesheet" href="https://kencho51.github.io/dist/syntax.css">
+<meta property="og:url" content="http://localhost:1313/jobs/3-5-21/">
+        <link rel="stylesheet" href="http://localhost:1313/dist/site.css">
+        <link rel="stylesheet" href="http://localhost:1313/dist/syntax.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         
@@ -30,13 +30,13 @@
     </head>
     <body>
         
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HESL282TL4"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV12W6L6C4"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-HESL282TL4');
+    gtag('config', 'G-LV12W6L6C4');
 </script>
 
         <div id="wrapper">
@@ -45,10 +45,10 @@
                     <div class="site-title-wrapper">
                         
                             <h1 class="site-title">
-                                <a title="kencho51" href="https://kencho51.github.io/">kencho51</a>
+                                <a title="kencho51" href="http://localhost:1313/">kencho51</a>
                             </h1>
                         
-                        <a class="button-square" href="https://kencho51.github.io/index.xml"><i class="fa fa-rss"></i></a>
+                        <a class="button-square" href="http://localhost:1313/index.xml"><i class="fa fa-rss"></i></a>
                         
                         
                         
@@ -105,16 +105,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV12W6L6C4"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-LV12W6L6C4');
-</script>
-
-
 
 <div class="container">
     <article class="post-container">
@@ -144,7 +134,7 @@
 </li>
 <li>DevOps Crash Course, <a href="https://www.youtube.com/watch?v=OXE2a8dqIAI">youtube</a></li>
 </ol>
-<h3 id="todo---project-repohttpsgithubcomkencho51mint_doi-dochttpsdocsgooglecomdocumentd1copk9e9qclod91wrn1lreebefmdb5cwohielj3ifklcedit">Todo - Project <a href="https://github.com/kencho51/mint_doi">repo</a>, <a href="https://docs.google.com/document/d/1CopK9e9QclOd91WRN1LREEBefMDb5cWoHiElj3IfKLc/edit#">doc</a></h3>
+<h3 id="todo---project-repo-doc">Todo - Project <a href="https://github.com/kencho51/mint_doi">repo</a>, <a href="https://docs.google.com/document/d/1CopK9e9QclOd91WRN1LREEBefMDb5cWoHiElj3IfKLc/edit#">doc</a></h3>
 <ol>
 <li>Local Taverna
 <ul>
@@ -157,74 +147,74 @@
 <ol>
 <li>Found <code>actionMint</code> in  <code>/protected/controller/AdminDatasetController.php</code></li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"> <span class="sd">/**
-</span><span class="sd">  *	post metadata, mint a new DOI
-</span><span class="sd">  *
-</span><span class="sd">  */</span>
- <span class="k">public</span> <span class="k">function</span> <span class="nf">actionMint</span><span class="p">()</span>
- <span class="p">{</span>
-     <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">false</span><span class="p">;</span>
-     <span class="nv">$status_array</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Submitted&#39;</span><span class="p">,</span> <span class="s1">&#39;UserStartedIncomplete&#39;</span><span class="p">,</span> <span class="s1">&#39;Curation&#39;</span><span class="p">);</span>
-
-     <span class="nv">$mds_metadata_url</span><span class="o">=</span><span class="s2">&#34;https://mds.datacite.org/metadata&#34;</span><span class="p">;</span>
-     <span class="nv">$mds_doi_url</span><span class="o">=</span><span class="s2">&#34;https://mds.datacite.org/doi&#34;</span><span class="p">;</span>
-
-     <span class="nv">$mds_username</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_username&#39;</span><span class="p">];</span>
-     <span class="nv">$mds_password</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_password&#39;</span><span class="p">];</span>
-     <span class="nv">$mds_prefix</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_prefix&#39;</span><span class="p">];</span>
-
-     <span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">]))</span> <span class="p">{</span>
-         <span class="nv">$doi</span> <span class="o">=</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">];</span>
-         <span class="k">if</span> <span class="p">(</span><span class="nx">stristr</span><span class="p">(</span><span class="nv">$doi</span><span class="p">,</span> <span class="s2">&#34;/&#34;</span><span class="p">))</span> <span class="p">{</span>
-             <span class="nv">$temp</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s2">&#34;/&#34;</span><span class="p">,</span> <span class="nv">$doi</span><span class="p">);</span>
-             <span class="nv">$doi</span> <span class="o">=</span> <span class="nv">$temp</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
-         <span class="p">}</span>
-
-         <span class="nv">$doi</span> <span class="o">=</span> <span class="nx">trim</span><span class="p">(</span><span class="nv">$doi</span><span class="p">);</span>
-         <span class="nv">$dataset</span> <span class="o">=</span> <span class="nx">Dataset</span><span class="o">::</span><span class="na">model</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">find</span><span class="p">(</span><span class="s2">&#34;identifier=?&#34;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="nv">$doi</span><span class="p">));</span>
-
-         <span class="k">if</span> <span class="p">(</span><span class="nv">$dataset</span> <span class="o">&amp;&amp;</span> <span class="o">!</span> <span class="nx">in_array</span><span class="p">(</span><span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">upload_status</span><span class="p">,</span> <span class="nv">$status_array</span><span class="p">))</span> <span class="p">{</span>
-             <span class="nv">$xml_data</span> <span class="o">=</span> <span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">toXML</span><span class="p">();</span>
-             <span class="nv">$ch</span><span class="o">=</span> <span class="nx">curl_init</span><span class="p">();</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_URL</span><span class="p">,</span> <span class="nv">$mds_metadata_url</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">&#34;</span><span class="si">$xml_data</span><span class="s2">&#34;</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_HTTPHEADER</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Content-Type:application/xml;charset=UTF-8&#39;</span><span class="p">));</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_USERPWD</span><span class="p">,</span> <span class="nv">$mds_username</span> <span class="o">.</span> <span class="s2">&#34;:&#34;</span> <span class="o">.</span> <span class="nv">$mds_password</span><span class="p">);</span>
-             <span class="nv">$curl_response</span> <span class="o">=</span> <span class="nx">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_response&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$curl_response</span><span class="p">;</span>
-             <span class="nv">$info1</span> <span class="o">=</span> <span class="nx">curl_getinfo</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$info1</span><span class="p">[</span><span class="s1">&#39;http_code&#39;</span><span class="p">];</span>
-             <span class="nx">curl_close</span><span class="p">(</span><span class="nv">$ch</span><span class="p">)</span> <span class="p">;</span>
-         <span class="p">}</span>
-
-         <span class="k">if</span> <span class="p">(</span><span class="nv">$dataset</span> <span class="o">&amp;&amp;</span> <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_status&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
-             <span class="nv">$doi_data</span> <span class="o">=</span> <span class="s2">&#34;doi=&#34;</span><span class="o">.</span><span class="nv">$mds_prefix</span><span class="o">.</span><span class="s2">&#34;/&#34;</span><span class="o">.</span><span class="nv">$doi</span><span class="o">.</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="o">.</span><span class="s2">&#34;url=http://gigadb.org/dataset/&#34;</span><span class="o">.</span><span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">identifier</span> <span class="p">;</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_data&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="nv">$doi_data</span><span class="p">;</span>
-             <span class="nv">$ch2</span><span class="o">=</span> <span class="nx">curl_init</span><span class="p">();</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_URL</span><span class="p">,</span> <span class="nv">$mds_doi_url</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="nv">$doi_data</span><span class="p">);</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_HTTPHEADER</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Content-Type:application/xml;charset=UTF-8&#39;</span><span class="p">));</span>
-             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_USERPWD</span><span class="p">,</span> <span class="nv">$mds_username</span> <span class="o">.</span> <span class="s2">&#34;:&#34;</span> <span class="o">.</span> <span class="nv">$mds_password</span><span class="p">);</span>
-             <span class="nv">$curl_response</span> <span class="o">=</span> <span class="nx">curl_exec</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">);</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_response&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$curl_response</span><span class="p">;</span>
-             <span class="nv">$info2</span> <span class="o">=</span> <span class="nx">curl_getinfo</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">);</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$info2</span><span class="p">[</span><span class="s1">&#39;http_code&#39;</span><span class="p">];</span>
-             <span class="nx">curl_close</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">)</span> <span class="p">;</span>
-         <span class="p">}</span>
-
-         <span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
-             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">true</span><span class="p">;</span>
-         <span class="p">}</span>
-     <span class="p">}</span>
-
-     <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nv">$result</span><span class="p">);</span>
-     <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">end</span><span class="p">();</span>
- <span class="p">}</span>
-</code></pre></div><h3 id="todo---github">Todo - Github</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"> <span class="sd">/**
+</span></span></span><span class="line"><span class="cl"><span class="sd">  *	post metadata, mint a new DOI
+</span></span></span><span class="line"><span class="cl"><span class="sd">  *
+</span></span></span><span class="line"><span class="cl"><span class="sd">  */</span>
+</span></span><span class="line"><span class="cl"> <span class="k">public</span> <span class="k">function</span> <span class="nf">actionMint</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">     <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="nv">$status_array</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Submitted&#39;</span><span class="p">,</span> <span class="s1">&#39;UserStartedIncomplete&#39;</span><span class="p">,</span> <span class="s1">&#39;Curation&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">     <span class="nv">$mds_metadata_url</span><span class="o">=</span><span class="s2">&#34;https://mds.datacite.org/metadata&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="nv">$mds_doi_url</span><span class="o">=</span><span class="s2">&#34;https://mds.datacite.org/doi&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">     <span class="nv">$mds_username</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_username&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">     <span class="nv">$mds_password</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_password&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">     <span class="nv">$mds_prefix</span> <span class="o">=</span> <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">[</span><span class="s1">&#39;mds_prefix&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">     <span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="nv">$doi</span> <span class="o">=</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">         <span class="k">if</span> <span class="p">(</span><span class="nx">stristr</span><span class="p">(</span><span class="nv">$doi</span><span class="p">,</span> <span class="s2">&#34;/&#34;</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$temp</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s2">&#34;/&#34;</span><span class="p">,</span> <span class="nv">$doi</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$doi</span> <span class="o">=</span> <span class="nv">$temp</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">         <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">         <span class="nv">$doi</span> <span class="o">=</span> <span class="nx">trim</span><span class="p">(</span><span class="nv">$doi</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">         <span class="nv">$dataset</span> <span class="o">=</span> <span class="nx">Dataset</span><span class="o">::</span><span class="na">model</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">find</span><span class="p">(</span><span class="s2">&#34;identifier=?&#34;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="nv">$doi</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">         <span class="k">if</span> <span class="p">(</span><span class="nv">$dataset</span> <span class="o">&amp;&amp;</span> <span class="o">!</span> <span class="nx">in_array</span><span class="p">(</span><span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">upload_status</span><span class="p">,</span> <span class="nv">$status_array</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$xml_data</span> <span class="o">=</span> <span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">toXML</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$ch</span><span class="o">=</span> <span class="nx">curl_init</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_URL</span><span class="p">,</span> <span class="nv">$mds_metadata_url</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">&#34;</span><span class="si">$xml_data</span><span class="s2">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_HTTPHEADER</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Content-Type:application/xml;charset=UTF-8&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_USERPWD</span><span class="p">,</span> <span class="nv">$mds_username</span> <span class="o">.</span> <span class="s2">&#34;:&#34;</span> <span class="o">.</span> <span class="nv">$mds_password</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$curl_response</span> <span class="o">=</span> <span class="nx">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_response&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$curl_response</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$info1</span> <span class="o">=</span> <span class="nx">curl_getinfo</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$info1</span><span class="p">[</span><span class="s1">&#39;http_code&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_close</span><span class="p">(</span><span class="nv">$ch</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">         <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">         <span class="k">if</span> <span class="p">(</span><span class="nv">$dataset</span> <span class="o">&amp;&amp;</span> <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;md_curl_status&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$doi_data</span> <span class="o">=</span> <span class="s2">&#34;doi=&#34;</span><span class="o">.</span><span class="nv">$mds_prefix</span><span class="o">.</span><span class="s2">&#34;/&#34;</span><span class="o">.</span><span class="nv">$doi</span><span class="o">.</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="o">.</span><span class="s2">&#34;url=http://gigadb.org/dataset/&#34;</span><span class="o">.</span><span class="nv">$dataset</span><span class="o">-&gt;</span><span class="na">identifier</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_data&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="nv">$doi_data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$ch2</span><span class="o">=</span> <span class="nx">curl_init</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_URL</span><span class="p">,</span> <span class="nv">$mds_doi_url</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="nv">$doi_data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_HTTPHEADER</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;Content-Type:application/xml;charset=UTF-8&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_setopt</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">,</span> <span class="nx">CURLOPT_USERPWD</span><span class="p">,</span> <span class="nv">$mds_username</span> <span class="o">.</span> <span class="s2">&#34;:&#34;</span> <span class="o">.</span> <span class="nv">$mds_password</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$curl_response</span> <span class="o">=</span> <span class="nx">curl_exec</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_response&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$curl_response</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$info2</span> <span class="o">=</span> <span class="nx">curl_getinfo</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$info2</span><span class="p">[</span><span class="s1">&#39;http_code&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">             <span class="nx">curl_close</span><span class="p">(</span><span class="nv">$ch2</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">         <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">         <span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;doi_curl_status&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">             <span class="nv">$result</span><span class="p">[</span><span class="s1">&#39;status&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">         <span class="p">}</span>
+</span></span><span class="line"><span class="cl">     <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">     <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nv">$result</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="nx">Yii</span><span class="o">::</span><span class="na">app</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">end</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"> <span class="p">}</span>
+</span></span></code></pre></div><h3 id="todo---github">Todo - Github</h3>
 <ol>
 <li>Learn <code>Terraform</code> and <code>Ansible</code></li>
 <li>Follow up PR comments</li>
@@ -275,7 +265,7 @@
             <div class="container">
                 <div class="site-title-wrapper">
                     <h1 class="site-title">
-                        <a href="https://kencho51.github.io/">kencho51</a>
+                        <a href="http://localhost:1313/">kencho51</a>
                     </h1>
                     <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
                         <i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -292,9 +282,9 @@
             </div>
         </footer>
 
-        <script src="https://kencho51.github.io/js/jquery-1.11.3.min.js"></script>
-        <script src="https://kencho51.github.io/js/jquery.fitvids.js"></script>
-        <script src="https://kencho51.github.io/js/scripts.js"></script>
+        <script src="http://localhost:1313/js/jquery-1.11.3.min.js"></script>
+        <script src="http://localhost:1313/js/jquery.fitvids.js"></script>
+        <script src="http://localhost:1313/js/scripts.js"></script>
         
     </body>
 </html>

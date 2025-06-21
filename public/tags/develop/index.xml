@@ -1,47 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>develop on kencho51</title>
-    <link>https://kencho51.github.io/tags/develop/</link>
-    <description>Recent content in develop on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Develop on kencho51</title>
+    <link>http://localhost:1313/tags/develop/</link>
+    <description>Recent content in Develop on kencho51</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Tue, 19 May 2020 17:48:07 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2020 17:48:07 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/develop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHP progress</title>
-      <link>https://kencho51.github.io/phpprogress/</link>
+      <link>http://localhost:1313/phpprogress/</link>
       <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/phpprogress/</guid>
-      <description>Learning PHP at Codecademy Topics   String and variables - Done
-  Number - Done
-  Functions - Done
-  Intro to Built-in PHP functions - Done
- find variable types
-gettype(); var_dump(); string functions
-strrev();strtolower(); strtoupper(); str_repeat(); substring
-substr_count(); number function
-abs(); round(); generating random numbers
-rand(); getrandmax(); ceil(); documentation
-str_pad(); check value in array
-in_array(&amp;quot;valuetocheck&amp;quot;, $array)    Ordered Arrays
- can be integer or string or any data type $my_array = array(); or $my_array=[]; returns the array length</description>
+      <guid>http://localhost:1313/phpprogress/</guid>
+      <description>&lt;h3 id=&#34;learning-php-at-codecademy&#34;&gt;Learning PHP at &lt;a href=&#34;https://www.codecademy.com/learn/learn-php&#34;&gt;Codecademy&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h5 id=&#34;topics&#34;&gt;Topics&lt;/h5&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;String and variables - Done&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Number - Done&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Functions - Done&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Intro to Built-in PHP functions - Done&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;find variable types&lt;br&gt;&#xA;&lt;code&gt;gettype(); var_dump();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;string functions&lt;br&gt;&#xA;&lt;code&gt;strrev();strtolower(); strtoupper(); str_repeat();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;substring&lt;br&gt;&#xA;&lt;code&gt;substr_count();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;number function&lt;br&gt;&#xA;&lt;code&gt;abs(); round();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;generating random numbers&lt;br&gt;&#xA;&lt;code&gt;rand(); getrandmax(); ceil();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;documentation&lt;br&gt;&#xA;&lt;code&gt;str_pad();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;check value in array&lt;br&gt;&#xA;&lt;code&gt;in_array(&amp;quot;valuetocheck&amp;quot;, $array)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ordered Arrays&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;can be integer or string or any data type &lt;br&gt;&#xA;&lt;code&gt;$my_array = array(); or $my_array=[];&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;returns the array length&lt;br&gt;&#xA;&lt;code&gt;count($array);&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;print the array in  array list&lt;br&gt;&#xA;&lt;code&gt;print_r();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;print the array into string&lt;br&gt;&#xA;&lt;code&gt;implode (&amp;quot;glue&amp;quot;, array);&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;accessing the array&lt;br&gt;&#xA;&lt;code&gt;$my_array[pos];&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;adding and changing elements&#xA;&lt;code&gt;$my_array[pos] = new value;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;pushing and popping&#xA;&lt;ul&gt;&#xA;&lt;li&gt;remove the last element&lt;br&gt;&#xA;&lt;code&gt;array_pop();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;append the element&#xA;&lt;code&gt;array_push();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;remove first element&lt;br&gt;&#xA;&lt;code&gt;array_shift();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;prepend the element&lt;br&gt;&#xA;&lt;code&gt;array_unshit();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;remove the first element&lt;br&gt;&#xA;&lt;code&gt;array_shift();&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;nestede array&lt;br&gt;&#xA;&lt;code&gt;value = $my_array[][][]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Associative Arrays&#xA;- concept of dictionary&lt;br&gt;&#xA;- key and valure pair&lt;br&gt;&#xA;&lt;code&gt;$my_array = array(&amp;quot;key&amp;quot;=&amp;gt;&amp;quot;value&amp;quot;); or $my_array = [&amp;quot;key&amp;quot;=&amp;gt;&amp;quot;value&amp;quot;];&lt;/code&gt;&lt;br&gt;&#xA;- remove element&lt;br&gt;&#xA;&lt;code&gt;unset();&lt;/code&gt;&lt;br&gt;&#xA;- joining the array in union manner&lt;br&gt;&#xA;- assign by reference&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Github usage example</title>
-      <link>https://kencho51.github.io/githubusageexample/</link>
+      <link>http://localhost:1313/githubusageexample/</link>
       <pubDate>Tue, 19 May 2020 15:55:27 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/githubusageexample/</guid>
-      <description>The development cycle of the gigadb. 1. fork gigadb-website 2. clone the gigadb-website into local SSD git clone https://github.com/kencho51/gigadb-website.git
-3. add remote origin git remote add origin https://github.com/kencho51/gigadb-website.git
-4. add remote upstream origin git remote add upstream https://github.com/gigascience/gigadb-website.git
-5. follow here to build the docker container for the testing. 6. The flow to make changes: 6.1 Create branch for an issue git branch issue-no
-6.2 Go to that branch
-git checkout issue-no</description>
+      <guid>http://localhost:1313/githubusageexample/</guid>
+      <description>&lt;h2 id=&#34;the-development-cycle-of-the-gigadb&#34;&gt;The development cycle of the gigadb.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-fork-gigadb-website&#34;&gt;1. fork &lt;a href=&#34;https://github.com/gigascience/gigadb-website&#34;&gt;gigadb-website&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;2-clone-the-gigadb-website-into-local-ssd&#34;&gt;2. clone the gigadb-website into local SSD&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git clone https://github.com/kencho51/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-add-remote-origin&#34;&gt;3. add remote origin&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git remote add origin https://github.com/kencho51/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;4-add-remote-upstream-origin&#34;&gt;4. add remote upstream origin&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git remote add upstream https://github.com/gigascience/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;5-follow-here-to-build-the-docker-container-for-the-testing&#34;&gt;5. follow &lt;a href=&#34;https://github.com/kencho51/gigadb-website/tree/develop&#34;&gt;here&lt;/a&gt; to build the docker container for the testing.&lt;/h3&gt;&#xA;&lt;h3 id=&#34;6-the-flow-to-make-changes&#34;&gt;6. The flow to make changes:&lt;/h3&gt;&#xA;&lt;p&gt;6.1 Create branch for an issue&#xA;&lt;code&gt;git branch issue-no&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;6.2 Go to that branch&lt;br&gt;&#xA;&lt;code&gt;git checkout issue-no&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

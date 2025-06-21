@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utterances on kencho51</title>
-    <link>https://kencho51.github.io/tags/utterances/</link>
+    <link>http://localhost:1313/tags/utterances/</link>
     <description>Recent content in Utterances on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 08 Jun 2020 09:25:14 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/utterances/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jun 2020 09:25:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/utterances/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 8-12/6/20</title>
-      <link>https://kencho51.github.io/jobs/8-6-20/</link>
+      <link>http://localhost:1313/jobs/8-6-20/</link>
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/8-6-20/</guid>
-      <description>Learn  Docker PostgreSQL OOP progress Yii1.1 framework utterances  Todo       Problem  For Issue #291, the codes in local develop branch is huge different from that in production server, a cascade of changes will be needed. Yii1.1 blog update Home page from /site/index to /site/post in /layouts/main.php  Done  Fixed issue #421 Fixed issue #441 Issue #291  Reference  How to add Utterances in Hugo post utterances  </description>
+      <guid>http://localhost:1313/jobs/8-6-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Docker&lt;/li&gt;&#xA;&lt;li&gt;PostgreSQL&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kencho51.github.io/oop/&#34;&gt;OOP progress&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Yii1.1 framework&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://utteranc.es/&#34;&gt;utterances&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;For Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/291&#34;&gt;#291&lt;/a&gt;, the codes in local develop branch is huge different from that in production server, a cascade of changes will be needed.&lt;/li&gt;&#xA;&lt;li&gt;Yii1.1 blog update Home page from &lt;code&gt;/site/index&lt;/code&gt; to &lt;code&gt;/site/post&lt;/code&gt; in &lt;code&gt;/layouts/main.php&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/421&#34;&gt;#421&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/441&#34;&gt;#441&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/291&#34;&gt;#291&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tihu.me/post/2020/2020-01-17-comment/&#34;&gt;How to add Utterances in Hugo post&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://linkscue.com/posts/2019-09-20-hugo-maupassant-utterances-comments/&#34;&gt;utterances&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

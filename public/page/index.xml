@@ -2,31 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on kencho51</title>
-    <link>https://kencho51.github.io/page/</link>
+    <link>http://localhost:1313/page/</link>
     <description>Recent content in Pages on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://kencho51.github.io/page/about/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/page/about/</guid>
-      <description>About Every day is a new day, keep up and never give up!
-School 2017 MSc in Genomics and Bioinformatics The University of Hong Kong
-2014 BSc in Biotechnology The University of Hong Kong</description>
+      <link>http://localhost:1313/page/about/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/about/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Every day is a new day, keep up and never give up!&lt;/p&gt;&#xA;&lt;h2 id=&#34;school&#34;&gt;School&lt;/h2&gt;&#xA;&lt;p&gt;2017 MSc in Genomics and Bioinformatics The University of Hong Kong&lt;br&gt;&#xA;2014 BSc in Biotechnology The University of Hong Kong&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>https://kencho51.github.io/page/contact/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/page/contact/</guid>
-      <description>Contact Email: kencho.gigascience@gmail.com</description>
+      <link>http://localhost:1313/page/contact/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/contact/</guid>
+      <description>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:kencho.gigascience@gmail.com&#34;&gt;kencho.gigascience@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,66 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on kencho51</title>
-    <link>https://kencho51.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 11:25:56 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jun 2020 11:25:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add a comment functionality using uterances</title>
-      <link>https://kencho51.github.io/projects/howtoaddutterances/</link>
+      <link>http://localhost:1313/projects/howtoaddutterances/</link>
       <pubDate>Mon, 15 Jun 2020 11:25:56 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/projects/howtoaddutterances/</guid>
-      <description>What is Utterances?  A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments. Open source. Allow Markdown syntax.  Configuration  Create an empty Github repo. Install utterances app on that repo In the utterances app, only select the repo just created for comment. Update config.toml as below:  [params.utteranc] enable = true repo = &amp;#34;owner/comments_for_hugo&amp;#34; issueTerm = &amp;#34;pathname&amp;#34; theme = &amp;#34;github-light&amp;#34; Create contents/ folders in layouts directory.</description>
+      <guid>http://localhost:1313/projects/howtoaddutterances/</guid>
+      <description>&lt;h3 id=&#34;what-is-utterances&#34;&gt;What is Utterances?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A lightweight comments widget built on GitHub issues.&lt;/li&gt;&#xA;&lt;li&gt;Use GitHub issues for blog comments.&lt;/li&gt;&#xA;&lt;li&gt;Open source.&lt;/li&gt;&#xA;&lt;li&gt;Allow Markdown syntax.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create an empty Github repo.&lt;/li&gt;&#xA;&lt;li&gt;Install &lt;a href=&#34;https://github.com/apps/utterances&#34;&gt;utterances&lt;/a&gt; app on that repo&lt;/li&gt;&#xA;&lt;li&gt;In the utterances app, only select the repo just created for comment.&lt;/li&gt;&#xA;&lt;li&gt;Update &lt;code&gt;config.toml&lt;/code&gt; as below:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[params.utteranc]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;enable = true&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;repo = &amp;#34;owner/comments_for_hugo&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issueTerm = &amp;#34;pathname&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme = &amp;#34;github-light&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Create &lt;code&gt;contents/&lt;/code&gt; folders in &lt;code&gt;layouts&lt;/code&gt; directory.&lt;/li&gt;&#xA;&lt;li&gt;Create &lt;code&gt;single.html&lt;/code&gt; in the &lt;code&gt;layouts/*&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Add the following script to &lt;code&gt;/layouts/*/single.html&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://utteranc.es/client.js&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;owner/comments_for_hugo&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;issue-term&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;pathname&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;comments&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;github-light&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;crossorigin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;anonymous&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;async&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Utterances comments functionality is installed.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://utteranc.es/&#34;&gt;Utterances&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tihu.me/post/2020/2020-01-17-comment/&#34;&gt;How to add Utterances in config.toml&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Learn, todo and done 18-22/5/20</title>
-      <link>https://kencho51.github.io/jobs/18-5-20/</link>
+      <link>http://localhost:1313/jobs/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/18-5-20/</guid>
-      <description>Learn  php Yii  To-do  Study github issues.  start issue#160  url for Editorial board url for github update the content     Start PHP Numbers at Codecademy. Start Yii, learn how to build a blog system.  Done  Personal hugo page released. Finined PHP course at Codecademy. Made pull request for issue 160  Resources  For Yii, link.  </description>
+      <guid>http://localhost:1313/jobs/18-5-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;php&lt;/li&gt;&#xA;&lt;li&gt;Yii&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;to-do&#34;&gt;To-do&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Study github &lt;a href=&#34;https://github.com/gigascience/gigadb-website/labels/Ken&#34;&gt;issues&lt;/a&gt;.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;start &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/160&#34;&gt;issue#160&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;url for Editorial board&lt;/li&gt;&#xA;&lt;li&gt;url for github&lt;/li&gt;&#xA;&lt;li&gt;update the content&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Start PHP Numbers at Codecademy.&lt;/li&gt;&#xA;&lt;li&gt;Start Yii, learn how to &lt;a href=&#34;https://www.yiiframework.com/doc/blog/1.1/en/start.overview&#34;&gt;build a blog system&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Personal &lt;a href=&#34;https://kencho51.github.io/&#34;&gt;hugo page&lt;/a&gt; released.&lt;/li&gt;&#xA;&lt;li&gt;Finined PHP course at Codecademy.&lt;/li&gt;&#xA;&lt;li&gt;Made pull request for &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/160&#34;&gt;issue 160&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;For Yii, &lt;a href=&#34;https://www.bestyii.com/doc/guide/index&#34;&gt;link&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Hugo page is released</title>
-      <link>https://kencho51.github.io/deployhugo/</link>
+      <link>http://localhost:1313/deployhugo/</link>
       <pubDate>Mon, 18 May 2020 12:24:27 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/deployhugo/</guid>
-      <description>A personal website for Gigathing is settup and deployed. Here is the link</description>
+      <guid>http://localhost:1313/deployhugo/</guid>
+      <description>&lt;p&gt;A personal website for Gigathing is settup and deployed.&#xA;Here is the &lt;a href=&#34;https://kencho51.github.io&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to make a hugo website</title>
-      <link>https://kencho51.github.io/projects/howtomakeahugo/</link>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/projects/howtomakeahugo/</guid>
-      <description>Aim Try to build a hugo website to log everything happened in GigaScience.
-Description The website will contain:
- About Contact Posts  Mainly about the learning progress   Projects  sharing (FYI only)   Weekly plan  Learning plan Todo list What have been finished/achieved/completed    How Comming soon&amp;hellip;
-How to make a public folder In config.toml, add this: publishDir = &amp;quot;public&amp;quot;
-link
-Add Google Analytics feature How to set up a Google Analytics, steps followed here.</description>
+      <link>http://localhost:1313/projects/howtomakeahugo/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/howtomakeahugo/</guid>
+      <description>&lt;h3 id=&#34;aim&#34;&gt;Aim&lt;/h3&gt;&#xA;&lt;p&gt;Try to build a hugo website to log everything happened in GigaScience.&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;The website will contain:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;About&lt;/li&gt;&#xA;&lt;li&gt;Contact&lt;/li&gt;&#xA;&lt;li&gt;Posts&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mainly about the learning progress&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Projects&#xA;&lt;ul&gt;&#xA;&lt;li&gt;sharing (FYI only)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Weekly plan&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Learning plan&lt;/li&gt;&#xA;&lt;li&gt;Todo list&lt;/li&gt;&#xA;&lt;li&gt;What have been finished/achieved/completed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;how&#34;&gt;How&lt;/h3&gt;&#xA;&lt;p&gt;Comming soon&amp;hellip;&lt;/p&gt;&#xA;&lt;h6 id=&#34;how-to-make-a-public-folder&#34;&gt;How to make a public folder&lt;/h6&gt;&#xA;&lt;p&gt;In config.toml, add this:&#xA;publishDir = &lt;code&gt;&amp;quot;public&amp;quot;&lt;/code&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://discourse.gohugo.io/t/public-folder-and-its-content-not-generated/10535/4&#34;&gt;link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h6 id=&#34;add-google-analytics-feature&#34;&gt;Add Google Analytics feature&lt;/h6&gt;&#xA;&lt;p&gt;How to set up a Google Analytics, steps followed &lt;a href=&#34;https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h5 id=&#34;how-to-add-a-disqus&#34;&gt;How to add a disqus&lt;/h5&gt;&#xA;&lt;p&gt;Follow &lt;a href=&#34;https://coreychen71.github.io/posts/2019-05/hugoadddisqus/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://kencho51.github.io/reference/hugoisforlovers/</link>
+      <link>http://localhost:1313/reference/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://kencho51.github.io/reference/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>http://localhost:1313/reference/hugoisforlovers/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your os and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Go into the repo&lt;/li&gt;&#xA;&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;&#xA;&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

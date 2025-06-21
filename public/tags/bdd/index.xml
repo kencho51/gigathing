@@ -2,59 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BDD on kencho51</title>
-    <link>https://kencho51.github.io/tags/bdd/</link>
+    <link>http://localhost:1313/tags/bdd/</link>
     <description>Recent content in BDD on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 10:10:53 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2020 10:10:53 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 3-7/8/20</title>
-      <link>https://kencho51.github.io/jobs/3-8-20/</link>
+      <link>http://localhost:1313/jobs/3-8-20/</link>
       <pubDate>Mon, 03 Aug 2020 10:10:53 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/3-8-20/</guid>
-      <description>Learn  To study Clean Code Study the gigaDB codebase BDD TDD  Todo  Issue View files from large db #437 Issue Replace unicode character #276 Help PR PostgreSQL set up using CSV #469  Done  Merged PR Add Col pop up text to tables #473  Problem  Issue #185, protected/views/dataset/view.php file in the production server doesn’t look like the file that Ken has updated Issue #462, the code on the develop branch being out of sync with the code on the production server.</description>
+      <guid>http://localhost:1313/jobs/3-8-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;To study Clean Code&lt;/li&gt;&#xA;&lt;li&gt;Study the gigaDB codebase&lt;/li&gt;&#xA;&lt;li&gt;BDD&lt;/li&gt;&#xA;&lt;li&gt;TDD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/437&#34;&gt;View files from large db #437&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/276&#34;&gt;Replace unicode character #276&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Help PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/469&#34;&gt;PostgreSQL set up using CSV #469&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Merged PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/473&#34;&gt;Add Col pop up text to tables #473&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/473&#34;&gt;#185&lt;/a&gt;, &lt;code&gt;protected/views/dataset/view.php&lt;/code&gt; file in the production server doesn’t look like the file that Ken has updated&lt;/li&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;(https://github.com/gigascience/gigadb-website/pull/464)&#34;&gt;#462&lt;/a&gt;, the code on the develop branch being out of sync with the code on the production server.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/kencho51/gigathing&#34;&gt;&lt;img src=&#34;https://travis-ci.org/kencho51/gigathing.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn, todo and done 27-31/7/20</title>
-      <link>https://kencho51.github.io/jobs/27-7-20/</link>
+      <link>http://localhost:1313/jobs/27-7-20/</link>
       <pubDate>Mon, 27 Jul 2020 10:28:07 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/27-7-20/</guid>
-      <description>Learn  Study the gigaDB codebase !!! CI/CD  What is Continuous Integration? What is Continuous Delivery? Continuous Deployment vs Continuous Delivery   Terraform  What is Terraform?   BDD, TDD  Todo  Help PR PostgreSQL set up using CSV #469  Done  Merged PR Change password page style #470 Merged PR Update gigaDB logos #472 Merged PR Defaul table column #464 Follow up PR Functional test for admin access #463  Problem  Why new_faq.</description>
+      <guid>http://localhost:1313/jobs/27-7-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Study the gigaDB codebase !!!&lt;/li&gt;&#xA;&lt;li&gt;CI/CD&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1er2cjUq1UI&amp;amp;vl=en&#34;&gt;What is Continuous Integration?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2TTU5BB-k9U&#34;&gt;What is Continuous Delivery?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LNLKZ4Rvk8w&#34;&gt;Continuous Deployment vs Continuous Delivery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Terraform&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/cloud/learn/terraform&#34;&gt;What is Terraform?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;BDD, TDD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Help PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/469&#34;&gt;PostgreSQL set up using CSV #469&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Merged PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/470&#34;&gt;Change password page style #470&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Merged PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/472&#34;&gt;Update gigaDB logos #472&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Merged PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/464&#34;&gt;Defaul table column #464&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Follow up PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/463&#34;&gt;Functional test for admin access #463&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Why &lt;code&gt;new_faq.php&lt;/code&gt; and &lt;code&gt;new_datasetpage.php&lt;/code&gt; is separated from &lt;code&gt;new_main.php&lt;/code&gt;? Same code has to add these files separatly.&lt;/li&gt;&#xA;&lt;li&gt;A lot of code in &lt;code&gt;/protected/views&lt;/code&gt; folder are duplicated.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/kencho51/gigathing&#34;&gt;&lt;img src=&#34;https://travis-ci.org/kencho51/gigathing.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn, todo and done 20-24/7/20</title>
-      <link>https://kencho51.github.io/jobs/20-7-20/</link>
+      <link>http://localhost:1313/jobs/20-7-20/</link>
       <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/20-7-20/</guid>
-      <description>Learn  Behat BDD  Todo Done  Aim to pass Behat test for #464 docker-compose run --rm test bin/behat -vv --stop-on-failure --tags &amp;quot;@pr464&amp;quot; BCC2020 conference and workshops  Reference </description>
+      <guid>http://localhost:1313/jobs/20-7-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Behat&lt;/li&gt;&#xA;&lt;li&gt;BDD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Aim to pass Behat test for &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/464&#34;&gt;#464&lt;/a&gt;&#xA;&lt;code&gt;docker-compose run --rm test bin/behat -vv --stop-on-failure --tags &amp;quot;@pr464&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;BCC2020 conference and workshops&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;</description>
     </item>
-    
     <item>
       <title>Bdd</title>
-      <link>https://kencho51.github.io/bdd/</link>
+      <link>http://localhost:1313/bdd/</link>
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/bdd/</guid>
-      <description>What is Behavior Driven Development?  Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).
-  BDD uses human-readable descriptions of software user requirements as the basis for software tests.
- Introduction of BDD from Konstantin Kudryashov, the creator of Behat YouTube
-What is gherkin language?  Gherkin is a Business Readable, Domain Specific Language created specifically for behavior descriptions. Gherkin is a whitespace-oriented language that uses indentation to define structure.</description>
+      <guid>http://localhost:1313/bdd/</guid>
+      <description>&lt;h3 id=&#34;what-is-behavior-driven-development&#34;&gt;What is Behavior Driven Development?&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;BDD uses human-readable descriptions of software user requirements as the basis for software tests.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;introduction-of-bdd-from-konstantin-kudryashov-the-creator-of-behat&#34;&gt;Introduction of BDD from Konstantin Kudryashov, the creator of Behat&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/njcHzGYv7nI&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-gherkin-language&#34;&gt;What is gherkin language?&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Gherkin is a Business Readable, Domain Specific Language created specifically for behavior descriptions.&#xA;Gherkin is a whitespace-oriented language that uses indentation to define structure.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn, todo and done 13-17/7/20</title>
-      <link>https://kencho51.github.io/jobs/13-7-20/</link>
+      <link>http://localhost:1313/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/jobs/13-7-20/</guid>
-      <description>Learn  BDD Behat Unit test Functional test  Todo Done  Updated the default table columns names in the files table. PR #464 for Issue #462  Reference  Introduction to BDD with Behat Sandi Metz, OO code Bob Martin, TDD  </description>
+      <guid>http://localhost:1313/jobs/13-7-20/</guid>
+      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;BDD&lt;/li&gt;&#xA;&lt;li&gt;Behat&lt;/li&gt;&#xA;&lt;li&gt;Unit test&lt;/li&gt;&#xA;&lt;li&gt;Functional test&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Updated the default table columns names in the files table.&#xA;PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/464&#34;&gt;#464&lt;/a&gt; for Issue #462&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bCLlBgYQoIk&#34;&gt;Introduction to BDD with Behat&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8bZh5LMaSmE&#34;&gt;Sandi Metz, OO code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html&#34;&gt;Bob Martin, TDD&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

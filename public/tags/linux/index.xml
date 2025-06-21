@@ -2,29 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on kencho51</title>
-    <link>https://kencho51.github.io/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on kencho51</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 05 May 2021 11:16:25 +0800</lastBuildDate><atom:link href="https://kencho51.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 11:16:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Hat Enterprise Linux Technical Overview</title>
-      <link>https://kencho51.github.io/projects/red-hat-linux/</link>
+      <link>http://localhost:1313/projects/red-hat-linux/</link>
       <pubDate>Wed, 05 May 2021 11:16:25 +0800</pubDate>
-      
-      <guid>https://kencho51.github.io/projects/red-hat-linux/</guid>
-      <description>Course Content   What is Linux, Open Source Software, and a Distribution?
-  Introduction to the Shell
-2.1 Prompt $: normal user
-2.2 Prompt #: root user
-2.3 ls: list directory contents 2.4 ls -a
-2.5 ls -all
-2.6 ls --all
-2.7 ls -l file1 dirA
-2.8 crontab: maintains crontab files for individual users
-  Kernel and User Spaces, kernel is the heart of Linux operation system 3.</description>
+      <guid>http://localhost:1313/projects/red-hat-linux/</guid>
+      <description>&lt;h3 id=&#34;course-content&#34;&gt;Course Content&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is Linux, Open Source Software, and a Distribution?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Introduction to the Shell&lt;br&gt;&#xA;2.1 Prompt &lt;code&gt;$&lt;/code&gt;: normal user&lt;br&gt;&#xA;2.2 Prompt &lt;code&gt;#&lt;/code&gt;: root user&lt;br&gt;&#xA;2.3 &lt;code&gt;ls&lt;/code&gt;: list directory contents&#xA;2.4 &lt;code&gt;ls -a&lt;/code&gt;&lt;br&gt;&#xA;2.5 &lt;code&gt;ls -all&lt;/code&gt;&lt;br&gt;&#xA;2.6 &lt;code&gt;ls --all&lt;/code&gt;&lt;br&gt;&#xA;2.7 &lt;code&gt;ls -l file1 dirA&lt;/code&gt;&lt;br&gt;&#xA;2.8 &lt;code&gt;crontab&lt;/code&gt;: maintains crontab files for individual users&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kernel and User Spaces, &lt;code&gt;kernel&lt;/code&gt; is the heart of Linux operation system &lt;br&gt;&#xA;3.1  Process with unique ID&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;User process&lt;/code&gt; associate with a particular user, &lt;code&gt;fg&lt;/code&gt; and &lt;code&gt;bg&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Daemon process&lt;/code&gt; eg, network services or other house keeping tasks to keep the system running&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Kernel threads&lt;/code&gt; part of the kernel that are running as if they were regular user processes or system daemon, but are not associated with the terminal,&#xA;they are part of the kernel, but they are still scheduled as if there were regular processes&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ps&lt;/code&gt;: get process information&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ps -ef&lt;/code&gt;: show all process information with detail&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Orientation to the Graphical User Interface&lt;br&gt;&#xA;4.1 &lt;code&gt;GNOME3&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
