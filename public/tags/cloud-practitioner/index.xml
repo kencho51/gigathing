@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cloud Practitioner on kencho51</title>
     <link>http://localhost:1313/tags/cloud-practitioner/</link>
     <description>Recent content in Cloud Practitioner on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 06 Jul 2020 17:04:35 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/projects/awscloud2020/</link>
       <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
       <guid>http://localhost:1313/projects/awscloud2020/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;he AWS Certified Cloud Practitioner (CLF-C01) examination is intended for individuals who have the knowledge,&#xA;skills, and abilities to demonstrate basic knowledge of the AWS platform, including: available services and their&#xA;common use cases, AWS Cloud architectural principles (at the conceptual level), account security, and compliance.&#xA;The candidate will demonstrate an understanding of AWS Cloud economics including: costs, billing, and analysis,&#xA;and the value proposition of the AWS Cloud.&lt;/p&gt;</description>
+      <description>How to pass AWS Cloud Practioner Certification? </description>
     </item>
   </channel>
 </rss>

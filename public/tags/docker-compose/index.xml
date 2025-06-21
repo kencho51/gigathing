@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker Compose on kencho51</title>
     <link>http://localhost:1313/tags/docker-compose/</link>
     <description>Recent content in Docker Compose on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 07 Jan 2021 15:04:22 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/docker-compose-dependency/</link>
       <pubDate>Thu, 07 Jan 2021 15:04:22 +0800</pubDate>
       <guid>http://localhost:1313/docker-compose-dependency/</guid>
-      <description>&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ---&amp;gt; Running in 4c7fe5b9cf5e&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pecl/xdebug requires PHP &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;version &amp;gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 7.2.0, version &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 8.0.99&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, installed version is 7.1.30&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;No valid packages found&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install failed&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ERROR: Service &lt;span class=&#34;s1&#34;&gt;&amp;#39;test&amp;#39;&lt;/span&gt; failed to build : The &lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/bin/sh -c if [ ${INSTALL_XDEBUG} = true ]; then   if [ $(php -r &amp;#34;echo PHP_MAJOR_VERSION;&amp;#34;) = &amp;#34;5&amp;#34; ]; then     pecl install xdebug-2.5.5;   else     pecl install xdebug;   fi &amp;amp;&amp;amp;   docker-php-ext-enable xdebug ;fi&amp;#39;&lt;/span&gt; returned a non-zero code: &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;effect&#34;&gt;Effect&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;code&gt;docker-compose run --rm test&lt;/code&gt; cannot be run. Then the &lt;code&gt;test&lt;/code&gt; service cannot be built.&lt;/p&gt;</description>
+      <description>Docker Compose Dependency</description>
     </item>
   </channel>
 </rss>

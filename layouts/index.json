@@ -1,0 +1,14 @@
+[
+{{- range $i, $page := where .Site.RegularPages "Type" "in" (slice "post" "page" "jobs" "projects" "reference") -}}
+  {{- if $i }},{{ end -}}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "permalink": {{ $page.Permalink | jsonify }},
+    "summary": {{ $page.Summary | jsonify }},
+    "content": {{ $page.Plain | jsonify }},
+    "type": {{ $page.Type | jsonify }},
+    "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+    "section": {{ $page.Section | jsonify }}
+  }
+{{- end -}}
+] 

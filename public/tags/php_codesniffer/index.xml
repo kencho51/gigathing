@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PHP_CodeSniffer on kencho51</title>
     <link>http://localhost:1313/tags/php_codesniffer/</link>
     <description>Recent content in PHP_CodeSniffer on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Tue, 07 Jul 2020 14:28:56 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/phpcodesniffer/</link>
       <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
       <guid>http://localhost:1313/phpcodesniffer/</guid>
-      <description>&lt;h3 id=&#34;what-is-php_codesniffer&#34;&gt;What is PHP_CodeSniffer?&lt;/h3&gt;&#xA;&lt;p&gt;PHP_CodeSniffer is a set of two PHP scripts:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;phpcs&lt;/code&gt; script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;phpcbf&lt;/code&gt; script to automatically correct coding standard violations.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;&#xA;&lt;p&gt;Follow &lt;a href=&#34;https://github.com/squizlabs/PHP_CodeSniffer&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Checking files and folders&lt;br&gt;&#xA;&lt;code&gt;vendor/bin/phpcs /path/to/code&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Printing summary report&lt;br&gt;&#xA;&lt;code&gt;vendor/bin/phpcs --report=summary /path/to/code&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Specifying a Coding Standard&lt;br&gt;&#xA;&lt;code&gt;vendor/bin/phpcs --standard=PEAR /path/to/code/myfile.php&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;List all installed coding standards&lt;br&gt;&#xA;&lt;code&gt;vendor/bin/phpcs -i&lt;/code&gt;&lt;br&gt;&#xA;eg.The installed coding standards are PEAR, PSR1, PSR12, PSR2, Squiz and Zen&lt;/p&gt;</description>
+      <description>Tool to detect and correct PHP coding style</description>
     </item>
   </channel>
 </rss>

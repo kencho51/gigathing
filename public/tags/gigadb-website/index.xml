@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gigadb-Website on kencho51</title>
     <link>http://localhost:1313/tags/gigadb-website/</link>
     <description>Recent content in Gigadb-Website on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Tue, 19 May 2020 15:55:27 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/githubusageexample/</link>
       <pubDate>Tue, 19 May 2020 15:55:27 +0800</pubDate>
       <guid>http://localhost:1313/githubusageexample/</guid>
-      <description>&lt;h2 id=&#34;the-development-cycle-of-the-gigadb&#34;&gt;The development cycle of the gigadb.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-fork-gigadb-website&#34;&gt;1. fork &lt;a href=&#34;https://github.com/gigascience/gigadb-website&#34;&gt;gigadb-website&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;2-clone-the-gigadb-website-into-local-ssd&#34;&gt;2. clone the gigadb-website into local SSD&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git clone https://github.com/kencho51/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-add-remote-origin&#34;&gt;3. add remote origin&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git remote add origin https://github.com/kencho51/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;4-add-remote-upstream-origin&#34;&gt;4. add remote upstream origin&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;git remote add upstream https://github.com/gigascience/gigadb-website.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;5-follow-here-to-build-the-docker-container-for-the-testing&#34;&gt;5. follow &lt;a href=&#34;https://github.com/kencho51/gigadb-website/tree/develop&#34;&gt;here&lt;/a&gt; to build the docker container for the testing.&lt;/h3&gt;&#xA;&lt;h3 id=&#34;6-the-flow-to-make-changes&#34;&gt;6. The flow to make changes:&lt;/h3&gt;&#xA;&lt;p&gt;6.1 Create branch for an issue&#xA;&lt;code&gt;git branch issue-no&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;6.2 Go to that branch&lt;br&gt;&#xA;&lt;code&gt;git checkout issue-no&lt;/code&gt;&lt;/p&gt;</description>
+      <description>How to make changes in gigadb-website repo</description>
     </item>
   </channel>
 </rss>

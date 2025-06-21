@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Functional Test on kencho51</title>
     <link>http://localhost:1313/tags/functional-test/</link>
     <description>Recent content in Functional Test on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 13 Jul 2020 10:23:57 +0800</lastBuildDate>
@@ -14,21 +14,21 @@
       <link>http://localhost:1313/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
       <guid>http://localhost:1313/jobs/13-7-20/</guid>
-      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;BDD&lt;/li&gt;&#xA;&lt;li&gt;Behat&lt;/li&gt;&#xA;&lt;li&gt;Unit test&lt;/li&gt;&#xA;&lt;li&gt;Functional test&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Updated the default table columns names in the files table.&#xA;PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/464&#34;&gt;#464&lt;/a&gt; for Issue #462&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bCLlBgYQoIk&#34;&gt;Introduction to BDD with Behat&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8bZh5LMaSmE&#34;&gt;Sandi Metz, OO code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html&#34;&gt;Bob Martin, TDD&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 6-10/7/20</title>
       <link>http://localhost:1313/jobs/6-7-20/</link>
       <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
       <guid>http://localhost:1313/jobs/6-7-20/</guid>
-      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Unit test&lt;/li&gt;&#xA;&lt;li&gt;Functional test&lt;/li&gt;&#xA;&lt;li&gt;PHP_CodeSniffer&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;7/7 &lt;a href=&#34;https://aws.amazon.com/events/summits/online/hongkong/&#34;&gt;AWS Summit Online&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;11:00-11:30 Module 1: Introduction to the AWS Cloud&lt;/li&gt;&#xA;&lt;li&gt;11:35-12:05 Module 2: Getting started with the AWS Cloud or CI/CD for modern applications on AWS (Level 300)&lt;/li&gt;&#xA;&lt;li&gt;12:10-12:40 Module 3: Building in the cloud&lt;/li&gt;&#xA;&lt;li&gt;1:30-2:00 Module 4: Secure your cloud applications&lt;/li&gt;&#xA;&lt;li&gt;2:05-2:35 Purpose-built databases for modern applications (Level 200)&lt;/li&gt;&#xA;&lt;li&gt;2:40-3:10 Introduction to AWS Training and Certification&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;PR &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/464&#34;&gt;#464&lt;/a&gt; for Issue #462&lt;/li&gt;&#xA;&lt;li&gt;Used PHP CodeSniffer on AdminSiteAccessTest.php&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Difficult to install Codeception in local gigaDB server.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;</description>
+      <description>Weekly Plan</description>
     </item>
     <item>
       <title>Codeception</title>
       <link>http://localhost:1313/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
       <guid>http://localhost:1313/whatiscodeception/</guid>
-      <description>&lt;h3 id=&#34;what-is-codeception&#34;&gt;What is Codeception?&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Codeception is a framework written in PHP for testing application and its multi-featured test framework powered by famous PHPUnit Framework.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It can manage Unit, Functional and Acceptance for web application.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/tests.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-create-a-unit-test&#34;&gt;How to create a Unit Test?&lt;/h3&gt;&#xA;&lt;p&gt;Testing pieces of code before coupling them together.&lt;/p&gt;&#xA;&lt;p&gt;It creates a new ExampleTest file located in the tests/unit directory.&lt;br&gt;&#xA;&lt;code&gt;php vendor/bin/codecept generate:test unit Example&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Run the newly created test with this command.&#xA;&lt;code&gt;php vendor/bin/codecept run unit ExampleTest&lt;/code&gt;&lt;/p&gt;</description>
+      <description>What is Codeception?</description>
     </item>
   </channel>
 </rss>

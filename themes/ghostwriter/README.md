@@ -17,20 +17,19 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 ## Development
 
 After installing the theme you need to install javascript dependencies. You can use 
-`npm` or `yarn` to install them from `package.json`. We are using `webpack` to build
-and package styles. In order to develop with realtime reloading in the browser you can 
-use this powerful combo:
+`npm` to install them from `package.json`. We are using `webpack` to build and package 
+styles. In order to develop with realtime reloading in the browser you can use this powerful combo:
 
 ```bash
 hugo server
-yarn run watch
+npm run watch
 ```
 
 To update theme styles edit the `styles/style.scss` file. You can then either use the `watch` command
 or run `build` to compile the styles:
 
 ```bash
-yarn run build
+npm run build
 ```
 
 ## Example config.yml
@@ -69,7 +68,7 @@ privacy:
 
 author:
   name: My Name
-  profile: "https://google.com/+XXX"
+  profile: ""
 
 taxonomies:
   tag: tags
@@ -89,8 +88,8 @@ params:
   email: xxx@example.com
   opengraph: true
   shareTwitter: true
+  rss: true
   shareFacebook: true
-  shareGooglePlus: true
   shareLinkedIn: false
   dateFormat: "Mon, Jan 2, 2006"
   exponeaJsUrl: ""
@@ -101,6 +100,10 @@ params:
   readingTimeText: "Estimated reading time:"
   fathomUrl: ""
   fathomSiteId: ""
+  plausibleAnalytics:
+    domain: ""
+    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+    serverURL: ""
 
 permalinks:
   post: "/:year/:month/:day/:filename/"

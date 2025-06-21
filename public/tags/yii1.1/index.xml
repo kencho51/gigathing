@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yii1.1 on kencho51</title>
     <link>http://localhost:1313/tags/yii1.1/</link>
     <description>Recent content in Yii1.1 on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 04 Jun 2020 15:05:46 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
       <guid>http://localhost:1313/yiiforbeginners/</guid>
-      <description>&lt;h3 id=&#34;what-is-yii-model-view-controller-architecture&#34;&gt;What is Yii Model-View-Controller architecture?&lt;/h3&gt;&#xA;&lt;p&gt;MVC schema&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/mvc_schema.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;Model&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;defines relations among data in DB and rules that must be followed when saving data to DB. It also gives us tools to read/save data from/to DB.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;View&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;shows data to user. It doesn’t write to DB or count difficult things. It just receives data and shows them using HTML, CSS, JS, etc.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;Controller&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;processes and changes the data, handles user’s actions, decides, counts, thinks and calls models and views. It simply acts.&lt;/p&gt;</description>
+      <description>Yii framework Wiki</description>
     </item>
   </channel>
 </rss>

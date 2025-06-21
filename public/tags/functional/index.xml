@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Functional on kencho51</title>
     <link>http://localhost:1313/tags/functional/</link>
     <description>Recent content in Functional on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 29 Jun 2020 09:55:10 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/jobs/29-6-20/</link>
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
       <guid>http://localhost:1313/jobs/29-6-20/</guid>
-      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Codeception in PhpStorm&lt;/li&gt;&#xA;&lt;li&gt;Functional test&lt;/li&gt;&#xA;&lt;li&gt;Unit test&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;todo&#34;&gt;Todo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;PR Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/460&#34;&gt;#460&lt;/a&gt;, functional test for admin site access.&lt;/li&gt;&#xA;&lt;li&gt;Issue &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/448&#34;&gt;#448&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install codeception to PhpStorm is difficult, a lot of env param is invloved.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;</description>
+      <description>Weekly Plan</description>
     </item>
   </channel>
 </rss>

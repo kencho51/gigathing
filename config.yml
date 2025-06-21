@@ -1,0 +1,78 @@
+baseurl: "https://kencho51.github.io/"
+title: "kencho51"
+theme: "hugo-PaperMod"
+languageCode: "en-us"
+copyright: "kencho51"
+googleAnalytics: "G-LV12W6L6C4"
+# disqusShortname: XXX
+pygmentsUseClasses: true
+pygmentsCodefences: true
+# publishDir: "gigathing"
+
+taxonomies:
+  tag: "tags"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  # mainSections: ["post"]
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/kencho51"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/cholingken/"
+    - name: "Orcid"
+      url: "https://orcid.org/0009-0006-9057-8835"
+  opengraph: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  # Search configuration for PaperMod
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  # dateFormat: "Mon, Jan 2, 2020"
+
+permalinks:
+  post: "/:contentbasename/"
+
+menu:
+  main:
+    - name: "Search"
+      url: "/search/"
+      weight: 1
+    - name: "Jobs"
+      url: "/jobs"
+      weight: 2
+    - name: "Posts"
+      url: "/post"
+      weight: 3
+    - name: "Projects"
+      url: "/projects/"
+      weight: 4
+    - name: "Contact"
+      url: "/page/contact/"
+      weight: 5
+    - name: "About"
+      url: "/page/about/"
+      weight: 6
+    - name: "Reference"
+      url: "/reference"
+      weight: 7 

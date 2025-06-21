@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>#436 on kencho51</title>
     <link>http://localhost:1313/tags/%23436/</link>
     <description>Recent content in #436 on kencho51</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 25 May 2020 11:22:48 +0800</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/jobs/25-5-20/</link>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
       <guid>http://localhost:1313/jobs/25-5-20/</guid>
-      <description>&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Using Yii to build a blog system&lt;/li&gt;&#xA;&lt;li&gt;PHP&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;to-do&#34;&gt;To-do&lt;/h3&gt;&#xA;&lt;h3 id=&#34;done&#34;&gt;Done&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=sRJ6GYiCwkI&#34;&gt;Yii 2 crash course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update &lt;a href=&#34;https://github.com/gigascience/gigadb-website/pull/427&#34;&gt;issue 160&lt;/a&gt;&lt;br&gt;&#xA;2.1 update the link url to relate link, not the production server ones&lt;/li&gt;&#xA;&lt;li&gt;Yii &lt;a href=&#34;https://www.yiiframework.com/doc/guide/2.0/en/start-prerequisites&#34;&gt;the Definitive guide to Yii 2.0&lt;/a&gt;&lt;br&gt;&#xA;3.1 created a sqlite database&lt;br&gt;&#xA;3.2 tried Gii to create CRUD models and actions&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.yiiframework.com/doc/guide/1.1/en/index&#34;&gt;The Definitive Guide to Yii 1.1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update portal address in contact us page for &lt;a href=&#34;https://github.com/gigascience/gigadb-website/issues/436&#34;&gt;Issue #436&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;however the image of the location map not showing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.yiiframework.com/doc/blog/1.1/en/start.overview&#34;&gt;Yii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.yiiframework.com/doc/blog/1.1/en/start.overview&#34;&gt;Best Yii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.creative-tim.com/blog/web-design/free-yii2-tutorials-templates/&#34;&gt;Best Free Yii2 Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP&#34;&gt;OOP concepts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762&#34;&gt;OOP code examples&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>Weekly Plan</description>
     </item>
   </channel>
 </rss>
