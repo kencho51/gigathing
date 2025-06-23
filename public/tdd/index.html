@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=56587&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>What is Tdd? | kencho51</title>
 <meta name="keywords" content="TDD">
 <meta name="description" content="Test Driving Development">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="http://localhost:56587/tdd/">
+<link rel="canonical" href="https://gigathing.pages.dev/tdd/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:56587/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:56587/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:56587/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:56587/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:56587/safari-pinned-tab.svg">
+<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
+<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:56587/tdd/">
+<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/tdd/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,74 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://gigathing.pages.dev/tdd/">
+  <meta property="og:site_name" content="kencho51">
+  <meta property="og:title" content="What is Tdd?">
+  <meta property="og:description" content="Test Driving Development">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-06-10T14:28:31+08:00">
+    <meta property="article:modified_time" content="2020-06-10T14:28:31+08:00">
+    <meta property="article:tag" content="TDD">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What is Tdd?">
+<meta name="twitter:description" content="Test Driving Development">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://gigathing.pages.dev/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "What is Tdd?",
+      "item": "https://gigathing.pages.dev/tdd/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "What is Tdd?",
+  "name": "What is Tdd?",
+  "description": "Test Driving Development",
+  "keywords": [
+    "TDD"
+  ],
+  "articleBody": "What is TDD? Before writing any code that adds new functionality to an application, the developer first writes an automated test describing how the new code should behave, and watches it turn red (fail to pass).\nThey then write the code to the specification, and the test turns green (it passes).\nFinally, the developer takes a little time to make sure that the code just written is as clean as possible (refactoring).\nThe red, green, refactor approach helps developers compartmentalize their focus into three phases:\nRed — think about what you want to develop Green — think about how to make your tests pass Refactor — think about how to improve your existing implementation Advantages o TDD TDD helps to prevent bugs Self Explanatory code Advoid he bugger debugger problem When talking tech about software development, there are two main types of testing that can be integrated: functional and non-functional.\nUnit and Integration tests to be performed by developers before handing out builds to testers\nUser acceptance testing to be performed by the testers\nPerformance testing and UI testing should be done by both\nYou can forecast troubles The benefit of a comprehensive test suite is that it alerts you to changes early.\nSave Money When code is complicated, it gets much harder to get anything done — one little change over here can result in a big problem over there. When following TDD, developers can make changes with confidence and your QA team will catch fewer regressions. In development speak, time saved is equal to money earned.\nInvest the saved time in innovations and research\nTDD Helps You Avoid Scope Creep\nThe nightmare of any project manager is scope creep — any unexpected growth in the scope of work which leads to delays in project delivery.\nScope creep can happen for various reasons: poorly defined tasks, misinterpretation of project requirements, lack of documentation, and so on. There are many methods aimed at mitigating scope creep, and TDD is one of them.\nHow to perform TDD test Acceptance TDD and developer TDD When you first go to implement a new feature, the first question that you ask is whether the existing design is the best design possible that enables you to implement that functionality. If so, you proceed via a TFD, the first development, approach. If not, you refactor it locally to change the portion of the design affected by the new feature, enabling you to add that feature as easy as possible. As a result you will always be improving the quality of your design, thereby making it easier to work with in the future. Acceptance TDD:\nWith ATDD you write a single acceptance test. This test fulfills the requirement of the specification or satisfies the behavior of the system. After that write just enough production/functionality code to fulfill that acceptance test. Acceptance test focuses on the overall behavior of the system. ATDD also was known as Behavioral Driven Development (BDD). Developer TDD:\nWith Developer TDD you write single developer test i.e. unit test and then just enough production code to fulfill that test. The unit test focuses on every small functionality of the system. Developer TDD is simply called as TDD.\nThe main goal of ATDD and TDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. JIT means taking only those requirements in consideration that are needed in the system. So increase efficiency. Example of TDD in defining a class password Test stages Setup Create sample data Decide on inputs Execution Call the code Assertions Confirm expected output TDD and The Terminator This video shows how to implement a TDD.\nTDD in practice The siteoffers a good variety of problems that are particularly suitable for resolution using the TDD approach. Source\nReference Test-driven development might seem like twice the work Introduction to TDD What is Test Driven Development (TDD)? Tutorial with Example What is TDD? YouTube TDD and The Terminator YouTube Test Driven Development: what it is, and what it is not. PHP Test Driven Development Part 1: Introductionmedium Red-Green-Refactor ",
+  "wordCount" : "680",
+  "inLanguage": "en",
+  "datePublished": "2020-06-10T14:28:31+08:00",
+  "dateModified": "2020-06-10T14:28:31+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Ken Cho"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gigathing.pages.dev/tdd/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "kencho51",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gigathing.pages.dev/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +140,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:56587/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,22 +166,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:56587/page/about/" title="About">
+                <a href="https://gigathing.pages.dev/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/post" title="Tech">
+                <a href="https://gigathing.pages.dev/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/projects/" title="Projects">
+                <a href="https://gigathing.pages.dev/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -125,7 +192,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:56587/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:56587/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       What is Tdd?
     </h1>
@@ -277,15 +344,15 @@ The main goal of ATDD and TDD is to specify detailed, executable requirements fo
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:56587/tags/tdd/">TDD</a></li>
+      <li><a href="https://gigathing.pages.dev/tags/tdd/">TDD</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:56587/docker101/">
+  <a class="prev" href="https://gigathing.pages.dev/docker101/">
     <span class="title">« Prev</span>
     <br>
     <span>Docker 101</span>
   </a>
-  <a class="next" href="http://localhost:56587/postgresql/">
+  <a class="next" href="https://gigathing.pages.dev/postgresql/">
     <span class="title">Next »</span>
     <br>
     <span>Postgresql</span>

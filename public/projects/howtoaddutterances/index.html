@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=56587&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>How to add a comment functionality using uterances | kencho51</title>
 <meta name="keywords" content="Uterances, Hugo">
 <meta name="description" content="Steps to add Utterances to Hugo blog">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="http://localhost:56587/projects/howtoaddutterances/">
+<link rel="canonical" href="https://gigathing.pages.dev/projects/howtoaddutterances/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:56587/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:56587/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:56587/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:56587/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:56587/safari-pinned-tab.svg">
+<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
+<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:56587/projects/howtoaddutterances/">
+<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/projects/howtoaddutterances/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,75 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://gigathing.pages.dev/projects/howtoaddutterances/">
+  <meta property="og:site_name" content="kencho51">
+  <meta property="og:title" content="How to add a comment functionality using uterances">
+  <meta property="og:description" content="Steps to add Utterances to Hugo blog">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2020-06-15T11:25:56+08:00">
+    <meta property="article:modified_time" content="2020-06-15T11:25:56+08:00">
+    <meta property="article:tag" content="Uterances">
+    <meta property="article:tag" content="Hugo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to add a comment functionality using uterances">
+<meta name="twitter:description" content="Steps to add Utterances to Hugo blog">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://gigathing.pages.dev/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to add a comment functionality using uterances",
+      "item": "https://gigathing.pages.dev/projects/howtoaddutterances/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to add a comment functionality using uterances",
+  "name": "How to add a comment functionality using uterances",
+  "description": "Steps to add Utterances to Hugo blog",
+  "keywords": [
+    "Uterances", "Hugo"
+  ],
+  "articleBody": "What is Utterances? A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments. Open source. Allow Markdown syntax. Configuration Create an empty Github repo. Install utterances app on that repo In the utterances app, only select the repo just created for comment. Update config.toml as below: [params.utteranc] enable = true repo = \"owner/comments_for_hugo\" issueTerm = \"pathname\" theme = \"github-light\" Create contents/ folders in layouts directory. Create single.html in the layouts/*. Add the following script to /layouts/*/single.html \u003cscript src=\"https://utteranc.es/client.js\" repo=\"owner/comments_for_hugo\" issue-term=\"pathname\" label=\"comments\" theme=\"github-light\" crossorigin=\"anonymous\" async\u003e \u003c/script\u003e Utterances comments functionality is installed. Reference Utterances How to add Utterances in config.toml ",
+  "wordCount" : "102",
+  "inLanguage": "en",
+  "datePublished": "2020-06-15T11:25:56+08:00",
+  "dateModified": "2020-06-15T11:25:56+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Ken Cho"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gigathing.pages.dev/projects/howtoaddutterances/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "kencho51",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gigathing.pages.dev/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +141,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:56587/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,22 +167,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:56587/page/about/" title="About">
+                <a href="https://gigathing.pages.dev/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/post" title="Tech">
+                <a href="https://gigathing.pages.dev/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/projects/" title="Projects">
+                <a href="https://gigathing.pages.dev/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:56587/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -125,7 +193,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:56587/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:56587/projects/">Projects</a></div>
+    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/projects/">Projects</a></div>
     <h1 class="post-title entry-hint-parent">
       How to add a comment functionality using uterances
     </h1>
@@ -200,8 +268,8 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:56587/tags/uterances/">Uterances</a></li>
-      <li><a href="http://localhost:56587/tags/hugo/">Hugo</a></li>
+      <li><a href="https://gigathing.pages.dev/tags/uterances/">Uterances</a></li>
+      <li><a href="https://gigathing.pages.dev/tags/hugo/">Hugo</a></li>
     </ul>
 
   </footer><div id="disqus_thread"></div>

@@ -2,884 +2,884 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>kencho51</title>
-    <link>http://localhost:56587/</link>
+    <link>https://gigathing.pages.dev/</link>
     <description>Recent content on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 21 Sep 2022 09:45:28 +0800</lastBuildDate>
-    <atom:link href="http://localhost:56587/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gigathing.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How rclone works</title>
-      <link>http://localhost:56587/howrcloneworks/</link>
+      <link>https://gigathing.pages.dev/howrcloneworks/</link>
       <pubDate>Wed, 21 Sep 2022 09:45:28 +0800</pubDate>
-      <guid>http://localhost:56587/howrcloneworks/</guid>
+      <guid>https://gigathing.pages.dev/howrcloneworks/</guid>
       <description>Secure and stable data transfer using rclone</description>
     </item>
     <item>
       <title>How Yii migration script works</title>
-      <link>http://localhost:56587/howyiimigrationscriptworks/</link>
+      <link>https://gigathing.pages.dev/howyiimigrationscriptworks/</link>
       <pubDate>Wed, 17 Aug 2022 15:21:34 +0800</pubDate>
-      <guid>http://localhost:56587/howyiimigrationscriptworks/</guid>
+      <guid>https://gigathing.pages.dev/howyiimigrationscriptworks/</guid>
       <description>Create/Delete table using migration script</description>
     </item>
     <item>
       <title>Sprint 10 plan 20/5-10/6-22</title>
-      <link>http://localhost:56587/jobs/24-5-22/</link>
+      <link>https://gigathing.pages.dev/jobs/24-5-22/</link>
       <pubDate>Tue, 24 May 2022 17:18:59 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/24-5-22/</guid>
+      <guid>https://gigathing.pages.dev/jobs/24-5-22/</guid>
       <description> Learn, todo and done</description>
     </item>
     <item>
       <title>Sprint 9 plan 19/4-10/5-22</title>
-      <link>http://localhost:56587/jobs/19-4-22/</link>
+      <link>https://gigathing.pages.dev/jobs/19-4-22/</link>
       <pubDate>Tue, 19 Apr 2022 09:39:52 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/19-4-22/</guid>
+      <guid>https://gigathing.pages.dev/jobs/19-4-22/</guid>
       <description>Learn, todo and done</description>
     </item>
     <item>
       <title>Learn, todo and done 16/3-6/4-22</title>
-      <link>http://localhost:56587/jobs/6-4-22/</link>
+      <link>https://gigathing.pages.dev/jobs/6-4-22/</link>
       <pubDate>Wed, 06 Apr 2022 11:40:01 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/6-4-22/</guid>
+      <guid>https://gigathing.pages.dev/jobs/6-4-22/</guid>
       <description>Sprint 8 plan</description>
     </item>
     <item>
       <title>Learn, todo and done 14/2-7/3/22</title>
-      <link>http://localhost:56587/jobs/17-2-22/</link>
+      <link>https://gigathing.pages.dev/jobs/17-2-22/</link>
       <pubDate>Thu, 17 Feb 2022 09:46:07 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/17-2-22/</guid>
+      <guid>https://gigathing.pages.dev/jobs/17-2-22/</guid>
       <description>Sprint 7 plan</description>
     </item>
     <item>
       <title>Learn, todo and done 17-21/1/22</title>
-      <link>http://localhost:56587/jobs/17-1-22/</link>
+      <link>https://gigathing.pages.dev/jobs/17-1-22/</link>
       <pubDate>Mon, 17 Jan 2022 09:55:22 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/17-1-22/</guid>
+      <guid>https://gigathing.pages.dev/jobs/17-1-22/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/11/21</title>
-      <link>http://localhost:56587/jobs/15-11-21/</link>
+      <link>https://gigathing.pages.dev/jobs/15-11-21/</link>
       <pubDate>Mon, 15 Nov 2021 13:58:22 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/15-11-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/15-11-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>How to build portainer in production</title>
-      <link>http://localhost:56587/howtobuildportainerinproduction/</link>
+      <link>https://gigathing.pages.dev/howtobuildportainerinproduction/</link>
       <pubDate>Mon, 15 Nov 2021 13:45:42 +0800</pubDate>
-      <guid>http://localhost:56587/howtobuildportainerinproduction/</guid>
+      <guid>https://gigathing.pages.dev/howtobuildportainerinproduction/</guid>
       <description>Steps to build portainer in production</description>
     </item>
     <item>
       <title>How to add portainer for monitoring dockers</title>
-      <link>http://localhost:56587/howtoaddportainer/</link>
+      <link>https://gigathing.pages.dev/howtoaddportainer/</link>
       <pubDate>Thu, 21 Oct 2021 15:56:18 +0800</pubDate>
-      <guid>http://localhost:56587/howtoaddportainer/</guid>
+      <guid>https://gigathing.pages.dev/howtoaddportainer/</guid>
       <description>Steps to configure portainer</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/10/21</title>
-      <link>http://localhost:56587/jobs/18-10-21/</link>
+      <link>https://gigathing.pages.dev/jobs/18-10-21/</link>
       <pubDate>Thu, 21 Oct 2021 15:38:46 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/18-10-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/18-10-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 27-30/9/21</title>
-      <link>http://localhost:56587/jobs/27-9-21/</link>
+      <link>https://gigathing.pages.dev/jobs/27-9-21/</link>
       <pubDate>Mon, 27 Sep 2021 13:38:11 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/27-9-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/27-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/9/21</title>
-      <link>http://localhost:56587/jobs/20-9-21/</link>
+      <link>https://gigathing.pages.dev/jobs/20-9-21/</link>
       <pubDate>Mon, 20 Sep 2021 12:04:31 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/20-9-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/20-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 13-17/9/21</title>
-      <link>http://localhost:56587/jobs/13-9-21/</link>
+      <link>https://gigathing.pages.dev/jobs/13-9-21/</link>
       <pubDate>Mon, 13 Sep 2021 12:16:13 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/13-9-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/13-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 6-10/9/21</title>
-      <link>http://localhost:56587/jobs/6-9-21/</link>
+      <link>https://gigathing.pages.dev/jobs/6-9-21/</link>
       <pubDate>Mon, 06 Sep 2021 11:39:44 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/6-9-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/6-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 23-27/8/21</title>
-      <link>http://localhost:56587/jobs/23-8-21/</link>
+      <link>https://gigathing.pages.dev/jobs/23-8-21/</link>
       <pubDate>Mon, 23 Aug 2021 13:45:23 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/23-8-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/23-8-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 9-13/8/21</title>
-      <link>http://localhost:56587/jobs/9-8-21/</link>
+      <link>https://gigathing.pages.dev/jobs/9-8-21/</link>
       <pubDate>Mon, 09 Aug 2021 11:42:08 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/9-8-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/9-8-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 19-23/7/21</title>
-      <link>http://localhost:56587/jobs/19-7-21/</link>
+      <link>https://gigathing.pages.dev/jobs/19-7-21/</link>
       <pubDate>Mon, 19 Jul 2021 10:51:51 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/19-7-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/19-7-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 12-16/7/21</title>
-      <link>http://localhost:56587/jobs/12-7-21/</link>
+      <link>https://gigathing.pages.dev/jobs/12-7-21/</link>
       <pubDate>Mon, 12 Jul 2021 14:39:15 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/12-7-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/12-7-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 5-9/7/21</title>
-      <link>http://localhost:56587/jobs/5-7-21/</link>
+      <link>https://gigathing.pages.dev/jobs/5-7-21/</link>
       <pubDate>Mon, 05 Jul 2021 11:59:30 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/5-7-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/5-7-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 28/6-2/7/21</title>
-      <link>http://localhost:56587/jobs/28-6-21/</link>
+      <link>https://gigathing.pages.dev/jobs/28-6-21/</link>
       <pubDate>Mon, 28 Jun 2021 14:55:26 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/28-6-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/28-6-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 21-25/6/21</title>
-      <link>http://localhost:56587/jobs/21-6-21/</link>
+      <link>https://gigathing.pages.dev/jobs/21-6-21/</link>
       <pubDate>Mon, 21 Jun 2021 10:03:41 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/21-6-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/21-6-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-18/6/21</title>
-      <link>http://localhost:56587/jobs/15-6-21/</link>
+      <link>https://gigathing.pages.dev/jobs/15-6-21/</link>
       <pubDate>Tue, 15 Jun 2021 14:43:11 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/15-6-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/15-6-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 7-11/6/21</title>
-      <link>http://localhost:56587/jobs/7-6-21/</link>
+      <link>https://gigathing.pages.dev/jobs/7-6-21/</link>
       <pubDate>Mon, 07 Jun 2021 16:52:36 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/7-6-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/7-6-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 31/5-4/6/21</title>
-      <link>http://localhost:56587/jobs/31-5-32/</link>
+      <link>https://gigathing.pages.dev/jobs/31-5-32/</link>
       <pubDate>Mon, 31 May 2021 13:58:34 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/31-5-32/</guid>
+      <guid>https://gigathing.pages.dev/jobs/31-5-32/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 24-28/5/21</title>
-      <link>http://localhost:56587/jobs/24-5-21/</link>
+      <link>https://gigathing.pages.dev/jobs/24-5-21/</link>
       <pubDate>Mon, 24 May 2021 15:37:24 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/24-5-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/24-5-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>How to Make Dropdown Button</title>
-      <link>http://localhost:56587/how-to-make-dropdown-button/</link>
+      <link>https://gigathing.pages.dev/how-to-make-dropdown-button/</link>
       <pubDate>Fri, 21 May 2021 12:20:14 +0800</pubDate>
-      <guid>http://localhost:56587/how-to-make-dropdown-button/</guid>
+      <guid>https://gigathing.pages.dev/how-to-make-dropdown-button/</guid>
       <description>Steps to make a dropdown button</description>
     </item>
     <item>
       <title>How to Review Fuw Cicd</title>
-      <link>http://localhost:56587/how-to-review-fuw-cicd/</link>
+      <link>https://gigathing.pages.dev/how-to-review-fuw-cicd/</link>
       <pubDate>Thu, 20 May 2021 11:45:59 +0800</pubDate>
-      <guid>http://localhost:56587/how-to-review-fuw-cicd/</guid>
+      <guid>https://gigathing.pages.dev/how-to-review-fuw-cicd/</guid>
       <description>Steps to review fuw-cicd</description>
     </item>
     <item>
       <title>Learn, todo and done 17-2/5/21</title>
-      <link>http://localhost:56587/jobs/17-5-21/</link>
+      <link>https://gigathing.pages.dev/jobs/17-5-21/</link>
       <pubDate>Mon, 17 May 2021 10:57:35 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/17-5-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/17-5-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 10-14/5/21</title>
-      <link>http://localhost:56587/jobs/10-5-21/</link>
+      <link>https://gigathing.pages.dev/jobs/10-5-21/</link>
       <pubDate>Mon, 10 May 2021 12:42:37 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/10-5-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/10-5-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Red Hat Enterprise Linux Technical Overview</title>
-      <link>http://localhost:56587/projects/red-hat-linux/</link>
+      <link>https://gigathing.pages.dev/projects/red-hat-linux/</link>
       <pubDate>Wed, 05 May 2021 11:16:25 +0800</pubDate>
-      <guid>http://localhost:56587/projects/red-hat-linux/</guid>
+      <guid>https://gigathing.pages.dev/projects/red-hat-linux/</guid>
       <description>Linux Crash Course</description>
     </item>
     <item>
       <title>Learn, todo and done 3-7/5/21</title>
-      <link>http://localhost:56587/jobs/3-5-21/</link>
+      <link>https://gigathing.pages.dev/jobs/3-5-21/</link>
       <pubDate>Mon, 03 May 2021 11:37:54 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/3-5-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/3-5-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 26-30/4/21</title>
-      <link>http://localhost:56587/jobs/26-4-21/</link>
+      <link>https://gigathing.pages.dev/jobs/26-4-21/</link>
       <pubDate>Mon, 26 Apr 2021 12:15:59 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/26-4-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/26-4-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 19-23/4/21</title>
-      <link>http://localhost:56587/jobs/19-4-21/</link>
+      <link>https://gigathing.pages.dev/jobs/19-4-21/</link>
       <pubDate>Mon, 19 Apr 2021 10:53:04 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/19-4-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/19-4-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 12-6/4/21</title>
-      <link>http://localhost:56587/jobs/12-4-21/</link>
+      <link>https://gigathing.pages.dev/jobs/12-4-21/</link>
       <pubDate>Mon, 12 Apr 2021 10:17:38 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/12-4-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/12-4-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 29/3-9/4/21</title>
-      <link>http://localhost:56587/jobs/29-3-21/</link>
+      <link>https://gigathing.pages.dev/jobs/29-3-21/</link>
       <pubDate>Mon, 29 Mar 2021 10:32:20 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/29-3-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/29-3-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 22-26/3/21</title>
-      <link>http://localhost:56587/jobs/22-3-21/</link>
+      <link>https://gigathing.pages.dev/jobs/22-3-21/</link>
       <pubDate>Mon, 22 Mar 2021 14:32:16 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/22-3-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/22-3-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/3/21</title>
-      <link>http://localhost:56587/jobs/15-3-21/</link>
+      <link>https://gigathing.pages.dev/jobs/15-3-21/</link>
       <pubDate>Mon, 15 Mar 2021 11:34:19 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/15-3-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/15-3-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Why CSS works in Chrome but not Safari?</title>
-      <link>http://localhost:56587/css-works-in-chrome-but-not-safari/</link>
+      <link>https://gigathing.pages.dev/css-works-in-chrome-but-not-safari/</link>
       <pubDate>Thu, 11 Mar 2021 15:03:47 +0800</pubDate>
-      <guid>http://localhost:56587/css-works-in-chrome-but-not-safari/</guid>
+      <guid>https://gigathing.pages.dev/css-works-in-chrome-but-not-safari/</guid>
       <description>Css Works in Chrome but Not Safari</description>
     </item>
     <item>
       <title>Learn, todo and done 8-12/3/21</title>
-      <link>http://localhost:56587/jobs/8-3-21/</link>
+      <link>https://gigathing.pages.dev/jobs/8-3-21/</link>
       <pubDate>Mon, 08 Mar 2021 11:41:25 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/8-3-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/8-3-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 1-5/3/21</title>
-      <link>http://localhost:56587/jobs/1-3-21/</link>
+      <link>https://gigathing.pages.dev/jobs/1-3-21/</link>
       <pubDate>Mon, 01 Mar 2021 11:22:26 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/1-3-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/1-3-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Add Delete Button for file attribute page</title>
-      <link>http://localhost:56587/add-delete-button/</link>
+      <link>https://gigathing.pages.dev/add-delete-button/</link>
       <pubDate>Mon, 22 Feb 2021 12:49:28 +0800</pubDate>
-      <guid>http://localhost:56587/add-delete-button/</guid>
+      <guid>https://gigathing.pages.dev/add-delete-button/</guid>
       <description>How to add a delete button and pass tests</description>
     </item>
     <item>
       <title>Learn, todo and done 22-26/2/21</title>
-      <link>http://localhost:56587/jobs/22-2-21/</link>
+      <link>https://gigathing.pages.dev/jobs/22-2-21/</link>
       <pubDate>Mon, 22 Feb 2021 10:49:16 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/22-2-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/22-2-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 18-19/2/21</title>
-      <link>http://localhost:56587/jobs/18-2-21/</link>
+      <link>https://gigathing.pages.dev/jobs/18-2-21/</link>
       <pubDate>Mon, 22 Feb 2021 10:42:06 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/18-2-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/18-2-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 8-11/2/21</title>
-      <link>http://localhost:56587/jobs/8-2-21/</link>
+      <link>https://gigathing.pages.dev/jobs/8-2-21/</link>
       <pubDate>Mon, 08 Feb 2021 11:09:14 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/8-2-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/8-2-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 1-5/2/21</title>
-      <link>http://localhost:56587/jobs/1-2-21/</link>
+      <link>https://gigathing.pages.dev/jobs/1-2-21/</link>
       <pubDate>Mon, 01 Feb 2021 12:34:23 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/1-2-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/1-2-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 25-29/1/21</title>
-      <link>http://localhost:56587/jobs/25-1-21/</link>
+      <link>https://gigathing.pages.dev/jobs/25-1-21/</link>
       <pubDate>Mon, 25 Jan 2021 11:56:35 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/25-1-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/25-1-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/1/21</title>
-      <link>http://localhost:56587/jobs/18-1-21/</link>
+      <link>https://gigathing.pages.dev/jobs/18-1-21/</link>
       <pubDate>Mon, 18 Jan 2021 11:40:34 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/18-1-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/18-1-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 11-15/1/21</title>
-      <link>http://localhost:56587/jobs/11-1-21/</link>
+      <link>https://gigathing.pages.dev/jobs/11-1-21/</link>
       <pubDate>Mon, 11 Jan 2021 11:23:05 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/11-1-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/11-1-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Pass Behat Tests Example</title>
-      <link>http://localhost:56587/pass-behat-tests-example/</link>
+      <link>https://gigathing.pages.dev/pass-behat-tests-example/</link>
       <pubDate>Fri, 08 Jan 2021 10:30:26 +0800</pubDate>
-      <guid>http://localhost:56587/pass-behat-tests-example/</guid>
+      <guid>https://gigathing.pages.dev/pass-behat-tests-example/</guid>
       <description>How to pass a behat test</description>
     </item>
     <item>
       <title>To resolve XDebug dependency problem</title>
-      <link>http://localhost:56587/docker-compose-dependency/</link>
+      <link>https://gigathing.pages.dev/docker-compose-dependency/</link>
       <pubDate>Thu, 07 Jan 2021 15:04:22 +0800</pubDate>
-      <guid>http://localhost:56587/docker-compose-dependency/</guid>
+      <guid>https://gigathing.pages.dev/docker-compose-dependency/</guid>
       <description>Docker Compose Dependency</description>
     </item>
     <item>
       <title>Learn, todo and done 4-8/1/21</title>
-      <link>http://localhost:56587/jobs/4-1-21/</link>
+      <link>https://gigathing.pages.dev/jobs/4-1-21/</link>
       <pubDate>Mon, 04 Jan 2021 13:07:20 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/4-1-21/</guid>
+      <guid>https://gigathing.pages.dev/jobs/4-1-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Christmas Holiday 28-31/12/20</title>
-      <link>http://localhost:56587/jobs/28-12-20/</link>
+      <link>https://gigathing.pages.dev/jobs/28-12-20/</link>
       <pubDate>Mon, 28 Dec 2020 12:56:10 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/28-12-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/28-12-20/</guid>
       <description>Christmas Holiday</description>
     </item>
     <item>
       <title>Learn, todo and done 21-25/12/20</title>
-      <link>http://localhost:56587/jobs/21-12-20/</link>
+      <link>https://gigathing.pages.dev/jobs/21-12-20/</link>
       <pubDate>Mon, 21 Dec 2020 12:03:14 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/21-12-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/21-12-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 14-18/12/20</title>
-      <link>http://localhost:56587/jobs/14-12-20/</link>
+      <link>https://gigathing.pages.dev/jobs/14-12-20/</link>
       <pubDate>Mon, 14 Dec 2020 11:43:31 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/14-12-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/14-12-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 7-11/12/20</title>
-      <link>http://localhost:56587/jobs/7-12-20/</link>
+      <link>https://gigathing.pages.dev/jobs/7-12-20/</link>
       <pubDate>Mon, 07 Dec 2020 10:01:42 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/7-12-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/7-12-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 30/11-4/12/20</title>
-      <link>http://localhost:56587/jobs/30-11-20/</link>
+      <link>https://gigathing.pages.dev/jobs/30-11-20/</link>
       <pubDate>Mon, 30 Nov 2020 13:35:35 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/30-11-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/30-11-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 23-27/11/20</title>
-      <link>http://localhost:56587/jobs/23-11-20/</link>
+      <link>https://gigathing.pages.dev/jobs/23-11-20/</link>
       <pubDate>Mon, 23 Nov 2020 11:10:32 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/23-11-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/23-11-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 16-20/11/20</title>
-      <link>http://localhost:56587/jobs/16-11-20/</link>
+      <link>https://gigathing.pages.dev/jobs/16-11-20/</link>
       <pubDate>Mon, 16 Nov 2020 12:33:34 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/16-11-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/16-11-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 9-13/11/20</title>
-      <link>http://localhost:56587/jobs/9-11-20/</link>
+      <link>https://gigathing.pages.dev/jobs/9-11-20/</link>
       <pubDate>Mon, 09 Nov 2020 11:06:42 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/9-11-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/9-11-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 2-6/11/20</title>
-      <link>http://localhost:56587/jobs/2-11-20/</link>
+      <link>https://gigathing.pages.dev/jobs/2-11-20/</link>
       <pubDate>Mon, 02 Nov 2020 10:24:07 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/2-11-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/2-11-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>How to add favicon to a Hugo page</title>
-      <link>http://localhost:56587/projects/howtoaddfavicon/</link>
+      <link>https://gigathing.pages.dev/projects/howtoaddfavicon/</link>
       <pubDate>Tue, 27 Oct 2020 10:55:02 +0800</pubDate>
-      <guid>http://localhost:56587/projects/howtoaddfavicon/</guid>
+      <guid>https://gigathing.pages.dev/projects/howtoaddfavicon/</guid>
       <description>Steps to add Favicon to Hugo blog</description>
     </item>
     <item>
       <title>Learn, todo and done 27-30/10/20</title>
-      <link>http://localhost:56587/jobs/27-10-20/</link>
+      <link>https://gigathing.pages.dev/jobs/27-10-20/</link>
       <pubDate>Tue, 27 Oct 2020 10:12:41 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/27-10-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/27-10-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 19-23/10/20</title>
-      <link>http://localhost:56587/jobs/19-10-20/</link>
+      <link>https://gigathing.pages.dev/jobs/19-10-20/</link>
       <pubDate>Mon, 19 Oct 2020 10:11:49 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/19-10-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/19-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 12-16/10/20</title>
-      <link>http://localhost:56587/jobs/12-10-20/</link>
+      <link>https://gigathing.pages.dev/jobs/12-10-20/</link>
       <pubDate>Mon, 12 Oct 2020 10:02:06 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/12-10-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/12-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>OOP basics</title>
-      <link>http://localhost:56587/oopbasics/</link>
+      <link>https://gigathing.pages.dev/oopbasics/</link>
       <pubDate>Mon, 05 Oct 2020 12:48:28 +0800</pubDate>
-      <guid>http://localhost:56587/oopbasics/</guid>
+      <guid>https://gigathing.pages.dev/oopbasics/</guid>
       <description>FreeCodeCamp OOP basics</description>
     </item>
     <item>
       <title>Learn, todo and done 5-9/10/20</title>
-      <link>http://localhost:56587/jobs/5-10-20/</link>
+      <link>https://gigathing.pages.dev/jobs/5-10-20/</link>
       <pubDate>Mon, 05 Oct 2020 11:25:29 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/5-10-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/5-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 28/9-2/10/20</title>
-      <link>http://localhost:56587/jobs/28-9-20/</link>
+      <link>https://gigathing.pages.dev/jobs/28-9-20/</link>
       <pubDate>Mon, 28 Sep 2020 11:21:36 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/28-9-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/28-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>How to add delete button</title>
-      <link>http://localhost:56587/howtodeletebtn/</link>
+      <link>https://gigathing.pages.dev/howtodeletebtn/</link>
       <pubDate>Wed, 23 Sep 2020 14:01:01 +0800</pubDate>
-      <guid>http://localhost:56587/howtodeletebtn/</guid>
+      <guid>https://gigathing.pages.dev/howtodeletebtn/</guid>
       <description>User experience - Delete feature</description>
     </item>
     <item>
       <title>Learn, todo and done 21-24/9/20</title>
-      <link>http://localhost:56587/jobs/21-9-20/</link>
+      <link>https://gigathing.pages.dev/jobs/21-9-20/</link>
       <pubDate>Mon, 21 Sep 2020 10:01:48 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/21-9-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/21-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 14-18/9/20</title>
-      <link>http://localhost:56587/jobs/14-9-20/</link>
+      <link>https://gigathing.pages.dev/jobs/14-9-20/</link>
       <pubDate>Mon, 14 Sep 2020 09:26:59 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/14-9-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/14-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 7-11/9/20</title>
-      <link>http://localhost:56587/jobs/7-9-20/</link>
+      <link>https://gigathing.pages.dev/jobs/7-9-20/</link>
       <pubDate>Sun, 06 Sep 2020 14:40:52 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/7-9-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/7-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 31/8-4/9-20</title>
-      <link>http://localhost:56587/jobs/31-8-20/</link>
+      <link>https://gigathing.pages.dev/jobs/31-8-20/</link>
       <pubDate>Mon, 31 Aug 2020 09:50:22 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/31-8-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/31-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 24-28/8/20</title>
-      <link>http://localhost:56587/jobs/24-8-20/</link>
+      <link>https://gigathing.pages.dev/jobs/24-8-20/</link>
       <pubDate>Mon, 24 Aug 2020 10:39:13 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/24-8-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/24-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>What is API?</title>
-      <link>http://localhost:56587/whatisapi/</link>
+      <link>https://gigathing.pages.dev/whatisapi/</link>
       <pubDate>Thu, 20 Aug 2020 13:38:28 +0800</pubDate>
-      <guid>http://localhost:56587/whatisapi/</guid>
+      <guid>https://gigathing.pages.dev/whatisapi/</guid>
       <description>Application Programming Interface</description>
     </item>
     <item>
       <title>How to make go to page feature</title>
-      <link>http://localhost:56587/howtogotopagebtn/</link>
+      <link>https://gigathing.pages.dev/howtogotopagebtn/</link>
       <pubDate>Tue, 18 Aug 2020 12:15:31 +0800</pubDate>
-      <guid>http://localhost:56587/howtogotopagebtn/</guid>
+      <guid>https://gigathing.pages.dev/howtogotopagebtn/</guid>
       <description>Pagination - Go to page button</description>
     </item>
     <item>
       <title>Learn, todo and done 17-21/8/20</title>
-      <link>http://localhost:56587/jobs/17-8-20/</link>
+      <link>https://gigathing.pages.dev/jobs/17-8-20/</link>
       <pubDate>Mon, 17 Aug 2020 09:43:24 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/17-8-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/17-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 10-14/8/20</title>
-      <link>http://localhost:56587/jobs/10-8-20/</link>
+      <link>https://gigathing.pages.dev/jobs/10-8-20/</link>
       <pubDate>Mon, 10 Aug 2020 14:52:42 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/10-8-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/10-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 3-7/8/20</title>
-      <link>http://localhost:56587/jobs/3-8-20/</link>
+      <link>https://gigathing.pages.dev/jobs/3-8-20/</link>
       <pubDate>Mon, 03 Aug 2020 10:10:53 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/3-8-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/3-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>College Algebra in 7 hours</title>
-      <link>http://localhost:56587/projects/collegealgebra/</link>
+      <link>https://gigathing.pages.dev/projects/collegealgebra/</link>
       <pubDate>Tue, 28 Jul 2020 10:28:26 +0800</pubDate>
-      <guid>http://localhost:56587/projects/collegealgebra/</guid>
+      <guid>https://gigathing.pages.dev/projects/collegealgebra/</guid>
       <description>Brush up on your math skills</description>
     </item>
     <item>
       <title>Learn, todo and done 27-31/7/20</title>
-      <link>http://localhost:56587/jobs/27-7-20/</link>
+      <link>https://gigathing.pages.dev/jobs/27-7-20/</link>
       <pubDate>Mon, 27 Jul 2020 10:28:07 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/27-7-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/27-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Commands use to run gigadb</title>
-      <link>http://localhost:56587/commandsusetorungigadb/</link>
+      <link>https://gigathing.pages.dev/commandsusetorungigadb/</link>
       <pubDate>Fri, 24 Jul 2020 16:03:12 +0800</pubDate>
-      <guid>http://localhost:56587/commandsusetorungigadb/</guid>
+      <guid>https://gigathing.pages.dev/commandsusetorungigadb/</guid>
       <description>Commands for running and testing Local gigaDB</description>
     </item>
     <item>
       <title>How to implement Travis CI to a Hugo site</title>
-      <link>http://localhost:56587/projects/howtoimplementtravisci/</link>
+      <link>https://gigathing.pages.dev/projects/howtoimplementtravisci/</link>
       <pubDate>Thu, 23 Jul 2020 14:41:08 +0800</pubDate>
-      <guid>http://localhost:56587/projects/howtoimplementtravisci/</guid>
+      <guid>https://gigathing.pages.dev/projects/howtoimplementtravisci/</guid>
       <description>Travis Continuous Integration</description>
     </item>
     <item>
       <title>Whats interesting in BCC2020</title>
-      <link>http://localhost:56587/whatsinterestinginbcc2020/</link>
+      <link>https://gigathing.pages.dev/whatsinterestinginbcc2020/</link>
       <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
-      <guid>http://localhost:56587/whatsinterestinginbcc2020/</guid>
+      <guid>https://gigathing.pages.dev/whatsinterestinginbcc2020/</guid>
       <description>Bioinformatics Community Conference 2020 </description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/7/20</title>
-      <link>http://localhost:56587/jobs/20-7-20/</link>
+      <link>https://gigathing.pages.dev/jobs/20-7-20/</link>
       <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/20-7-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/20-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Bdd</title>
-      <link>http://localhost:56587/bdd/</link>
+      <link>https://gigathing.pages.dev/bdd/</link>
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
-      <guid>http://localhost:56587/bdd/</guid>
+      <guid>https://gigathing.pages.dev/bdd/</guid>
       <description>Behavioural Driven Development</description>
     </item>
     <item>
       <title>Learn, todo and done 13-17/7/20</title>
-      <link>http://localhost:56587/jobs/13-7-20/</link>
+      <link>https://gigathing.pages.dev/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/13-7-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/13-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>PHP_CodeSniffer</title>
-      <link>http://localhost:56587/phpcodesniffer/</link>
+      <link>https://gigathing.pages.dev/phpcodesniffer/</link>
       <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
-      <guid>http://localhost:56587/phpcodesniffer/</guid>
+      <guid>https://gigathing.pages.dev/phpcodesniffer/</guid>
       <description>Tool to detect and correct PHP coding style</description>
     </item>
     <item>
       <title>AWS Certified Cloud Practioner 2020</title>
-      <link>http://localhost:56587/projects/awscloud2020/</link>
+      <link>https://gigathing.pages.dev/projects/awscloud2020/</link>
       <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
-      <guid>http://localhost:56587/projects/awscloud2020/</guid>
+      <guid>https://gigathing.pages.dev/projects/awscloud2020/</guid>
       <description>How to pass AWS Cloud Practioner Certification? </description>
     </item>
     <item>
       <title>Learn, todo and done 6-10/7/20</title>
-      <link>http://localhost:56587/jobs/6-7-20/</link>
+      <link>https://gigathing.pages.dev/jobs/6-7-20/</link>
       <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/6-7-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/6-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>PHP date times</title>
-      <link>http://localhost:56587/phpdatetimes/</link>
+      <link>https://gigathing.pages.dev/phpdatetimes/</link>
       <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
-      <guid>http://localhost:56587/phpdatetimes/</guid>
+      <guid>https://gigathing.pages.dev/phpdatetimes/</guid>
       <description>Dates and Times with PHP</description>
     </item>
     <item>
       <title>Learn, todo and done 29/6-3/7/20</title>
-      <link>http://localhost:56587/jobs/29-6-20/</link>
+      <link>https://gigathing.pages.dev/jobs/29-6-20/</link>
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/29-6-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/29-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Codeception</title>
-      <link>http://localhost:56587/whatiscodeception/</link>
+      <link>https://gigathing.pages.dev/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      <guid>http://localhost:56587/whatiscodeception/</guid>
+      <guid>https://gigathing.pages.dev/whatiscodeception/</guid>
       <description>What is Codeception?</description>
     </item>
     <item>
       <title>Learn, todo and done 22-26/6/20</title>
-      <link>http://localhost:56587/jobs/22-6-20/</link>
+      <link>https://gigathing.pages.dev/jobs/22-6-20/</link>
       <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/22-6-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/22-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>PHP standards</title>
-      <link>http://localhost:56587/phpstandards/</link>
+      <link>https://gigathing.pages.dev/phpstandards/</link>
       <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
-      <guid>http://localhost:56587/phpstandards/</guid>
+      <guid>https://gigathing.pages.dev/phpstandards/</guid>
       <description>PHP coding standards</description>
     </item>
     <item>
       <title>PHPUnit</title>
-      <link>http://localhost:56587/whatisphpunittest/</link>
+      <link>https://gigathing.pages.dev/whatisphpunittest/</link>
       <pubDate>Tue, 16 Jun 2020 09:54:47 +0800</pubDate>
-      <guid>http://localhost:56587/whatisphpunittest/</guid>
+      <guid>https://gigathing.pages.dev/whatisphpunittest/</guid>
       <description>What is PHPUnit?</description>
     </item>
     <item>
       <title>How to add a comment functionality using uterances</title>
-      <link>http://localhost:56587/projects/howtoaddutterances/</link>
+      <link>https://gigathing.pages.dev/projects/howtoaddutterances/</link>
       <pubDate>Mon, 15 Jun 2020 11:25:56 +0800</pubDate>
-      <guid>http://localhost:56587/projects/howtoaddutterances/</guid>
+      <guid>https://gigathing.pages.dev/projects/howtoaddutterances/</guid>
       <description>Steps to add Utterances to Hugo blog</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/6/20</title>
-      <link>http://localhost:56587/jobs/15-6-20/</link>
+      <link>https://gigathing.pages.dev/jobs/15-6-20/</link>
       <pubDate>Mon, 15 Jun 2020 09:56:41 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/15-6-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/15-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Docker 101</title>
-      <link>http://localhost:56587/docker101/</link>
+      <link>https://gigathing.pages.dev/docker101/</link>
       <pubDate>Thu, 11 Jun 2020 17:27:08 +0800</pubDate>
-      <guid>http://localhost:56587/docker101/</guid>
+      <guid>https://gigathing.pages.dev/docker101/</guid>
       <description>Docker Introduction</description>
     </item>
     <item>
       <title>What is Tdd?</title>
-      <link>http://localhost:56587/tdd/</link>
+      <link>https://gigathing.pages.dev/tdd/</link>
       <pubDate>Wed, 10 Jun 2020 14:28:31 +0800</pubDate>
-      <guid>http://localhost:56587/tdd/</guid>
+      <guid>https://gigathing.pages.dev/tdd/</guid>
       <description>Test Driving Development</description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>http://localhost:56587/postgresql/</link>
+      <link>https://gigathing.pages.dev/postgresql/</link>
       <pubDate>Tue, 09 Jun 2020 10:25:23 +0800</pubDate>
-      <guid>http://localhost:56587/postgresql/</guid>
+      <guid>https://gigathing.pages.dev/postgresql/</guid>
       <description>Everything about PostgreSQL database</description>
     </item>
     <item>
       <title>Learn, todo and done 8-12/6/20</title>
-      <link>http://localhost:56587/jobs/8-6-20/</link>
+      <link>https://gigathing.pages.dev/jobs/8-6-20/</link>
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/8-6-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/8-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii1.1 for beginners</title>
-      <link>http://localhost:56587/yiiforbeginners/</link>
+      <link>https://gigathing.pages.dev/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>http://localhost:56587/yiiforbeginners/</guid>
+      <guid>https://gigathing.pages.dev/yiiforbeginners/</guid>
       <description>Yii framework Wiki</description>
     </item>
     <item>
       <title>How to build a blog using Yii1.1</title>
-      <link>http://localhost:56587/projects/howtobuildablogusingyii1/</link>
+      <link>https://gigathing.pages.dev/projects/howtobuildablogusingyii1/</link>
       <pubDate>Mon, 01 Jun 2020 10:10:24 +0800</pubDate>
-      <guid>http://localhost:56587/projects/howtobuildablogusingyii1/</guid>
+      <guid>https://gigathing.pages.dev/projects/howtobuildablogusingyii1/</guid>
       <description>Steps to build a blog using Yii1.1</description>
     </item>
     <item>
       <title>Learn, todo and done 1-5/6/20</title>
-      <link>http://localhost:56587/jobs/1-6-20/</link>
+      <link>https://gigathing.pages.dev/jobs/1-6-20/</link>
       <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/1-6-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/1-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii 1.1 Quick Start</title>
-      <link>http://localhost:56587/yii1.1/</link>
+      <link>https://gigathing.pages.dev/yii1.1/</link>
       <pubDate>Wed, 27 May 2020 12:50:48 +0800</pubDate>
-      <guid>http://localhost:56587/yii1.1/</guid>
+      <guid>https://gigathing.pages.dev/yii1.1/</guid>
       <description> Yii Quick Start</description>
     </item>
     <item>
       <title>Yii 2.0 - Getting Started</title>
-      <link>http://localhost:56587/yiiprogress/</link>
+      <link>https://gigathing.pages.dev/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>http://localhost:56587/yiiprogress/</guid>
+      <guid>https://gigathing.pages.dev/yiiprogress/</guid>
       <description>Yii 2.0 learning progress</description>
     </item>
     <item>
       <title>OOP</title>
-      <link>http://localhost:56587/oop/</link>
+      <link>https://gigathing.pages.dev/oop/</link>
       <pubDate>Tue, 26 May 2020 10:13:43 +0800</pubDate>
-      <guid>http://localhost:56587/oop/</guid>
+      <guid>https://gigathing.pages.dev/oop/</guid>
       <description>What is Object Oriented Programming?</description>
     </item>
     <item>
       <title>Learn, todo and done 25-29/5/20</title>
-      <link>http://localhost:56587/jobs/25-5-20/</link>
+      <link>https://gigathing.pages.dev/jobs/25-5-20/</link>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/25-5-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/25-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>How to format text using Markdown?</title>
-      <link>http://localhost:56587/markdownsyntax/</link>
+      <link>https://gigathing.pages.dev/markdownsyntax/</link>
       <pubDate>Fri, 22 May 2020 11:39:44 +0800</pubDate>
-      <guid>http://localhost:56587/markdownsyntax/</guid>
+      <guid>https://gigathing.pages.dev/markdownsyntax/</guid>
       <description>Markdown Syntax</description>
     </item>
     <item>
       <title>PHP progress</title>
-      <link>http://localhost:56587/phpprogress/</link>
+      <link>https://gigathing.pages.dev/phpprogress/</link>
       <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
-      <guid>http://localhost:56587/phpprogress/</guid>
+      <guid>https://gigathing.pages.dev/phpprogress/</guid>
       <description>Learning PHP at Codecademy</description>
     </item>
     <item>
       <title>Github usage example</title>
-      <link>http://localhost:56587/githubusageexample/</link>
+      <link>https://gigathing.pages.dev/githubusageexample/</link>
       <pubDate>Tue, 19 May 2020 15:55:27 +0800</pubDate>
-      <guid>http://localhost:56587/githubusageexample/</guid>
+      <guid>https://gigathing.pages.dev/githubusageexample/</guid>
       <description>How to make changes in gigadb-website repo</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/5/20</title>
-      <link>http://localhost:56587/jobs/18-5-20/</link>
+      <link>https://gigathing.pages.dev/jobs/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
-      <guid>http://localhost:56587/jobs/18-5-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/18-5-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Hugo page is released</title>
-      <link>http://localhost:56587/deployhugo/</link>
+      <link>https://gigathing.pages.dev/deployhugo/</link>
       <pubDate>Mon, 18 May 2020 12:24:27 +0800</pubDate>
-      <guid>http://localhost:56587/deployhugo/</guid>
+      <guid>https://gigathing.pages.dev/deployhugo/</guid>
       <description>A hugo website deplyed!</description>
     </item>
     <item>
       <title>How to make a hugo website</title>
-      <link>http://localhost:56587/projects/howtomakeahugo/</link>
+      <link>https://gigathing.pages.dev/projects/howtomakeahugo/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/projects/howtomakeahugo/</guid>
+      <guid>https://gigathing.pages.dev/projects/howtomakeahugo/</guid>
       <description>Steps to make a hugo page hosted on github</description>
     </item>
     <item>
       <title>Test update new post to public</title>
-      <link>http://localhost:56587/test/</link>
+      <link>https://gigathing.pages.dev/test/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/test/</guid>
+      <guid>https://gigathing.pages.dev/test/</guid>
       <description>Test</description>
     </item>
     <item>
       <title>What I have done</title>
-      <link>http://localhost:56587/14-05-2020_done/</link>
+      <link>https://gigathing.pages.dev/14-05-2020_done/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/14-05-2020_done/</guid>
+      <guid>https://gigathing.pages.dev/14-05-2020_done/</guid>
       <description>Trying to fix issue #198</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:56587/page/about/</link>
+      <link>https://gigathing.pages.dev/page/about/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/page/about/</guid>
+      <guid>https://gigathing.pages.dev/page/about/</guid>
       <description>Things about me.</description>
     </item>
     <item>
       <title>What I have learned</title>
-      <link>http://localhost:56587/13-05-2020-log/</link>
+      <link>https://gigathing.pages.dev/13-05-2020-log/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/13-05-2020-log/</guid>
+      <guid>https://gigathing.pages.dev/13-05-2020-log/</guid>
       <description>Learning and some hands on</description>
     </item>
     <item>
       <title>My awesome project</title>
-      <link>http://localhost:56587/projects/my-awesome-project/</link>
+      <link>https://gigathing.pages.dev/projects/my-awesome-project/</link>
       <pubDate>Tue, 18 Nov 2014 02:13:50 +0000</pubDate>
-      <guid>http://localhost:56587/projects/my-awesome-project/</guid>
+      <guid>https://gigathing.pages.dev/projects/my-awesome-project/</guid>
       <description>Description of my awesome project.</description>
     </item>
     <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:56587/reference/creating-a-new-theme/</link>
+      <link>https://gigathing.pages.dev/reference/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
-      <guid>http://localhost:56587/reference/creating-a-new-theme/</guid>
+      <guid>https://gigathing.pages.dev/reference/creating-a-new-theme/</guid>
       <description>Description of my awesome project.</description>
     </item>
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:56587/reference/goisforlovers/</link>
+      <link>https://gigathing.pages.dev/reference/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      <guid>http://localhost:56587/reference/goisforlovers/</guid>
+      <guid>https://gigathing.pages.dev/reference/goisforlovers/</guid>
       <description>(Hu)go Template Primer description.</description>
     </item>
     <item>
       <title>Migrating from Jekyll</title>
-      <link>http://localhost:56587/reference/migrate-from-jekyll/</link>
+      <link>https://gigathing.pages.dev/reference/migrate-from-jekyll/</link>
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      <guid>http://localhost:56587/reference/migrate-from-jekyll/</guid>
+      <guid>https://gigathing.pages.dev/reference/migrate-from-jekyll/</guid>
       <description>Migrating from Jekyll description.</description>
     </item>
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:56587/reference/hugoisforlovers/</link>
+      <link>https://gigathing.pages.dev/reference/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/reference/hugoisforlovers/</guid>
+      <guid>https://gigathing.pages.dev/reference/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 &lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:56587/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gigathing.pages.dev/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 &lt;p&gt;Hugo has its own example site which happens to also be the documentation site
 you are reading right now.&lt;/p&gt;
@@ -894,16 +894,16 @@ you are reading right now.&lt;/p&gt;
     </item>
     <item>
       <title>Learn, todo and done 10-15/20</title>
-      <link>http://localhost:56587/jobs/10-5-20/</link>
+      <link>https://gigathing.pages.dev/jobs/10-5-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/jobs/10-5-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/10-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 4-8/5/20</title>
-      <link>http://localhost:56587/jobs/4-5-20/</link>
+      <link>https://gigathing.pages.dev/jobs/4-5-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56587/jobs/4-5-20/</guid>
+      <guid>https://gigathing.pages.dev/jobs/4-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>

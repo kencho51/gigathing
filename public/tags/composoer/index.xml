@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Composoer on kencho51</title>
-    <link>http://localhost:56587/tags/composoer/</link>
+    <link>https://gigathing.pages.dev/tags/composoer/</link>
     <description>Recent content in Composoer on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Tue, 26 May 2020 11:05:40 +0800</lastBuildDate>
-    <atom:link href="http://localhost:56587/tags/composoer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gigathing.pages.dev/tags/composoer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yii 2.0 - Getting Started</title>
-      <link>http://localhost:56587/yiiprogress/</link>
+      <link>https://gigathing.pages.dev/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>http://localhost:56587/yiiprogress/</guid>
+      <guid>https://gigathing.pages.dev/yiiprogress/</guid>
       <description>Yii 2.0 learning progress</description>
     </item>
   </channel>
