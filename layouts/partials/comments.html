@@ -1,6 +1,6 @@
 {{- /* Comments area start */ -}}
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
-{{- if or .Params.comments .Site.Params.comments -}}
+{{- if and (or .Params.comments .Site.Params.comments) (not hugo.IsDevelopment) -}}
   {{- if .Site.Config.Services.Disqus.Shortname -}}
     {{- partial "disqus.html" . -}}
   {{- end -}}

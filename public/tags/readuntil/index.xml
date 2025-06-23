@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ReadUntil on kencho51</title>
-    <link>http://localhost:59073/tags/readuntil/</link>
+    <link>http://localhost:1313/tags/readuntil/</link>
     <description>Recent content in ReadUntil on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 22 Jul 2020 10:14:52 +0800</lastBuildDate>
-    <atom:link href="http://localhost:59073/tags/readuntil/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/readuntil/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Whats interesting in BCC2020</title>
-      <link>http://localhost:59073/whatsinterestinginbcc2020/</link>
+      <link>http://localhost:1313/whatsinterestinginbcc2020/</link>
       <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
-      <guid>http://localhost:59073/whatsinterestinginbcc2020/</guid>
+      <guid>http://localhost:1313/whatsinterestinginbcc2020/</guid>
       <description>Bioinformatics Community Conference 2020 </description>
     </item>
   </channel>

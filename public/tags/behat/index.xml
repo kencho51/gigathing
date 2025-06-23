@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Behat on kencho51</title>
-    <link>http://localhost:59073/tags/behat/</link>
+    <link>http://localhost:1313/tags/behat/</link>
     <description>Recent content in Behat on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Fri, 08 Jan 2021 10:30:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:59073/tags/behat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/behat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pass Behat Tests Example</title>
-      <link>http://localhost:59073/pass-behat-tests-example/</link>
+      <link>http://localhost:1313/pass-behat-tests-example/</link>
       <pubDate>Fri, 08 Jan 2021 10:30:26 +0800</pubDate>
-      <guid>http://localhost:59073/pass-behat-tests-example/</guid>
+      <guid>http://localhost:1313/pass-behat-tests-example/</guid>
       <description>How to pass a behat test</description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/7/20</title>
-      <link>http://localhost:59073/jobs/20-7-20/</link>
+      <link>http://localhost:1313/jobs/20-7-20/</link>
       <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
-      <guid>http://localhost:59073/jobs/20-7-20/</guid>
+      <guid>http://localhost:1313/jobs/20-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 13-17/7/20</title>
-      <link>http://localhost:59073/jobs/13-7-20/</link>
+      <link>http://localhost:1313/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      <guid>http://localhost:59073/jobs/13-7-20/</guid>
+      <guid>http://localhost:1313/jobs/13-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>
