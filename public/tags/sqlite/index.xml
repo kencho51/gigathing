@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sqlite on kencho51</title>
-    <link>https://kencho51.github.io/tags/sqlite/</link>
+    <link>http://localhost:56587/tags/sqlite/</link>
     <description>Recent content in Sqlite on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 01 Jun 2020 10:10:24 +0800</lastBuildDate>
-    <atom:link href="https://kencho51.github.io/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56587/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to build a blog using Yii1.1</title>
-      <link>https://kencho51.github.io/projects/howtobuildablogusingyii1/</link>
+      <link>http://localhost:56587/projects/howtobuildablogusingyii1/</link>
       <pubDate>Mon, 01 Jun 2020 10:10:24 +0800</pubDate>
-      <guid>https://kencho51.github.io/projects/howtobuildablogusingyii1/</guid>
+      <guid>http://localhost:56587/projects/howtobuildablogusingyii1/</guid>
       <description>Steps to build a blog using Yii1.1</description>
     </item>
   </channel>

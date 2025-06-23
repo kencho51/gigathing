@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BDD on kencho51</title>
-    <link>https://kencho51.github.io/tags/bdd/</link>
+    <link>http://localhost:56587/tags/bdd/</link>
     <description>Recent content in BDD on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 03 Aug 2020 10:10:53 +0800</lastBuildDate>
-    <atom:link href="https://kencho51.github.io/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56587/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 3-7/8/20</title>
-      <link>https://kencho51.github.io/jobs/3-8-20/</link>
+      <link>http://localhost:56587/jobs/3-8-20/</link>
       <pubDate>Mon, 03 Aug 2020 10:10:53 +0800</pubDate>
-      <guid>https://kencho51.github.io/jobs/3-8-20/</guid>
+      <guid>http://localhost:56587/jobs/3-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 27-31/7/20</title>
-      <link>https://kencho51.github.io/jobs/27-7-20/</link>
+      <link>http://localhost:56587/jobs/27-7-20/</link>
       <pubDate>Mon, 27 Jul 2020 10:28:07 +0800</pubDate>
-      <guid>https://kencho51.github.io/jobs/27-7-20/</guid>
+      <guid>http://localhost:56587/jobs/27-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/7/20</title>
-      <link>https://kencho51.github.io/jobs/20-7-20/</link>
+      <link>http://localhost:56587/jobs/20-7-20/</link>
       <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
-      <guid>https://kencho51.github.io/jobs/20-7-20/</guid>
+      <guid>http://localhost:56587/jobs/20-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Bdd</title>
-      <link>https://kencho51.github.io/bdd/</link>
+      <link>http://localhost:56587/bdd/</link>
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
-      <guid>https://kencho51.github.io/bdd/</guid>
+      <guid>http://localhost:56587/bdd/</guid>
       <description>Behavioural Driven Development</description>
     </item>
     <item>
       <title>Learn, todo and done 13-17/7/20</title>
-      <link>https://kencho51.github.io/jobs/13-7-20/</link>
+      <link>http://localhost:56587/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      <guid>https://kencho51.github.io/jobs/13-7-20/</guid>
+      <guid>http://localhost:56587/jobs/13-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>

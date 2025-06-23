@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=56587&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Bdd | kencho51</title>
 <meta name="keywords" content="BDD, php">
 <meta name="description" content="Behavioural Driven Development">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://kencho51.github.io/bdd/">
+<link rel="canonical" href="http://localhost:56587/bdd/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://kencho51.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://kencho51.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://kencho51.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://kencho51.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://kencho51.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:56587/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:56587/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:56587/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:56587/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:56587/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://kencho51.github.io/bdd/">
+<link rel="alternate" hreflang="en" href="http://localhost:56587/bdd/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,75 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://kencho51.github.io/bdd/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="Bdd">
-  <meta property="og:description" content="Behavioural Driven Development">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2020-07-15T10:58:32+08:00">
-    <meta property="article:modified_time" content="2020-07-15T10:58:32+08:00">
-    <meta property="article:tag" content="BDD">
-    <meta property="article:tag" content="Php">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Bdd">
-<meta name="twitter:description" content="Behavioural Driven Development">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://kencho51.github.io/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Bdd",
-      "item": "https://kencho51.github.io/bdd/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Bdd",
-  "name": "Bdd",
-  "description": "Behavioural Driven Development",
-  "keywords": [
-    "BDD", "php"
-  ],
-  "articleBody": "What is Behavior Driven Development? Behavior Driven Development (BDD) is a branch of Test Driven Development (TDD).\nBDD uses human-readable descriptions of software user requirements as the basis for software tests.\nIntroduction of BDD from Konstantin Kudryashov, the creator of Behat YouTube\nWhat is gherkin language? Gherkin is a Business Readable, Domain Specific Language created specifically for behavior descriptions. Gherkin is a whitespace-oriented language that uses indentation to define structure.\nHere is an example of gherkin:\nFeature: Some terse yet descriptive text of what is desired In order to realize a named business value As an explicit system actor I want to gain some beneficial outcome which furthers the goal Additional text... Scenario: Some determinable business situation Given some precondition And some other precondition When some action by the actor And some other action And yet another action Then some testable outcome is achieved And something else we can check happens too The Feature are not parsed by Behat and don’t have a required structure.\nGiven-When-Then combo, source Example 1\nScenario: Multiple Givens Given one thing Given another thing Given yet another thing When I open my eyes Then I see something Then I don't see something else Example 2\nScenario: Multiple Givens Given one thing And another thing And yet another thing When I open my eyes Then I see something But I don't see something else Scenario Outline can reduce tedious and repetitive scenario setting by using a template with placeholders Scenario Outline: Eating Given there are cucumbers When I eat cucumbers Then I should have cucumbers Examples: | start | eat | left | | 12 | 5 | 7 | | 20 | 5 | 15 | Don’t confuse tables with scenario outlines Scenario: Given the following people exist: | name | email | phone | | Aslak | aslak@email.com | 123 | | Joe | joe@email.com | 234 | | Bryan | bryan@email.org | 456 | Outlines declare multiple different values for the same scenario, while tables are used to expect a set of data.\nReference Behat Using Behat in PhpStorm, here, tutorial BDD in Codeception, here ",
-  "wordCount" : "355",
-  "inLanguage": "en",
-  "datePublished": "2020-07-15T10:58:32+08:00",
-  "dateModified": "2020-07-15T10:58:32+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://kencho51.github.io/bdd/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://kencho51.github.io/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -141,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://kencho51.github.io/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:56587/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -167,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://kencho51.github.io/page/about/" title="About">
+                <a href="http://localhost:56587/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://kencho51.github.io/post" title="Tech">
+                <a href="http://localhost:56587/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://kencho51.github.io/projects/" title="Projects">
+                <a href="http://localhost:56587/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://kencho51.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:56587/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -193,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://kencho51.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://kencho51.github.io/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:56587/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:56587/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Bdd
     </h1>
@@ -307,16 +239,16 @@ Gherkin is a whitespace-oriented language that uses indentation to define struct
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://kencho51.github.io/tags/bdd/">BDD</a></li>
-      <li><a href="https://kencho51.github.io/tags/php/">Php</a></li>
+      <li><a href="http://localhost:56587/tags/bdd/">BDD</a></li>
+      <li><a href="http://localhost:56587/tags/php/">Php</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://kencho51.github.io/whatsinterestinginbcc2020/">
+  <a class="prev" href="http://localhost:56587/whatsinterestinginbcc2020/">
     <span class="title">« Prev</span>
     <br>
     <span>Whats interesting in BCC2020</span>
   </a>
-  <a class="next" href="https://kencho51.github.io/phpcodesniffer/">
+  <a class="next" href="http://localhost:56587/phpcodesniffer/">
     <span class="title">Next »</span>
     <br>
     <span>PHP_CodeSniffer</span>

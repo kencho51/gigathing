@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Chrome on kencho51</title>
-    <link>https://kencho51.github.io/tags/chrome/</link>
+    <link>http://localhost:56587/tags/chrome/</link>
     <description>Recent content in Chrome on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 11 Mar 2021 15:03:47 +0800</lastBuildDate>
-    <atom:link href="https://kencho51.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56587/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why CSS works in Chrome but not Safari?</title>
-      <link>https://kencho51.github.io/css-works-in-chrome-but-not-safari/</link>
+      <link>http://localhost:56587/css-works-in-chrome-but-not-safari/</link>
       <pubDate>Thu, 11 Mar 2021 15:03:47 +0800</pubDate>
-      <guid>https://kencho51.github.io/css-works-in-chrome-but-not-safari/</guid>
+      <guid>http://localhost:56587/css-works-in-chrome-but-not-safari/</guid>
       <description>Css Works in Chrome but Not Safari</description>
     </item>
   </channel>
