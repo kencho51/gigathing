@@ -2,263 +2,263 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on kencho51</title>
-    <link>https://gigathing.pages.dev/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 21 Sep 2022 09:45:28 +0800</lastBuildDate>
-    <atom:link href="https://gigathing.pages.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How rclone works</title>
-      <link>https://gigathing.pages.dev/howrcloneworks/</link>
+      <link>http://localhost:1313/howrcloneworks/</link>
       <pubDate>Wed, 21 Sep 2022 09:45:28 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howrcloneworks/</guid>
+      <guid>http://localhost:1313/howrcloneworks/</guid>
       <description>Secure and stable data transfer using rclone</description>
     </item>
     <item>
       <title>How Yii migration script works</title>
-      <link>https://gigathing.pages.dev/howyiimigrationscriptworks/</link>
+      <link>http://localhost:1313/howyiimigrationscriptworks/</link>
       <pubDate>Wed, 17 Aug 2022 15:21:34 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howyiimigrationscriptworks/</guid>
+      <guid>http://localhost:1313/howyiimigrationscriptworks/</guid>
       <description>Create/Delete table using migration script</description>
     </item>
     <item>
       <title>How to build portainer in production</title>
-      <link>https://gigathing.pages.dev/howtobuildportainerinproduction/</link>
+      <link>http://localhost:1313/howtobuildportainerinproduction/</link>
       <pubDate>Mon, 15 Nov 2021 13:45:42 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtobuildportainerinproduction/</guid>
+      <guid>http://localhost:1313/howtobuildportainerinproduction/</guid>
       <description>Steps to build portainer in production</description>
     </item>
     <item>
       <title>How to add portainer for monitoring dockers</title>
-      <link>https://gigathing.pages.dev/howtoaddportainer/</link>
+      <link>http://localhost:1313/howtoaddportainer/</link>
       <pubDate>Thu, 21 Oct 2021 15:56:18 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtoaddportainer/</guid>
+      <guid>http://localhost:1313/howtoaddportainer/</guid>
       <description>Steps to configure portainer</description>
     </item>
     <item>
       <title>How to Make Dropdown Button</title>
-      <link>https://gigathing.pages.dev/how-to-make-dropdown-button/</link>
+      <link>http://localhost:1313/how-to-make-dropdown-button/</link>
       <pubDate>Fri, 21 May 2021 12:20:14 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/how-to-make-dropdown-button/</guid>
+      <guid>http://localhost:1313/how-to-make-dropdown-button/</guid>
       <description>Steps to make a dropdown button</description>
     </item>
     <item>
       <title>How to Review Fuw Cicd</title>
-      <link>https://gigathing.pages.dev/how-to-review-fuw-cicd/</link>
+      <link>http://localhost:1313/how-to-review-fuw-cicd/</link>
       <pubDate>Thu, 20 May 2021 11:45:59 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/how-to-review-fuw-cicd/</guid>
+      <guid>http://localhost:1313/how-to-review-fuw-cicd/</guid>
       <description>Steps to review fuw-cicd</description>
     </item>
     <item>
       <title>Why CSS works in Chrome but not Safari?</title>
-      <link>https://gigathing.pages.dev/css-works-in-chrome-but-not-safari/</link>
+      <link>http://localhost:1313/css-works-in-chrome-but-not-safari/</link>
       <pubDate>Thu, 11 Mar 2021 15:03:47 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/css-works-in-chrome-but-not-safari/</guid>
+      <guid>http://localhost:1313/css-works-in-chrome-but-not-safari/</guid>
       <description>Css Works in Chrome but Not Safari</description>
     </item>
     <item>
       <title>Add Delete Button for file attribute page</title>
-      <link>https://gigathing.pages.dev/add-delete-button/</link>
+      <link>http://localhost:1313/add-delete-button/</link>
       <pubDate>Mon, 22 Feb 2021 12:49:28 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/add-delete-button/</guid>
+      <guid>http://localhost:1313/add-delete-button/</guid>
       <description>How to add a delete button and pass tests</description>
     </item>
     <item>
       <title>Pass Behat Tests Example</title>
-      <link>https://gigathing.pages.dev/pass-behat-tests-example/</link>
+      <link>http://localhost:1313/pass-behat-tests-example/</link>
       <pubDate>Fri, 08 Jan 2021 10:30:26 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/pass-behat-tests-example/</guid>
+      <guid>http://localhost:1313/pass-behat-tests-example/</guid>
       <description>How to pass a behat test</description>
     </item>
     <item>
       <title>To resolve XDebug dependency problem</title>
-      <link>https://gigathing.pages.dev/docker-compose-dependency/</link>
+      <link>http://localhost:1313/docker-compose-dependency/</link>
       <pubDate>Thu, 07 Jan 2021 15:04:22 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/docker-compose-dependency/</guid>
+      <guid>http://localhost:1313/docker-compose-dependency/</guid>
       <description>Docker Compose Dependency</description>
     </item>
     <item>
       <title>OOP basics</title>
-      <link>https://gigathing.pages.dev/oopbasics/</link>
+      <link>http://localhost:1313/oopbasics/</link>
       <pubDate>Mon, 05 Oct 2020 12:48:28 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/oopbasics/</guid>
+      <guid>http://localhost:1313/oopbasics/</guid>
       <description>FreeCodeCamp OOP basics</description>
     </item>
     <item>
       <title>How to add delete button</title>
-      <link>https://gigathing.pages.dev/howtodeletebtn/</link>
+      <link>http://localhost:1313/howtodeletebtn/</link>
       <pubDate>Wed, 23 Sep 2020 14:01:01 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtodeletebtn/</guid>
+      <guid>http://localhost:1313/howtodeletebtn/</guid>
       <description>User experience - Delete feature</description>
     </item>
     <item>
       <title>What is API?</title>
-      <link>https://gigathing.pages.dev/whatisapi/</link>
+      <link>http://localhost:1313/whatisapi/</link>
       <pubDate>Thu, 20 Aug 2020 13:38:28 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/whatisapi/</guid>
+      <guid>http://localhost:1313/whatisapi/</guid>
       <description>Application Programming Interface</description>
     </item>
     <item>
       <title>How to make go to page feature</title>
-      <link>https://gigathing.pages.dev/howtogotopagebtn/</link>
+      <link>http://localhost:1313/howtogotopagebtn/</link>
       <pubDate>Tue, 18 Aug 2020 12:15:31 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtogotopagebtn/</guid>
+      <guid>http://localhost:1313/howtogotopagebtn/</guid>
       <description>Pagination - Go to page button</description>
     </item>
     <item>
       <title>Commands use to run gigadb</title>
-      <link>https://gigathing.pages.dev/commandsusetorungigadb/</link>
+      <link>http://localhost:1313/commandsusetorungigadb/</link>
       <pubDate>Fri, 24 Jul 2020 16:03:12 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/commandsusetorungigadb/</guid>
+      <guid>http://localhost:1313/commandsusetorungigadb/</guid>
       <description>Commands for running and testing Local gigaDB</description>
     </item>
     <item>
       <title>Whats interesting in BCC2020</title>
-      <link>https://gigathing.pages.dev/whatsinterestinginbcc2020/</link>
+      <link>http://localhost:1313/whatsinterestinginbcc2020/</link>
       <pubDate>Wed, 22 Jul 2020 10:14:52 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/whatsinterestinginbcc2020/</guid>
+      <guid>http://localhost:1313/whatsinterestinginbcc2020/</guid>
       <description>Bioinformatics Community Conference 2020 </description>
     </item>
     <item>
       <title>Bdd</title>
-      <link>https://gigathing.pages.dev/bdd/</link>
+      <link>http://localhost:1313/bdd/</link>
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/bdd/</guid>
+      <guid>http://localhost:1313/bdd/</guid>
       <description>Behavioural Driven Development</description>
     </item>
     <item>
       <title>PHP_CodeSniffer</title>
-      <link>https://gigathing.pages.dev/phpcodesniffer/</link>
+      <link>http://localhost:1313/phpcodesniffer/</link>
       <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/phpcodesniffer/</guid>
+      <guid>http://localhost:1313/phpcodesniffer/</guid>
       <description>Tool to detect and correct PHP coding style</description>
     </item>
     <item>
       <title>PHP date times</title>
-      <link>https://gigathing.pages.dev/phpdatetimes/</link>
+      <link>http://localhost:1313/phpdatetimes/</link>
       <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/phpdatetimes/</guid>
+      <guid>http://localhost:1313/phpdatetimes/</guid>
       <description>Dates and Times with PHP</description>
     </item>
     <item>
       <title>Codeception</title>
-      <link>https://gigathing.pages.dev/whatiscodeception/</link>
+      <link>http://localhost:1313/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/whatiscodeception/</guid>
+      <guid>http://localhost:1313/whatiscodeception/</guid>
       <description>What is Codeception?</description>
     </item>
     <item>
       <title>PHP standards</title>
-      <link>https://gigathing.pages.dev/phpstandards/</link>
+      <link>http://localhost:1313/phpstandards/</link>
       <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/phpstandards/</guid>
+      <guid>http://localhost:1313/phpstandards/</guid>
       <description>PHP coding standards</description>
     </item>
     <item>
       <title>PHPUnit</title>
-      <link>https://gigathing.pages.dev/whatisphpunittest/</link>
+      <link>http://localhost:1313/whatisphpunittest/</link>
       <pubDate>Tue, 16 Jun 2020 09:54:47 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/whatisphpunittest/</guid>
+      <guid>http://localhost:1313/whatisphpunittest/</guid>
       <description>What is PHPUnit?</description>
     </item>
     <item>
       <title>Docker 101</title>
-      <link>https://gigathing.pages.dev/docker101/</link>
+      <link>http://localhost:1313/docker101/</link>
       <pubDate>Thu, 11 Jun 2020 17:27:08 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/docker101/</guid>
+      <guid>http://localhost:1313/docker101/</guid>
       <description>Docker Introduction</description>
     </item>
     <item>
       <title>What is Tdd?</title>
-      <link>https://gigathing.pages.dev/tdd/</link>
+      <link>http://localhost:1313/tdd/</link>
       <pubDate>Wed, 10 Jun 2020 14:28:31 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/tdd/</guid>
+      <guid>http://localhost:1313/tdd/</guid>
       <description>Test Driving Development</description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>https://gigathing.pages.dev/postgresql/</link>
+      <link>http://localhost:1313/postgresql/</link>
       <pubDate>Tue, 09 Jun 2020 10:25:23 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/postgresql/</guid>
+      <guid>http://localhost:1313/postgresql/</guid>
       <description>Everything about PostgreSQL database</description>
     </item>
     <item>
       <title>Yii1.1 for beginners</title>
-      <link>https://gigathing.pages.dev/yiiforbeginners/</link>
+      <link>http://localhost:1313/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/yiiforbeginners/</guid>
+      <guid>http://localhost:1313/yiiforbeginners/</guid>
       <description>Yii framework Wiki</description>
     </item>
     <item>
       <title>Yii 1.1 Quick Start</title>
-      <link>https://gigathing.pages.dev/yii1.1/</link>
+      <link>http://localhost:1313/yii1.1/</link>
       <pubDate>Wed, 27 May 2020 12:50:48 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/yii1.1/</guid>
+      <guid>http://localhost:1313/yii1.1/</guid>
       <description> Yii Quick Start</description>
     </item>
     <item>
       <title>Yii 2.0 - Getting Started</title>
-      <link>https://gigathing.pages.dev/yiiprogress/</link>
+      <link>http://localhost:1313/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/yiiprogress/</guid>
+      <guid>http://localhost:1313/yiiprogress/</guid>
       <description>Yii 2.0 learning progress</description>
     </item>
     <item>
       <title>OOP</title>
-      <link>https://gigathing.pages.dev/oop/</link>
+      <link>http://localhost:1313/oop/</link>
       <pubDate>Tue, 26 May 2020 10:13:43 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/oop/</guid>
+      <guid>http://localhost:1313/oop/</guid>
       <description>What is Object Oriented Programming?</description>
     </item>
     <item>
       <title>How to format text using Markdown?</title>
-      <link>https://gigathing.pages.dev/markdownsyntax/</link>
+      <link>http://localhost:1313/markdownsyntax/</link>
       <pubDate>Fri, 22 May 2020 11:39:44 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/markdownsyntax/</guid>
+      <guid>http://localhost:1313/markdownsyntax/</guid>
       <description>Markdown Syntax</description>
     </item>
     <item>
       <title>PHP progress</title>
-      <link>https://gigathing.pages.dev/phpprogress/</link>
+      <link>http://localhost:1313/phpprogress/</link>
       <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/phpprogress/</guid>
+      <guid>http://localhost:1313/phpprogress/</guid>
       <description>Learning PHP at Codecademy</description>
     </item>
     <item>
       <title>Github usage example</title>
-      <link>https://gigathing.pages.dev/githubusageexample/</link>
+      <link>http://localhost:1313/githubusageexample/</link>
       <pubDate>Tue, 19 May 2020 15:55:27 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/githubusageexample/</guid>
+      <guid>http://localhost:1313/githubusageexample/</guid>
       <description>How to make changes in gigadb-website repo</description>
     </item>
     <item>
       <title>Hugo page is released</title>
-      <link>https://gigathing.pages.dev/deployhugo/</link>
+      <link>http://localhost:1313/deployhugo/</link>
       <pubDate>Mon, 18 May 2020 12:24:27 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/deployhugo/</guid>
+      <guid>http://localhost:1313/deployhugo/</guid>
       <description>A hugo website deplyed!</description>
     </item>
     <item>
       <title>Test update new post to public</title>
-      <link>https://gigathing.pages.dev/test/</link>
+      <link>http://localhost:1313/test/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://gigathing.pages.dev/test/</guid>
+      <guid>http://localhost:1313/test/</guid>
       <description>Test</description>
     </item>
     <item>
       <title>What I have done</title>
-      <link>https://gigathing.pages.dev/14-05-2020_done/</link>
+      <link>http://localhost:1313/14-05-2020_done/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://gigathing.pages.dev/14-05-2020_done/</guid>
+      <guid>http://localhost:1313/14-05-2020_done/</guid>
       <description>Trying to fix issue #198</description>
     </item>
     <item>
       <title>What I have learned</title>
-      <link>https://gigathing.pages.dev/13-05-2020-log/</link>
+      <link>http://localhost:1313/13-05-2020-log/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://gigathing.pages.dev/13-05-2020-log/</guid>
+      <guid>http://localhost:1313/13-05-2020-log/</guid>
       <description>Learning and some hands on</description>
     </item>
   </channel>

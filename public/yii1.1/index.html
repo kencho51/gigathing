@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Yii 1.1 Quick Start | kencho51</title>
 <meta name="keywords" content="Yii 1.1">
 <meta name="description" content=" Yii Quick Start">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://gigathing.pages.dev/yii1.1/">
+<link rel="canonical" href="http://localhost:1313/yii1.1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/yii1.1/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/yii1.1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,74 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://gigathing.pages.dev/yii1.1/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="Yii 1.1 Quick Start">
-  <meta property="og:description" content=" Yii Quick Start">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2020-05-27T12:50:48+08:00">
-    <meta property="article:modified_time" content="2020-05-27T12:50:48+08:00">
-    <meta property="article:tag" content="Yii 1.1">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yii 1.1 Quick Start">
-<meta name="twitter:description" content=" Yii Quick Start">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://gigathing.pages.dev/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Yii 1.1 Quick Start",
-      "item": "https://gigathing.pages.dev/yii1.1/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Yii 1.1 Quick Start",
-  "name": "Yii 1.1 Quick Start",
-  "description": " Yii Quick Start",
-  "keywords": [
-    "Yii 1.1"
-  ],
-  "articleBody": "What is Yii? Yii is a high-performance, component-based PHP framework for developing large-scale Web applications rapidly. It enables maximum reusability in Web programming and can significantly accelerate your Web application development process.\nWhat is Yii best for? Yii is a generic Web programming framework that can be used for developing virtually any type of Web application. Because it is light-weight and equipped with sophisticated caching mechanisms, it is especially suited to high-traffic applications, such as portals, forums, content management systems (CMS), e-commerce systems, etc.\nSet up webserver with nginx and PHP-FPM using Docker, link Build the images\nsudo docker build -t peter/fpm ./images/fpm/ \u0026\u0026 docker build -t peter/ngx ./images/nginx/\nBuild and start the container\ndocker-compose up\nInstallation and create skeleton application, link download Yii 1.1 source code at here unpack the .tar.gz and move to dockerfolder/app/ tar -xvzf yii-1.1.22.bf1d26.tar.gz go into the framework folder\n./yiic webapp ../testdrive Update the ngx_conf/locations.conf # yii-1.1.22 location location /yii-1.1.22/ { autoindex on; autoindex_exact_size on; autoindex_format html; autoindex_localtime on; } Make sqlite db connection in protected/config/main.php within return array return array( // sqlite database connection 'components'=\u003earray( 'db'=\u003earray( 'connectionString'=\u003e'sqlite:protected/data/testdrive.db', ), ), ); Allow Gii modules in /protected/config/main.php within return array 'modules'=\u003earray( // uncomment the following to enable the Gii tool 'gii'=\u003earray( 'class'=\u003e'system.gii.GiiModule', 'password'=\u003e'Password', // If removed, Gii defaults to localhost only. Edit carefully to taste. // 'ipFilters'=\u003earray('127.0.0.1','::1'), 'ipFilters'=\u003e False, ), ), Allow path-format URLS to access Gii in /protected/config/main.php within components, link 'urlManager'=\u003earray( 'urlFormat'=\u003e'path', 'rules'=\u003earray( 'gii'=\u003e'gii', 'gii/'=\u003e'gii/', 'gii//'=\u003e'gii//', ), ), Static structure of Yii application A Typical Worflow The flow of MCV Reference An Introduction to PHP YII Framework For The Beginners An introduction to Yii framework- part 2 Introducing Gii of Yii framework ",
-  "wordCount" : "278",
-  "inLanguage": "en",
-  "datePublished": "2020-05-27T12:50:48+08:00",
-  "dateModified": "2020-05-27T12:50:48+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://gigathing.pages.dev/yii1.1/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gigathing.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -140,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -166,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://gigathing.pages.dev/page/about/" title="About">
+                <a href="http://localhost:1313/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/post" title="Tech">
+                <a href="http://localhost:1313/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -192,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Yii 1.1 Quick Start
     </h1>
@@ -326,15 +259,15 @@ location /yii-1.1.22/ {
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://gigathing.pages.dev/tags/yii-1.1/">Yii 1.1</a></li>
+      <li><a href="http://localhost:1313/tags/yii-1.1/">Yii 1.1</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://gigathing.pages.dev/yiiforbeginners/">
+  <a class="prev" href="http://localhost:1313/yiiforbeginners/">
     <span class="title">« Prev</span>
     <br>
     <span>Yii1.1 for beginners</span>
   </a>
-  <a class="next" href="https://gigathing.pages.dev/yiiprogress/">
+  <a class="next" href="http://localhost:1313/yiiprogress/">
     <span class="title">Next »</span>
     <br>
     <span>Yii 2.0 - Getting Started</span>

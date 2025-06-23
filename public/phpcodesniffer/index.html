@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>PHP_CodeSniffer | kencho51</title>
 <meta name="keywords" content="PHP, PHP_CodeSniffer">
 <meta name="description" content="Tool to detect and correct PHP coding style">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://gigathing.pages.dev/phpcodesniffer/">
+<link rel="canonical" href="http://localhost:1313/phpcodesniffer/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/phpcodesniffer/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/phpcodesniffer/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,75 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://gigathing.pages.dev/phpcodesniffer/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="PHP_CodeSniffer">
-  <meta property="og:description" content="Tool to detect and correct PHP coding style">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2020-07-07T14:28:56+08:00">
-    <meta property="article:modified_time" content="2020-07-07T14:28:56+08:00">
-    <meta property="article:tag" content="Php">
-    <meta property="article:tag" content="PHP_CodeSniffer">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PHP_CodeSniffer">
-<meta name="twitter:description" content="Tool to detect and correct PHP coding style">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://gigathing.pages.dev/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "PHP_CodeSniffer",
-      "item": "https://gigathing.pages.dev/phpcodesniffer/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "PHP_CodeSniffer",
-  "name": "PHP_CodeSniffer",
-  "description": "Tool to detect and correct PHP coding style",
-  "keywords": [
-    "PHP", "PHP_CodeSniffer"
-  ],
-  "articleBody": "What is PHP_CodeSniffer? PHP_CodeSniffer is a set of two PHP scripts:\nphpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard. phpcbf script to automatically correct coding standard violations. Installation Follow here\nUsage Checking files and folders\nvendor/bin/phpcs /path/to/code\nPrinting summary report\nvendor/bin/phpcs --report=summary /path/to/code\nSpecifying a Coding Standard\nvendor/bin/phpcs --standard=PEAR /path/to/code/myfile.php\nList all installed coding standards\nvendor/bin/phpcs -i\neg.The installed coding standards are PEAR, PSR1, PSR12, PSR2, Squiz and Zen\nReporting Example phpcs output: % vendor/bin/phpcs --standard=PSR2 -s tests/functional/AdminSiteAccessTest.php FILE: /Volumes/kencho/learning_stuff/test/yii2/basic/tests/functional/AdminSiteAccessTest.php ------------------------------------------------------------------------------------------------------------------------------------------------------- FOUND 7 ERRORS AND 1 WARNING AFFECTING 5 LINES ------------------------------------------------------------------------------------------------------------------------------------------------------- 7 | ERROR | [ ] Each class must be in a namespace of at least one level (a top-level vendor name) | | (PSR1.Classes.ClassDeclaration.MissingNamespace) 21 | ERROR | [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) 21 | ERROR | [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) 35 | ERROR | [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) 35 | ERROR | [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) 54 | WARNING | [ ] Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong) 62 | ERROR | [x] A closing tag is not permitted at the end of a PHP file (PSR2.Files.ClosingTag.NotAllowed) 62 | ERROR | [x] Expected 1 newline at end of file; 0 found (PSR2.Files.EndFileNewline.NoneFound) ------------------------------------------------------------------------------------------------------------------------------------------------------- PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY ------------------------------------------------------------------------------------------------------------------------------------------------------- Time: 46ms; Memory: 6MB Printing a code report % vendor/bin/phpcs --standard=PSR2 -s --report=code tests/functional/AdminSiteAccessTest.php FILE: /Volumes/kencho/learning_stuff/test/yii2/basic/tests/functional/AdminSiteAccessTest.php -------------------------------------------------------------------------------------------------------------------------------------------------------- FOUND 7 ERRORS AND 1 WARNING AFFECTING 5 LINES -------------------------------------------------------------------------------------------------------------------------------------------------------- LINE 7: ERROR [ ] Each class must be in a namespace of at least one level (a top-level vendor name) (PSR1.Classes.ClassDeclaration.MissingNamespace) -------------------------------------------------------------------------------------------------------------------------------------------------------- 5: ·*/ 6: \u003e\u003e 7: class·AdminSiteAccessTest·extends·FunctionalTesting 8: { 9: ····use·BrowserSignInSteps; -------------------------------------------------------------------------------------------------------------------------------------------------------- LINE 21: ERROR [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) LINE 21: ERROR [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) -------------------------------------------------------------------------------------------------------------------------------------------------------- 19: ····public·function·testItShouldBeDisplayedToUsersWithAdminRole() 20: ····{ \u003e\u003e 21: ········$this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"admin@gigadb.org\",\"gigadb\",\"Joe's·GigaDB·Page\"); 22: ········$url·=·\"http://gigadb.dev/site/admin\"; 23: ········$this-\u003evisitPageWithSessionAndUrlThenAssertContentHasOrNull($url,·\"Administration·Page\"); -------------------------------------------------------------------------------------------------------------------------------------------------------- LINE 35: ERROR [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) LINE 35: ERROR [x] No space found after comma in argument list (Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma) -------------------------------------------------------------------------------------------------------------------------------------------------------- 33: ····public·function·testItShouldNotBeDisplayedToUsersWithUserRole() 34: ····{ \u003e\u003e 35: ········$this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"user@gigadb.org\",\"gigadb\",\"John's·GigaDB·Page\"); 36: ········$url·=·\"http://gigadb.dev/site/admin\"; 37: ········$this-\u003evisitPageWithSessionAndUrlThenAssertContentHasOrNull($url,·\"Error·403\"); -------------------------------------------------------------------------------------------------------------------------------------------------------- LINE 54: WARNING [ ] Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong) -------------------------------------------------------------------------------------------------------------------------------------------------------- 52: ········//·To·confirm·User·has·been·re-directed·to·/site/login 53: ········$current_site·=·$this-\u003egetCurrentUrl(); \u003e\u003e 54: ········$this-\u003eassertTrue($current_site·==·\"http://gigadb.dev/site/login\",·\"The·current·site·has·not·been·re-directed.\"); 55: 56: ········$this-\u003esession-\u003evisit($url); -------------------------------------------------------------------------------------------------------------------------------------------------------- LINE 62: ERROR [x] A closing tag is not permitted at the end of a PHP file (PSR2.Files.ClosingTag.NotAllowed) LINE 62: ERROR [x] Expected 1 newline at end of file; 0 found (PSR2.Files.EndFileNewline.NoneFound) -------------------------------------------------------------------------------------------------------------------------------------------------------- 60: ····} 61: } \u003e\u003e 62: ?\u003e -------------------------------------------------------------------------------------------------------------------------------------------------------- PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY -------------------------------------------------------------------------------------------------------------------------------------------------------- Time: 44ms; Memory: 6MB Fixing Errors Automatically Printing a Diff report % vendor/bin/phpcs --standard=PSR2 -s --report=diff tests/functional/AdminSiteAccessTest.php --- tests/functional/AdminSiteAccessTest.php +++ PHP_CodeSniffer @@ -18,7 +18,7 @@ */ public function testItShouldBeDisplayedToUsersWithAdminRole() { - $this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"admin@gigadb.org\",\"gigadb\",\"Joe's GigaDB Page\"); + $this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"admin@gigadb.org\", \"gigadb\", \"Joe's GigaDB Page\"); $url = \"http://gigadb.dev/site/admin\"; $this-\u003evisitPageWithSessionAndUrlThenAssertContentHasOrNull($url, \"Administration Page\"); } @@ -32,7 +32,7 @@ */ public function testItShouldNotBeDisplayedToUsersWithUserRole() { - $this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"user@gigadb.org\",\"gigadb\",\"John's GigaDB Page\"); + $this-\u003eloginToWebSiteWithSessionAndCredentialsThenAssert(\"user@gigadb.org\", \"gigadb\", \"John's GigaDB Page\"); $url = \"http://gigadb.dev/site/admin\"; $this-\u003evisitPageWithSessionAndUrlThenAssertContentHasOrNull($url, \"Error 403\"); } @@ -59,4 +59,3 @@ $this-\u003eassertFalse(strpos($out, \"Administration Page\"), \"Ordinary User can visit admin page.\"); } } -?\u003e \\ No newline at end of file Time: 114ms; Memory: 6MB Using the phpcbf to fix the style\nvendor/bin/phpcbf /path/to/code --suffix=.fixed\nViewing the Debug Information\nvendor/bin/phpcs --standard=PSR2 -vv --report=diff AdminSiteAccessTest.php\nReference PHP_CodeSniffer, github ",
-  "wordCount" : "577",
-  "inLanguage": "en",
-  "datePublished": "2020-07-07T14:28:56+08:00",
-  "dateModified": "2020-07-07T14:28:56+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://gigathing.pages.dev/phpcodesniffer/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gigathing.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -141,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -167,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://gigathing.pages.dev/page/about/" title="About">
+                <a href="http://localhost:1313/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/post" title="Tech">
+                <a href="http://localhost:1313/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -193,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       PHP_CodeSniffer
     </h1>
@@ -385,16 +317,16 @@ eg.The installed coding standards are PEAR, PSR1, PSR12, PSR2, Squiz and Zen</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://gigathing.pages.dev/tags/php/">Php</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/php_codesniffer/">PHP_CodeSniffer</a></li>
+      <li><a href="http://localhost:1313/tags/php/">Php</a></li>
+      <li><a href="http://localhost:1313/tags/php_codesniffer/">PHP_CodeSniffer</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://gigathing.pages.dev/bdd/">
+  <a class="prev" href="http://localhost:1313/bdd/">
     <span class="title">« Prev</span>
     <br>
     <span>Bdd</span>
   </a>
-  <a class="next" href="https://gigathing.pages.dev/phpdatetimes/">
+  <a class="next" href="http://localhost:1313/phpdatetimes/">
     <span class="title">Next »</span>
     <br>
     <span>PHP date times</span>

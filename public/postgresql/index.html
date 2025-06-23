@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Postgresql | kencho51</title>
 <meta name="keywords" content="postgreSQL, SQL, database">
 <meta name="description" content="Everything about PostgreSQL database">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://gigathing.pages.dev/postgresql/">
+<link rel="canonical" href="http://localhost:1313/postgresql/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/postgresql/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/postgresql/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,76 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://gigathing.pages.dev/postgresql/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="Postgresql">
-  <meta property="og:description" content="Everything about PostgreSQL database">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2020-06-09T10:25:23+08:00">
-    <meta property="article:modified_time" content="2020-06-09T10:25:23+08:00">
-    <meta property="article:tag" content="PostgreSQL">
-    <meta property="article:tag" content="SQL">
-    <meta property="article:tag" content="Database">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Postgresql">
-<meta name="twitter:description" content="Everything about PostgreSQL database">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://gigathing.pages.dev/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Postgresql",
-      "item": "https://gigathing.pages.dev/postgresql/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Postgresql",
-  "name": "Postgresql",
-  "description": "Everything about PostgreSQL database",
-  "keywords": [
-    "postgreSQL", "SQL", "database"
-  ],
-  "articleBody": "What is PostgreSQL? PostgreSQL is an enterprise-class open source database management system. It supports both SQL for relational and JSON for non-relational queries. PostgreSQL supports advanced data types and advance performance optimization.\nKey features Compatible with various platforms using all major languages and middleware It offers a most sophisticated locking mechanism Support for multi-version concurrency control Compliant with the ANSI SQL standard Full support for client-server network architecture Log-based and trigger-based replication SSL Standby server and high availability Object-oriented and ANSI-SQL2008 compatible Support for JSON allows linking with other data stores like NoSQL which act as a federated hub for polyglot databases MySQL vs PostgreSQL MySQL PostgreSQL The MySQL project has made its source code available under the terms of the GNU License, and other proprietary agreements. PostgreSQL is released under PostgreSQL License. It’s now owned by Oracle Corporation and offers several paid editions. It’s free and open-source software. That means you will never need to pay anything for this service. MySQL is ACID compliant only when using with NDB and InnoDB Cluster Storage engines. PostgreSQL is completely ACID compliant. MySQL performs well in OLAP and OLTP systems where only read speed is important. PostgreSQL performance works best in systems which demand the execution of complex queries. MySQL is reliable and works well with BI (Business Intelligence) applications, which are difficult to read PostgreSQL works well with BI applications. However, it is more suited for Data Warehousing and data analysis applications which need fast read-write speeds. Advantages Can run dynamic websites and web apps. Write-ahead logging makes it a highly fault-tolerant database. Source code is freely available under an open source license. Supports geographic objects so you can use it for location-based services and geographic information systems. Supports geographic objects so it can be used as a geospatial data store for location-based services and geographic information systems. Low maintenance administration for both embedded and enterprise use. Disadvantages Changes made for speed improvement requires more work than MySQL as PostgreSQL focuses on compatibility. Many open source apps support MySQL, but may not support PostgreSQL. On performance metrics, it is slower than MySQL. Download and install Download and install postgrlSQL\nbrew doctor\nbrew update\nbrew install postgresql Download and install Pgcli, for Postgres with auto-completion and syntax highlighting.\nbrew install pgcli The path of psql\nbrew info libpq To include in in zshrc\necho 'export PATH=\"/usr/local/opt/libpq/bin:$PATH\"' \u003e\u003e ~/.zshrc Postgre.app Postgre.app is a full-featured PostgreSQL installation packaged as a standard Mac app.\nConfigure the $PATH for CLI (Optional) sudo mkdir -p /etc/paths.d \u0026\u0026 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp\nChanging the default directory of PostgreSQL (Optional) kencho=# SHOW data_directory;\n/Users/kencho/Library/Application Support/Postgres/var-12\nDatatypes Characters Name Description varchr(n) Allows you to declare variable-length with a limit char(n) Fixed-length, blank padded text User can use this data type to declare a variable with unlimited length Numeric Integers Floating-pointing numbers Binary Binary strings allow storing odds of value zero Non- printable octets Network Address Type cider: IPv4 and IPv6 networks Inet: IPv4 and IPv5 host and networks macaaddr: MAC addresses Text Search Type\nDate/Time PostgreSQL timestamp offers microsecond precision instead of second precision. Date and time input is accepted in various format, including traditional Postgres, ISO 8601. SQL-compatible etc.\nBoolean\nTrue, 1 False, 0 null Geometric\nEnumerated\nEnumerated Data types in PostgreSQL is useful for representing rarely changing information such as country code or branch id. The Enumerated data type is represented in a table with foreign keys to ensure data integrity. Here is the example code:\n#Hair color is fairly static in a demographic database CREATE TYPE hair_color AS ENUM ('brown','black','red','grey','blond') Range\nUUID Universally Unique Identifies (UUID) is a 128-bit quantity, these identifiers are an ideal choice as it offers uniqueness within a single database.\nExample:\nd5f28c97-b962-43be-9cf8-ca1632182e8e\nXML PostgreSQL allows you to store XML data in a data type, but it is nothing more than an extension to a text data type.\nBut the advantage is that it checks that the input XML is well-formed.\nJson\nJson Jsonb CREATE TABLE employee ( id integer NOT NULL, age integer NOT NULL, data jsonb ); Pseudo-types\nPostgreSQL has many special-purpose entries that are called pseudo-types. You can’t use pseudo-type as a column data type. There are used to declare or function’s argument or return type.\nEach of the available pseudo-types is helpful in situations where a function’s behavior docs do not correspond to simply taking or returning a value of a specific SQL data type. Best practice using data types Use “text” data type unless you want to limit the input Never use “char.” Integers use “int.” Use bigint only when you have really big numbers Use “numeric” almost always Use float data type if you have IEEE 754 data source Export/save table or query Check current position\n\\! pwd List folders\n\\! ls Export the Full tables with header\nCOPY albums TO '/Users/dave/Downloads/albums.csv' DELIMITER ',' CSV HEADER; Export the query to CSV with header\n\\copy [Table/Query] to [Relative Path] csv header PostgreSQL backup One-time single database backup pg_dump to back up a single database. It must be run as a user with read permissions to the database you intend to back up. 1.1 Log in as postgre user\nsu - postgres\n1.2 Dump the contents of a database to a file\npg_dump dbname \u003e dbname.bak\n1.3 Restore the database using psql\npsql newdb \u003c dbname.bak\nBackup single database remotely\npg_dump -h 198.51.100.0 -p 5432 dbname \u003e dbname.bak\nBackup all databases\npg_dumponly creates a backup of one database at a time, it does not store information about database roles or other cluster-wide configuration. pg_dumpall can store information about database roles and other cluster-wide configuration.\n3.1 Create backup file pg_dumpall \u003e pg_backup.bak\n3.2 Restore all databases from the backup\npsql -f pg_backup.bak psotgre\nAutomate backup with a cron task (say, backed up at midnight every Sunday) Log is as the postgre user\nsu - postgre Create a directory to store the automatic backups mkdir -p /postgre/backups Edit the crontab to create a cron task crontab -e The cron task as 0 0 * * 0 pg_dump -U postgres dbname \u003e ~/postgres/backups/dbname.bak \u003e /postgres/log/pg_dump.log Database backup formats *.bak: compressed binary format *.sql: plaintext dump *.tar: tarball How to know if the PostgreSQL backup is good? A. Logical backup: The backup is stored in a human-readable format like SQL.\nB. Physical backup: The backup contains binary data.\nbackup the database with logs pg_dumpall \u003e /path/to/dump.sql \u003e postgres/log/pg_dump.log\nThen to verify the databse.bak is in the backup directory\n$ grep '^[\\]connect' /path/to/dump.sql |awk '{print $2}' template1 postgres world Finally, restore the backup and check manually, it is the most secure way to confirm # restore the backup $ psql -f /path/to/dump.sql postgres # access it and check it $ psql postgres=# \\l Handling large databases Some operating systems have maximum file size limits that cause problems when creating large pg_dump output files. Fortunately, pg_dump can write to the standard output, so you can use standard Unix tools to work around this potential problem.\n1.1 Use compressed dump\npg_dump dbname | gzip \u003e filename.gz\n1.2. Reload with\ngunzip -c filename.gz | psql dbname or\ncat filename.gz | gunzip | psql dbname\n2.1 Use splite, split the output into smaller files that are acceptable in size to the underlying file system.\npg_dump dbname | split -b 1m - filename\n2.2 Reload with\ncat filename* | psql dbname\nConnected to gigadb database container Connect to gigadb database container locally\nPGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres Create database\npostgre=# CREATE DATADASE dbname; Restore dump database\nkencho % pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp Reference Introduction to PostgreSQL PostgreSQL download 10 Command-line Utilities in PostgreSQL cheatsheet Postgres Guide How to exort PostgreSQL Data to a CSV or Excel File PostgreSQL backup stratgy Cron task How Do I Know if My PostgreSQL Backup is Good? Chapter 24. Backup and Restore Automated Testing of PostgreSQL Backups SQL Tutorial ",
-  "wordCount" : "1319",
-  "inLanguage": "en",
-  "datePublished": "2020-06-09T10:25:23+08:00",
-  "dateModified": "2020-06-09T10:25:23+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://gigathing.pages.dev/postgresql/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gigathing.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -142,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -168,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://gigathing.pages.dev/page/about/" title="About">
+                <a href="http://localhost:1313/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/post" title="Tech">
+                <a href="http://localhost:1313/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -194,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Postgresql
     </h1>
@@ -586,17 +517,17 @@ or<br>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://gigathing.pages.dev/tags/postgresql/">PostgreSQL</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/sql/">SQL</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/database/">Database</a></li>
+      <li><a href="http://localhost:1313/tags/postgresql/">PostgreSQL</a></li>
+      <li><a href="http://localhost:1313/tags/sql/">SQL</a></li>
+      <li><a href="http://localhost:1313/tags/database/">Database</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://gigathing.pages.dev/tdd/">
+  <a class="prev" href="http://localhost:1313/tdd/">
     <span class="title">« Prev</span>
     <br>
     <span>What is Tdd?</span>
   </a>
-  <a class="next" href="https://gigathing.pages.dev/yiiforbeginners/">
+  <a class="next" href="http://localhost:1313/yiiforbeginners/">
     <span class="title">Next »</span>
     <br>
     <span>Yii1.1 for beginners</span>

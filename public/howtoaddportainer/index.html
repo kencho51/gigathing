@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>How to add portainer for monitoring dockers | kencho51</title>
 <meta name="keywords" content="docker, portainer, nginx, reverse proxy">
 <meta name="description" content="Steps to configure portainer">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://gigathing.pages.dev/howtoaddportainer/">
+<link rel="canonical" href="http://localhost:1313/howtoaddportainer/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/howtoaddportainer/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/howtoaddportainer/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,77 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://gigathing.pages.dev/howtoaddportainer/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="How to add portainer for monitoring dockers">
-  <meta property="og:description" content="Steps to configure portainer">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2021-10-21T15:56:18+08:00">
-    <meta property="article:modified_time" content="2021-10-21T15:56:18+08:00">
-    <meta property="article:tag" content="Docker">
-    <meta property="article:tag" content="Portainer">
-    <meta property="article:tag" content="Nginx">
-    <meta property="article:tag" content="Reverse Proxy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How to add portainer for monitoring dockers">
-<meta name="twitter:description" content="Steps to configure portainer">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://gigathing.pages.dev/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "How to add portainer for monitoring dockers",
-      "item": "https://gigathing.pages.dev/howtoaddportainer/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "How to add portainer for monitoring dockers",
-  "name": "How to add portainer for monitoring dockers",
-  "description": "Steps to configure portainer",
-  "keywords": [
-    "docker", "portainer", "nginx", "reverse proxy"
-  ],
-  "articleBody": "Task Make portainer on staging and live deployment accessible with HTTPS on default port #790 Add portainer container service on staging and live deployment #791 PR #201 Steps A. Add portainer service available locally\nUpdate docker-compose.yml portainer: image: portainer/portainer-ce:latest volumes: - /var/run/docker.sock:/var/run/docker.sock - portainer_data:/data ports: - 9009:9000 - 8008:8000 command: -H unix:///var/run/docker.sock --admin-password $PORTAINER_BCRYPT volumes: le_config: le_webrootpath: portainer_data: Create PORTAINER_PASSWORD in gitlab variables Create start_portainer.sh, if-else block to avoid keep generating PORTAINER_BCRYPT in .env #!/usr/bin/env bash # bail out as soon as there is an error set -eux # Load environment variables source \"./.env\" source \"./.secrets\" # docker-compose executable if [[ $GIGADB_ENV != \"dev\" \u0026\u0026 $GIGADB_ENV != \"CI\" ]];then DOCKER_COMPOSE=\"docker-compose --tlsverify -H=$REMOTE_DOCKER_HOST -f ops/deployment/docker-compose.production-envs.yml\" else DOCKER_COMPOSE=\"docker-compose\" fi if ! [ -z \"${PORTAINER_BCRYPT+x}\" ];then echo \"PORTAINER_BCRYPT value has been set in .env already\" # start portainer in detached mode and make sure volume are recreated (rather than use potential previous state that my be erroneous) $DOCKER_COMPOSE up --detach --renew-anon-volumes portainer else echo \"PORTAINER_BCRYPT value is empty\" echo \"Generate bcrypt from password\" P_BCRYPT=$(docker run --rm httpd:2.4-alpine htpasswd -nbB admin $PORTAINER_PASSWORD | cut -d \":\" -f 2 | sed -e 's/\\$/\\\\\\$/g') echo \"PORTAINER_BCRYPT=$P_BCRYPT\" \u003e\u003e .env # start portainer in detached mode and make sure volume are recreated (rather than use potential previous state that my be erroneous) $DOCKER_COMPOSE up --detach --renew-anon-volumes portainer fi Update up.sh to only start portainer in MacOS # start the container admin UI (not in CI) if [ \"$(uname)\" == \"Darwin\" ];then ./ops/scripts/start_portainer.sh fi; Spin up all containers kencho/gigadb-website % ./up.sh Test the http response using curl % curl -I localhost:9009 HTTP/1.1 200 OK Accept-Ranges: bytes Cache-Control: max-age=31536000 Content-Length: 6176 Content-Type: text/html; charset=utf-8 Last-Modified: Sun, 10 Oct 2021 23:45:45 GMT X-Content-Type-Options: nosniff X-Xss-Protection: 1; mode=block Date: Thu, 21 Oct 2021 08:14:01 GMT Go to http://localhost:9009/ and have fun! Reference Heavily adapted form here ",
-  "wordCount" : "304",
-  "inLanguage": "en",
-  "datePublished": "2021-10-21T15:56:18+08:00",
-  "dateModified": "2021-10-21T15:56:18+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://gigathing.pages.dev/howtoaddportainer/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gigathing.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -143,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -169,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://gigathing.pages.dev/page/about/" title="About">
+                <a href="http://localhost:1313/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/post" title="Tech">
+                <a href="http://localhost:1313/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -195,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       How to add portainer for monitoring dockers
     </h1>
@@ -319,18 +249,18 @@ Date: Thu, 21 Oct 2021 08:14:01 GMT
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://gigathing.pages.dev/tags/docker/">Docker</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/portainer/">Portainer</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/nginx/">Nginx</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/reverse-proxy/">Reverse Proxy</a></li>
+      <li><a href="http://localhost:1313/tags/docker/">Docker</a></li>
+      <li><a href="http://localhost:1313/tags/portainer/">Portainer</a></li>
+      <li><a href="http://localhost:1313/tags/nginx/">Nginx</a></li>
+      <li><a href="http://localhost:1313/tags/reverse-proxy/">Reverse Proxy</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://gigathing.pages.dev/howtobuildportainerinproduction/">
+  <a class="prev" href="http://localhost:1313/howtobuildportainerinproduction/">
     <span class="title">« Prev</span>
     <br>
     <span>How to build portainer in production</span>
   </a>
-  <a class="next" href="https://gigathing.pages.dev/how-to-make-dropdown-button/">
+  <a class="next" href="http://localhost:1313/how-to-make-dropdown-button/">
     <span class="title">Next »</span>
     <br>
     <span>How to Make Dropdown Button</span>

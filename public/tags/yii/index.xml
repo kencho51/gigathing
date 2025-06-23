@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yii on kencho51</title>
-    <link>https://gigathing.pages.dev/tags/yii/</link>
+    <link>http://localhost:1313/tags/yii/</link>
     <description>Recent content in Yii on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 23 Sep 2020 14:01:01 +0800</lastBuildDate>
-    <atom:link href="https://gigathing.pages.dev/tags/yii/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/yii/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add delete button</title>
-      <link>https://gigathing.pages.dev/howtodeletebtn/</link>
+      <link>http://localhost:1313/howtodeletebtn/</link>
       <pubDate>Wed, 23 Sep 2020 14:01:01 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtodeletebtn/</guid>
+      <guid>http://localhost:1313/howtodeletebtn/</guid>
       <description>User experience - Delete feature</description>
     </item>
     <item>
       <title>How to make go to page feature</title>
-      <link>https://gigathing.pages.dev/howtogotopagebtn/</link>
+      <link>http://localhost:1313/howtogotopagebtn/</link>
       <pubDate>Tue, 18 Aug 2020 12:15:31 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/howtogotopagebtn/</guid>
+      <guid>http://localhost:1313/howtogotopagebtn/</guid>
       <description>Pagination - Go to page button</description>
     </item>
     <item>
       <title>Learn, todo and done 22-26/6/20</title>
-      <link>https://gigathing.pages.dev/jobs/22-6-20/</link>
+      <link>http://localhost:1313/jobs/22-6-20/</link>
       <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/22-6-20/</guid>
+      <guid>http://localhost:1313/jobs/22-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/6/20</title>
-      <link>https://gigathing.pages.dev/jobs/15-6-20/</link>
+      <link>http://localhost:1313/jobs/15-6-20/</link>
       <pubDate>Mon, 15 Jun 2020 09:56:41 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/15-6-20/</guid>
+      <guid>http://localhost:1313/jobs/15-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 8-12/6/20</title>
-      <link>https://gigathing.pages.dev/jobs/8-6-20/</link>
+      <link>http://localhost:1313/jobs/8-6-20/</link>
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/8-6-20/</guid>
+      <guid>http://localhost:1313/jobs/8-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii1.1 for beginners</title>
-      <link>https://gigathing.pages.dev/yiiforbeginners/</link>
+      <link>http://localhost:1313/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/yiiforbeginners/</guid>
+      <guid>http://localhost:1313/yiiforbeginners/</guid>
       <description>Yii framework Wiki</description>
     </item>
     <item>
       <title>Learn, todo and done 1-5/6/20</title>
-      <link>https://gigathing.pages.dev/jobs/1-6-20/</link>
+      <link>http://localhost:1313/jobs/1-6-20/</link>
       <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/1-6-20/</guid>
+      <guid>http://localhost:1313/jobs/1-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii 2.0 - Getting Started</title>
-      <link>https://gigathing.pages.dev/yiiprogress/</link>
+      <link>http://localhost:1313/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/yiiprogress/</guid>
+      <guid>http://localhost:1313/yiiprogress/</guid>
       <description>Yii 2.0 learning progress</description>
     </item>
     <item>
       <title>Learn, todo and done 25-29/5/20</title>
-      <link>https://gigathing.pages.dev/jobs/25-5-20/</link>
+      <link>http://localhost:1313/jobs/25-5-20/</link>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/25-5-20/</guid>
+      <guid>http://localhost:1313/jobs/25-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/5/20</title>
-      <link>https://gigathing.pages.dev/jobs/18-5-20/</link>
+      <link>http://localhost:1313/jobs/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
-      <guid>https://gigathing.pages.dev/jobs/18-5-20/</guid>
+      <guid>http://localhost:1313/jobs/18-5-20/</guid>
       <description>Weekly plan</description>
     </item>
   </channel>

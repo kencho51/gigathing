@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Pass Behat Tests Example | kencho51</title>
 <meta name="keywords" content="Behat, TDD">
 <meta name="description" content="How to pass a behat test">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="https://gigathing.pages.dev/pass-behat-tests-example/">
+<link rel="canonical" href="http://localhost:1313/pass-behat-tests-example/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://gigathing.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://gigathing.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://gigathing.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://gigathing.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://gigathing.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://gigathing.pages.dev/pass-behat-tests-example/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/pass-behat-tests-example/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,75 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://gigathing.pages.dev/pass-behat-tests-example/">
-  <meta property="og:site_name" content="kencho51">
-  <meta property="og:title" content="Pass Behat Tests Example">
-  <meta property="og:description" content="How to pass a behat test">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2021-01-08T10:30:26+08:00">
-    <meta property="article:modified_time" content="2021-01-08T10:30:26+08:00">
-    <meta property="article:tag" content="Behat">
-    <meta property="article:tag" content="TDD">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Pass Behat Tests Example">
-<meta name="twitter:description" content="How to pass a behat test">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://gigathing.pages.dev/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Pass Behat Tests Example",
-      "item": "https://gigathing.pages.dev/pass-behat-tests-example/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Pass Behat Tests Example",
-  "name": "Pass Behat Tests Example",
-  "description": "How to pass a behat test",
-  "keywords": [
-    "Behat", "TDD"
-  ],
-  "articleBody": "Case 1 - Actual output contains line break, PR547 Problem In DatasetViewContext.php:\n/** * @Then there is a :arg1 meta tag :arg2 with value :arg3 */ public function thereIsAMetaTagWithValue($arg1, $arg2, $arg3) { $metaNode = $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003efind('xpath', \"//meta[@$arg1='$arg2' and @content='$arg3']\"); PHPUnit_Framework_Assert::assertNotNull($metaNode); } In dataset-metadata-link-preview.feature:\n@wip @issue-513 Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines) Given I am not logged in to Gigadb web site When I am on \"/dataset/100002\" Then there is a meta tag \"description\" with value \"The Adelie penguin (Pygoscelis adeliae) is an iconic penguin of moderate stature and a tuxedo of black and white feathers. The penguins are only found in the Antarctic region and surrounding islands. Being very sensitive to climate change, and due to changes in their behavior based on minor shifts in climate, they are often used as a barometer of the Antarctic. With its status as one of the adorable and cuddly flightless birds of Antarctica, they serve as an example for conservation, and as a result they are now categorised at low risk for endangerment. The sequence of the penguin can be of use in understanding the genetic underpinnings of its evolutionary traits and adaptation to its extreme environment; its unique system of feathers; its prowess as a diver; and its sensitivity to climate change. We hope that this genome data will further our understanding of one of the most remarkable creatures to waddle the planet Earth. We sequenced the genome of an adult male from Inexpressible Island, Ross Sea, Antartica (provided by David Lambert) to a depth of approximately 60X with short reads from a series of libraries with various insert sizes (200bp- 20kb). The assembled scaffolds of high quality sequences total 1.23 Gb, with the contig and scaffold N50 values of 19 kb and 5 mb respectively. We identified 15,270 protein-coding genes with a mean length of 21.3 kb.\" The error is:\nFailed asserting that null is not null. Troubleshooting /** * @Then the page description meta tag should be :arg1 */ public function thePageDescriptionMetaTagShouldBe($arg1) { $metaNode = $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003efind('xpath', \"//meta[@name='description']\"); $content = $metaNode-\u003egetAttribute('content'); PHPUnit_Framework_Assert::assertNotNull($content); PHPUnit_Framework_Assert::assertEquals($arg1, $content, \"The description is not the same!\"); } In dataset-metadata-link-preview.feature:\nBackground: Given Gigadb web site is loaded with \"gigadb_testdata.pgdmp\" data @wip @issue-513 Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines) Given I am not logged in to Gigadb web site When I am on \"/dataset/100002\" Then the page description meta tag should be \"The Adelie penguin (Pygoscelis adeliae) is an iconic penguin of moderate stature and a tuxedo of black and white feathers. The penguins are only found in the Antarctic region and surrounding islands. Being very sensitive to climate change, and due to changes in their behavior based on minor shifts in climate, they are often used as a barometer of the Antarctic. With its status as one of the adorable and cuddly flightless birds of Antarctica, they serve as an example for conservation, and as a result they are now categorised at low risk for endangerment. The sequence of the penguin can be of use in understanding the genetic underpinnings of its evolutionary traits and adaptation to its extreme environment; its unique system of feathers; its prowess as a diver; and its sensitivity to climate change. We hope that this genome data will further our understanding of one of the most remarkable creatures to waddle the planet Earth. We sequenced the genome of an adult male from Inexpressible Island, Ross Sea, Antartica (provided by David Lambert) to a depth of approximately 60X with short reads from a series of libraries with various insert sizes (200bp- 20kb). The assembled scaffolds of high quality sequences total 1.23 Gb, with the contig and scaffold N50 values of 19 kb and 5 mb respectively. We identified 15,270 protein-coding genes with a mean length of 21.3 kb.\" Here is the error after running the test:\nThe description is not the same! Failed asserting that two strings are equal. --- Expected +++ Actual @@ @@ - 'The Adelie penguin (Pygoscelis adeliae) is an iconic penguin of moderate stature and a tuxedo of black and white feathers. The penguins are only found in the Antarctic region and surrounding islands. Being very sensitive to climate change, and due to changes in their behavior based on minor shifts in climate, they are often used as a barometer of the Antarctic. With its status as one of the adorable and cuddly flightless birds of Antarctica, they serve as an example for conservation, and as a result they are now categorised at low risk for endangerment. The sequence of the penguin can be of use in understanding the genetic underpinnings of its evolutionary traits and adaptation to its extreme environment; its unique system of feathers; its prowess as a diver; and its sensitivity to climate change. We hope that this genome data will further our understanding of one of the most remarkable creatures to waddle the planet Earth. We sequenced the genome of an adult male from Inexpressible Island, Ross Sea, Antartica (provided by David Lambert) to a depth of approximately 60X with short reads from a series of libraries with various insert sizes (200bp- 20kb). The assembled scaffolds of high quality sequences total 1.23 Gb, with the contig and scaffold N50 values of 19 kb and 5 mb respectively. We identified 15,270 protein-coding genes with a mean length of 21.3 kb.' + 'The Adelie penguin (Pygoscelis adeliae) is an iconic penguin of moderate stature and a tuxedo of black and white feathers. The penguins are only found in the Antarctic region and surrounding islands. Being very sensitive to climate change, and due to changes in their behavior based on minor shifts in climate, they are often used as a barometer of the Antarctic. + With its status as one of the adorable and cuddly flightless birds of Antarctica, they serve as an example for conservation, and as a result they are now categorised at low risk for endangerment. The sequence of the penguin can be of use in understanding the genetic underpinnings of its evolutionary traits and adaptation to its extreme environment; its unique system of feathers; its prowess as a diver; and its sensitivity to climate change. We hope that this genome data will further our understanding of one of the most remarkable creatures to waddle the planet Earth. + We sequenced the genome of an adult male from Inexpressible Island, Ross Sea, Antartica (provided by David Lambert) to a depth of approximately 60X with short reads from a series of libraries with various insert sizes (200bp- 20kb). The assembled scaffolds of high quality sequences total 1.23 Gb, with the contig and scaffold N50 values of 19 kb and 5 mb respectively. We identified 15,270 protein-coding genes with a mean length of 21.3 kb.' │ │ http://gigadb.dev/dataset/100002 │ └─ @AfterStep # GigadbWebsiteContext::debugStep() The problem is the description of dataset 100002 is too long and separated in 3 lines, so the metaNode could not find its content.\nSolution 1 Replace the dataset with description has no line break.\n@ok Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines) Given I am not logged in to Gigadb web site When I am on \"/dataset/100004\" Then there is a \"name\" meta tag \"title\" with value \"GigaDB Dataset - DOI 10.5524/100004 - Data and software to accompany the paper: Applying compressed sensing to genome-wide association studies.\" And there is a \"name\" meta tag \"description\" with value \"The aim of a genome-wide association study (GWAS) is to isolate DNA markers for variants affecting phenotypes of interest. Linear regression is employed for this purpose, and in recent years a signal-processing paradigm known as compressed sensing (CS) has coalesced around a particular class of regression techniques. CS is not a method in its own right, but rather a body of theory regarding signal recovery when the number of predictor variables (i.e., genotyped markers) exceeds the sample size. The paper shows the applicability of compressed sensing (CS) theory to genome-wide association studies (GWAS), where the purpose is to ﬁnd trait-associated tagging markers (genetic variants). Analysis scripts are contained in the compressed CS file. Mock data and scripts are found in the compressed GD file. The example scripts found in the CS repository require the GD files to be unpacked in a separate folder. Please look at accompanying readme pdfs for both repositories and annotations in the example scripts before using.\" Solution 2 strip the line break, white space, etc using str_replace in DatasetContext.php public function thereShouldBeAMetaTagWithMultiplines($arg1, $arg2, \\Behat\\Gherkin\\Node\\PyStringNode $expectedValue ) { $actualNode = $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003efind('xpath', \"//meta[@$arg1='$arg2']\"); [$expectContent, $actualContent] = str_replace([\"\\r\",\"\\n\",\"\\r\\n\",\"\\t\",\"\\v\",\"\\0\",\" \"], \"\", [$expectedValue-\u003egetRaw(), $actualNode-\u003egetAttribute('content')]); PHPUnit_Framework_Assert::assertEquals($expectContent, $actualContent, 'The content is different!'); } @ok Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines) Given I am not logged in to Gigadb web site When I am on \"/dataset/100004\" Then there should be a \"name\" meta tag \"title\" with value \"GigaDB Dataset - DOI 10.5524/100004 - Data and software to accompany the paper: Applying compressed sensing to genome-wide association studies.\" And there should be a \"name\" meta tag \"description\" with value \"The aim of a genome-wide association study (GWAS) is to isolate DNA markers for variants affecting phenotypes of interest. Linear regression is employed for this purpose, and in recent years a signal-processing paradigm known as compressed sensing (CS) has coalesced around a particular class of regression techniques. CS is not a method in its own right, but rather a body of theory regarding signal recovery when the number of predictor variables (i.e., genotyped markers) exceeds the sample size. The paper shows the applicability of compressed sensing (CS) theory to genome-wide association studies (GWAS), where the purpose is to ﬁnd trait-associated tagging markers (genetic variants). Analysis scripts are contained in the compressed CS file. Mock data and scripts are found in the compressed GD file. The example scripts found in the CS repository require the GD files to be unpacked in a separate folder. Please look at accompanying readme pdfs for both repositories and annotations in the example scripts before using.\" Reference behat-seo-contexts behat-common The Essential Meta Tags for Social Media Open Graph Protocol What You Need to Know About Open Graph Meta Tags for Total Facebook and Twitter Mastery Case 2 TBC ",
-  "wordCount" : "1709",
-  "inLanguage": "en",
-  "datePublished": "2021-01-08T10:30:26+08:00",
-  "dateModified": "2021-01-08T10:30:26+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Ken Cho"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://gigathing.pages.dev/pass-behat-tests-example/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "kencho51",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gigathing.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -141,7 +73,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://gigathing.pages.dev/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -167,22 +99,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://gigathing.pages.dev/page/about/" title="About">
+                <a href="http://localhost:1313/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/post" title="Tech">
+                <a href="http://localhost:1313/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://gigathing.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -193,7 +125,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gigathing.pages.dev/">Home</a>&nbsp;»&nbsp;<a href="https://gigathing.pages.dev/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Pass Behat Tests Example
     </h1>
@@ -326,16 +258,16 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://gigathing.pages.dev/tags/behat/">Behat</a></li>
-      <li><a href="https://gigathing.pages.dev/tags/tdd/">TDD</a></li>
+      <li><a href="http://localhost:1313/tags/behat/">Behat</a></li>
+      <li><a href="http://localhost:1313/tags/tdd/">TDD</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://gigathing.pages.dev/add-delete-button/">
+  <a class="prev" href="http://localhost:1313/add-delete-button/">
     <span class="title">« Prev</span>
     <br>
     <span>Add Delete Button for file attribute page</span>
   </a>
-  <a class="next" href="https://gigathing.pages.dev/docker-compose-dependency/">
+  <a class="next" href="http://localhost:1313/docker-compose-dependency/">
     <span class="title">Next »</span>
     <br>
     <span>To resolve XDebug dependency problem</span>

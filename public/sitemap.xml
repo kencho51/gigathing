@@ -2,655 +2,655 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gigathing.pages.dev/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/cloud/</loc>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howrcloneworks/</loc>
+    <loc>http://localhost:1313/howrcloneworks/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/rclone/</loc>
+    <loc>http://localhost:1313/tags/rclone/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/wasabi/</loc>
+    <loc>http://localhost:1313/tags/wasabi/</loc>
     <lastmod>2022-09-21T09:45:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howyiimigrationscriptworks/</loc>
+    <loc>http://localhost:1313/howyiimigrationscriptworks/</loc>
     <lastmod>2022-08-17T15:21:34+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/ansible/</loc>
+    <loc>http://localhost:1313/tags/ansible/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/api/</loc>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/clean-code/</loc>
+    <loc>http://localhost:1313/tags/clean-code/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/</loc>
+    <loc>http://localhost:1313/jobs/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/24-5-22/</loc>
+    <loc>http://localhost:1313/jobs/24-5-22/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/terraform/</loc>
+    <loc>http://localhost:1313/tags/terraform/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/udemy/</loc>
+    <loc>http://localhost:1313/tags/udemy/</loc>
     <lastmod>2022-05-24T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/19-4-22/</loc>
+    <loc>http://localhost:1313/jobs/19-4-22/</loc>
     <lastmod>2022-04-19T09:39:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/design-pattern/</loc>
+    <loc>http://localhost:1313/tags/design-pattern/</loc>
     <lastmod>2022-04-06T11:40:01+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/6-4-22/</loc>
+    <loc>http://localhost:1313/jobs/6-4-22/</loc>
     <lastmod>2022-04-06T11:40:01+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/17-2-22/</loc>
+    <loc>http://localhost:1313/jobs/17-2-22/</loc>
     <lastmod>2022-02-17T09:46:07+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/17-1-22/</loc>
+    <loc>http://localhost:1313/jobs/17-1-22/</loc>
     <lastmod>2022-01-17T09:55:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/devops/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
     <lastmod>2021-11-15T13:58:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/15-11-21/</loc>
+    <loc>http://localhost:1313/jobs/15-11-21/</loc>
     <lastmod>2021-11-15T13:58:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2021-11-15T13:45:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howtobuildportainerinproduction/</loc>
+    <loc>http://localhost:1313/howtobuildportainerinproduction/</loc>
     <lastmod>2021-11-15T13:45:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/nginx/</loc>
+    <loc>http://localhost:1313/tags/nginx/</loc>
     <lastmod>2021-11-15T13:45:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/portainer/</loc>
+    <loc>http://localhost:1313/tags/portainer/</loc>
     <lastmod>2021-11-15T13:45:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/reverse-proxy/</loc>
+    <loc>http://localhost:1313/tags/reverse-proxy/</loc>
     <lastmod>2021-11-15T13:45:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howtoaddportainer/</loc>
+    <loc>http://localhost:1313/howtoaddportainer/</loc>
     <lastmod>2021-10-21T15:56:18+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/18-10-21/</loc>
+    <loc>http://localhost:1313/jobs/18-10-21/</loc>
     <lastmod>2021-10-21T15:38:46+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/27-9-21/</loc>
+    <loc>http://localhost:1313/jobs/27-9-21/</loc>
     <lastmod>2021-09-27T13:38:11+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/20-9-21/</loc>
+    <loc>http://localhost:1313/jobs/20-9-21/</loc>
     <lastmod>2021-09-20T12:04:31+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/13-9-21/</loc>
+    <loc>http://localhost:1313/jobs/13-9-21/</loc>
     <lastmod>2021-09-13T12:16:13+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/6-9-21/</loc>
+    <loc>http://localhost:1313/jobs/6-9-21/</loc>
     <lastmod>2021-09-06T11:39:44+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/23-8-21/</loc>
+    <loc>http://localhost:1313/jobs/23-8-21/</loc>
     <lastmod>2021-08-23T13:45:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/9-8-21/</loc>
+    <loc>http://localhost:1313/jobs/9-8-21/</loc>
     <lastmod>2021-08-09T11:42:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/19-7-21/</loc>
+    <loc>http://localhost:1313/jobs/19-7-21/</loc>
     <lastmod>2021-07-19T10:51:51+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/12-7-21/</loc>
+    <loc>http://localhost:1313/jobs/12-7-21/</loc>
     <lastmod>2021-07-12T14:39:15+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/5-7-21/</loc>
+    <loc>http://localhost:1313/jobs/5-7-21/</loc>
     <lastmod>2021-07-05T11:59:30+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/28-6-21/</loc>
+    <loc>http://localhost:1313/jobs/28-6-21/</loc>
     <lastmod>2021-06-28T14:55:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/21-6-21/</loc>
+    <loc>http://localhost:1313/jobs/21-6-21/</loc>
     <lastmod>2021-06-21T10:03:41+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/15-6-21/</loc>
+    <loc>http://localhost:1313/jobs/15-6-21/</loc>
     <lastmod>2021-06-15T14:43:11+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/7-6-21/</loc>
+    <loc>http://localhost:1313/jobs/7-6-21/</loc>
     <lastmod>2021-06-07T16:52:36+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/31-5-32/</loc>
+    <loc>http://localhost:1313/jobs/31-5-32/</loc>
     <lastmod>2021-05-31T13:58:34+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/24-5-21/</loc>
+    <loc>http://localhost:1313/jobs/24-5-21/</loc>
     <lastmod>2021-05-24T15:37:24+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/bootstrap/</loc>
+    <loc>http://localhost:1313/tags/bootstrap/</loc>
     <lastmod>2021-05-21T12:20:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/how-to-make-dropdown-button/</loc>
+    <loc>http://localhost:1313/how-to-make-dropdown-button/</loc>
     <lastmod>2021-05-21T12:20:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2021-05-21T12:20:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/fuw/</loc>
+    <loc>http://localhost:1313/tags/fuw/</loc>
     <lastmod>2021-05-20T11:45:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/how-to-review-fuw-cicd/</loc>
+    <loc>http://localhost:1313/how-to-review-fuw-cicd/</loc>
     <lastmod>2021-05-20T11:45:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/17-5-21/</loc>
+    <loc>http://localhost:1313/jobs/17-5-21/</loc>
     <lastmod>2021-05-17T10:57:35+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/10-5-21/</loc>
+    <loc>http://localhost:1313/jobs/10-5-21/</loc>
     <lastmod>2021-05-10T12:42:37+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2021-05-05T11:16:25+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2021-05-05T11:16:25+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/red-hat/</loc>
+    <loc>http://localhost:1313/tags/red-hat/</loc>
     <lastmod>2021-05-05T11:16:25+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/red-hat-linux/</loc>
+    <loc>http://localhost:1313/projects/red-hat-linux/</loc>
     <lastmod>2021-05-05T11:16:25+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/3-5-21/</loc>
+    <loc>http://localhost:1313/jobs/3-5-21/</loc>
     <lastmod>2021-05-03T11:37:54+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/26-4-21/</loc>
+    <loc>http://localhost:1313/jobs/26-4-21/</loc>
     <lastmod>2021-04-26T12:15:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/19-4-21/</loc>
+    <loc>http://localhost:1313/jobs/19-4-21/</loc>
     <lastmod>2021-04-19T10:53:04+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/12-4-21/</loc>
+    <loc>http://localhost:1313/jobs/12-4-21/</loc>
     <lastmod>2021-04-12T10:17:38+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/29-3-21/</loc>
+    <loc>http://localhost:1313/jobs/29-3-21/</loc>
     <lastmod>2021-03-29T10:32:20+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/22-3-21/</loc>
+    <loc>http://localhost:1313/jobs/22-3-21/</loc>
     <lastmod>2021-03-22T14:32:16+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/15-3-21/</loc>
+    <loc>http://localhost:1313/jobs/15-3-21/</loc>
     <lastmod>2021-03-15T11:34:19+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/chrome/</loc>
+    <loc>http://localhost:1313/tags/chrome/</loc>
     <lastmod>2021-03-11T15:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2021-03-11T15:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/safari/</loc>
+    <loc>http://localhost:1313/tags/safari/</loc>
     <lastmod>2021-03-11T15:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/css-works-in-chrome-but-not-safari/</loc>
+    <loc>http://localhost:1313/css-works-in-chrome-but-not-safari/</loc>
     <lastmod>2021-03-11T15:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/8-3-21/</loc>
+    <loc>http://localhost:1313/jobs/8-3-21/</loc>
     <lastmod>2021-03-08T11:41:25+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/1-3-21/</loc>
+    <loc>http://localhost:1313/jobs/1-3-21/</loc>
     <lastmod>2021-03-01T11:22:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/add-delete-button/</loc>
+    <loc>http://localhost:1313/add-delete-button/</loc>
     <lastmod>2021-02-22T12:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/csv-migration/</loc>
+    <loc>http://localhost:1313/tags/csv-migration/</loc>
     <lastmod>2021-02-22T12:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/factory-method/</loc>
+    <loc>http://localhost:1313/tags/factory-method/</loc>
     <lastmod>2021-02-22T12:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/22-2-21/</loc>
+    <loc>http://localhost:1313/jobs/22-2-21/</loc>
     <lastmod>2021-02-22T10:49:16+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/18-2-21/</loc>
+    <loc>http://localhost:1313/jobs/18-2-21/</loc>
     <lastmod>2021-02-22T10:42:06+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/8-2-21/</loc>
+    <loc>http://localhost:1313/jobs/8-2-21/</loc>
     <lastmod>2021-02-08T11:09:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/1-2-21/</loc>
+    <loc>http://localhost:1313/jobs/1-2-21/</loc>
     <lastmod>2021-02-01T12:34:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/25-1-21/</loc>
+    <loc>http://localhost:1313/jobs/25-1-21/</loc>
     <lastmod>2021-01-25T11:56:35+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/18-1-21/</loc>
+    <loc>http://localhost:1313/jobs/18-1-21/</loc>
     <lastmod>2021-01-18T11:40:34+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/11-1-21/</loc>
+    <loc>http://localhost:1313/jobs/11-1-21/</loc>
     <lastmod>2021-01-11T11:23:05+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/behat/</loc>
+    <loc>http://localhost:1313/tags/behat/</loc>
     <lastmod>2021-01-08T10:30:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/pass-behat-tests-example/</loc>
+    <loc>http://localhost:1313/pass-behat-tests-example/</loc>
     <lastmod>2021-01-08T10:30:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/tdd/</loc>
+    <loc>http://localhost:1313/tags/tdd/</loc>
     <lastmod>2021-01-08T10:30:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/docker-compose/</loc>
+    <loc>http://localhost:1313/tags/docker-compose/</loc>
     <lastmod>2021-01-07T15:04:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/docker-compose-dependency/</loc>
+    <loc>http://localhost:1313/docker-compose-dependency/</loc>
     <lastmod>2021-01-07T15:04:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/4-1-21/</loc>
+    <loc>http://localhost:1313/jobs/4-1-21/</loc>
     <lastmod>2021-01-04T13:07:20+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/28-12-20/</loc>
+    <loc>http://localhost:1313/jobs/28-12-20/</loc>
     <lastmod>2020-12-28T12:56:10+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/21-12-20/</loc>
+    <loc>http://localhost:1313/jobs/21-12-20/</loc>
     <lastmod>2020-12-21T12:03:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/14-12-20/</loc>
+    <loc>http://localhost:1313/jobs/14-12-20/</loc>
     <lastmod>2020-12-14T11:43:31+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/7-12-20/</loc>
+    <loc>http://localhost:1313/jobs/7-12-20/</loc>
     <lastmod>2020-12-07T10:01:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/30-11-20/</loc>
+    <loc>http://localhost:1313/jobs/30-11-20/</loc>
     <lastmod>2020-11-30T13:35:35+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/23-11-20/</loc>
+    <loc>http://localhost:1313/jobs/23-11-20/</loc>
     <lastmod>2020-11-23T11:10:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/16-11-20/</loc>
+    <loc>http://localhost:1313/jobs/16-11-20/</loc>
     <lastmod>2020-11-16T12:33:34+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/yii2/</loc>
+    <loc>http://localhost:1313/tags/yii2/</loc>
     <lastmod>2020-11-16T12:33:34+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/9-11-20/</loc>
+    <loc>http://localhost:1313/jobs/9-11-20/</loc>
     <lastmod>2020-11-09T11:06:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/2-11-20/</loc>
+    <loc>http://localhost:1313/jobs/2-11-20/</loc>
     <lastmod>2020-11-02T10:24:07+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/favicon/</loc>
+    <loc>http://localhost:1313/tags/favicon/</loc>
     <lastmod>2020-10-27T10:55:02+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/howtoaddfavicon/</loc>
+    <loc>http://localhost:1313/projects/howtoaddfavicon/</loc>
     <lastmod>2020-10-27T10:55:02+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/27-10-20/</loc>
+    <loc>http://localhost:1313/jobs/27-10-20/</loc>
     <lastmod>2020-10-27T10:12:41+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/19-10-20/</loc>
+    <loc>http://localhost:1313/jobs/19-10-20/</loc>
     <lastmod>2020-10-19T10:11:49+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/12-10-20/</loc>
+    <loc>http://localhost:1313/jobs/12-10-20/</loc>
     <lastmod>2020-10-12T10:02:06+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/cs/</loc>
+    <loc>http://localhost:1313/tags/cs/</loc>
     <lastmod>2020-10-05T12:48:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/freecodecamp/</loc>
+    <loc>http://localhost:1313/tags/freecodecamp/</loc>
     <lastmod>2020-10-05T12:48:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/oop/</loc>
+    <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2020-10-05T12:48:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/oopbasics/</loc>
+    <loc>http://localhost:1313/oopbasics/</loc>
     <lastmod>2020-10-05T12:48:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/5-10-20/</loc>
+    <loc>http://localhost:1313/jobs/5-10-20/</loc>
     <lastmod>2020-10-05T11:25:29+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/28-9-20/</loc>
+    <loc>http://localhost:1313/jobs/28-9-20/</loc>
     <lastmod>2020-09-28T11:21:36+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/%23457/</loc>
+    <loc>http://localhost:1313/tags/%23457/</loc>
     <lastmod>2020-09-23T14:01:01+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howtodeletebtn/</loc>
+    <loc>http://localhost:1313/howtodeletebtn/</loc>
     <lastmod>2020-09-23T14:01:01+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/yii/</loc>
+    <loc>http://localhost:1313/tags/yii/</loc>
     <lastmod>2020-09-23T14:01:01+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/21-9-20/</loc>
+    <loc>http://localhost:1313/jobs/21-9-20/</loc>
     <lastmod>2020-09-21T10:01:48+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/14-9-20/</loc>
+    <loc>http://localhost:1313/jobs/14-9-20/</loc>
     <lastmod>2020-09-14T09:26:59+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/7-9-20/</loc>
+    <loc>http://localhost:1313/jobs/7-9-20/</loc>
     <lastmod>2020-09-06T14:40:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/31-8-20/</loc>
+    <loc>http://localhost:1313/jobs/31-8-20/</loc>
     <lastmod>2020-08-31T09:50:22+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/24-8-20/</loc>
+    <loc>http://localhost:1313/jobs/24-8-20/</loc>
     <lastmod>2020-08-24T10:39:13+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/yii-pagination/</loc>
+    <loc>http://localhost:1313/tags/yii-pagination/</loc>
     <lastmod>2020-08-24T10:39:13+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/whatisapi/</loc>
+    <loc>http://localhost:1313/whatisapi/</loc>
     <lastmod>2020-08-20T13:38:28+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/%23437/</loc>
+    <loc>http://localhost:1313/tags/%23437/</loc>
     <lastmod>2020-08-18T12:15:31+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/howtogotopagebtn/</loc>
+    <loc>http://localhost:1313/howtogotopagebtn/</loc>
     <lastmod>2020-08-18T12:15:31+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/17-8-20/</loc>
+    <loc>http://localhost:1313/jobs/17-8-20/</loc>
     <lastmod>2020-08-17T09:43:24+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/10-8-20/</loc>
+    <loc>http://localhost:1313/jobs/10-8-20/</loc>
     <lastmod>2020-08-10T14:52:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/pagination/</loc>
+    <loc>http://localhost:1313/tags/pagination/</loc>
     <lastmod>2020-08-10T14:52:42+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/bdd/</loc>
+    <loc>http://localhost:1313/tags/bdd/</loc>
     <lastmod>2020-08-03T10:10:53+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/3-8-20/</loc>
+    <loc>http://localhost:1313/jobs/3-8-20/</loc>
     <lastmod>2020-08-03T10:10:53+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/collegealgebra/</loc>
+    <loc>http://localhost:1313/projects/collegealgebra/</loc>
     <lastmod>2020-07-28T10:28:26+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/27-7-20/</loc>
+    <loc>http://localhost:1313/jobs/27-7-20/</loc>
     <lastmod>2020-07-27T10:28:07+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/commandsusetorungigadb/</loc>
+    <loc>http://localhost:1313/commandsusetorungigadb/</loc>
     <lastmod>2020-07-24T16:03:12+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/gigadb/</loc>
+    <loc>http://localhost:1313/tags/gigadb/</loc>
     <lastmod>2020-07-24T16:03:12+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/psql/</loc>
+    <loc>http://localhost:1313/tags/psql/</loc>
     <lastmod>2020-07-24T16:03:12+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/go/</loc>
+    <loc>http://localhost:1313/tags/go/</loc>
     <lastmod>2020-07-23T14:41:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/howtoimplementtravisci/</loc>
+    <loc>http://localhost:1313/projects/howtoimplementtravisci/</loc>
     <lastmod>2020-07-23T14:41:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/token/</loc>
+    <loc>http://localhost:1313/tags/token/</loc>
     <lastmod>2020-07-23T14:41:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/travis-ci/</loc>
+    <loc>http://localhost:1313/tags/travis-ci/</loc>
     <lastmod>2020-07-23T14:41:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/bcc2020/</loc>
+    <loc>http://localhost:1313/tags/bcc2020/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/bionitio/</loc>
+    <loc>http://localhost:1313/tags/bionitio/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/galaxy/</loc>
+    <loc>http://localhost:1313/tags/galaxy/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/jbrowse-2/</loc>
+    <loc>http://localhost:1313/tags/jbrowse-2/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/nanopore/</loc>
+    <loc>http://localhost:1313/tags/nanopore/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/readuntil/</loc>
+    <loc>http://localhost:1313/tags/readuntil/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/whatsinterestinginbcc2020/</loc>
+    <loc>http://localhost:1313/whatsinterestinginbcc2020/</loc>
     <lastmod>2020-07-22T10:14:52+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/20-7-20/</loc>
+    <loc>http://localhost:1313/jobs/20-7-20/</loc>
     <lastmod>2020-07-20T12:09:20+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/bdd/</loc>
+    <loc>http://localhost:1313/bdd/</loc>
     <lastmod>2020-07-15T10:58:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/php/</loc>
+    <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2020-07-15T10:58:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/functional-test/</loc>
+    <loc>http://localhost:1313/tags/functional-test/</loc>
     <lastmod>2020-07-13T10:23:57+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/13-7-20/</loc>
+    <loc>http://localhost:1313/jobs/13-7-20/</loc>
     <lastmod>2020-07-13T10:23:57+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/unit-test/</loc>
+    <loc>http://localhost:1313/tags/unit-test/</loc>
     <lastmod>2020-07-13T10:23:57+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/phpcodesniffer/</loc>
+    <loc>http://localhost:1313/phpcodesniffer/</loc>
     <lastmod>2020-07-07T14:28:56+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/php_codesniffer/</loc>
+    <loc>http://localhost:1313/tags/php_codesniffer/</loc>
     <lastmod>2020-07-07T14:28:56+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/awscloud2020/</loc>
+    <loc>http://localhost:1313/projects/awscloud2020/</loc>
     <lastmod>2020-07-06T17:04:35+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/cloud-practitioner/</loc>
+    <loc>http://localhost:1313/tags/cloud-practitioner/</loc>
     <lastmod>2020-07-06T17:04:35+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/6-7-20/</loc>
+    <loc>http://localhost:1313/jobs/6-7-20/</loc>
     <lastmod>2020-07-06T10:38:55+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/date/</loc>
+    <loc>http://localhost:1313/tags/date/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/phpdatetimes/</loc>
+    <loc>http://localhost:1313/phpdatetimes/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/time/</loc>
+    <loc>http://localhost:1313/tags/time/</loc>
     <lastmod>2020-07-03T12:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/codeception/</loc>
+    <loc>http://localhost:1313/tags/codeception/</loc>
     <lastmod>2020-06-29T09:55:10+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/functional/</loc>
+    <loc>http://localhost:1313/tags/functional/</loc>
     <lastmod>2020-06-29T09:55:10+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/29-6-20/</loc>
+    <loc>http://localhost:1313/jobs/29-6-20/</loc>
     <lastmod>2020-06-29T09:55:10+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/unit/</loc>
+    <loc>http://localhost:1313/tags/unit/</loc>
     <lastmod>2020-06-29T09:55:10+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/whatiscodeception/</loc>
+    <loc>http://localhost:1313/whatiscodeception/</loc>
     <lastmod>2020-06-23T13:41:41+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/22-6-20/</loc>
+    <loc>http://localhost:1313/jobs/22-6-20/</loc>
     <lastmod>2020-06-22T09:28:30+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/phpstandards/</loc>
+    <loc>http://localhost:1313/phpstandards/</loc>
     <lastmod>2020-06-17T11:35:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/psr-1/</loc>
+    <loc>http://localhost:1313/tags/psr-1/</loc>
     <lastmod>2020-06-17T11:35:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/psr-2/</loc>
+    <loc>http://localhost:1313/tags/psr-2/</loc>
     <lastmod>2020-06-17T11:35:32+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/whatisphpunittest/</loc>
+    <loc>http://localhost:1313/whatisphpunittest/</loc>
     <lastmod>2020-06-16T09:54:47+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/howtoaddutterances/</loc>
+    <loc>http://localhost:1313/projects/howtoaddutterances/</loc>
     <lastmod>2020-06-15T11:25:56+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2020-06-15T11:25:56+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/uterances/</loc>
+    <loc>http://localhost:1313/tags/uterances/</loc>
     <lastmod>2020-06-15T11:25:56+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/15-6-20/</loc>
+    <loc>http://localhost:1313/jobs/15-6-20/</loc>
     <lastmod>2020-06-15T09:56:41+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/docker101/</loc>
+    <loc>http://localhost:1313/docker101/</loc>
     <lastmod>2020-06-11T17:27:08+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tdd/</loc>
+    <loc>http://localhost:1313/tdd/</loc>
     <lastmod>2020-06-10T14:28:31+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/database/</loc>
+    <loc>http://localhost:1313/tags/database/</loc>
     <lastmod>2020-06-09T10:25:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/postgresql/</loc>
+    <loc>http://localhost:1313/postgresql/</loc>
     <lastmod>2020-06-09T10:25:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/postgresql/</loc>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
     <lastmod>2020-06-09T10:25:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/sql/</loc>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2020-06-09T10:25:23+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/8-6-20/</loc>
+    <loc>http://localhost:1313/jobs/8-6-20/</loc>
     <lastmod>2020-06-08T09:25:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/utterances/</loc>
+    <loc>http://localhost:1313/tags/utterances/</loc>
     <lastmod>2020-06-08T09:25:14+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/yii1.1/</loc>
+    <loc>http://localhost:1313/tags/yii1.1/</loc>
     <lastmod>2020-06-04T15:05:46+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/yiiforbeginners/</loc>
+    <loc>http://localhost:1313/yiiforbeginners/</loc>
     <lastmod>2020-06-04T15:05:46+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/howtobuildablogusingyii1/</loc>
+    <loc>http://localhost:1313/projects/howtobuildablogusingyii1/</loc>
     <lastmod>2020-06-01T10:10:24+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/sqlite/</loc>
+    <loc>http://localhost:1313/tags/sqlite/</loc>
     <lastmod>2020-06-01T10:10:24+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/yii-1.1/</loc>
+    <loc>http://localhost:1313/tags/yii-1.1/</loc>
     <lastmod>2020-06-01T10:10:24+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/1-6-20/</loc>
+    <loc>http://localhost:1313/jobs/1-6-20/</loc>
     <lastmod>2020-06-01T09:39:04+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/yii1.1/</loc>
+    <loc>http://localhost:1313/yii1.1/</loc>
     <lastmod>2020-05-27T12:50:48+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/composoer/</loc>
+    <loc>http://localhost:1313/tags/composoer/</loc>
     <lastmod>2020-05-26T11:05:40+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/yiiprogress/</loc>
+    <loc>http://localhost:1313/yiiprogress/</loc>
     <lastmod>2020-05-26T11:05:40+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/oop/</loc>
+    <loc>http://localhost:1313/oop/</loc>
     <lastmod>2020-05-26T10:13:43+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/%23436/</loc>
+    <loc>http://localhost:1313/tags/%23436/</loc>
     <lastmod>2020-05-25T11:22:48+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/25-5-20/</loc>
+    <loc>http://localhost:1313/jobs/25-5-20/</loc>
     <lastmod>2020-05-25T11:22:48+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/markdownsyntax/</loc>
+    <loc>http://localhost:1313/markdownsyntax/</loc>
     <lastmod>2020-05-22T11:39:44+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2020-05-22T11:39:44+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/develop/</loc>
+    <loc>http://localhost:1313/tags/develop/</loc>
     <lastmod>2020-05-19T17:48:07+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/phpprogress/</loc>
+    <loc>http://localhost:1313/phpprogress/</loc>
     <lastmod>2020-05-19T17:48:07+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/gigadb-website/</loc>
+    <loc>http://localhost:1313/tags/gigadb-website/</loc>
     <lastmod>2020-05-19T15:55:27+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2020-05-19T15:55:27+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/githubusageexample/</loc>
+    <loc>http://localhost:1313/githubusageexample/</loc>
     <lastmod>2020-05-19T15:55:27+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/18-5-20/</loc>
+    <loc>http://localhost:1313/jobs/18-5-20/</loc>
     <lastmod>2020-05-18T14:00:37+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/url/</loc>
+    <loc>http://localhost:1313/tags/url/</loc>
     <lastmod>2020-05-18T14:00:37+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/deployhugo/</loc>
+    <loc>http://localhost:1313/deployhugo/</loc>
     <lastmod>2020-05-18T12:24:27+08:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/howtomakeahugo/</loc>
+    <loc>http://localhost:1313/projects/howtomakeahugo/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/test/</loc>
+    <loc>http://localhost:1313/test/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/14-05-2020_done/</loc>
+    <loc>http://localhost:1313/14-05-2020_done/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/page/about/</loc>
+    <loc>http://localhost:1313/page/about/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/13-05-2020-log/</loc>
+    <loc>http://localhost:1313/13-05-2020-log/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/projects/my-awesome-project/</loc>
+    <loc>http://localhost:1313/projects/my-awesome-project/</loc>
     <lastmod>2014-11-18T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/reference/creating-a-new-theme/</loc>
+    <loc>http://localhost:1313/reference/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/reference/</loc>
+    <loc>http://localhost:1313/reference/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/reference/goisforlovers/</loc>
+    <loc>http://localhost:1313/reference/goisforlovers/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/development/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/golang/</loc>
+    <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/reference/migrate-from-jekyll/</loc>
+    <loc>http://localhost:1313/reference/migrate-from-jekyll/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/templates/</loc>
+    <loc>http://localhost:1313/tags/templates/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/themes/</loc>
+    <loc>http://localhost:1313/tags/themes/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/reference/hugoisforlovers/</loc>
+    <loc>http://localhost:1313/reference/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/homebrew/</loc>
+    <loc>http://localhost:1313/tags/homebrew/</loc>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/10-5-20/</loc>
+    <loc>http://localhost:1313/jobs/10-5-20/</loc>
   </url><url>
-    <loc>https://gigathing.pages.dev/jobs/4-5-20/</loc>
+    <loc>http://localhost:1313/jobs/4-5-20/</loc>
   </url><url>
-    <loc>https://gigathing.pages.dev/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/vimtutor/</loc>
+    <loc>http://localhost:1313/tags/vimtutor/</loc>
   </url><url>
-    <loc>https://gigathing.pages.dev/tags/zshrc/</loc>
+    <loc>http://localhost:1313/tags/zshrc/</loc>
   </url>
 </urlset>
