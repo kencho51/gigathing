@@ -3,8 +3,6 @@ title: "kencho51"
 theme: "hugo-PaperMod"
 languageCode: "en-us"
 copyright: "kencho51"
-googleAnalytics: "G-LV12W6L6C4"
-# disqusShortname: XXX
 pygmentsUseClasses: true
 pygmentsCodefences: true
 # publishDir: "gigathing"
@@ -17,6 +15,10 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+services:
+  disqus:
+    shortname: "disqus_FHTaFcKzzy"
 
 params:
   # mainSections: ["post"]
@@ -31,13 +33,19 @@ params:
     - name: "Orcid"
       url: "https://orcid.org/0009-0006-9057-8835"
   opengraph: true
-  ShowShareButtons: true
+  # ShowShareButtons: true
   ShowReadingTime: true
   ShowToc: true
   TocOpen: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+  comments: true
+
+  # Analytics configuration
+  analytics:
+    google:
+      id: "G-LV12W6L6C4"
 
   # Search configuration for PaperMod
   fuseOpts:
