@@ -836,13 +836,6 @@
       <description>Things about me.</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/page/contact/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/contact/</guid>
-      <description>How to contact me.</description>
-    </item>
-    <item>
       <title>What I have learned</title>
       <link>http://localhost:1313/13-05-2020-log/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>

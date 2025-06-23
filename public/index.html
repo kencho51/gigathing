@@ -102,18 +102,13 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                <a href="http://localhost:1313/page/about/" title="About">
+                    <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/jobs" title="Jobs">
-                    <span>Jobs</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/post" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/post" title="Tech">
+                    <span>Tech</span>
                 </a>
             </li>
             <li>
@@ -122,23 +117,8 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/page/contact/" title="Contact">
-                    <span>Contact</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/page/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/reference" title="Reference">
-                    <span>Reference</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/reference/hugoisforlovers/" title="Getting Started with Hugo">
-                    <span>Getting Started with Hugo</span>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
         </ul>
@@ -187,221 +167,141 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Sprint 10 plan 20/5-10/6-22
+    <h2 class="entry-hint-parent">How rclone works
     </h2>
   </header>
   <div class="entry-content">
-    <p>Paternity leave from 27/4-3/6!!!!! Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Yii migration script
-FCC PostgreSQL tutorial, YouTube
-FCC Vue tutorial, handbook
-FCC How to Deploy AWS Infrastructure with Terraform and Github Actions – A Multi-Environment CI/CD Guide
-FCC Git for professional tutorial
+    <p>Introduction Data migration is one of the major issues nowadays, it becomes inevitable for most organization trying to scale up their business or look for better data protection. There are many ways and companies providing solutions in this field. rclone is an open source tool that manages files on cloud storage. Here will present some information on how to config rclone and cloud-to-cloud transfer.
+rclone installation Follow steps to install rclone.
+rclone configuration pre-requisites
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-05-24 17:18:59 +0800 HKT'>May 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Sprint 10 plan 20/5-10/6-22" href="http://localhost:1313/jobs/24-5-22/"></a>
+  <footer class="entry-footer"><span title='2022-09-21 09:45:28 +0800 HKT'>September 21, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How rclone works" href="http://localhost:1313/howrcloneworks/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Sprint 9 plan 19/4-10/5-22
+    <h2 class="entry-hint-parent">How Yii migration script works
     </h2>
   </header>
   <div class="entry-content">
-    <p>Paternity leave from 27/4-3/6!!!!! Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Yii migration script
-FCC PostgreSQL tutorial, YouTube
-FCC Vue tutorial, handbook
-FCC How to Deploy AWS Infrastructure with Terraform and Github Actions – A Multi-Environment CI/CD Guide
-FCC Git for professional tutorial
+    <p>Comming soon!
+Reference yii2 migration php yii2 migration yii2 migration doc </p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-17 15:21:34 +0800 HKT'>August 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How Yii migration script works" href="http://localhost:1313/howyiimigrationscriptworks/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to build portainer in production
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>GigaDB Portainer service What is portainer? Portainer is an open-source management UI for Docker, including Docker Swarm environment. Portainer makes it easier for you to manage your Docker containers, it allows you to manage containers, images, networks, and volumes from the web-based Portainer dashboard.
+Pre-requisites The staging server and live server are up and running. Here and here are the details of how to provision and configure an EC2 server using Ansible and Terraform. The Let’s Encrypt certificate fallout has been fixed by getting the latest code from this PR #198. Have Docker Hub account, and store DOCKER_HUB_USERNAME and DOCKER_HUB_PASSWORD which is the access token in gitlab CI/CD variables. Steps to configure the portainer, details can be found at this PR #201 Changes to the DNS record Create an A record for access portainer on staging and on live as following: Record name Type IP portainer.$staging_url A staging server IP portainer.$live_url A live server IP Changes to the gitlab variables Create a new variable as following: Key Value Environment PORTAINER_PASSWORD “Password” All(default) DOCKER_HUB_USERNAME “User name” All(default) DOCKER_HUB_PASSWORD “Access token” All(default) Variable PORTAINER_BCRYPT (if any) could be deleted.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-04-19 09:39:52 +0800 HKT'>April 19, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Sprint 9 plan 19/4-10/5-22" href="http://localhost:1313/jobs/19-4-22/"></a>
+  <footer class="entry-footer"><span title='2021-11-15 13:45:42 +0800 HKT'>November 15, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How to build portainer in production" href="http://localhost:1313/howtobuildportainerinproduction/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 16/3-6/4-22
+    <h2 class="entry-hint-parent">How to add portainer for monitoring dockers
     </h2>
   </header>
   <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Yii migration script
-FCC PostgreSQL tutorial, YouTube
-FCC Vue tutorial, handbook
-FCC How to Deploy AWS Infrastructure with Terraform and Github Actions – A Multi-Environment CI/CD Guide
-Todo - Sprint 8 Goal: Make a beta.gigadb.org website with real data (database and import spreadsheet)
+    <p>Task Make portainer on staging and live deployment accessible with HTTPS on default port #790 Add portainer container service on staging and live deployment #791 PR #201 Steps A. Add portainer service available locally
+Update docker-compose.yml portainer: image: portainer/portainer-ce:latest volumes: - /var/run/docker.sock:/var/run/docker.sock - portainer_data:/data ports: - 9009:9000 - 8008:8000 command: -H unix:///var/run/docker.sock --admin-password $PORTAINER_BCRYPT volumes: le_config: le_webrootpath: portainer_data: Create PORTAINER_PASSWORD in gitlab variables Create start_portainer.sh, if-else block to avoid keep generating PORTAINER_BCRYPT in .env #!/usr/bin/env bash # bail out as soon as there is an error set -eux # Load environment variables source &#34;./.env&#34; source &#34;./.secrets&#34; # docker-compose executable if [[ $GIGADB_ENV != &#34;dev&#34; &amp;&amp; $GIGADB_ENV != &#34;CI&#34; ]];then DOCKER_COMPOSE=&#34;docker-compose --tlsverify -H=$REMOTE_DOCKER_HOST -f ops/deployment/docker-compose.production-envs.yml&#34; else DOCKER_COMPOSE=&#34;docker-compose&#34; fi if ! [ -z &#34;${PORTAINER_BCRYPT&#43;x}&#34; ];then echo &#34;PORTAINER_BCRYPT value has been set in .env already&#34; # start portainer in detached mode and make sure volume are recreated (rather than use potential previous state that my be erroneous) $DOCKER_COMPOSE up --detach --renew-anon-volumes portainer else echo &#34;PORTAINER_BCRYPT value is empty&#34; echo &#34;Generate bcrypt from password&#34; P_BCRYPT=$(docker run --rm httpd:2.4-alpine htpasswd -nbB admin $PORTAINER_PASSWORD | cut -d &#34;:&#34; -f 2 | sed -e &#39;s/\$/\\\$/g&#39;) echo &#34;PORTAINER_BCRYPT=$P_BCRYPT&#34; &gt;&gt; .env # start portainer in detached mode and make sure volume are recreated (rather than use potential previous state that my be erroneous) $DOCKER_COMPOSE up --detach --renew-anon-volumes portainer fi Update up.sh to only start portainer in MacOS # start the container admin UI (not in CI) if [ &#34;$(uname)&#34; == &#34;Darwin&#34; ];then ./ops/scripts/start_portainer.sh fi; Spin up all containers kencho/gigadb-website % ./up.sh Test the http response using curl % curl -I localhost:9009 HTTP/1.1 200 OK Accept-Ranges: bytes Cache-Control: max-age=31536000 Content-Length: 6176 Content-Type: text/html; charset=utf-8 Last-Modified: Sun, 10 Oct 2021 23:45:45 GMT X-Content-Type-Options: nosniff X-Xss-Protection: 1; mode=block Date: Thu, 21 Oct 2021 08:14:01 GMT Go to http://localhost:9009/ and have fun! Reference Heavily adapted form here ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-21 15:56:18 +0800 HKT'>October 21, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How to add portainer for monitoring dockers" href="http://localhost:1313/howtoaddportainer/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Make Dropdown Button
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Task To implement a dropdown box with different citation source, description at [Issue #83](PR #521 PR #521 Steps Create dropdown in bootstrap way &lt;div id=&#34;dataset-block-wrapper&#34;&gt; &lt;div id=&#34;dropdown-div&#34;&gt; &lt;div class=&#34;dropdown-box&#34;&gt; &lt;button id=&#34;CiteDataset&#34; class=&#34;drop-citation-btn dropdown-toggle&#34; type=&#34;button&#34; data-toggle=&#34;dropdown&#34;&gt;Cite Dataset&lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/button&gt; &lt;?php $text = file_get_contents(&#39;https://data.datacite.org/text/x-bibliography/10.5524/&#39; . $model-&gt;identifier); $clean_text = strip_tags(preg_replace(&#34;/&amp;#?[a-z0-9]&#43;;/i&#34;, &#34;&#34;, $text)); ?&gt; &lt;script&gt; function showText() { var textWindow = window.open(); textWindow.document.write(`&lt;?php echo $clean_text; ?&gt;`); } &lt;/script&gt; &lt;ul class=&#34;dropdown-menu&#34; aria-labelledby=&#34;CiteDataset&#34;&gt; &lt;li&gt;&lt;a id=&#34;Text&#34; onclick=&#34;showText()&#34; target=&#34;_blank&#34;&gt;Text&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeRis&#34; href=&#39;https://data.datacite.org/application/x-research-info-systems/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;RIS&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeBibTeX&#34; href=&#39;https://data.datacite.org/application/x-bibtex/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;BibTeX&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; Create dropdown in javascript way &lt;div id=&#34;dropdown-div&#34;&gt; &lt;div&gt; &lt;a id=&#34;CiteDataset&#34; onclick=&#34;showCitation()&#34; class=&#34;drop-citation-btn&#34; &gt;Cite Dataset&lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/a&gt; &lt;div id=&#34;citationDropdown&#34; class=&#34;citation-content&#34;&gt; &lt;?php $text = file_get_contents(&#39;https://data.datacite.org/text/x-bibliography/10.5524/&#39; . $model-&gt;identifier); $clean_text = strip_tags(preg_replace(&#34;/&amp;#?[a-z0-9]&#43;;/i&#34;, &#34;&#34;, $text)); textWindow.document.write(`&lt;?php echo $clean_text; ?&gt;`); &lt;/script&gt; &lt;ul&gt; &lt;li&gt;&lt;a id=&#34;Text&#34; onclick=&#34;showText()&#34; target=&#34;_blank&#34;&gt;Text&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeRis&#34; href=&#39;https://data.datacite.org/application/x-research-info-systems/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;RIS&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeBibTeX&#34; href=&#39;https://data.datacite.org/application/x-bibtex/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;BibTeX&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;script&gt; /* When the user clicks on the button, toggle between hiding and showing the dropdown content */ function showCitation() { document.getElementById(&#34;citationDropdown&#34;).classList.toggle(&#34;show&#34;); } // Close the dropdown if the user clicks outside of it window.onclick = function(event) { if (!event.target.matches(&#39;.drop-citation-btn&#39;)) { var dropdowns = document.getElementsByClassName(&#34;citation-content&#34;); var i; for (i = 0; i &lt; dropdowns.length; i&#43;&#43;) { var openDropdown = dropdowns[i]; if (openDropdown.classList.contains(&#39;show&#39;)) { openDropdown.classList.remove(&#39;show&#39;); } } } } //Write the clean text to a new window function showText() { var text = `&lt;?php echo $clean_text; ?&gt;` console.log(text); var textWindow = window.open(); textWindow.document.write(text); } &lt;/script&gt; Thoughts Since html comes with bootstrap with default dropdown features, it is better use it, as it is cleaner and less code. But good to know how to implement dropdown in javascript Pass the acceptance test /** * @Then I go to new tab and should see :arg1 */ public function iGoToNewTabAndShouldSee($arg1) { $session = $this-&gt;minkContext-&gt;getSession(); $numberOfTab = $session-&gt;getWindowNames(); if (sizeof($numberOfTab) &lt; 2) { print (&#34;Expected to see at least 2 windows opened.&#34;); exit; } $session-&gt;switchToWindow($numberOfTab[1]); PHPUnit_Framework_Assert::assertTrue($session-&gt;getPage()-&gt;hasContent($arg1)); } /** * @When I click :arg1 * To trigger onclick event */ public function iClick($arg1) { $element = $this-&gt;minkContext-&gt;getSession()-&gt;getPage()-&gt;find(&#39;css&#39;, &#34;a[id=&#39;$arg1&#39;]&#34; ); $element-&gt;click(); } @ok @javascript @citation-box Scenario: To see the citation box and and the citation source Given I am not logged in to Gigadb web site And I am on &#34;/dataset/101001&#34; When I press &#34;Cite Dataset&#34; Then I should see &#34;Text&#34; And I should see &#34;RIS&#34; And I should see &#34;BibTeX&#34; @ok @javascript @citation-box Scenario: To show the citation text from CrossCite after clicking the Formatted Text button in the citation box Given I am not logged in to Gigadb web site And I am on &#34;/dataset/101001&#34; And I press &#34;Cite Dataset&#34; When I click &#34;Text&#34; Then I go to new tab and should see &#34;Huang, Y., Li, Y., Burt, D. W., Chen, H., Zhang, Y., Qian, W., Kim, H., Gan, S., Zhao, Y., Li, J., Yi, K., Feng, H., Zhu, P., Li, B., Liu, Q., Fairley, S., Magor, K. E., Du, Z., Hu, X., … Li, N. (2013). Genome sequence of the duck (Anas platyrhynchos) [Data set]. GigaScience Database. https://doi.org/10.5524/101001&#34; @ok @javascript @citation-box Scenario: To get RIS file after clicking the RIS in the citation box Given I am not logged in to Gigadb web site And I am on &#34;/dataset/101001&#34; And I press &#34;Cite Dataset&#34; When I click on the &#34;RIS&#34; button Then the response should contain &#34;101001&#34; # 200: the request completed successfully And the response should contain &#34;200&#34; @ok @javascript @citation-box Scenario: To get BibTeX file after clicking the BibTeX in the citation box Given I am not logged in to Gigadb web site And I am on &#34;/dataset/101001&#34; And I press &#34;Cite Dataset&#34; When I click on the &#34;BibTeX&#34; button Then the response should contain &#34;101001&#34; # 200: the request completed successfully And the response should contain &#34;200&#34; Reference What is Tabnabbing? How to solve it? here ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-21 12:20:14 +0800 HKT'>May 21, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How to Make Dropdown Button" href="http://localhost:1313/how-to-make-dropdown-button/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Review Fuw Cicd
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>PR546 details at here, gist Suggestion from Rija, google doc here’s a suggestion on how to review and merge
+Me: Rebase the latest change (the “Use CSV file to provide data for test” PR I saw you’ve just merged Peter)
+You: get the branch deployed and working (all tests passing and deployed to AWS)
+You: make a list of areas of the codebase that you think was changed or added
+Me: I’ll add additional/orthogonal areas to the list I think are missing/worth talking about if any
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-04-06 11:40:01 +0800 HKT'>April 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 16/3-6/4-22" href="http://localhost:1313/jobs/6-4-22/"></a>
+  <footer class="entry-footer"><span title='2021-05-20 11:45:59 +0800 HKT'>May 20, 2021</span>&nbsp;·&nbsp;26 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to How to Review Fuw Cicd" href="http://localhost:1313/how-to-review-fuw-cicd/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 14/2-7/3/22
+    <h2 class="entry-hint-parent">Why CSS works in Chrome but not Safari?
     </h2>
   </header>
   <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Yii migration script
-Todo - Sprint 7 Sprint 7 goal: Enable GigaDB to display dataset and project images, and allow admin users to update dataset images.
-Done - Sprint Todo - Github Done - Github Sprint backlog
+    <p>Observation for PR #521 Safari Chrome After manual add in styles in Safari browser Problem The dropdown button, dropdown box and dropdown list were not wrapped inside a &lt;div&gt;&lt;/div&gt; &lt;div class=&#34;color-background color-background-block dataset-color-background-block&#34;&gt; &lt;p&gt;&lt;?= $mainSection-&gt;getReleaseDetails()[&#39;authors&#39;] ?&gt; (&lt;?=$mainSection-&gt;getReleaseDetails()[&#39;release_year&#39;]?&gt;): &lt;?= $mainSection-&gt;getReleaseDetails()[&#39;dataset_title&#39;].&#39; &#39;.($mainSection-&gt;getReleaseDetails()[&#39;publisher&#39;] ?? &#39;&lt;span class=&#34;label label-danger&#34;&gt;NO PUBLISHER SET&lt;/span&gt;&#39;).&#39;. &#39;; ?&gt;&lt;a href=&#34;https://doi.org/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#34;&gt;https://doi.org/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a class=&#34;doi-badge&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;badge&#34;&gt;DOI&lt;/span&gt;&lt;span class=&#34;badge&#34;&gt;10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&lt;/span&gt;&lt;/a&gt;&lt;button onclick=&#34;showCitation()&#34; class=&#34;drop-citation-btn&#34; &gt;Cite Dataset&lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt; &lt;div id=&#34;citationDropdown&#34; class=&#34;citation-content&#34;&gt; &lt;a id=&#34;citeText&#34; href=&#39;http://data.datacite.org/text/x-bibliography/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_blank&#34;&gt;Text&lt;/a&gt; &lt;a id=&#34;citeRis&#34; href=&#39;http://data.datacite.org/application/x-research-info-systems/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;RIS&lt;/a&gt; &lt;a id=&#34;citeBibTeX&#34; href=&#39;http://data.datacite.org/application/x-bibtex/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;BibTeX&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; Solution Wrap all dropdown stuff inside dataset-block-wrapper &lt;div class=&#34;color-background color-background-block dataset-color-background-block&#34;&gt; &lt;p&gt;&lt;?= $mainSection-&gt;getReleaseDetails()[&#39;authors&#39;] ?&gt; (&lt;?=$mainSection-&gt;getReleaseDetails()[&#39;release_year&#39;]?&gt;): &lt;?= $mainSection-&gt;getReleaseDetails()[&#39;dataset_title&#39;].&#39; &#39;.($mainSection-&gt;getReleaseDetails()[&#39;publisher&#39;] ?? &#39;&lt;span class=&#34;label label-danger&#34;&gt;NO PUBLISHER SET&lt;/span&gt;&#39;).&#39;. &#39;; ?&gt;&lt;a href=&#34;https://doi.org/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#34;&gt;https://doi.org/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&lt;/a&gt;&lt;/p&gt; &lt;div id=&#34;dataset-block-wrapper&#34;&gt; &lt;div id=&#34;dropdown-div&#34;&gt; &lt;div class=&#34;dropdown-box&#34;&gt; &lt;button id=&#34;CiteDataset&#34; class=&#34;drop-citation-btn dropdown-toggle&#34; type=&#34;button&#34; data-toggle=&#34;dropdown&#34;&gt;Cite Dataset&lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/button&gt; &lt;?php $text = file_get_contents(&#39;https://data.datacite.org/text/x-bibliography/10.5524/&#39; . $model-&gt;identifier); $clean_text = strip_tags(preg_replace(&#34;/&amp;#?[a-z0-9]&#43;;/i&#34;, &#34;&#34;, $text)); ?&gt; &lt;script&gt; function showText() { var textWindow = window.open(); textWindow.document.write(`&lt;?php echo $clean_text; ?&gt;`); } &lt;/script&gt; &lt;ul class=&#34;dropdown-menu&#34; aria-labelledby=&#34;CiteDataset&#34;&gt; &lt;li&gt;&lt;a id=&#34;Text&#34; onclick=&#34;showText()&#34; target=&#34;_blank&#34;&gt;Text&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeRis&#34; href=&#39;https://data.datacite.org/application/x-research-info-systems/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;RIS&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a id=&#34;citeBibTeX&#34; href=&#39;https://data.datacite.org/application/x-bibtex/10.5524/&lt;?php echo $model-&gt;identifier;?&gt;&#39; target=&#34;_self&#34;&gt;BibTeX&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; Update the CSS #dropdown-div { margin : 0; float : left ; } .dropdown-box { position: absolute; } .drop-citation-btn { width: 110px; color: white; font-size: 13px; font-weight: normal; border: none; cursor: pointer; background-color: #099242; padding: 5px 10px; border-radius: 4px 4px 4px 4px; display: inline-block; position: relative; text-decoration: none; } .drop-citation-btn:hover { color: white; text-decoration: none; } .drop-citation-btn:focus { outline: none; } #dropdown-div ul { list-style: none; position: relative; float: none; margin-top: 5px; min-width: 100px; border: 1px solid #099242; border-radius: 4px 4px 4px 4px; font-size: 13px; } #dropdown-div li a:hover {background-color: #F3FAF6;} Reference Cross browser testing Handling common HTML and CSS problem ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-03-11 15:03:47 +0800 HKT'>March 11, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to Why CSS works in Chrome but not Safari?" href="http://localhost:1313/css-works-in-chrome-but-not-safari/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Add Delete Button for file attribute page
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Problem - Add-delete-button-#457 Create Delete button function in the admin file page DatasetLog and CurationLog to log the events.
+Pass the unit test and acceptance test.
+How Create Delete button in /view/adminFile/_form.php &lt;td&gt;&lt;a role=&#34;button&#34; class=&#34;btn js-delete&#34; name=&#34;delete_file_attr&#34; data=&#34;&lt;?= $fa-&gt;id ?&gt;&#34;&gt;Delete&lt;/a&gt;&lt;/td&gt; &lt;/script&gt; $(&#39;.js-delete&#39;).click(function (e) { e.preventDefault(); id = $(this).attr(&#39;data&#39;); row = $(&#39;.row-edit-&#39; &#43; id); if (id) { $.post(&#39;/adminFile/deleteFileAttribute&#39;, { &#39;id&#39;: id }, function(result) { if (result) { // console.log(result); } }, &#39;json&#39;); } window.location.reload(); }) &lt;/script&gt; Create action deleteFileAttribute in AdminFileController.php public function accessRules() { return array( array(&#39;allow&#39;, // admin only &#39;actions&#39;=&gt;array(&#39;linkFolder&#39;,&#39;admin&#39;,&#39;delete&#39;,&#39;index&#39;,&#39;view&#39;,&#39;create&#39;,&#39;update&#39;,&#39;update1&#39;, &#39;editAttr&#39;, &#39;uploadAttr&#39;, &#39;deleteFileAttribute&#39;), &#39;roles&#39;=&gt;array(&#39;admin&#39;), ), array(&#39;allow&#39;, &#39;actions&#39; =&gt; array(&#39;create1&#39;), &#39;users&#39; =&gt; array(&#39;@&#39;), ), array(&#39;allow&#39;, // allow all users &#39;actions&#39; =&gt; array(&#39;downloadCount&#39;), &#39;users&#39;=&gt;array(&#39;*&#39;), ), array(&#39;deny&#39;, // deny all users &#39;users&#39;=&gt;array(&#39;*&#39;), ), ); } /** * Yii&#39;s method for routing urls to an action. Override to use custom actions */ public function actions() { return array( &#39;deleteFileAttribute&#39;=&gt;&#39;application.controllers.adminFile.DeleteFileAttributeAction&#39;, ); } Create DeleteFileAttributeAction.php in /controllers/adminFile, because AdminFileController.php is very big, so better be implemented in separate class &lt;?php /** * This action will delete file attributes in admin file update page */ class DeleteFileAttributeAction extends CAction { public function run() { if (!Yii::app()-&gt;request-&gt;isPostRequest) throw new CHttpException(404, &#34;The requested page does not exist.&#34;); if (isset($_POST[&#39;id&#39;])) { $attribute = FileAttributes::model()-&gt;findByPk($_POST[&#39;id&#39;]); if ($attribute) { $out = $attribute-&gt;file-&gt;dataset_id; $fileName = $attribute-&gt;file-&gt;name; $fileModel = get_class($attribute); $fileId = $attribute-&gt;file-&gt;id; $modelId = $attribute-&gt;id; $model = Dataset::model()-&gt;findByPk($out); if ($model-&gt;upload_status === &#34;Published&#34;) { DatasetLog::createDatasetLogEntry($out, $fileName, $fileModel, $modelId, $fileId); } else { CurationLog::createCurationLogEntry($out, $fileName); //Pass in dataset_id returned from File object. } $attribute-&gt;delete(); Yii::app()-&gt;end(); } } } } Factory method in /protected/models/DatasetLog.php to log Published dataset /** * Factory method to call for common attributes * @param int $id * @param string $fileName * @param string $fileModel * @param int $modelId * @param int $fileId * @return DatasetLog */ public static function makeNewInstanceForDatasetLogBy (int $id, string $fileName, string $fileModel, int $modelId, int $fileId): DatasetLog { $datasetlog = new DatasetLog(); $datasetlog-&gt;created_at = date(&#34;Y-m-d H:i:s&#34;); $datasetlog-&gt;dataset_id = $id; $datasetlog-&gt;message = $fileName; $datasetlog-&gt;model = $fileModel; $datasetlog-&gt;model_id = $modelId; $datasetlog-&gt;url = Yii::app()-&gt;createUrl(&#39;/adminFile/update&#39;, array(&#39;id&#39;=&gt;$fileId)); return $datasetlog; } /** * Retrieves attributes and store them in dataset_log table when triggered. * @param int $id * @param string $fileName * @param string $fileModel * @param int $modelId * @param int $fileId * @return bool */ public static function createDatasetLogEntry(int $id, string $fileName, string $fileModel, int $modelId, int $fileId): bool { $datasetlog = self::makeNewInstanceForDatasetLogBy($id, $fileName, $fileModel, $modelId, $fileId); $datasetlog-&gt;message = $fileName. &#34;: file attribute deleted&#34;; return $datasetlog-&gt;save(); } Pass the unit test for datasetLog &lt;?php class DatasetLogTest extends CDbTestCase { public function testDataSetLogEntryFactory() { // With reference to the entry in dataset_log fixture $datasetId = 1; $fileName = &#34;File Tinamus_guttatus.fa.gz&#34;; $fileModel = &#34;File&#34;; $modelId = 16945; $fileId = 16945; //mockup ID $datasetlog = DatasetLog::makeNewInstanceForDatasetLogBy($datasetId, $fileName, $fileModel, $modelId, $fileId); $this-&gt;assertNotNull($datasetlog); $this-&gt;assertTrue(is_a($datasetlog, DatasetLog::class)); $this-&gt;assertEquals($datasetId, $datasetlog-&gt;dataset_id); $this-&gt;assertEquals($fileName, $datasetlog-&gt;message); $this-&gt;assertEquals($fileModel, $datasetlog-&gt;model); $this-&gt;assertEquals($modelId, $datasetlog-&gt;model_id); $this-&gt;assertEquals(&#34;./bin/adminFile/update/id/$fileId&#34;, $datasetlog-&gt;url); $this-&gt;assertTrue($datasetlog-&gt;isNewRecord); } // Includde Dataset fixture to avoid unique duplicate key value violation with dataset_log_pkey protected $fixtures=array( &#39;datasets&#39;=&gt;&#39;Dataset&#39;, ); public function testCreateDatasetLogEntry() { $datasetId = 1; $fileName = &#34;File Tinamus_guttatus.fa.gz&#34;; $fileModel = &#34;File&#34;; $modelId = 16945; $fileId = 16945; //mockup ID $saveNewEntry = DatasetLog::createDatasetLogEntry($datasetId, $fileName, $fileModel, $modelId, $fileId); $this-&gt;assertTrue(is_bool($saveNewEntry) === true, &#34;bool is returned&#34;); $this-&gt;assertTrue(true===$saveNewEntry, &#34;No new entry is saved to dataset log table&#34;); // To assert the delete message will be generated as expected $datasetlog = DatasetLog::model()-&gt;findByPk($datasetId); $this-&gt;assertEquals(&#34;File Tinamus_guttatus.fa.gz: file attribute deleted&#34;, $datasetlog-&gt;message, &#34;Delete message was generated in different format&#34;); } } Factory method in /protected/models/CurationLog.php to log non Published dataset /** * Factory method to make a new instance and factor out the common code * * @param int $id * @param string $creator * @return CurationLog */ public static function makeNewInstanceForCurationLogBy(int $id, string $creator): CurationLog { $curationlog = new CurationLog(); $curationlog-&gt;creation_date = date(&#34;Y-m-d&#34;); $curationlog-&gt;last_modified_date = null; $curationlog-&gt;dataset_id = $id; $curationlog-&gt;created_by = $creator; return $curationlog; } public static function createlog($status,$id) { $curationlog = self::makeNewInstanceForCurationLogBy($id, &#34;System&#34;); $curationlog-&gt;action = &#34;Status changed to &#34;.$status; return $curationlog-&gt;save(); } public static function createlog_assign_curator($id,$creator,$username) { $curationlog = self::makeNewInstanceForCurationLogBy($id, $creator); $curationlog-&gt;action = &#34;Curator Assigned&#34;.&#34; $username&#34;; return $curationlog-&gt;save(); } /** * Retrieves attributes and store them in curation_log table when triggered * @param $id * @param string $fileName * @return bool */ public static function createCurationLogEntry(int $id, string $fileName): bool { $curationlog = self::makeNewInstanceForCurationLogBy($id, &#34;System&#34;); $curationlog-&gt;action = $fileName.&#34;: file attribute deleted&#34;; return $curationlog-&gt;save(); } Pass the unit test for CurationLog &lt;?php class CurationLogTest extends CDbTestCase { public function testMakeNewInstance() { $datasetId = 1; $creator = &#34;System&#34;; $curationLog = CurationLog::makeNewInstanceForCurationLogBy($datasetId, $creator); $this-&gt;assertNotNull($curationLog); $this-&gt;assertTrue(is_a($curationLog, CurationLog::class)); $this-&gt;assertEquals($datasetId, $curationLog-&gt;dataset_id); $this-&gt;assertEquals($creator, $curationLog-&gt;created_by); $this-&gt;assertTrue($curationLog-&gt;isNewRecord); } } Create I should see a file attribute table in DatasetViewContext.php /** * @Then I should see a file attribute table */ public function iShouldSeeATable(TableNode $table) { foreach ($table as $row) { PHPUnit_Framework_Assert::assertTrue( $this-&gt;minkContext-&gt;getSession()-&gt;getPage()-&gt;hasContent($row[&#39;Attribute Name&#39;]) ); PHPUnit_Framework_Assert::assertTrue( $this-&gt;minkContext-&gt;getSession()-&gt;getPage()-&gt;hasContent($row[&#39;Value&#39;]) ); PHPUnit_Framework_Assert::assertTrue( $this-&gt;minkContext-&gt;getSession()-&gt;getPage()-&gt;hasContent($row[&#39;Unit&#39;]) ); } } Pass the acceptance test @admin-file @issue-457 Feature: A curator can manage file attributes in admin file update page As a curator, I want to manage file attributes from the update form So that I can associate various attributes to files Background: Given Gigadb web site is loaded with production-like data And an admin user exists @ok Scenario: Guest user cannot visit admin file update page Given I am not logged in to Gigadb web site When I go to &#34;/adminFile/update/&#34; Then I should see &#34;Login&#34; @ok Scenario: Go to a published dataset found in production-like database Given I am not logged in to Gigadb web site When I go to &#34;dataset/100056&#34; And I should see &#34;Termitomyces sp. J132 fungus genome assembly data.&#34; And I follow &#34;History&#34; Then I should see &#34;History&#34; tab with text &#34;File Termitomyces_assembly_v1.0.fa.gz updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.cds.fa updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.cds.fa updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.gff updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.gff updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.pep.fa updated&#34; And I should see &#34;History&#34; tab with text &#34;File Termitomyces_gene_v1.0.pep.fa updated&#34; @ok @Published Scenario: Sign in as admin and visit admin file update page and see New Attribute, Edit, Delete buttons Given I sign in as an admin When I am on &#34;/adminFile/update/id/13973&#34; Then I should see a button &#34;New Attribute&#34; And I should see a file attribute table | Attribute Name | Value | Unit | | last_modified | 2013-7-15 | | And I should see a button input &#34;Edit&#34; And I should see a button input &#34;Delete&#34; @ok @javascript @Published Scenario: Sign in as admin, delete an attribute of a published dataset and check history tab Given I sign in as an admin And I am on &#34;/adminFile/update/id/13973&#34; And I should see &#34;last_modified&#34; When I press &#34;Delete&#34; And I go to &#34;dataset/100056&#34; Then I should see &#34;Termitomyces sp. J132 fungus genome assembly data.&#34; And I follow &#34;History&#34; And I should see &#34;History&#34; tab with text &#34;Termitomyces_assembly_v1.0.fa.gz: file attribute deleted&#34; @ok @javascript @Published Scenario: Sign in as admin, no delete button should be seen after delete action has been triggered Given I sign in as an admin And I am on &#34;/adminFile/update/id/13973&#34; And I should see a file attribute table | Attribute Name | Value | Unit | | last_modified | 2013-7-15 | | And I should see a button input &#34;Delete&#34; When I press &#34;Delete&#34; And I wait &#34;3&#34; seconds Then I should not see &#34;last_modified&#34; And I should not see &#34;2013-7-15&#34; And I should not see a button &#34;Delete&#34; @ok @javascript @NonPublished Scenario: Go to a non published dataset found in production-like database, create then delete a keyword attribute Given I sign in as an admin And I am on &#34;/adminFile/update/id/95354&#34; And I should see &#34;test Bauhinia&#34; And I press &#34;Delete&#34; And I should not see &#34;test Bauhinia&#34; #Go to the last page of dataset log When I go to &#34;datasetLog/admin/DatasetLog_page/74&#34; Then I should not see &#34;100245&#34; And I should not see &#34;FCHCGJYBBXX-HKBAUpcgEAACRAAPEI-201_L2_2.fq.gz: file attribute added&#34; And I should not see &#34;FCHCGJYBBXX-HKBAUpcgEAACRAAPEI-201_L2_2.fq.gz: file attribute deleted&#34; Learn Tables relationship dataset file file_attribute id id id identifier dataset_id file_id upload_status value 2.1 Update file_attribute table in data/dev/production_like
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-02-17 09:46:07 +0800 HKT'>February 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 14/2-7/3/22" href="http://localhost:1313/jobs/17-2-22/"></a>
+  <footer class="entry-footer"><span title='2021-02-22 12:49:28 +0800 HKT'>February 22, 2021</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to Add Delete Button for file attribute page" href="http://localhost:1313/add-delete-button/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 17-21/1/22
+    <h2 class="entry-hint-parent">Pass Behat Tests Example
     </h2>
   </header>
   <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Todo - Sprint 6 Finish the story Integrate the new GitLab pipeline to the main branch to enable the new home of GigaDB website Done - Sprint Todo - Github Done - Github AOB 19/11/2021-6/1/2022 Focused on Sprint 5 Reference ...</p>
+    <p>Case 1 - Actual output contains line break, PR547 Problem In DatasetViewContext.php:
+/** * @Then there is a :arg1 meta tag :arg2 with value :arg3 */ public function thereIsAMetaTagWithValue($arg1, $arg2, $arg3) { $metaNode = $this-&gt;minkContext-&gt;getSession()-&gt;getPage()-&gt;find(&#39;xpath&#39;, &#34;//meta[@$arg1=&#39;$arg2&#39; and @content=&#39;$arg3&#39;]&#34;); PHPUnit_Framework_Assert::assertNotNull($metaNode); } In dataset-metadata-link-preview.feature:
+@wip @issue-513 Scenario: Can be parsed by preview tools that use HTML meta-tags (e.g: search engines) Given I am not logged in to Gigadb web site When I am on &#34;/dataset/100002&#34; Then there is a meta tag &#34;description&#34; with value &#34;The Adelie penguin (Pygoscelis adeliae) is an iconic penguin of moderate stature and a tuxedo of black and white feathers. The penguins are only found in the Antarctic region and surrounding islands. Being very sensitive to climate change, and due to changes in their behavior based on minor shifts in climate, they are often used as a barometer of the Antarctic. With its status as one of the adorable and cuddly flightless birds of Antarctica, they serve as an example for conservation, and as a result they are now categorised at low risk for endangerment. The sequence of the penguin can be of use in understanding the genetic underpinnings of its evolutionary traits and adaptation to its extreme environment; its unique system of feathers; its prowess as a diver; and its sensitivity to climate change. We hope that this genome data will further our understanding of one of the most remarkable creatures to waddle the planet Earth. We sequenced the genome of an adult male from Inexpressible Island, Ross Sea, Antartica (provided by David Lambert) to a depth of approximately 60X with short reads from a series of libraries with various insert sizes (200bp- 20kb). The assembled scaffolds of high quality sequences total 1.23 Gb, with the contig and scaffold N50 values of 19 kb and 5 mb respectively. We identified 15,270 protein-coding genes with a mean length of 21.3 kb.&#34; The error is:
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-01-17 09:55:22 +0800 HKT'>January 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 17-21/1/22" href="http://localhost:1313/jobs/17-1-22/"></a>
+  <footer class="entry-footer"><span title='2021-01-08 10:30:26 +0800 HKT'>January 8, 2021</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to Pass Behat Tests Example" href="http://localhost:1313/pass-behat-tests-example/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 15-19/11/21
+    <h2 class="entry-hint-parent">To resolve XDebug dependency problem
     </h2>
   </header>
   <div class="entry-content">
-    <p>Learn Todo - Sprint 4 Look into https://github.com/gigascience/gigadb-website/issues/822 Sprint 4 review and retrospective Sprint 5 planning Done - Sprint 4 Reviewed https://github.com/rija/gigadb-website/pull/207 Todo - Github Done - Github AOB 25/10/21-29/10/21, 1/11/21-5/11/21, 8/11/21-12/11/21 Focused on sprint 4 works Reference </p>
+    <p>Problem ---&gt; Running in 4c7fe5b9cf5e pecl/xdebug requires PHP (version &gt;= 7.2.0, version &lt;= 8.0.99), installed version is 7.1.30 No valid packages found install failed ERROR: Service &#39;test&#39; failed to build : The command &#39;/bin/sh -c if [ ${INSTALL_XDEBUG} = true ]; then if [ $(php -r &#34;echo PHP_MAJOR_VERSION;&#34;) = &#34;5&#34; ]; then pecl install xdebug-2.5.5; else pecl install xdebug; fi &amp;&amp; docker-php-ext-enable xdebug ;fi&#39; returned a non-zero code: 1 Effect The docker-compose run --rm test cannot be run. Then the test service cannot be built.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2021-11-15 13:58:22 +0800 HKT'>November 15, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 15-19/11/21" href="http://localhost:1313/jobs/15-11-21/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 18-22/10/21
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Todo - Sprint4 Done - Sprint 4 Todo - Github Make portainer on staging and live deployments accessible, #790, (PR201)(https://github.com/rija/gigadb-website/pull/201) Review PR194 Look into PR200 Done - Github AOB 4/10/21-7/10/21 focused on Sprint3 retrospective, demo, Sprint 4 planning poker and planning 11/10/21-15/10/21 focused on Sprint 4 works ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-10-21 15:38:46 +0800 HKT'>October 21, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 18-22/10/21" href="http://localhost:1313/jobs/18-10-21/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 27-30/9/21
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Todo - Sprint3 Make portainer on staging and live deployments accessible, #790 Review PR #194 Verify and update web content policy configuration on AWS deployed website(iframe) #742 Security test AWS based deployment #745 Done - Sprint Todo - Github Done - Github AOB Reference ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-09-27 13:38:11 +0800 HKT'>September 27, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 27-30/9/21" href="http://localhost:1313/jobs/27-9-21/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 20-24/9/21
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Todo - Sprint3 Make portainer on staging and live deployments accessible, #790 Done - Sprint 3 Add Portainer container service on staging and live deployment, #791 Todo - Github Done - Github AOB Reference ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-09-20 12:04:31 +0800 HKT'>September 20, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 20-24/9/21" href="http://localhost:1313/jobs/20-9-21/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Learn, todo and done 13-17/9/21
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Learn Clean Code, YouTube
-PHP: The Right Way, link
-Udemy courses
-Design Pattern, Doc, Pattern Libraries
-Postman for testing API, YouTube
-Essential Scrum, Chapter [5, 7, 17, 18, 19]
-Terraform
-Ansible
-IBMCloud TechWorld What is IaCode Automatically setup Macbook for dev using Ansible
-geerlingguy wilsonnar Todo - Sprint3 Make portainer on staging and live deployments accessible, #790 Done - Sprint 3 Deployed branch #785 to staging updated gitlab variables created aws route53 domain name ec2-staging.gigadb.link added ^~ to this block in /ops/configuration/nginx-conf/sites/CI/gigadb.CI.http.conf, but could be irrelevant location ^~ /.well-known/acme-challenge/ { root /var/www/letsencrypt/; log_not_found off; } Updated conf for issue #790 add the following block to ops/configurations/nginx-conf/locations/fuw.conf and ops/configuration/nginx-conf/sites/nginx.target_deployment.https.conf.dist location /portainer { # Forward portainer request to proxy_pass http://portainer:9009; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection &#34;upgrade&#34;; proxy_http_version 1.1; } added portainer service to ops/deployment/docker-compose.production-envs.yml file spun up portainer container in gitlab pipeline docker-compose --tlsverify -H=$REMOTE_DOCKER_HOST -f ops/deployment/docker-compose.production-envs.yml up -d portainer Todo - Github Done - Github AOB gitlab variable list at gist Reference ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-09-13 12:16:13 +0800 HKT'>September 13, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ken Cho</footer>
-  <a class="entry-link" aria-label="post link to Learn, todo and done 13-17/9/21" href="http://localhost:1313/jobs/13-9-21/"></a>
+  <footer class="entry-footer"><span title='2021-01-07 15:04:22 +0800 HKT'>January 7, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ken Cho</footer>
+  <a class="entry-link" aria-label="post link to To resolve XDebug dependency problem" href="http://localhost:1313/docker-compose-dependency/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

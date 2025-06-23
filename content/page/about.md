@@ -12,3 +12,6 @@ Every day is a new day, keep up and never give up!
 ## School
 2017 MSc in Genomics and Bioinformatics The University of Hong Kong  
 2014 BSc in Biotechnology The University of Hong Kong  
+
+## Contact
+Email: kencho.gigascience@gmail.com
