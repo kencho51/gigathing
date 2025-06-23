@@ -4,6 +4,7 @@ title = "How rclone works"
 date = 2022-09-21T09:45:28+08:00
 tags = ["rclone", "aws", "wasabi", "cloud"]
 author = "Ken Cho"
+comments = true
 +++  
 
 
