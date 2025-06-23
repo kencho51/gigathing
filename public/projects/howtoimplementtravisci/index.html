@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>How to implement Travis CI to a Hugo site | kencho51</title>
 <meta name="keywords" content="Travis CI, GO, Token">
 <meta name="description" content="Travis Continuous Integration">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="http://localhost:1313/projects/howtoimplementtravisci/">
+<link rel="canonical" href="https://kencho51.github.io/projects/howtoimplementtravisci/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://kencho51.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kencho51.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kencho51.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kencho51.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kencho51.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/howtoimplementtravisci/">
+<link rel="alternate" hreflang="en" href="https://kencho51.github.io/projects/howtoimplementtravisci/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,76 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://kencho51.github.io/projects/howtoimplementtravisci/">
+  <meta property="og:site_name" content="kencho51">
+  <meta property="og:title" content="How to implement Travis CI to a Hugo site">
+  <meta property="og:description" content="Travis Continuous Integration">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2020-07-23T14:41:08+08:00">
+    <meta property="article:modified_time" content="2020-07-23T14:41:08+08:00">
+    <meta property="article:tag" content="Travis CI">
+    <meta property="article:tag" content="Go">
+    <meta property="article:tag" content="Token">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to implement Travis CI to a Hugo site">
+<meta name="twitter:description" content="Travis Continuous Integration">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://kencho51.github.io/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to implement Travis CI to a Hugo site",
+      "item": "https://kencho51.github.io/projects/howtoimplementtravisci/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to implement Travis CI to a Hugo site",
+  "name": "How to implement Travis CI to a Hugo site",
+  "description": "Travis Continuous Integration",
+  "keywords": [
+    "Travis CI", "GO", "Token"
+  ],
+  "articleBody": "\nWhat is Travis? Travis is a continuous integration testing tool that integrates with GitHub. It allows you to run automated tests on your code each time a commit is made to the repository. How? Sign in Travis in https://travis-ci.org/ using github account. Enable Source github repo in Travis setting, eg.kencho51/gigathing Create Personal access token in github, the scopes include: repo admin:public_key admin:repo_hook user Copy the token generated and update the Travis Environment Variables as below: GH_TOKEN: paste the github GITHUB_EMAIL: kencho.gigascience@gmail.com GITHUB_USERNAME: kencho51 Create .travis.yml at the directoyy top level language: go dist: xenial env: - HUGO_VERSION=\"0.74.2\" before_install: - sudo apt-get update -qq install: true before_script: - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb - rm -rf public || exit 0 script: - hugo --gc -v --minify deploy: provider: pages skip_cleanup: true keep_history: true github_token: $GH_TOKEN local_dir: public target_branch: master email: kencho.gigascience@gmail.com name: kencho51 repo: kencho51/kencho51.github.io verbose: true on: branch: master Insert build status into default template, every post will have build status on it. Markdown format: [![Build Status](https://travis-ci.org/kencho51/gigathing.svg?branch=master)](https://travis-ci.org/kencho51/gigathing) Image URL: https://travis-ci.org/kencho51/gigathing.svg?branch=master Reference Using Hugo and Travis CI To Deploy Blog To Github Pages Automatically Two ways to deploy a public GitHub Pages site from a private Hugo repository DEPLOY HUGO TO GITHUB PAGES AND BUILD WITH TRAVIS CI 使用 Travis CI 部署 Hugo 博客到 Github Pages Deploy Hugo from Gitlab CI to Github Pages How I use Travis CI to automatically deploy this blog to GitHub Pages How to deploy Hugo site minimally ",
+  "wordCount" : "244",
+  "inLanguage": "en",
+  "datePublished": "2020-07-23T14:41:08+08:00",
+  "dateModified": "2020-07-23T14:41:08+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Ken Cho"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kencho51.github.io/projects/howtoimplementtravisci/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "kencho51",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kencho51.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +142,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="https://kencho51.github.io/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,22 +168,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/page/about/" title="About">
+                <a href="https://kencho51.github.io/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/post" title="Tech">
+                <a href="https://kencho51.github.io/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://kencho51.github.io/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://kencho51.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -125,7 +194,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/projects/">Projects</a></div>
+    <div class="breadcrumbs"><a href="https://kencho51.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://kencho51.github.io/projects/">Projects</a></div>
     <h1 class="post-title entry-hint-parent">
       How to implement Travis CI to a Hugo site
     </h1>
@@ -231,9 +300,9 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/travis-ci/">Travis CI</a></li>
-      <li><a href="http://localhost:1313/tags/go/">Go</a></li>
-      <li><a href="http://localhost:1313/tags/token/">Token</a></li>
+      <li><a href="https://kencho51.github.io/tags/travis-ci/">Travis CI</a></li>
+      <li><a href="https://kencho51.github.io/tags/go/">Go</a></li>
+      <li><a href="https://kencho51.github.io/tags/token/">Token</a></li>
     </ul>
 
   </footer><div id="disqus_thread"></div>

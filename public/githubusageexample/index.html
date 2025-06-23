@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Github usage example | kencho51</title>
 <meta name="keywords" content="github, gigadb-website, develop">
 <meta name="description" content="How to make changes in gigadb-website repo">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="http://localhost:1313/githubusageexample/">
+<link rel="canonical" href="https://kencho51.github.io/githubusageexample/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://kencho51.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kencho51.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kencho51.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kencho51.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kencho51.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/githubusageexample/">
+<link rel="alternate" hreflang="en" href="https://kencho51.github.io/githubusageexample/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,76 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://kencho51.github.io/githubusageexample/">
+  <meta property="og:site_name" content="kencho51">
+  <meta property="og:title" content="Github usage example">
+  <meta property="og:description" content="How to make changes in gigadb-website repo">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-05-19T15:55:27+08:00">
+    <meta property="article:modified_time" content="2020-05-19T15:55:27+08:00">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Gigadb-Website">
+    <meta property="article:tag" content="Develop">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Github usage example">
+<meta name="twitter:description" content="How to make changes in gigadb-website repo">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://kencho51.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Github usage example",
+      "item": "https://kencho51.github.io/githubusageexample/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Github usage example",
+  "name": "Github usage example",
+  "description": "How to make changes in gigadb-website repo",
+  "keywords": [
+    "github", "gigadb-website", "develop"
+  ],
+  "articleBody": "The development cycle of the gigadb. 1. fork gigadb-website 2. clone the gigadb-website into local SSD git clone https://github.com/kencho51/gigadb-website.git\n3. add remote origin git remote add origin https://github.com/kencho51/gigadb-website.git\n4. add remote upstream origin git remote add upstream https://github.com/gigascience/gigadb-website.git\n5. follow here to build the docker container for the testing. 6. The flow to make changes: 6.1 Create branch for an issue git branch issue-no\n6.2 Go to that branch\ngit checkout issue-no\n6.3 Make some changes, save and add the changes git add modifiedfiles\n6.4 Commit the changes with msg git commit -m 'commit msg'\n6.5 Push the changes to the git repo git push\n6.6 Create pull request to review in web git repo\nPrecise and concise description of the changes. 6.7 Delete the branch if the pull request closed and merged\ngit branch -d issue-no\n7. How to undo commits, steps follow here 7.1 To undo the last commit, for example: git reset --hard HEAD~1\ngit push --force\n8. How to sync with Fork repo after making a successful pull request git checkout develop\ngit fetch upstream to see any updates from the develop fork\ngit rebase upstream/develop to get the updates from develop fork to local\ngit push origin to update the remote repo\nWays to merge remote and local branch git cherry-pick git rebase git pull is essentially shorthand for git fetch followed by git merge git pull --rebase is shorthand for a fetch and a rebase 9. How to delete a branch after the issue has been fixed 9.1 To list all the branch.\ngit branch --list\n9.2 To switch to another branch. git checkout branch_name\n9.3 To delete a branch.\ngit branch -d branch_name_to_delete\n9.4 To update the remote.\ngit push --force\n9.5 To delete branch in remote repo manually.\n9.6 To clean up local branch after merging\ngit fetch -p\nHow To Clean Up Git Branches at here or stackoverflow 10. How to handle multiple github accounts on MacOS? 10.1 Creating the SSH keys. For each SSH key pairs\nssh-keygen -t rsa -b 4096 -C \"kencho.gigascience@gmail.com\n10.2 Register your keys to the respective GitHub accounts\nFollow steps here\n10.3 Change SSH config file at ~/.ssh and amend accordingly to\n#kencho51 account Host github.com-kencho51 HostName github.com User git IdentityFile ~/.ssh/github-kencho51 IdentitiesOnly yes 10.4 Ensure your remote url is in the right format\norigin https://github.com/kencho51/gigadb-website.git (fetch) origin https://github.com/kencho51/gigadb-website.git (push) upstream https://github.com/gigascience/gigadb-website.git (fetch) upstream https://github.com/gigascience/gigadb-website.git (push) Set up correct links in office mac:\ngit remote set-url origin https://github.com/kencho51/gigathing.git gigathing\ngit remote set-url origin https://github.com/kencho51/kencho51.github.io kencho51.github.io\n10.5 Check the correct remote url setting\ngit remote -v\n10.5 Go ahead to git clone your respective repository\ngit clone git@github.com-kencho51:kencho51/gigathing.git gigathing\nHow to change commited commit message? Use git rebase -i HEAD~ command to display a list of the last n commits in your default text editor.\n$ git rebase -i HEAD~3 # Displays a list of the last 3 commits on the current branch A similar list will be produced as below: pick e499d89 Delete CNAME pick 0c39034 Better README pick f7fde4a Change the commit message but push the same commit. # Rebase 9fdb3bd..f7fde4a onto 9fdb3bd # # Commands: # p, pick = use commit # r, reword = use commit, but edit the commit message # e, edit = use commit, but stop for amending # s, squash = use commit, but meld into previous commit # f, fixup = like \"squash\", but discard this commit's log message # x, exec = run command (the rest of the line) using shell # # These lines can be re-ordered; they are executed from top to bottom. # # If you remove a line here THAT COMMIT WILL BE LOST. # # However, if you remove everything, the rebase will be aborted. # # Note that empty commits are commented out Replace pick with reword before each commit message you want to change. pick e499d89 Delete CNAME reword 0c39034 Better README reword f7fde4a Change the commit message but push the same commit. Save and close the commit list file. In each resulting commit file, type the new commit message, save the file, and close it. Force-push the amended commits.\ngit push --force How To Cherry Pick Git Commits at here How to check out PR and test locally Fetch the PR’s pseudo-branch git fetch upstream pull/id/head:whatever-name-you-want Switch to that branch\ngit checkout whatever-name-you-want Start to test the code Reference 5 Git Commands You Should Know, with Code Examples learngitbranching Handling Multiple Github Accounts on MacOS Developing with multiple GitHub accounts on one MacBook 6 best practices for teams using Git The life-changing magic of git rebase -i Getting started with Git: Terminology 101 How to change commit message How to open a pull request How to sync your form with the original git repository Set up git from Rija How to check out PR and test locally How to test a PR locally before merge ",
+  "wordCount" : "816",
+  "inLanguage": "en",
+  "datePublished": "2020-05-19T15:55:27+08:00",
+  "dateModified": "2020-05-19T15:55:27+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Ken Cho"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kencho51.github.io/githubusageexample/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "kencho51",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kencho51.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +142,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="https://kencho51.github.io/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,22 +168,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/page/about/" title="About">
+                <a href="https://kencho51.github.io/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/post" title="Tech">
+                <a href="https://kencho51.github.io/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://kencho51.github.io/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://kencho51.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -125,7 +194,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://kencho51.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://kencho51.github.io/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Github usage example
     </h1>
@@ -337,17 +406,17 @@ Host github.com-kencho51
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/github/">Github</a></li>
-      <li><a href="http://localhost:1313/tags/gigadb-website/">Gigadb-Website</a></li>
-      <li><a href="http://localhost:1313/tags/develop/">Develop</a></li>
+      <li><a href="https://kencho51.github.io/tags/github/">Github</a></li>
+      <li><a href="https://kencho51.github.io/tags/gigadb-website/">Gigadb-Website</a></li>
+      <li><a href="https://kencho51.github.io/tags/develop/">Develop</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/phpprogress/">
+  <a class="prev" href="https://kencho51.github.io/phpprogress/">
     <span class="title">« Prev</span>
     <br>
     <span>PHP progress</span>
   </a>
-  <a class="next" href="http://localhost:1313/deployhugo/">
+  <a class="next" href="https://kencho51.github.io/deployhugo/">
     <span class="title">Next »</span>
     <br>
     <span>Hugo page is released</span>

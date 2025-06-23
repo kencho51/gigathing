@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Uterances on kencho51</title>
-    <link>http://localhost:1313/tags/uterances/</link>
+    <link>https://kencho51.github.io/tags/uterances/</link>
     <description>Recent content in Uterances on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 15 Jun 2020 11:25:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/uterances/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kencho51.github.io/tags/uterances/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add a comment functionality using uterances</title>
-      <link>http://localhost:1313/projects/howtoaddutterances/</link>
+      <link>https://kencho51.github.io/projects/howtoaddutterances/</link>
       <pubDate>Mon, 15 Jun 2020 11:25:56 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtoaddutterances/</guid>
+      <guid>https://kencho51.github.io/projects/howtoaddutterances/</guid>
       <description>Steps to add Utterances to Hugo blog</description>
     </item>
   </channel>

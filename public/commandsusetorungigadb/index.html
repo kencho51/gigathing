@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Commands use to run gigadb | kencho51</title>
 <meta name="keywords" content="gigadb, yii2, docker, psql">
 <meta name="description" content="Commands for running and testing Local gigaDB">
 <meta name="author" content="Ken Cho">
-<link rel="canonical" href="http://localhost:1313/commandsusetorungigadb/">
+<link rel="canonical" href="https://kencho51.github.io/commandsusetorungigadb/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://kencho51.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kencho51.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kencho51.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kencho51.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kencho51.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/commandsusetorungigadb/">
+<link rel="alternate" hreflang="en" href="https://kencho51.github.io/commandsusetorungigadb/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,77 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://kencho51.github.io/commandsusetorungigadb/">
+  <meta property="og:site_name" content="kencho51">
+  <meta property="og:title" content="Commands use to run gigadb">
+  <meta property="og:description" content="Commands for running and testing Local gigaDB">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-07-24T16:03:12+08:00">
+    <meta property="article:modified_time" content="2020-07-24T16:03:12+08:00">
+    <meta property="article:tag" content="Gigadb">
+    <meta property="article:tag" content="Yii2">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="Psql">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Commands use to run gigadb">
+<meta name="twitter:description" content="Commands for running and testing Local gigaDB">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://kencho51.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Commands use to run gigadb",
+      "item": "https://kencho51.github.io/commandsusetorungigadb/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Commands use to run gigadb",
+  "name": "Commands use to run gigadb",
+  "description": "Commands for running and testing Local gigaDB",
+  "keywords": [
+    "gigadb", "yii2", "docker", "psql"
+  ],
+  "articleBody": "To start a local gigaDB server docker-compose run --rm webapp\nLink to test if the web page is up\nIf there are some build errors Rebuild and up the webapp containers again.\ndocker-compose run --rm webapp If not work, restart the docker container app and rebuild the containers. If not work, check if psql, gigadb, database is presented in ~/.containers/-data and remove it.\nrm -rf ~/.containers-data/gigadb Run docker-compose run --rm webapp again to rebuild the containers. How to remove images List all images\ndocker images -a Remove all images\ndocker rmi $(docker images -a -q) How to remove container List all containers\ndocker ps -a Stop the containers\ndocker stop $(docker ps -a -q) Remove stopped containers\ndocker rm $(docker ps -a -q)\nsource\ndigital ocean How to run a functional test in a docker environment for testing? Write unit test script and place in protected/tests/functional-test folder. Change the unit_functional script ./bin/phpunit protected/tests/functional-test --verbose --configuration protected/tests/phpunit.xml --no-coverage Run specific unit test:\ndocker-compose run --rm test ./tests/unit_functional Output will be like this: PHPUnit 5.7.27 by Sebastian Bergmann and contributors. Runtime: PHP 7.1.30 with Xdebug 2.9.6 Configuration: /var/www/protected/tests/phpunit.xml ... 3 / 3 (100%) Time: 7.15 seconds, Memory: 14.00MB OK (3 tests, 7 assertions) How to run a functional test on a single file in docker environment? docker oneliner\ndocker-compose run --rm test ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php Or go into docker bash and run phpunit\ndocker-compose run --rm test bash\nroot@45a46a8441d3:/var/www# ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php root@45a46a8441d3:/var/www# ./bin/phpunit --testsuite functional --bootstrap protected/tests/bootstrap.php --verbose --configuration protected/tests/phpunit.xml --no-coverage protected/tests/functional/AdminSiteAccessTest.php PHPUnit 5.7.27 by Sebastian Bergmann and contributors. Runtime: PHP 7.1.30 with Xdebug 2.9.6 Configuration: /var/www/protected/tests/phpunit.xml ... 3 / 3 (100%) Time: 4.18 seconds, Memory: 14.00MB OK (3 tests, 7 assertions) How to run a Behat test in a docker environment for testing Update the scenario syntax specific *.feature file, like: @ok @files Scenario: Files - Call to Actions Given I am not logged in to Gigadb web site When I go to \"/dataset/101001\" And I follow \"Files\" Then I should see a link \"(FTP site)\" to \"ftp://climb.genomics.cn/pub/10.5524/101001_102000/101001/\" with title \"FTP site\" Then I should see a button \"Table Settings\" Check if related functions in features/bootstrap/*.php needed to be updated, eg: public function iShouldSeeTabWithTable($arg1, TableNode $table) { if (\"Funding\" == $arg1) { $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003eclickLink($arg1); //| Funding body | Awardee | Award ID | Comments | foreach($table as $row) { PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Funding body']) ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Awardee']) ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Award ID']) ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Comments']) ); } } elseif(\"Files\" == $arg1) { //| File name | Sample ID | Data Type | File Format | Size | Release date | link | foreach($table as $row) { $link = $row['link']; PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['File name']), \"File name match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Sample ID']), \"Sample ID match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Data Type']), \"Data Type match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['File Format']), \"File Format match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Size']), \"Size match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Release date']), \"Release date match\" ); if ($link) { $this-\u003eminkContext-\u003eassertSession()-\u003eelementExists('css',\"a.download-btn[href='$link']\"); } } } elseif(\"Sample\" == $arg1) { //| Sample ID | Common Name | Scientific Name | Sample Attributes | Taxonomic ID | Genbank Name | foreach($table as $row) { PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Sample ID']), \"Sample ID match\" ); if($row['Common Name']) { PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Common Name']), \"Common Name match\" ); } PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Scientific Name']), \"Scientific Name match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Sample Attributes']), \"Sample Attributes match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Taxonomic ID']), \"Taxonomic ID match\" ); PHPUnit_Framework_Assert::assertTrue( $this-\u003eminkContext-\u003egetSession()-\u003egetPage()-\u003ehasContent($row['Genbank Name']), \"Genbank Name match\" ); } } else { PHPUnit_Framework_Assert::fail(\"Unknown type of tab\"); } } Assign @wip tag to the working scenario in .feature file, this can smooth the running of behat test. @wip @files Scenario: Files - Call to Actions Given I am not logged in to Gigadb web site When I go to \"/dataset/101001\" Run the Behat test command on specific scenario.\ndocker-compose run --rm test bin/behat -vv --stop-on-failure --tags @wip\nOr can first shell into test container and then run the command:\n$ docker-compose run --rm test bash root@2f0dd679a934:/var/www# bin/behat --tags @wip How to run a behat test with database set up In all_and_coverage file #!/usr/bin/env bash set -e -u ./tests/acceptance #./tests/unit_functional #./tests/coverage In acceptance file #!/usr/bin/env bash set -e -u -x echo \"About to run automated tests...\" echo \"Loading environment...\" set -a source /var/www/.env source /var/www/.secrets set +a if [ \"$GIGADB_ENV\" == \"dev\" ];then echo \"First, backup the main database...\" exec 3\u003e\u00261 exec 1\u003e /dev/null pg_dump $GIGADB_DB -U $GIGADB_USER -h $GIGADB_HOST -F custom -f /var/www/sql/before-run.pgdmp exec 1\u003e\u00263 fi echo \"Running acceptance tests\" if [[ \"$GIGADB_ENV\" == \"dev\" ]];then #\tbin/behat --tags \"@ok\u0026\u0026~@facebook\u0026\u0026~orcid\" -v --stop-on-failure bin/behat --tags \"@wip\" -v --stop-on-failure else # we are on CI with remote runner, affilate login tests don't work becasause Google and Twitter block it bin/behat --tags \"@ok\u0026\u0026~@affiliate-login\u0026\u0026~@javascript\" -v --stop-on-failure fi echo \"...all automated tests have run\" if [ \"$GIGADB_ENV\" == \"dev\" ];then echo \"Lastly, restoring the main database...\" exec 3\u003e\u00261 exec 1\u003e /dev/null pg_restore -h $GIGADB_HOST -U $GIGADB_USER -d $GIGADB_DB --clean --no-owner -v /var/www/sql/before-run.pgdmp exec 1\u003e\u00263 fi Run the behat test\ndocker-compose run --rm test How to connect postgreSQL in PhpStorm Click Database top right of PhpStorm screen. Data Source chose postgreSQL and input following information: Host: localhost Port: 54321 User: gigadb pw: URL: jdbc:postgresql://localhost:54321/gigadb How to restore gigadb database for admin log in Log in psql container\nPGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres Terminate runing gigadb SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = 'gigadb'; Drop gigadb drop DATABASE gigadb; 4.Create gigadb\ncreate DATABASE gigadb; Restore gigadb from bootstrap.sql\nkencho@MacBook-Pro:% psql -h localhost -U gigadb -p 54321 gigadb \u003c ops/configuration/postgresql-conf/bootstrap.sql How to retrieve production-like database Log in psql container\nPGPASSWORD=vagrant psql -h localhost -p 54321 -U gigadb postgres Create database production_like\npostgres=# create database production_like; Restore production-like database\nkencho@MacBook-Pro:% pg_restore -h localhost -p 54321 -U gigadb -d production_like --clean --no-owner -v sql/production_like.pgdmp How to retrieve text production-like back up database # Drop into bash in test container % docker-compose run --rm test bash # Use psql in test container to connect to gigadb database in database container root@16b04afd18d5:/var/www# psql -h database -p 5432 -U gigadb gigadb gigadb=# create database gigadbv3_20210920; # Dump in the database % psql -h localhost -p 54321 -U gigadb -d gigadbv3_20210920 \u003c gigadb/app/tools/files-url-updater/sql/gigadbv3_20210920_v9.3.25.backup How to convert production database into different version, issue #731, PR190 First version, which involves too many manipulation of the database, and the binary backup has been indexed which are specific to a database server #!/usr/bin/env bash # Load environment variables source ./.env source ./.secrets latest=$(date -v-1d +\"%Y%m%d\") # docker-compose executable if [[ $GIGADB_ENV != \"dev\" \u0026\u0026 $GIGADB_ENV != \"CI\" ]];then DOCKER_COMPOSE=\"docker-compose --tlsverify -H=$REMOTE_DOCKER_HOST -f ops/deployment/docker-compose.production-envs.yml\" else DOCKER_COMPOSE=\"docker-compose\" fi echo \"Spin up the database container\" docker-compose up -d --build database echo \"Go into docker container and store the postgreSQL version\" version=$($DOCKER_COMPOSE run --rm test bash -c \"psql --version | cut -d' ' -f 3 | tr -d '\\n'\") echo \"Download the production database using file-url-updater\" cd gigadb/app/tools/files-url-updater/ docker-compose run --rm updater ./yii dataset-files/download-restore-backup --latest --norestore cd ../../../../ echo \"Create production database for the version upgrade\" $DOCKER_COMPOSE run --rm test bash -c \"psql -h database -U gigadb -c 'create database gigadbv3_production'\" echo \"Load the production database into PostgreSQL server\" $DOCKER_COMPOSE run --rm test bash -c \"PGPASSWORD=$GIGADB_PASSWORD pg_restore -v -U gigadb -h database -p 5432 -d gigadbv3_production /var/www/gigadb/app/tools/files-url-updater/sql/gigadbv3_${latest}.backup\" echo \"Create folder for database dump if not existed\" if [[ ! -d sql/psql-v96 ]];then mkdir sql/psql-v96 fi echo \"Dump the production database\" #$DOCKER_COMPOSE run --rm test bash -c \"PGPASSWORD=$GIGADB_PASSWORD pg_dump -v -U gigadb -h database -p 5432 -d gigadbv3_production -f /var/www/sql/psql-v96/gigadbv3_${latest}_${version}.sql\" $DOCKER_COMPOSE run --rm test bash -c \"PGPASSWORD=$GIGADB_PASSWORD pg_dump -v -U gigadb -h database -p 5432 -Fc -d gigadbv3_production -f /var/www/sql/psql-v96/gigadbv3_${latest}_${version}.pgdmp\" if [[ -f sql/psql-v96/gigadbv3_\"$latest\"_\"$version\".pgdmp ]];then echo \"Finished convert production database to postgreSQL version\" \"$version\" else echo \"No upgraded database dump found, conversion fail!\" fi echo \"Load the upgraded dump into PostgreSQL server\" $DOCKER_COMPOSE run --rm test bash -c \"PGPASSWORD=$GIGADB_PASSWORD pg_restore -v -U gigadb -h database -p 5432 --clean -d gigadbv3_production /var/www/sql/psql-v96/gigadbv3_${latest}_${version}.pgdmp\" if [[ $? -eq 0 ]];then echo \"The upgraded dump could be restored!\" else echo \"The upgraded dump could not be restored, please check!\" fi echo \"Drop production database after upgraded dump has been restored\" $DOCKER_COMPOSE run --rm test bash -c \"psql -h database -U gigadb -c 'drop database gigadbv3_production'\" echo \"Stop database container\" docker stop deployment_database_1 Second version, make use of files-url-updater to restore the production database and dump it in text format. #!/usr/bin/env bash # Load environment variables source ./.env source ./.secrets latest=$(date -v-1d +\"%Y%m%d\") # docker-compose executable if [[ $GIGADB_ENV != \"dev\" \u0026\u0026 $GIGADB_ENV != \"CI\" ]];then DOCKER_COMPOSE=\"docker-compose --tlsverify -H=$REMOTE_DOCKER_HOST -f ops/deployment/docker-compose.production-envs.yml\" else DOCKER_COMPOSE=\"docker-compose\" fi echo \"Download and load the production database in to postgreSQL server using file-url-updater\" cd gigadb/app/tools/files-url-updater/ version=$($DOCKER_COMPOSE run --rm pg9_3 bash -c \"psql --version | cut -d' ' -f 3 | tr -d '\\n'\") $DOCKER_COMPOSE run --rm updater ./yii dataset-files/download-restore-backup --latest echo \"Export production data as text (only the strictly necessary data is exported)\" $DOCKER_COMPOSE run --rm updater pg_dump -h pg9_3 -U gigadb --clean --create --schema=public --no-privileges --no-tablespaces gigadb -f sql/gigadbv3_\"$latest\"_v\"$version\".backup if [[ $? -eq 0 \u0026\u0026 -f sql/gigadbv3_\"$latest\"_v\"$version\".backup ]];then echo \"Finished convert production database to postgreSQL version\" \"$version\" else echo \"No upgraded database dump found, conversion fail!\" fi Reference Run specific behat test gigaDB github ",
+  "wordCount" : "1525",
+  "inLanguage": "en",
+  "datePublished": "2020-07-24T16:03:12+08:00",
+  "dateModified": "2020-07-24T16:03:12+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Ken Cho"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kencho51.github.io/commandsusetorungigadb/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "kencho51",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kencho51.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +143,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
+            <a href="https://kencho51.github.io/" accesskey="h" title="kencho51 (Alt + H)">kencho51</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,22 +169,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/page/about/" title="About">
+                <a href="https://kencho51.github.io/page/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/post" title="Tech">
+                <a href="https://kencho51.github.io/post" title="Tech">
                     <span>Tech</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://kencho51.github.io/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://kencho51.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -125,7 +195,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://kencho51.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://kencho51.github.io/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Commands use to run gigadb
     </h1>
@@ -564,18 +634,18 @@ gigadb=# create database gigadbv3_20210920;
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/gigadb/">Gigadb</a></li>
-      <li><a href="http://localhost:1313/tags/yii2/">Yii2</a></li>
-      <li><a href="http://localhost:1313/tags/docker/">Docker</a></li>
-      <li><a href="http://localhost:1313/tags/psql/">Psql</a></li>
+      <li><a href="https://kencho51.github.io/tags/gigadb/">Gigadb</a></li>
+      <li><a href="https://kencho51.github.io/tags/yii2/">Yii2</a></li>
+      <li><a href="https://kencho51.github.io/tags/docker/">Docker</a></li>
+      <li><a href="https://kencho51.github.io/tags/psql/">Psql</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/howtogotopagebtn/">
+  <a class="prev" href="https://kencho51.github.io/howtogotopagebtn/">
     <span class="title">« Prev</span>
     <br>
     <span>How to make go to page feature</span>
   </a>
-  <a class="next" href="http://localhost:1313/whatsinterestinginbcc2020/">
+  <a class="next" href="https://kencho51.github.io/whatsinterestinginbcc2020/">
     <span class="title">Next »</span>
     <br>
     <span>Whats interesting in BCC2020</span>

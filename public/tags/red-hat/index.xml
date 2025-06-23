@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Red Hat on kencho51</title>
-    <link>http://localhost:1313/tags/red-hat/</link>
+    <link>https://kencho51.github.io/tags/red-hat/</link>
     <description>Recent content in Red Hat on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 05 May 2021 11:16:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kencho51.github.io/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Hat Enterprise Linux Technical Overview</title>
-      <link>http://localhost:1313/projects/red-hat-linux/</link>
+      <link>https://kencho51.github.io/projects/red-hat-linux/</link>
       <pubDate>Wed, 05 May 2021 11:16:25 +0800</pubDate>
-      <guid>http://localhost:1313/projects/red-hat-linux/</guid>
+      <guid>https://kencho51.github.io/projects/red-hat-linux/</guid>
       <description>Linux Crash Course</description>
     </item>
   </channel>

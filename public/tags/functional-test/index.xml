@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Functional Test on kencho51</title>
-    <link>http://localhost:1313/tags/functional-test/</link>
+    <link>https://kencho51.github.io/tags/functional-test/</link>
     <description>Recent content in Functional Test on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Mon, 13 Jul 2020 10:23:57 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/functional-test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kencho51.github.io/tags/functional-test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 13-17/7/20</title>
-      <link>http://localhost:1313/jobs/13-7-20/</link>
+      <link>https://kencho51.github.io/jobs/13-7-20/</link>
       <pubDate>Mon, 13 Jul 2020 10:23:57 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/13-7-20/</guid>
+      <guid>https://kencho51.github.io/jobs/13-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 6-10/7/20</title>
-      <link>http://localhost:1313/jobs/6-7-20/</link>
+      <link>https://kencho51.github.io/jobs/6-7-20/</link>
       <pubDate>Mon, 06 Jul 2020 10:38:55 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/6-7-20/</guid>
+      <guid>https://kencho51.github.io/jobs/6-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Codeception</title>
-      <link>http://localhost:1313/whatiscodeception/</link>
+      <link>https://kencho51.github.io/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      <guid>http://localhost:1313/whatiscodeception/</guid>
+      <guid>https://kencho51.github.io/whatiscodeception/</guid>
       <description>What is Codeception?</description>
     </item>
   </channel>

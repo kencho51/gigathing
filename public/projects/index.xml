@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on kencho51</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://kencho51.github.io/projects/</link>
     <description>Recent content in Projects on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 05 May 2021 11:16:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kencho51.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Hat Enterprise Linux Technical Overview</title>
-      <link>http://localhost:1313/projects/red-hat-linux/</link>
+      <link>https://kencho51.github.io/projects/red-hat-linux/</link>
       <pubDate>Wed, 05 May 2021 11:16:25 +0800</pubDate>
-      <guid>http://localhost:1313/projects/red-hat-linux/</guid>
+      <guid>https://kencho51.github.io/projects/red-hat-linux/</guid>
       <description>Linux Crash Course</description>
     </item>
     <item>
       <title>How to add favicon to a Hugo page</title>
-      <link>http://localhost:1313/projects/howtoaddfavicon/</link>
+      <link>https://kencho51.github.io/projects/howtoaddfavicon/</link>
       <pubDate>Tue, 27 Oct 2020 10:55:02 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtoaddfavicon/</guid>
+      <guid>https://kencho51.github.io/projects/howtoaddfavicon/</guid>
       <description>Steps to add Favicon to Hugo blog</description>
     </item>
     <item>
       <title>College Algebra in 7 hours</title>
-      <link>http://localhost:1313/projects/collegealgebra/</link>
+      <link>https://kencho51.github.io/projects/collegealgebra/</link>
       <pubDate>Tue, 28 Jul 2020 10:28:26 +0800</pubDate>
-      <guid>http://localhost:1313/projects/collegealgebra/</guid>
+      <guid>https://kencho51.github.io/projects/collegealgebra/</guid>
       <description>Brush up on your math skills</description>
     </item>
     <item>
       <title>How to implement Travis CI to a Hugo site</title>
-      <link>http://localhost:1313/projects/howtoimplementtravisci/</link>
+      <link>https://kencho51.github.io/projects/howtoimplementtravisci/</link>
       <pubDate>Thu, 23 Jul 2020 14:41:08 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtoimplementtravisci/</guid>
+      <guid>https://kencho51.github.io/projects/howtoimplementtravisci/</guid>
       <description>Travis Continuous Integration</description>
     </item>
     <item>
       <title>AWS Certified Cloud Practioner 2020</title>
-      <link>http://localhost:1313/projects/awscloud2020/</link>
+      <link>https://kencho51.github.io/projects/awscloud2020/</link>
       <pubDate>Mon, 06 Jul 2020 17:04:35 +0800</pubDate>
-      <guid>http://localhost:1313/projects/awscloud2020/</guid>
+      <guid>https://kencho51.github.io/projects/awscloud2020/</guid>
       <description>How to pass AWS Cloud Practioner Certification? </description>
     </item>
     <item>
       <title>How to add a comment functionality using uterances</title>
-      <link>http://localhost:1313/projects/howtoaddutterances/</link>
+      <link>https://kencho51.github.io/projects/howtoaddutterances/</link>
       <pubDate>Mon, 15 Jun 2020 11:25:56 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtoaddutterances/</guid>
+      <guid>https://kencho51.github.io/projects/howtoaddutterances/</guid>
       <description>Steps to add Utterances to Hugo blog</description>
     </item>
     <item>
       <title>How to build a blog using Yii1.1</title>
-      <link>http://localhost:1313/projects/howtobuildablogusingyii1/</link>
+      <link>https://kencho51.github.io/projects/howtobuildablogusingyii1/</link>
       <pubDate>Mon, 01 Jun 2020 10:10:24 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtobuildablogusingyii1/</guid>
+      <guid>https://kencho51.github.io/projects/howtobuildablogusingyii1/</guid>
       <description>Steps to build a blog using Yii1.1</description>
     </item>
     <item>
       <title>How to make a hugo website</title>
-      <link>http://localhost:1313/projects/howtomakeahugo/</link>
+      <link>https://kencho51.github.io/projects/howtomakeahugo/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/howtomakeahugo/</guid>
+      <guid>https://kencho51.github.io/projects/howtomakeahugo/</guid>
       <description>Steps to make a hugo page hosted on github</description>
     </item>
     <item>
       <title>My awesome project</title>
-      <link>http://localhost:1313/projects/my-awesome-project/</link>
+      <link>https://kencho51.github.io/projects/my-awesome-project/</link>
       <pubDate>Tue, 18 Nov 2014 02:13:50 +0000</pubDate>
-      <guid>http://localhost:1313/projects/my-awesome-project/</guid>
+      <guid>https://kencho51.github.io/projects/my-awesome-project/</guid>
       <description>Description of my awesome project.</description>
     </item>
   </channel>

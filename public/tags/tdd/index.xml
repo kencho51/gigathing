@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TDD on kencho51</title>
-    <link>http://localhost:1313/tags/tdd/</link>
+    <link>https://kencho51.github.io/tags/tdd/</link>
     <description>Recent content in TDD on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Fri, 08 Jan 2021 10:30:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kencho51.github.io/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pass Behat Tests Example</title>
-      <link>http://localhost:1313/pass-behat-tests-example/</link>
+      <link>https://kencho51.github.io/pass-behat-tests-example/</link>
       <pubDate>Fri, 08 Jan 2021 10:30:26 +0800</pubDate>
-      <guid>http://localhost:1313/pass-behat-tests-example/</guid>
+      <guid>https://kencho51.github.io/pass-behat-tests-example/</guid>
       <description>How to pass a behat test</description>
     </item>
     <item>
       <title>Learn, todo and done 3-7/8/20</title>
-      <link>http://localhost:1313/jobs/3-8-20/</link>
+      <link>https://kencho51.github.io/jobs/3-8-20/</link>
       <pubDate>Mon, 03 Aug 2020 10:10:53 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/3-8-20/</guid>
+      <guid>https://kencho51.github.io/jobs/3-8-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 27-31/7/20</title>
-      <link>http://localhost:1313/jobs/27-7-20/</link>
+      <link>https://kencho51.github.io/jobs/27-7-20/</link>
       <pubDate>Mon, 27 Jul 2020 10:28:07 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/27-7-20/</guid>
+      <guid>https://kencho51.github.io/jobs/27-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/7/20</title>
-      <link>http://localhost:1313/jobs/20-7-20/</link>
+      <link>https://kencho51.github.io/jobs/20-7-20/</link>
       <pubDate>Mon, 20 Jul 2020 12:09:20 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/20-7-20/</guid>
+      <guid>https://kencho51.github.io/jobs/20-7-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 22-26/6/20</title>
-      <link>http://localhost:1313/jobs/22-6-20/</link>
+      <link>https://kencho51.github.io/jobs/22-6-20/</link>
       <pubDate>Mon, 22 Jun 2020 09:28:30 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/22-6-20/</guid>
+      <guid>https://kencho51.github.io/jobs/22-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/6/20</title>
-      <link>http://localhost:1313/jobs/15-6-20/</link>
+      <link>https://kencho51.github.io/jobs/15-6-20/</link>
       <pubDate>Mon, 15 Jun 2020 09:56:41 +0800</pubDate>
-      <guid>http://localhost:1313/jobs/15-6-20/</guid>
+      <guid>https://kencho51.github.io/jobs/15-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>What is Tdd?</title>
-      <link>http://localhost:1313/tdd/</link>
+      <link>https://kencho51.github.io/tdd/</link>
       <pubDate>Wed, 10 Jun 2020 14:28:31 +0800</pubDate>
-      <guid>http://localhost:1313/tdd/</guid>
+      <guid>https://kencho51.github.io/tdd/</guid>
       <description>Test Driving Development</description>
     </item>
   </channel>
