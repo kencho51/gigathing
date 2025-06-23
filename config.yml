@@ -1,11 +1,22 @@
-baseurl: "https://gigathing.pages.dev/"
+baseurl: "https://blog.superbrains.cc/"
 title: "kencho51"
 theme: "hugo-PaperMod"
 languageCode: "en-us"
 copyright: "kencho51"
 pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
 pygmentsCodefences: true
+enableRobotsTXT: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
 # publishDir: "gigathing"
+
+pagination:
+    pagerSize: 5
 
 taxonomies:
   tag: "tags"
@@ -21,6 +32,7 @@ services:
     shortname: "cloudpage"
 
 params:
+  env: "production"
   mainSections: ["post"]
   homeInfoParams:
     Title: Hi there
@@ -36,6 +48,7 @@ params:
   ShowShareButtons: true
   ShareButtons: ["linkedin", "twitter", "telegram", "email"]
   ShowReadingTime: true
+  ShowWordCount: true
   ShowToc: true
   TocOpen: true
   ShowBreadCrumbs: true
@@ -46,7 +59,7 @@ params:
   # Analytics configuration
   analytics:
     google:
-      id: "G-LV12W6L6C4"
+      SiteVerificationTag:: "G-LV12W6L6C4"
 
   # Search configuration for PaperMod
   fuseOpts:
