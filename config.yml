@@ -13,6 +13,21 @@ minify:
   disableXML: true
   minifyOutput: true
 
+# SEO and Performance
+enableGitInfo: true
+enableEmoji: true
+enableMissingTranslationPlaceholders: false
+
+# Sitemap configuration
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+
+# RSS configuration
+rssLimit: 20
+rssFullContent: true
+
 # publishDir: "gigathing"
 
 pagination:
@@ -20,6 +35,7 @@ pagination:
 
 taxonomies:
   tag: "tags"
+  category: "categories"
 
 outputs:
   home:
@@ -31,6 +47,7 @@ services:
   disqus:
     shortname: "cloudpage"
 
+# SEO Meta tags
 params:
   env: "production"
   mainSections: ["post"]
@@ -55,6 +72,27 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   comments: true
+
+  # SEO Meta tags
+  description: "Personal tech blog covering development tutorials, insights, and experiences in software development, DevOps, and technology."
+  keywords: ["tech blog", "software development", "tutorials", "programming", "devops", "technology"]
+  author: "kencho51"
+  
+  # Social media
+  twitter:
+    site: "@kencho51"
+    creator: "@kencho51"
+  
+  # Additional SEO
+  googleAnalytics: "G-LV12W6L6C4"
+  googleSiteVerification: "G-LV12W6L6C4"
+  
+  # Structured data
+  structuredData: true
+  
+  # Performance
+  enableFingerprinting: true
+  enableSourceMap: false
 
   # Analytics configuration
   analytics:

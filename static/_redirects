@@ -1,0 +1,11 @@
+# Redirect old URLs to new ones (if any)
+# Example: /old-post/ /new-post/ 301
+
+# Redirect www to non-www (if needed)
+# www.blog.superbrains.cc/* https://blog.superbrains.cc/:splat 301
+
+# Redirect HTTP to HTTPS (handled by Cloudflare)
+# http://blog.superbrains.cc/* https://blog.superbrains.cc/:splat 301
+
+# Custom 404 page
+/404.html /404.html 404 

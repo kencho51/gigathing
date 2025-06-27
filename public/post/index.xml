@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Wed, 21 Sep 2022 09:45:28 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 13:46:01 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How rclone works</title>
@@ -148,118 +148,6 @@
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
       <guid>http://localhost:1313/whatiscodeception/</guid>
       <description>What is Codeception?</description>
-    </item>
-    <item>
-      <title>PHP standards</title>
-      <link>http://localhost:1313/phpstandards/</link>
-      <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
-      <guid>http://localhost:1313/phpstandards/</guid>
-      <description>PHP coding standards</description>
-    </item>
-    <item>
-      <title>PHPUnit</title>
-      <link>http://localhost:1313/whatisphpunittest/</link>
-      <pubDate>Tue, 16 Jun 2020 09:54:47 +0800</pubDate>
-      <guid>http://localhost:1313/whatisphpunittest/</guid>
-      <description>What is PHPUnit?</description>
-    </item>
-    <item>
-      <title>Docker 101</title>
-      <link>http://localhost:1313/docker101/</link>
-      <pubDate>Thu, 11 Jun 2020 17:27:08 +0800</pubDate>
-      <guid>http://localhost:1313/docker101/</guid>
-      <description>Docker Introduction</description>
-    </item>
-    <item>
-      <title>What is Tdd?</title>
-      <link>http://localhost:1313/tdd/</link>
-      <pubDate>Wed, 10 Jun 2020 14:28:31 +0800</pubDate>
-      <guid>http://localhost:1313/tdd/</guid>
-      <description>Test Driving Development</description>
-    </item>
-    <item>
-      <title>Postgresql</title>
-      <link>http://localhost:1313/postgresql/</link>
-      <pubDate>Tue, 09 Jun 2020 10:25:23 +0800</pubDate>
-      <guid>http://localhost:1313/postgresql/</guid>
-      <description>Everything about PostgreSQL database</description>
-    </item>
-    <item>
-      <title>Yii1.1 for beginners</title>
-      <link>http://localhost:1313/yiiforbeginners/</link>
-      <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>http://localhost:1313/yiiforbeginners/</guid>
-      <description>Yii framework Wiki</description>
-    </item>
-    <item>
-      <title>Yii 1.1 Quick Start</title>
-      <link>http://localhost:1313/yii1.1/</link>
-      <pubDate>Wed, 27 May 2020 12:50:48 +0800</pubDate>
-      <guid>http://localhost:1313/yii1.1/</guid>
-      <description> Yii Quick Start</description>
-    </item>
-    <item>
-      <title>Yii 2.0 - Getting Started</title>
-      <link>http://localhost:1313/yiiprogress/</link>
-      <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>http://localhost:1313/yiiprogress/</guid>
-      <description>Yii 2.0 learning progress</description>
-    </item>
-    <item>
-      <title>OOP</title>
-      <link>http://localhost:1313/oop/</link>
-      <pubDate>Tue, 26 May 2020 10:13:43 +0800</pubDate>
-      <guid>http://localhost:1313/oop/</guid>
-      <description>What is Object Oriented Programming?</description>
-    </item>
-    <item>
-      <title>How to format text using Markdown?</title>
-      <link>http://localhost:1313/markdownsyntax/</link>
-      <pubDate>Fri, 22 May 2020 11:39:44 +0800</pubDate>
-      <guid>http://localhost:1313/markdownsyntax/</guid>
-      <description>Markdown Syntax</description>
-    </item>
-    <item>
-      <title>PHP progress</title>
-      <link>http://localhost:1313/phpprogress/</link>
-      <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
-      <guid>http://localhost:1313/phpprogress/</guid>
-      <description>Learning PHP at Codecademy</description>
-    </item>
-    <item>
-      <title>Github usage example</title>
-      <link>http://localhost:1313/githubusageexample/</link>
-      <pubDate>Tue, 19 May 2020 15:55:27 +0800</pubDate>
-      <guid>http://localhost:1313/githubusageexample/</guid>
-      <description>How to make changes in gigadb-website repo</description>
-    </item>
-    <item>
-      <title>Hugo page is released</title>
-      <link>http://localhost:1313/deployhugo/</link>
-      <pubDate>Mon, 18 May 2020 12:24:27 +0800</pubDate>
-      <guid>http://localhost:1313/deployhugo/</guid>
-      <description>A hugo website deplyed!</description>
-    </item>
-    <item>
-      <title>Test update new post to public</title>
-      <link>http://localhost:1313/test/</link>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test/</guid>
-      <description>Test</description>
-    </item>
-    <item>
-      <title>What I have done</title>
-      <link>http://localhost:1313/14-05-2020_done/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/14-05-2020_done/</guid>
-      <description>Trying to fix issue #198</description>
-    </item>
-    <item>
-      <title>What I have learned</title>
-      <link>http://localhost:1313/13-05-2020-log/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/13-05-2020-log/</guid>
-      <description>Learning and some hands on</description>
     </item>
   </channel>
 </rss>

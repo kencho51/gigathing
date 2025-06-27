@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Block access to admin areas and private content
+Disallow: /jobs/
+Disallow: /draft/
+Disallow: /temp/
+
+# Block access to search results (optional - helps with duplicate content)
+Disallow: /search/
+
+# Block access to JSON files (except sitemap)
+Disallow: /*.json$
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+Allow: /android-chrome-*.png
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://blog.superbrains.cc/sitemap.xml
+
+# Additional sitemaps if you have them
+Sitemap: https://blog.superbrains.cc/index.json 
