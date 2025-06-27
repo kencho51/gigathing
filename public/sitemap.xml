@@ -2,1112 +2,1147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://blog.superbrains.cc/tags/2025/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/categories/analysis/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/categories/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/comments/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/projects/comment-systems-comparison/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/comparison/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/disqus/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/giscus/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/hugo/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/projects/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/utterances/</loc>
+    <lastmod>2025-06-27T10:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.superbrains.cc/tags/aws/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/cloud/</loc>
+    <loc>https://blog.superbrains.cc/tags/cloud/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/howrcloneworks/</loc>
+    <loc>https://blog.superbrains.cc/howrcloneworks/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.superbrains.cc/post/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://blog.superbrains.cc/tags/rclone/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/rclone/</loc>
+    <loc>https://blog.superbrains.cc/tags/wasabi/</loc>
     <lastmod>2025-06-23T13:46:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-23T13:46:01+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/wasabi/</loc>
-    <lastmod>2025-06-23T13:46:01+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/howyiimigrationscriptworks/</loc>
+    <loc>https://blog.superbrains.cc/howyiimigrationscriptworks/</loc>
     <lastmod>2022-08-20T14:58:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/ansible/</loc>
+    <loc>https://blog.superbrains.cc/tags/ansible/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/api/</loc>
+    <loc>https://blog.superbrains.cc/tags/api/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/clean-code/</loc>
+    <loc>https://blog.superbrains.cc/tags/clean-code/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/</loc>
+    <loc>https://blog.superbrains.cc/jobs/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/24-5-22/</loc>
+    <loc>https://blog.superbrains.cc/jobs/24-5-22/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/terraform/</loc>
+    <loc>https://blog.superbrains.cc/tags/terraform/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/udemy/</loc>
+    <loc>https://blog.superbrains.cc/tags/udemy/</loc>
     <lastmod>2022-05-24T17:24:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/19-4-22/</loc>
+    <loc>https://blog.superbrains.cc/jobs/19-4-22/</loc>
     <lastmod>2022-05-24T17:24:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/design-pattern/</loc>
+    <loc>https://blog.superbrains.cc/tags/design-pattern/</loc>
     <lastmod>2022-04-19T09:47:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/6-4-22/</loc>
+    <loc>https://blog.superbrains.cc/jobs/6-4-22/</loc>
     <lastmod>2022-04-19T09:47:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/17-2-22/</loc>
+    <loc>https://blog.superbrains.cc/jobs/17-2-22/</loc>
     <lastmod>2022-02-17T09:52:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/17-1-22/</loc>
+    <loc>https://blog.superbrains.cc/jobs/17-1-22/</loc>
     <lastmod>2022-01-17T10:01:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://blog.superbrains.cc/tags/devops/</loc>
     <lastmod>2021-11-15T14:05:47+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/15-11-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/15-11-21/</loc>
     <lastmod>2021-11-15T14:05:47+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://blog.superbrains.cc/tags/docker/</loc>
     <lastmod>2021-12-09T11:35:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/howtobuildportainerinproduction/</loc>
+    <loc>https://blog.superbrains.cc/howtobuildportainerinproduction/</loc>
     <lastmod>2021-11-15T13:53:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/nginx/</loc>
+    <loc>https://blog.superbrains.cc/tags/nginx/</loc>
     <lastmod>2021-11-15T13:53:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/portainer/</loc>
+    <loc>https://blog.superbrains.cc/tags/portainer/</loc>
     <lastmod>2021-11-15T13:53:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/reverse-proxy/</loc>
+    <loc>https://blog.superbrains.cc/tags/reverse-proxy/</loc>
     <lastmod>2021-11-15T13:53:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/howtoaddportainer/</loc>
+    <loc>https://blog.superbrains.cc/howtoaddportainer/</loc>
     <lastmod>2021-10-21T16:16:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/18-10-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/18-10-21/</loc>
     <lastmod>2021-11-15T13:57:53+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/27-9-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/27-9-21/</loc>
     <lastmod>2021-09-27T13:46:11+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/20-9-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/20-9-21/</loc>
     <lastmod>2021-09-27T13:37:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/13-9-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/13-9-21/</loc>
     <lastmod>2021-09-20T12:03:51+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/6-9-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/6-9-21/</loc>
     <lastmod>2021-10-21T15:54:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/23-8-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/23-8-21/</loc>
     <lastmod>2021-09-06T11:45:14+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/9-8-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/9-8-21/</loc>
     <lastmod>2021-08-23T13:45:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/19-7-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/19-7-21/</loc>
     <lastmod>2021-08-09T11:57:35+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/12-7-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/12-7-21/</loc>
     <lastmod>2021-07-19T10:51:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/5-7-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/5-7-21/</loc>
     <lastmod>2021-07-12T14:47:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/28-6-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/28-6-21/</loc>
     <lastmod>2021-07-05T11:58:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/21-6-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/21-6-21/</loc>
     <lastmod>2021-06-28T15:06:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/15-6-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/15-6-21/</loc>
     <lastmod>2021-06-21T10:03:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/7-6-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/7-6-21/</loc>
     <lastmod>2021-06-15T14:57:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/31-5-32/</loc>
+    <loc>https://blog.superbrains.cc/jobs/31-5-32/</loc>
     <lastmod>2021-06-07T17:00:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/24-5-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/24-5-21/</loc>
     <lastmod>2021-05-28T17:21:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/bootstrap/</loc>
+    <loc>https://blog.superbrains.cc/tags/bootstrap/</loc>
     <lastmod>2021-05-21T14:24:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/how-to-make-dropdown-button/</loc>
+    <loc>https://blog.superbrains.cc/how-to-make-dropdown-button/</loc>
     <lastmod>2021-05-21T14:24:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://blog.superbrains.cc/tags/javascript/</loc>
     <lastmod>2021-05-21T14:24:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/fuw/</loc>
+    <loc>https://blog.superbrains.cc/tags/fuw/</loc>
     <lastmod>2021-06-15T14:42:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/how-to-review-fuw-cicd/</loc>
+    <loc>https://blog.superbrains.cc/how-to-review-fuw-cicd/</loc>
     <lastmod>2021-06-15T14:42:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/17-5-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/17-5-21/</loc>
     <lastmod>2021-05-21T17:37:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/10-5-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/10-5-21/</loc>
     <lastmod>2021-05-17T10:57:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://blog.superbrains.cc/tags/linux/</loc>
     <lastmod>2021-05-05T15:48:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2021-10-21T16:28:31+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/red-hat/</loc>
+    <loc>https://blog.superbrains.cc/tags/red-hat/</loc>
     <lastmod>2021-05-05T15:48:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/red-hat-linux/</loc>
+    <loc>https://blog.superbrains.cc/projects/red-hat-linux/</loc>
     <lastmod>2021-05-05T15:48:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/3-5-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/3-5-21/</loc>
     <lastmod>2021-05-07T17:52:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/26-4-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/26-4-21/</loc>
     <lastmod>2021-05-03T12:03:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/19-4-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/19-4-21/</loc>
     <lastmod>2021-04-26T16:40:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/12-4-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/12-4-21/</loc>
     <lastmod>2021-04-19T11:30:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/29-3-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/29-3-21/</loc>
     <lastmod>2021-04-12T15:55:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/22-3-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/22-3-21/</loc>
     <lastmod>2021-03-26T17:54:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/15-3-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/15-3-21/</loc>
     <lastmod>2021-03-23T15:12:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/chrome/</loc>
+    <loc>https://blog.superbrains.cc/tags/chrome/</loc>
     <lastmod>2021-05-21T12:52:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://blog.superbrains.cc/tags/css/</loc>
     <lastmod>2021-05-21T12:52:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/safari/</loc>
+    <loc>https://blog.superbrains.cc/tags/safari/</loc>
     <lastmod>2021-05-21T12:52:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/css-works-in-chrome-but-not-safari/</loc>
+    <loc>https://blog.superbrains.cc/css-works-in-chrome-but-not-safari/</loc>
     <lastmod>2021-05-21T12:52:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/8-3-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/8-3-21/</loc>
     <lastmod>2021-03-12T14:32:55+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/1-3-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/1-3-21/</loc>
     <lastmod>2021-03-05T16:36:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/add-delete-button/</loc>
+    <loc>https://blog.superbrains.cc/add-delete-button/</loc>
     <lastmod>2021-03-11T10:30:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/csv-migration/</loc>
+    <loc>https://blog.superbrains.cc/tags/csv-migration/</loc>
     <lastmod>2021-03-11T10:30:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/factory-method/</loc>
+    <loc>https://blog.superbrains.cc/tags/factory-method/</loc>
     <lastmod>2021-03-11T10:30:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/22-2-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/22-2-21/</loc>
     <lastmod>2021-03-01T11:22:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/18-2-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/18-2-21/</loc>
     <lastmod>2021-02-22T10:48:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/8-2-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/8-2-21/</loc>
     <lastmod>2021-02-08T15:56:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/1-2-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/1-2-21/</loc>
     <lastmod>2021-02-08T15:56:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/25-1-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/25-1-21/</loc>
     <lastmod>2021-01-29T16:16:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/18-1-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/18-1-21/</loc>
     <lastmod>2021-01-25T11:56:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/11-1-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/11-1-21/</loc>
     <lastmod>2021-01-18T11:40:09+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/behat/</loc>
+    <loc>https://blog.superbrains.cc/tags/behat/</loc>
     <lastmod>2021-02-22T12:48:52+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pass-behat-tests-example/</loc>
+    <loc>https://blog.superbrains.cc/pass-behat-tests-example/</loc>
     <lastmod>2021-02-22T12:48:52+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/tdd/</loc>
+    <loc>https://blog.superbrains.cc/tags/tdd/</loc>
     <lastmod>2021-02-22T12:48:52+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/docker-compose/</loc>
+    <loc>https://blog.superbrains.cc/tags/docker-compose/</loc>
     <lastmod>2021-01-07T15:42:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docker-compose-dependency/</loc>
+    <loc>https://blog.superbrains.cc/docker-compose-dependency/</loc>
     <lastmod>2021-01-07T15:42:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/4-1-21/</loc>
+    <loc>https://blog.superbrains.cc/jobs/4-1-21/</loc>
     <lastmod>2021-01-12T14:57:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/28-12-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/28-12-20/</loc>
     <lastmod>2021-02-22T10:39:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/21-12-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/21-12-20/</loc>
     <lastmod>2020-12-22T12:10:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/14-12-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/14-12-20/</loc>
     <lastmod>2020-12-21T12:07:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/7-12-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/7-12-20/</loc>
     <lastmod>2020-12-14T13:05:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/30-11-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/30-11-20/</loc>
     <lastmod>2020-12-08T14:33:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/23-11-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/23-11-20/</loc>
     <lastmod>2020-11-30T13:48:11+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/16-11-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/16-11-20/</loc>
     <lastmod>2020-11-23T16:28:09+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/yii2/</loc>
+    <loc>https://blog.superbrains.cc/tags/yii2/</loc>
     <lastmod>2021-12-09T11:35:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/9-11-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/9-11-20/</loc>
     <lastmod>2020-11-16T12:54:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/2-11-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/2-11-20/</loc>
     <lastmod>2020-11-09T17:56:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/favicon/</loc>
+    <loc>https://blog.superbrains.cc/tags/favicon/</loc>
     <lastmod>2021-10-21T16:28:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/howtoaddfavicon/</loc>
+    <loc>https://blog.superbrains.cc/projects/howtoaddfavicon/</loc>
     <lastmod>2021-10-21T16:28:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/27-10-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/27-10-20/</loc>
     <lastmod>2020-11-06T18:01:20+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/19-10-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/19-10-20/</loc>
     <lastmod>2020-10-27T10:20:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/12-10-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/12-10-20/</loc>
     <lastmod>2020-10-19T10:19:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/cs/</loc>
+    <loc>https://blog.superbrains.cc/tags/cs/</loc>
     <lastmod>2020-10-05T13:06:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/freecodecamp/</loc>
+    <loc>https://blog.superbrains.cc/tags/freecodecamp/</loc>
     <lastmod>2020-10-05T13:06:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/oop/</loc>
+    <loc>https://blog.superbrains.cc/tags/oop/</loc>
     <lastmod>2020-10-05T13:06:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/oopbasics/</loc>
+    <loc>https://blog.superbrains.cc/oopbasics/</loc>
     <lastmod>2020-10-05T13:06:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/5-10-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/5-10-20/</loc>
     <lastmod>2020-10-12T10:16:55+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/28-9-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/28-9-20/</loc>
     <lastmod>2020-10-05T11:28:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/%23457/</loc>
+    <loc>https://blog.superbrains.cc/tags/%23457/</loc>
     <lastmod>2020-09-24T14:53:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/howtodeletebtn/</loc>
+    <loc>https://blog.superbrains.cc/howtodeletebtn/</loc>
     <lastmod>2020-09-24T14:53:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/yii/</loc>
+    <loc>https://blog.superbrains.cc/tags/yii/</loc>
     <lastmod>2020-09-24T14:53:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/21-9-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/21-9-20/</loc>
     <lastmod>2020-09-30T14:57:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/14-9-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/14-9-20/</loc>
     <lastmod>2020-09-21T10:33:09+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/7-9-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/7-9-20/</loc>
     <lastmod>2020-09-21T10:36:53+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/31-8-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/31-8-20/</loc>
     <lastmod>2020-09-06T14:45:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/24-8-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/24-8-20/</loc>
     <lastmod>2020-08-31T09:59:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/yii-pagination/</loc>
+    <loc>https://blog.superbrains.cc/tags/yii-pagination/</loc>
     <lastmod>2020-08-31T09:59:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/whatisapi/</loc>
+    <loc>https://blog.superbrains.cc/whatisapi/</loc>
     <lastmod>2020-08-20T16:40:52+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/%23437/</loc>
+    <loc>https://blog.superbrains.cc/tags/%23437/</loc>
     <lastmod>2020-08-31T11:55:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/howtogotopagebtn/</loc>
+    <loc>https://blog.superbrains.cc/howtogotopagebtn/</loc>
     <lastmod>2020-08-31T11:55:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/17-8-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/17-8-20/</loc>
     <lastmod>2020-08-19T15:48:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/10-8-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/10-8-20/</loc>
     <lastmod>2020-08-17T09:51:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/pagination/</loc>
+    <loc>https://blog.superbrains.cc/tags/pagination/</loc>
     <lastmod>2020-08-17T09:51:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/bdd/</loc>
+    <loc>https://blog.superbrains.cc/tags/bdd/</loc>
     <lastmod>2020-08-04T11:22:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/3-8-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/3-8-20/</loc>
     <lastmod>2020-08-04T11:22:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/collegealgebra/</loc>
+    <loc>https://blog.superbrains.cc/projects/collegealgebra/</loc>
     <lastmod>2020-07-28T10:39:44+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/27-7-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/27-7-20/</loc>
     <lastmod>2020-08-03T13:41:56+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/commandsusetorungigadb/</loc>
+    <loc>https://blog.superbrains.cc/commandsusetorungigadb/</loc>
     <lastmod>2021-12-09T11:35:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/gigadb/</loc>
+    <loc>https://blog.superbrains.cc/tags/gigadb/</loc>
     <lastmod>2021-12-09T11:35:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/psql/</loc>
+    <loc>https://blog.superbrains.cc/tags/psql/</loc>
     <lastmod>2021-12-09T11:35:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://blog.superbrains.cc/tags/go/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/howtoimplementtravisci/</loc>
+    <loc>https://blog.superbrains.cc/projects/howtoimplementtravisci/</loc>
     <lastmod>2020-08-17T14:02:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/token/</loc>
+    <loc>https://blog.superbrains.cc/tags/token/</loc>
     <lastmod>2020-08-17T14:02:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/travis-ci/</loc>
+    <loc>https://blog.superbrains.cc/tags/travis-ci/</loc>
     <lastmod>2020-08-17T14:02:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/bcc2020/</loc>
+    <loc>https://blog.superbrains.cc/tags/bcc2020/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/bionitio/</loc>
+    <loc>https://blog.superbrains.cc/tags/bionitio/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/galaxy/</loc>
+    <loc>https://blog.superbrains.cc/tags/galaxy/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/jbrowse-2/</loc>
+    <loc>https://blog.superbrains.cc/tags/jbrowse-2/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/nanopore/</loc>
+    <loc>https://blog.superbrains.cc/tags/nanopore/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/readuntil/</loc>
+    <loc>https://blog.superbrains.cc/tags/readuntil/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/whatsinterestinginbcc2020/</loc>
+    <loc>https://blog.superbrains.cc/whatsinterestinginbcc2020/</loc>
     <lastmod>2020-07-23T17:54:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/20-7-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/20-7-20/</loc>
     <lastmod>2020-08-03T10:35:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/bdd/</loc>
+    <loc>https://blog.superbrains.cc/bdd/</loc>
     <lastmod>2020-07-15T17:18:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/php/</loc>
+    <loc>https://blog.superbrains.cc/tags/php/</loc>
     <lastmod>2020-07-29T16:58:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/functional-test/</loc>
+    <loc>https://blog.superbrains.cc/tags/functional-test/</loc>
     <lastmod>2020-07-20T12:15:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/13-7-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/13-7-20/</loc>
     <lastmod>2020-07-20T12:15:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/unit-test/</loc>
+    <loc>https://blog.superbrains.cc/tags/unit-test/</loc>
     <lastmod>2020-07-20T12:15:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/phpcodesniffer/</loc>
+    <loc>https://blog.superbrains.cc/phpcodesniffer/</loc>
     <lastmod>2020-07-07T17:19:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/php_codesniffer/</loc>
+    <loc>https://blog.superbrains.cc/tags/php_codesniffer/</loc>
     <lastmod>2020-07-07T17:19:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/awscloud2020/</loc>
+    <loc>https://blog.superbrains.cc/projects/awscloud2020/</loc>
     <lastmod>2020-07-06T17:59:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/cloud-practitioner/</loc>
+    <loc>https://blog.superbrains.cc/tags/cloud-practitioner/</loc>
     <lastmod>2020-07-06T17:59:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/6-7-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/6-7-20/</loc>
     <lastmod>2020-07-13T14:50:22+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/date/</loc>
+    <loc>https://blog.superbrains.cc/tags/date/</loc>
     <lastmod>2020-07-03T16:47:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/phpdatetimes/</loc>
+    <loc>https://blog.superbrains.cc/phpdatetimes/</loc>
     <lastmod>2020-07-03T16:47:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/time/</loc>
+    <loc>https://blog.superbrains.cc/tags/time/</loc>
     <lastmod>2020-07-03T16:47:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/codeception/</loc>
+    <loc>https://blog.superbrains.cc/tags/codeception/</loc>
     <lastmod>2020-07-09T14:18:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/functional/</loc>
+    <loc>https://blog.superbrains.cc/tags/functional/</loc>
     <lastmod>2020-07-03T16:47:47+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/29-6-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/29-6-20/</loc>
     <lastmod>2020-07-03T16:47:47+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/unit/</loc>
+    <loc>https://blog.superbrains.cc/tags/unit/</loc>
     <lastmod>2020-07-03T16:47:47+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/whatiscodeception/</loc>
+    <loc>https://blog.superbrains.cc/whatiscodeception/</loc>
     <lastmod>2020-07-09T14:18:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/22-6-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/22-6-20/</loc>
     <lastmod>2020-06-29T15:24:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/phpstandards/</loc>
+    <loc>https://blog.superbrains.cc/phpstandards/</loc>
     <lastmod>2020-06-17T17:52:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/psr-1/</loc>
+    <loc>https://blog.superbrains.cc/tags/psr-1/</loc>
     <lastmod>2020-06-17T17:52:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/psr-2/</loc>
+    <loc>https://blog.superbrains.cc/tags/psr-2/</loc>
     <lastmod>2020-06-17T17:52:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/whatisphpunittest/</loc>
+    <loc>https://blog.superbrains.cc/whatisphpunittest/</loc>
     <lastmod>2020-07-09T17:54:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/howtoaddutterances/</loc>
+    <loc>https://blog.superbrains.cc/projects/howtoaddutterances/</loc>
     <lastmod>2020-06-15T11:55:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2025-06-23T11:30:37+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/uterances/</loc>
+    <loc>https://blog.superbrains.cc/tags/uterances/</loc>
     <lastmod>2020-06-15T11:55:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/15-6-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/15-6-20/</loc>
     <lastmod>2020-06-29T15:24:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docker101/</loc>
+    <loc>https://blog.superbrains.cc/docker101/</loc>
     <lastmod>2020-07-29T16:58:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tdd/</loc>
+    <loc>https://blog.superbrains.cc/tdd/</loc>
     <lastmod>2020-07-30T17:35:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/database/</loc>
+    <loc>https://blog.superbrains.cc/tags/database/</loc>
     <lastmod>2020-09-18T14:12:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/postgresql/</loc>
+    <loc>https://blog.superbrains.cc/postgresql/</loc>
     <lastmod>2020-09-18T14:12:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/postgresql/</loc>
+    <loc>https://blog.superbrains.cc/tags/postgresql/</loc>
     <lastmod>2020-09-18T14:12:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/sql/</loc>
+    <loc>https://blog.superbrains.cc/tags/sql/</loc>
     <lastmod>2020-09-18T14:12:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/8-6-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/8-6-20/</loc>
     <lastmod>2020-06-29T15:24:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/utterances/</loc>
-    <lastmod>2020-06-29T15:24:17+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/yii1.1/</loc>
+    <loc>https://blog.superbrains.cc/tags/yii1.1/</loc>
     <lastmod>2020-06-04T18:02:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/yiiforbeginners/</loc>
+    <loc>https://blog.superbrains.cc/yiiforbeginners/</loc>
     <lastmod>2020-06-04T18:02:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/howtobuildablogusingyii1/</loc>
+    <loc>https://blog.superbrains.cc/projects/howtobuildablogusingyii1/</loc>
     <lastmod>2020-06-03T18:04:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/sqlite/</loc>
+    <loc>https://blog.superbrains.cc/tags/sqlite/</loc>
     <lastmod>2020-06-03T18:04:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/yii-1.1/</loc>
+    <loc>https://blog.superbrains.cc/tags/yii-1.1/</loc>
     <lastmod>2020-06-04T18:02:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/1-6-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/1-6-20/</loc>
     <lastmod>2020-06-29T15:24:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/yii1.1/</loc>
+    <loc>https://blog.superbrains.cc/yii1.1/</loc>
     <lastmod>2020-06-04T18:02:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/composoer/</loc>
+    <loc>https://blog.superbrains.cc/tags/composoer/</loc>
     <lastmod>2020-05-27T17:52:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/yiiprogress/</loc>
+    <loc>https://blog.superbrains.cc/yiiprogress/</loc>
     <lastmod>2020-05-27T17:52:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/oop/</loc>
+    <loc>https://blog.superbrains.cc/oop/</loc>
     <lastmod>2020-07-29T16:58:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/%23436/</loc>
+    <loc>https://blog.superbrains.cc/tags/%23436/</loc>
     <lastmod>2020-05-29T13:52:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/25-5-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/25-5-20/</loc>
     <lastmod>2020-05-29T13:52:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/markdownsyntax/</loc>
+    <loc>https://blog.superbrains.cc/markdownsyntax/</loc>
     <lastmod>2020-05-22T11:53:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://blog.superbrains.cc/tags/markdown/</loc>
     <lastmod>2020-05-22T11:53:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/develop/</loc>
+    <loc>https://blog.superbrains.cc/tags/develop/</loc>
     <lastmod>2021-05-06T15:48:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/phpprogress/</loc>
+    <loc>https://blog.superbrains.cc/phpprogress/</loc>
     <lastmod>2020-06-08T15:26:11+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/gigadb-website/</loc>
+    <loc>https://blog.superbrains.cc/tags/gigadb-website/</loc>
     <lastmod>2021-05-06T15:48:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://blog.superbrains.cc/tags/github/</loc>
     <lastmod>2021-05-06T15:48:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/githubusageexample/</loc>
+    <loc>https://blog.superbrains.cc/githubusageexample/</loc>
     <lastmod>2021-05-06T15:48:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/18-5-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/18-5-20/</loc>
     <lastmod>2020-05-27T12:15:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/url/</loc>
+    <loc>https://blog.superbrains.cc/tags/url/</loc>
     <lastmod>2020-05-27T12:15:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/deployhugo/</loc>
+    <loc>https://blog.superbrains.cc/deployhugo/</loc>
     <lastmod>2025-06-23T10:55:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/howtomakeahugo/</loc>
+    <loc>https://blog.superbrains.cc/projects/howtomakeahugo/</loc>
     <lastmod>2020-07-23T13:56:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/test/</loc>
+    <loc>https://blog.superbrains.cc/test/</loc>
     <lastmod>2020-05-18T11:01:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/14-05-2020_done/</loc>
+    <loc>https://blog.superbrains.cc/14-05-2020_done/</loc>
     <lastmod>2020-05-18T11:12:56+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/page/about/</loc>
+    <loc>https://blog.superbrains.cc/page/about/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://blog.superbrains.cc/page/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/13-05-2020-log/</loc>
+    <loc>https://blog.superbrains.cc/13-05-2020-log/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/my-awesome-project/</loc>
+    <loc>https://blog.superbrains.cc/projects/my-awesome-project/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/reference/creating-a-new-theme/</loc>
+    <loc>https://blog.superbrains.cc/reference/creating-a-new-theme/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/reference/</loc>
+    <loc>https://blog.superbrains.cc/reference/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/reference/goisforlovers/</loc>
+    <loc>https://blog.superbrains.cc/reference/goisforlovers/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/development/</loc>
+    <loc>https://blog.superbrains.cc/tags/development/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://blog.superbrains.cc/tags/golang/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/reference/migrate-from-jekyll/</loc>
+    <loc>https://blog.superbrains.cc/reference/migrate-from-jekyll/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/templates/</loc>
+    <loc>https://blog.superbrains.cc/tags/templates/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://blog.superbrains.cc/tags/themes/</loc>
     <lastmod>2020-05-14T17:17:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.superbrains.cc/categories/development/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/development/</loc>
+    <loc>https://blog.superbrains.cc/reference/hugoisforlovers/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/reference/hugoisforlovers/</loc>
+    <loc>https://blog.superbrains.cc/categories/golang/</loc>
     <lastmod>2025-06-23T11:30:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/golang/</loc>
-    <lastmod>2025-06-23T11:30:37+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/homebrew/</loc>
+    <loc>https://blog.superbrains.cc/tags/homebrew/</loc>
     <lastmod>2020-05-27T12:25:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/10-5-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/10-5-20/</loc>
     <lastmod>2020-05-27T12:25:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/jobs/4-5-20/</loc>
+    <loc>https://blog.superbrains.cc/jobs/4-5-20/</loc>
     <lastmod>2020-05-27T12:25:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://blog.superbrains.cc/search/</loc>
     <lastmod>2025-06-22T00:50:09+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/vimtutor/</loc>
+    <loc>https://blog.superbrains.cc/tags/vimtutor/</loc>
     <lastmod>2020-05-27T12:25:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/zshrc/</loc>
+    <loc>https://blog.superbrains.cc/tags/zshrc/</loc>
     <lastmod>2020-05-27T12:25:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

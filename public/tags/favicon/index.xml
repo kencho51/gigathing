@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Favicon on kencho51</title>
-    <link>http://localhost:1313/tags/favicon/</link>
+    <link>https://blog.superbrains.cc/tags/favicon/</link>
     <description>Recent content in Favicon on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 21 Oct 2021 16:28:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/favicon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.superbrains.cc/tags/favicon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add favicon to a Hugo page</title>
-      <link>http://localhost:1313/projects/howtoaddfavicon/</link>
+      <link>https://blog.superbrains.cc/projects/howtoaddfavicon/</link>
       <pubDate>Tue, 27 Oct 2020 10:55:02 +0800</pubDate>
-      <guid>http://localhost:1313/projects/howtoaddfavicon/</guid>
+      <guid>https://blog.superbrains.cc/projects/howtoaddfavicon/</guid>
       <description>Steps to add Favicon to Hugo blog</description>
     </item>
   </channel>
