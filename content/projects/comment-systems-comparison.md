@@ -1,6 +1,6 @@
 +++
 description = "Comprehensive comparison of Utterances, Disqus, and Giscus comment systems for Hugo blogs - Updated June 2025"
-title = "Compare and Contrast: Utterances, Disqus, and Giscus (2025 Update)"
+title = "Compare and Contrast: Utterances, Disqus, and Giscus"
 date = 2025-06-27T10:00:00+08:00
 tags = ["comments", "utterances", "disqus", "giscus", "hugo", "comparison", "2025"]
 categories = ["analysis"]
