@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yii1.1 on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/yii1.1/</link>
+    <link>http://localhost:1313/tags/yii1.1/</link>
     <description>Recent content in Yii1.1 on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 04 Jun 2020 18:02:46 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/yii1.1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/yii1.1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yii1.1 for beginners</title>
-      <link>https://blog.superbrains.cc/yiiforbeginners/</link>
+      <link>http://localhost:1313/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/yiiforbeginners/</guid>
+      <guid>http://localhost:1313/yiiforbeginners/</guid>
       <description>Yii framework Wiki</description>
     </item>
   </channel>

@@ -2,151 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>kencho51</title>
-    <link>https://blog.superbrains.cc/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 10:52:10 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compare and Contrast: Utterances, Disqus, and Giscus (2025 Update)</title>
-      <link>https://blog.superbrains.cc/projects/comment-systems-comparison/</link>
+      <link>http://localhost:1313/projects/comment-systems-comparison/</link>
       <pubDate>Fri, 27 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/projects/comment-systems-comparison/</guid>
+      <guid>http://localhost:1313/projects/comment-systems-comparison/</guid>
       <description>Comprehensive comparison of Utterances, Disqus, and Giscus comment systems for Hugo blogs - Updated June 2025</description>
     </item>
     <item>
       <title>How rclone works</title>
-      <link>https://blog.superbrains.cc/howrcloneworks/</link>
+      <link>http://localhost:1313/howrcloneworks/</link>
       <pubDate>Wed, 21 Sep 2022 09:45:28 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/howrcloneworks/</guid>
+      <guid>http://localhost:1313/howrcloneworks/</guid>
       <description>Secure and stable data transfer using rclone</description>
     </item>
     <item>
       <title>How Yii migration script works</title>
-      <link>https://blog.superbrains.cc/howyiimigrationscriptworks/</link>
+      <link>http://localhost:1313/howyiimigrationscriptworks/</link>
       <pubDate>Wed, 17 Aug 2022 15:21:34 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/howyiimigrationscriptworks/</guid>
+      <guid>http://localhost:1313/howyiimigrationscriptworks/</guid>
       <description>Create/Delete table using migration script</description>
     </item>
     <item>
       <title>Sprint 10 plan 20/5-10/6-22</title>
-      <link>https://blog.superbrains.cc/jobs/24-5-22/</link>
+      <link>http://localhost:1313/jobs/24-5-22/</link>
       <pubDate>Tue, 24 May 2022 17:18:59 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/24-5-22/</guid>
+      <guid>http://localhost:1313/jobs/24-5-22/</guid>
       <description> Learn, todo and done</description>
     </item>
     <item>
       <title>Sprint 9 plan 19/4-10/5-22</title>
-      <link>https://blog.superbrains.cc/jobs/19-4-22/</link>
+      <link>http://localhost:1313/jobs/19-4-22/</link>
       <pubDate>Tue, 19 Apr 2022 09:39:52 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/19-4-22/</guid>
+      <guid>http://localhost:1313/jobs/19-4-22/</guid>
       <description>Learn, todo and done</description>
     </item>
     <item>
       <title>Learn, todo and done 16/3-6/4-22</title>
-      <link>https://blog.superbrains.cc/jobs/6-4-22/</link>
+      <link>http://localhost:1313/jobs/6-4-22/</link>
       <pubDate>Wed, 06 Apr 2022 11:40:01 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/6-4-22/</guid>
+      <guid>http://localhost:1313/jobs/6-4-22/</guid>
       <description>Sprint 8 plan</description>
     </item>
     <item>
       <title>Learn, todo and done 14/2-7/3/22</title>
-      <link>https://blog.superbrains.cc/jobs/17-2-22/</link>
+      <link>http://localhost:1313/jobs/17-2-22/</link>
       <pubDate>Thu, 17 Feb 2022 09:46:07 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/17-2-22/</guid>
+      <guid>http://localhost:1313/jobs/17-2-22/</guid>
       <description>Sprint 7 plan</description>
     </item>
     <item>
       <title>Learn, todo and done 17-21/1/22</title>
-      <link>https://blog.superbrains.cc/jobs/17-1-22/</link>
+      <link>http://localhost:1313/jobs/17-1-22/</link>
       <pubDate>Mon, 17 Jan 2022 09:55:22 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/17-1-22/</guid>
+      <guid>http://localhost:1313/jobs/17-1-22/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/11/21</title>
-      <link>https://blog.superbrains.cc/jobs/15-11-21/</link>
+      <link>http://localhost:1313/jobs/15-11-21/</link>
       <pubDate>Mon, 15 Nov 2021 13:58:22 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/15-11-21/</guid>
+      <guid>http://localhost:1313/jobs/15-11-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>How to build portainer in production</title>
-      <link>https://blog.superbrains.cc/howtobuildportainerinproduction/</link>
+      <link>http://localhost:1313/howtobuildportainerinproduction/</link>
       <pubDate>Mon, 15 Nov 2021 13:45:42 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/howtobuildportainerinproduction/</guid>
+      <guid>http://localhost:1313/howtobuildportainerinproduction/</guid>
       <description>Steps to build portainer in production</description>
     </item>
     <item>
       <title>How to add portainer for monitoring dockers</title>
-      <link>https://blog.superbrains.cc/howtoaddportainer/</link>
+      <link>http://localhost:1313/howtoaddportainer/</link>
       <pubDate>Thu, 21 Oct 2021 15:56:18 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/howtoaddportainer/</guid>
+      <guid>http://localhost:1313/howtoaddportainer/</guid>
       <description>Steps to configure portainer</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/10/21</title>
-      <link>https://blog.superbrains.cc/jobs/18-10-21/</link>
+      <link>http://localhost:1313/jobs/18-10-21/</link>
       <pubDate>Thu, 21 Oct 2021 15:38:46 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/18-10-21/</guid>
+      <guid>http://localhost:1313/jobs/18-10-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 27-30/9/21</title>
-      <link>https://blog.superbrains.cc/jobs/27-9-21/</link>
+      <link>http://localhost:1313/jobs/27-9-21/</link>
       <pubDate>Mon, 27 Sep 2021 13:38:11 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/27-9-21/</guid>
+      <guid>http://localhost:1313/jobs/27-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 20-24/9/21</title>
-      <link>https://blog.superbrains.cc/jobs/20-9-21/</link>
+      <link>http://localhost:1313/jobs/20-9-21/</link>
       <pubDate>Mon, 20 Sep 2021 12:04:31 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/20-9-21/</guid>
+      <guid>http://localhost:1313/jobs/20-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 13-17/9/21</title>
-      <link>https://blog.superbrains.cc/jobs/13-9-21/</link>
+      <link>http://localhost:1313/jobs/13-9-21/</link>
       <pubDate>Mon, 13 Sep 2021 12:16:13 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/13-9-21/</guid>
+      <guid>http://localhost:1313/jobs/13-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 6-10/9/21</title>
-      <link>https://blog.superbrains.cc/jobs/6-9-21/</link>
+      <link>http://localhost:1313/jobs/6-9-21/</link>
       <pubDate>Mon, 06 Sep 2021 11:39:44 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/6-9-21/</guid>
+      <guid>http://localhost:1313/jobs/6-9-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 23-27/8/21</title>
-      <link>https://blog.superbrains.cc/jobs/23-8-21/</link>
+      <link>http://localhost:1313/jobs/23-8-21/</link>
       <pubDate>Mon, 23 Aug 2021 13:45:23 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/23-8-21/</guid>
+      <guid>http://localhost:1313/jobs/23-8-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 9-13/8/21</title>
-      <link>https://blog.superbrains.cc/jobs/9-8-21/</link>
+      <link>http://localhost:1313/jobs/9-8-21/</link>
       <pubDate>Mon, 09 Aug 2021 11:42:08 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/9-8-21/</guid>
+      <guid>http://localhost:1313/jobs/9-8-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 19-23/7/21</title>
-      <link>https://blog.superbrains.cc/jobs/19-7-21/</link>
+      <link>http://localhost:1313/jobs/19-7-21/</link>
       <pubDate>Mon, 19 Jul 2021 10:51:51 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/19-7-21/</guid>
+      <guid>http://localhost:1313/jobs/19-7-21/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 12-16/7/21</title>
-      <link>https://blog.superbrains.cc/jobs/12-7-21/</link>
+      <link>http://localhost:1313/jobs/12-7-21/</link>
       <pubDate>Mon, 12 Jul 2021 14:39:15 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/12-7-21/</guid>
+      <guid>http://localhost:1313/jobs/12-7-21/</guid>
       <description>Weekly plan</description>
     </item>
   </channel>

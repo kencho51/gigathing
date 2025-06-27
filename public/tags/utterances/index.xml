@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Utterances on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/utterances/</link>
+    <link>http://localhost:1313/tags/utterances/</link>
     <description>Recent content in Utterances on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/utterances/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 10:52:10 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/utterances/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compare and Contrast: Utterances, Disqus, and Giscus (2025 Update)</title>
-      <link>https://blog.superbrains.cc/projects/comment-systems-comparison/</link>
+      <link>http://localhost:1313/projects/comment-systems-comparison/</link>
       <pubDate>Fri, 27 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/projects/comment-systems-comparison/</guid>
+      <guid>http://localhost:1313/projects/comment-systems-comparison/</guid>
       <description>Comprehensive comparison of Utterances, Disqus, and Giscus comment systems for Hugo blogs - Updated June 2025</description>
     </item>
     <item>
       <title>Learn, todo and done 8-12/6/20</title>
-      <link>https://blog.superbrains.cc/jobs/8-6-20/</link>
+      <link>http://localhost:1313/jobs/8-6-20/</link>
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/8-6-20/</guid>
+      <guid>http://localhost:1313/jobs/8-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>

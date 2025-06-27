@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Factory Method on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/factory-method/</link>
+    <link>http://localhost:1313/tags/factory-method/</link>
     <description>Recent content in Factory Method on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 11 Mar 2021 10:30:29 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/factory-method/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/factory-method/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add Delete Button for file attribute page</title>
-      <link>https://blog.superbrains.cc/add-delete-button/</link>
+      <link>http://localhost:1313/add-delete-button/</link>
       <pubDate>Mon, 22 Feb 2021 12:49:28 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/add-delete-button/</guid>
+      <guid>http://localhost:1313/add-delete-button/</guid>
       <description>How to add a delete button and pass tests</description>
     </item>
   </channel>

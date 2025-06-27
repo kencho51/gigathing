@@ -2,137 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Php on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/php/</link>
+    <link>http://localhost:1313/tags/php/</link>
     <description>Recent content in Php on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Wed, 29 Jul 2020 16:58:18 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bdd</title>
-      <link>https://blog.superbrains.cc/bdd/</link>
+      <link>http://localhost:1313/bdd/</link>
       <pubDate>Wed, 15 Jul 2020 10:58:32 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/bdd/</guid>
+      <guid>http://localhost:1313/bdd/</guid>
       <description>Behavioural Driven Development</description>
     </item>
     <item>
       <title>PHP_CodeSniffer</title>
-      <link>https://blog.superbrains.cc/phpcodesniffer/</link>
+      <link>http://localhost:1313/phpcodesniffer/</link>
       <pubDate>Tue, 07 Jul 2020 14:28:56 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/phpcodesniffer/</guid>
+      <guid>http://localhost:1313/phpcodesniffer/</guid>
       <description>Tool to detect and correct PHP coding style</description>
     </item>
     <item>
       <title>PHP date times</title>
-      <link>https://blog.superbrains.cc/phpdatetimes/</link>
+      <link>http://localhost:1313/phpdatetimes/</link>
       <pubDate>Fri, 03 Jul 2020 12:03:08 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/phpdatetimes/</guid>
+      <guid>http://localhost:1313/phpdatetimes/</guid>
       <description>Dates and Times with PHP</description>
     </item>
     <item>
       <title>Learn, todo and done 29/6-3/7/20</title>
-      <link>https://blog.superbrains.cc/jobs/29-6-20/</link>
+      <link>http://localhost:1313/jobs/29-6-20/</link>
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/29-6-20/</guid>
+      <guid>http://localhost:1313/jobs/29-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Codeception</title>
-      <link>https://blog.superbrains.cc/whatiscodeception/</link>
+      <link>http://localhost:1313/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/whatiscodeception/</guid>
+      <guid>http://localhost:1313/whatiscodeception/</guid>
       <description>What is Codeception?</description>
     </item>
     <item>
       <title>PHP standards</title>
-      <link>https://blog.superbrains.cc/phpstandards/</link>
+      <link>http://localhost:1313/phpstandards/</link>
       <pubDate>Wed, 17 Jun 2020 11:35:32 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/phpstandards/</guid>
+      <guid>http://localhost:1313/phpstandards/</guid>
       <description>PHP coding standards</description>
     </item>
     <item>
       <title>Learn, todo and done 15-19/6/20</title>
-      <link>https://blog.superbrains.cc/jobs/15-6-20/</link>
+      <link>http://localhost:1313/jobs/15-6-20/</link>
       <pubDate>Mon, 15 Jun 2020 09:56:41 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/15-6-20/</guid>
+      <guid>http://localhost:1313/jobs/15-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 8-12/6/20</title>
-      <link>https://blog.superbrains.cc/jobs/8-6-20/</link>
+      <link>http://localhost:1313/jobs/8-6-20/</link>
       <pubDate>Mon, 08 Jun 2020 09:25:14 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/8-6-20/</guid>
+      <guid>http://localhost:1313/jobs/8-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii1.1 for beginners</title>
-      <link>https://blog.superbrains.cc/yiiforbeginners/</link>
+      <link>http://localhost:1313/yiiforbeginners/</link>
       <pubDate>Thu, 04 Jun 2020 15:05:46 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/yiiforbeginners/</guid>
+      <guid>http://localhost:1313/yiiforbeginners/</guid>
       <description>Yii framework Wiki</description>
     </item>
     <item>
       <title>How to build a blog using Yii1.1</title>
-      <link>https://blog.superbrains.cc/projects/howtobuildablogusingyii1/</link>
+      <link>http://localhost:1313/projects/howtobuildablogusingyii1/</link>
       <pubDate>Mon, 01 Jun 2020 10:10:24 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/projects/howtobuildablogusingyii1/</guid>
+      <guid>http://localhost:1313/projects/howtobuildablogusingyii1/</guid>
       <description>Steps to build a blog using Yii1.1</description>
     </item>
     <item>
       <title>Learn, todo and done 1-5/6/20</title>
-      <link>https://blog.superbrains.cc/jobs/1-6-20/</link>
+      <link>http://localhost:1313/jobs/1-6-20/</link>
       <pubDate>Mon, 01 Jun 2020 09:39:04 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/1-6-20/</guid>
+      <guid>http://localhost:1313/jobs/1-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Yii 2.0 - Getting Started</title>
-      <link>https://blog.superbrains.cc/yiiprogress/</link>
+      <link>http://localhost:1313/yiiprogress/</link>
       <pubDate>Tue, 26 May 2020 11:05:40 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/yiiprogress/</guid>
+      <guid>http://localhost:1313/yiiprogress/</guid>
       <description>Yii 2.0 learning progress</description>
     </item>
     <item>
       <title>OOP</title>
-      <link>https://blog.superbrains.cc/oop/</link>
+      <link>http://localhost:1313/oop/</link>
       <pubDate>Tue, 26 May 2020 10:13:43 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/oop/</guid>
+      <guid>http://localhost:1313/oop/</guid>
       <description>What is Object Oriented Programming?</description>
     </item>
     <item>
       <title>Learn, todo and done 25-29/5/20</title>
-      <link>https://blog.superbrains.cc/jobs/25-5-20/</link>
+      <link>http://localhost:1313/jobs/25-5-20/</link>
       <pubDate>Mon, 25 May 2020 11:22:48 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/25-5-20/</guid>
+      <guid>http://localhost:1313/jobs/25-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>PHP progress</title>
-      <link>https://blog.superbrains.cc/phpprogress/</link>
+      <link>http://localhost:1313/phpprogress/</link>
       <pubDate>Tue, 19 May 2020 17:48:07 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/phpprogress/</guid>
+      <guid>http://localhost:1313/phpprogress/</guid>
       <description>Learning PHP at Codecademy</description>
     </item>
     <item>
       <title>Learn, todo and done 18-22/5/20</title>
-      <link>https://blog.superbrains.cc/jobs/18-5-20/</link>
+      <link>http://localhost:1313/jobs/18-5-20/</link>
       <pubDate>Mon, 18 May 2020 14:00:37 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/18-5-20/</guid>
+      <guid>http://localhost:1313/jobs/18-5-20/</guid>
       <description>Weekly plan</description>
     </item>
     <item>
       <title>Learn, todo and done 10-15/20</title>
-      <link>https://blog.superbrains.cc/jobs/10-5-20/</link>
+      <link>http://localhost:1313/jobs/10-5-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/10-5-20/</guid>
+      <guid>http://localhost:1313/jobs/10-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 4-8/5/20</title>
-      <link>https://blog.superbrains.cc/jobs/4-5-20/</link>
+      <link>http://localhost:1313/jobs/4-5-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/4-5-20/</guid>
+      <guid>http://localhost:1313/jobs/4-5-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>

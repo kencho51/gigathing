@@ -49,7 +49,7 @@ services:
 
 # SEO Meta tags
 params:
-  env: "production"
+  # env: "production"  Default is production when running hugo and development when running hugo server
   mainSections: ["post"]
   homeInfoParams:
     Title: Hi there

@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CSS on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/css/</link>
+    <link>http://localhost:1313/tags/css/</link>
     <description>Recent content in CSS on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Fri, 21 May 2021 12:52:54 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why CSS works in Chrome but not Safari?</title>
-      <link>https://blog.superbrains.cc/css-works-in-chrome-but-not-safari/</link>
+      <link>http://localhost:1313/css-works-in-chrome-but-not-safari/</link>
       <pubDate>Thu, 11 Mar 2021 15:03:47 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/css-works-in-chrome-but-not-safari/</guid>
+      <guid>http://localhost:1313/css-works-in-chrome-but-not-safari/</guid>
       <description>Css Works in Chrome but Not Safari</description>
     </item>
     <item>
       <title>Learn, todo and done 19-23/10/20</title>
-      <link>https://blog.superbrains.cc/jobs/19-10-20/</link>
+      <link>http://localhost:1313/jobs/19-10-20/</link>
       <pubDate>Mon, 19 Oct 2020 10:11:49 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/19-10-20/</guid>
+      <guid>http://localhost:1313/jobs/19-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 12-16/10/20</title>
-      <link>https://blog.superbrains.cc/jobs/12-10-20/</link>
+      <link>http://localhost:1313/jobs/12-10-20/</link>
       <pubDate>Mon, 12 Oct 2020 10:02:06 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/12-10-20/</guid>
+      <guid>http://localhost:1313/jobs/12-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 5-9/10/20</title>
-      <link>https://blog.superbrains.cc/jobs/5-10-20/</link>
+      <link>http://localhost:1313/jobs/5-10-20/</link>
       <pubDate>Mon, 05 Oct 2020 11:25:29 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/5-10-20/</guid>
+      <guid>http://localhost:1313/jobs/5-10-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 28/9-2/10/20</title>
-      <link>https://blog.superbrains.cc/jobs/28-9-20/</link>
+      <link>http://localhost:1313/jobs/28-9-20/</link>
       <pubDate>Mon, 28 Sep 2020 11:21:36 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/28-9-20/</guid>
+      <guid>http://localhost:1313/jobs/28-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 21-24/9/20</title>
-      <link>https://blog.superbrains.cc/jobs/21-9-20/</link>
+      <link>http://localhost:1313/jobs/21-9-20/</link>
       <pubDate>Mon, 21 Sep 2020 10:01:48 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/21-9-20/</guid>
+      <guid>http://localhost:1313/jobs/21-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 14-18/9/20</title>
-      <link>https://blog.superbrains.cc/jobs/14-9-20/</link>
+      <link>http://localhost:1313/jobs/14-9-20/</link>
       <pubDate>Mon, 14 Sep 2020 09:26:59 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/14-9-20/</guid>
+      <guid>http://localhost:1313/jobs/14-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Learn, todo and done 7-11/9/20</title>
-      <link>https://blog.superbrains.cc/jobs/7-9-20/</link>
+      <link>http://localhost:1313/jobs/7-9-20/</link>
       <pubDate>Sun, 06 Sep 2020 14:40:52 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/7-9-20/</guid>
+      <guid>http://localhost:1313/jobs/7-9-20/</guid>
       <description>Weekly Plan</description>
     </item>
   </channel>

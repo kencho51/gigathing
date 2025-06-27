@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Codeception on kencho51</title>
-    <link>https://blog.superbrains.cc/tags/codeception/</link>
+    <link>http://localhost:1313/tags/codeception/</link>
     <description>Recent content in Codeception on kencho51</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <copyright>kencho51</copyright>
     <lastBuildDate>Thu, 09 Jul 2020 14:18:10 +0800</lastBuildDate>
-    <atom:link href="https://blog.superbrains.cc/tags/codeception/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/codeception/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn, todo and done 29/6-3/7/20</title>
-      <link>https://blog.superbrains.cc/jobs/29-6-20/</link>
+      <link>http://localhost:1313/jobs/29-6-20/</link>
       <pubDate>Mon, 29 Jun 2020 09:55:10 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/jobs/29-6-20/</guid>
+      <guid>http://localhost:1313/jobs/29-6-20/</guid>
       <description>Weekly Plan</description>
     </item>
     <item>
       <title>Codeception</title>
-      <link>https://blog.superbrains.cc/whatiscodeception/</link>
+      <link>http://localhost:1313/whatiscodeception/</link>
       <pubDate>Tue, 23 Jun 2020 13:41:41 +0800</pubDate>
-      <guid>https://blog.superbrains.cc/whatiscodeception/</guid>
+      <guid>http://localhost:1313/whatiscodeception/</guid>
       <description>What is Codeception?</description>
     </item>
   </channel>
